@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EventGo</string>
+    <string name="forgotpass">
+        <u>Forgot Password?</u>
+    </string>
+    <string name="sign">
+        <u>Sign UP!!</u>
+    </string>
+</resources>
