@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorfor32"
+    android:backgroundTint="@color/colorfor32"
+    tools:context=".CurrentView">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="272dp"
+        app:srcCompat="@drawable/cons" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="140dp"
+        android:text="Science Conference 2022"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="220dp"
+        android:text="25/08/2022"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="116dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="300dp"
+        app:srcCompat="@drawable/taskicon" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="195dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="300dp"
+        app:srcCompat="@drawable/bluepeople" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="122dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="430dp"
+        app:srcCompat="@drawable/place" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="171dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="560dp"
+        app:srcCompat="@drawable/money" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="143dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="560dp"
+        app:srcCompat="@drawable/vendors" />
+
+</RelativeLayout>
