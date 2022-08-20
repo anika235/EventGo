@@ -10,4 +10,12 @@
     <color name="start_color">#C6FFDD</color>
     <color name="mid_color">#FBD786</color>
     <color name="end_color">#f7797d</color>
+    <color name="trdpgcolor">#CAF4F4</color>
+    <color name="color1">#eaafc8</color>
+    <color name="color2">#ad5389</color>
+    <color name="color3">#3c1053</color>
+
+    <color name="colorfor31">#355C7D</color>
+    <color name="colorfor32">#6C5B7B</color>
+    <color name="colorfor33">#6C5B7B</color>
 </resources>

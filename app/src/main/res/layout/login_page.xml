@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:background="@drawable/bgcolor"
     android:layout_height="match_parent"
-    tools:context=".MainActivity" >
+    tools:context=".login_page" >
 
     <TextView
         android:id="@+id/heading"
@@ -65,41 +65,48 @@
         android:layout_below="@id/password"
         android:layout_marginStart="230dp"
         android:text="@string/forgotpass"
-        android:textSize="14sp" />
+        android:textColor="#47162C"
+        android:textSize="14sp"
+        android:textStyle="bold" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/loginbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/password"
-        android:text="Login"
-        android:backgroundTint="@color/end_color"
         android:layout_centerHorizontal="true"
-        android:layout_margin="50dp"
-        />
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/color3"
+        android:text="Login" />
 
     <TextView
         android:id="@+id/noaccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Don't have an account?"
         android:layout_below="@id/loginbutton"
         android:layout_marginStart="100dp"
-
-        />
+        android:text="Don't have an account?"
+        android:textColor="#47162C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="OnClick" />
 
     <TextView
         android:id="@+id/signup"
-        android:layout_width="121dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/loginbutton"
-        android:layout_marginStart="250dp"
+        android:layout_marginStart="269dp"
         android:layout_marginTop="0dp"
 
         android:text="@string/sign"
-        android:textSize="14sp"
+        android:textColor="#47162C"
+        android:textSize="16sp"
 
-        />
+        android:textStyle="bold" />
 
 
 </RelativeLayout>

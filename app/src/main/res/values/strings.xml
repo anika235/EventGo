@@ -6,4 +6,9 @@
     <string name="sign">
         <u>Sign UP!!</u>
     </string>
+    <string-array name="Type">
+        <item>Wedding</item>
+        <item>Party</item>
+        <item>Conference</item>
+    </string-array>
 </resources>
