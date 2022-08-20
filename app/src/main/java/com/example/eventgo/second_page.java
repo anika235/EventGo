@@ -7,23 +7,23 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class login_page extends AppCompatActivity {
+public class second_page extends AppCompatActivity {
     private Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login_page);
-        button =(Button) findViewById(R.id.loginbutton);
+        setContentView(R.layout.second_page);
+        button =(Button) findViewById(R.id.createbutton);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                opensecondpage();
+                openthirdpage();
             }
         });
     }
-    public void opensecondpage(){
-        Intent intent = new Intent(this, second_page.class);
+    public void openthirdpage(){
+        Intent intent = new Intent(this, third_page.class);
         startActivity(intent);
     }
 
