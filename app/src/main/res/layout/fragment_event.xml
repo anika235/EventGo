@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2color">
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/createbutton"
+        android:layout_width="260dp"
+        android:layout_height="71dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#492D4E"
+        android:text="Create Event"
+        android:textColor="@color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/checkcurbutton"
+        android:layout_width="260dp"
+        android:layout_height="71dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#492D4E"
+        android:text="Check Current Event(s)"
+        android:textColor="@color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/checkprevbutton"
+        android:layout_width="263dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="#492D4E"
+        android:text="Check Previous Event(s)"
+        android:textColor="@color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="#492D4E"
+        android:text="LogOut"
+        android:textColor="@color/white" />
+</RelativeLayout>

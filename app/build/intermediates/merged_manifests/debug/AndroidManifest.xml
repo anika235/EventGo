@@ -21,13 +21,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.EventGo" >
         <activity
-            android:name="com.example.eventgo.CurrentView"
+            android:name="com.example.eventgo.second_page"
             android:exported="false" />
         <activity
-            android:name="com.example.eventgo.CurrentEvent"
-            android:exported="false" />
-        <activity
-            android:name="com.example.eventgo.login_page"
+            android:name="com.example.eventgo.get_started"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,7 +33,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.eventgo.second_page"
+            android:name="com.example.eventgo.CurrentView"
+            android:exported="false" />
+        <activity
+            android:name="com.example.eventgo.CurrentEvent"
+            android:exported="false" />
+        <activity
+            android:name="com.example.eventgo.login_page"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -65,6 +68,13 @@
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"
                 android:value="androidx.startup" />
         </provider>
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
     </application>
 
 </manifest>

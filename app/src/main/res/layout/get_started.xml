@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcolor"
+    tools:context=".get_started">
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/viewpager">
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/getstartedbutton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="658dp"
+        android:backgroundTint="#206475"
+        android:text="GET STARTED"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <me.relex.circleindicator.CircleIndicator
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/circleindicator"
+        android:layout_marginTop="400dp"
+        />
+
+
+</RelativeLayout>

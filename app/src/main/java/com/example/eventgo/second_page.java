@@ -1,46 +1,66 @@
 package com.example.eventgo;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+import androidx.viewpager.widget.ViewPager;
+
+import com.example.eventgo.databinding.SecondPageBinding;
+import com.example.eventgo.eventFragment;
+import com.example.eventgo.homeFragment;
+import com.example.eventgo.menuFragment;
+import com.example.eventgo.notificationFragment;
+import com.example.eventgo.profileFragment;
+import com.example.eventgo.databinding.GetStartedBinding;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class second_page extends AppCompatActivity {
-    private Button button1;
-    private Button button2;
-
+    private SecondPageBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.second_page);
-        button1 =(Button) findViewById(R.id.createbutton);
-        button2=(Button)findViewById(R.id.checkcurbutton);
-        button1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openthirdpage();
+        binding = SecondPageBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+        replaceFragment(new homeFragment());
+
+        binding.bottomNavigationView.setOnItemSelectedListener(item -> {
+
+            switch (item.getItemId()){
+                case R.id.home:
+                    replaceFragment(new homeFragment());
+                    break;
+                case R.id.event:
+                    replaceFragment(new eventFragment());
+                    break;
+                case R.id.notification:
+                    replaceFragment(new notificationFragment());
+                    break;
+                case R.id.profile:
+                    replaceFragment(new profileFragment());
+                    break;
+                case R.id.menu:
+                    replaceFragment(new menuFragment());
+                    break;
+
             }
+
+
+
+
+            return true;
         });
-        button2.setOnClickListener(new View.OnClickListener(){
-            @Override
-                    public void onClick(View view)
-            {
-                openCurrentEvent();
-            }
 
-        });
-    }
-    public void openthirdpage(){
-        Intent intent = new Intent(this, third_page.class);
-        startActivity(intent);
-    }
-    public void openCurrentEvent()
-    {
-        Intent intent=new Intent(this,CurrentEvent.class);
-        startActivity(intent);
     }
 
-
+    private void replaceFragment(Fragment fragment){
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.framelayout,fragment);
+        fragmentTransaction.commit();
+    }
 }

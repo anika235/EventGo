@@ -6,8 +6,8 @@
         <item>Conference</item>
     </string-array>
     <color name="black">#FF000000</color>
-    <color name="color1">#eaafc8</color>
-    <color name="color2">#ad5389</color>
+    <color name="color1">#2193b0</color>
+    <color name="color2">#6dd5ed</color>
     <color name="color3">#3c1053</color>
     <color name="colorfor31">#355C7D</color>
     <color name="colorfor32">#6C5B7B</color>
@@ -26,9 +26,14 @@
     <string name="forgotpass">
         <u>Forgot Password?</u>
     </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="sign">
         <u>Sign UP!!</u>
     </string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_home">Home</string>
+    <string name="title_notifications">Notifications</string>
     <style name="Theme.EventGo" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

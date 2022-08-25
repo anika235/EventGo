@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/bg3color"
+    android:background="@drawable/bgcolor"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".third_page">
@@ -17,7 +17,7 @@
         android:layout_marginBottom="100dp"
         android:gravity="center"
         android:text="Create Your Own Event"
-        android:textColor="#C399AB"
+        android:textColor="#273377"
         android:textSize="34sp"
         android:textStyle="bold" />
 
@@ -30,7 +30,7 @@
         android:layout_marginTop="14dp"
         android:layout_marginEnd="14dp"
         android:layout_marginBottom="14dp"
-        android:background="#CFE2E4"
+        android:background="@drawable/custom_input"
         android:drawablePadding="20dp"
         android:ems="10"
         android:hint="Title For Event"
@@ -47,8 +47,8 @@
         android:layout_marginTop="14dp"
         android:layout_marginEnd="14dp"
         android:layout_marginBottom="14dp"
-        android:background="#CFE2E4"
-        android:drawableEnd="@drawable/calendar"
+        android:background="@drawable/custom_input"
+        android:drawableEnd="@drawable/custom_calendar"
         android:drawablePadding="20dp"
         android:ems="10"
         android:hint="Select Date"
@@ -67,7 +67,7 @@
         android:layout_marginTop="14dp"
         android:layout_marginEnd="14dp"
         android:layout_marginBottom="14dp"
-        android:background="#CFE2E4"
+        android:background="@drawable/custom_input"
         android:drawablePadding="20dp"
         android:ems="10"
         android:hint="Type of Your Event"
@@ -85,7 +85,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="50dp"
-        android:backgroundTint="#915D75"
+        android:backgroundTint="#273377"
         android:text="Create" />
 
 
