@@ -2535,6 +2535,9 @@ drawable design_snackbar_background
 drawable email_icon
 drawable email_icon_focused
 drawable event
+drawable get1
+drawable get2
+drawable get3
 drawable guests
 drawable home
 drawable ic_clock_black_24dp
@@ -2548,6 +2551,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable logo_eventgo
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2597,6 +2601,7 @@ drawable password_icon
 drawable password_icon_focused
 drawable place
 drawable profile
+drawable sadling1
 drawable taskicon
 drawable test_custom_background
 drawable test_level_drawable
@@ -3331,6 +3336,7 @@ layout text_view_without_line_height
 layout third_page
 menu nav_view
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description

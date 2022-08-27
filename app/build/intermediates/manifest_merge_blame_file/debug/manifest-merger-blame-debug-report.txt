@@ -6,130 +6,130 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml
+8-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml
+9-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:6:5-49:19
+11-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:6:5-49:19
 12        android:allowBackup="true"
-12-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:7:9-35
+12-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:7:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.8.0] C:\Users\User\.gradle\caches\transforms-3\0638d9dacb5fd10604e28ec2b4d3c80b\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.8.0] C:\Users\RAZER\.gradle\caches\transforms-3\0638d9dacb5fd10604e28ec2b4d3c80b\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 14        android:dataExtractionRules="@xml/data_extraction_rules"
-14-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:8:9-65
+14-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:8:9-65
 15        android:debuggable="true"
 16        android:fullBackupContent="@xml/backup_rules"
-16-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:9:9-54
+16-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:9:9-54
 17        android:icon="@mipmap/ic_launcher"
-17-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:10:9-43
+17-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:10:9-43
 18        android:label="@string/app_name"
-18-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:11:9-41
+18-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:11:9-41
 19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:12:9-54
+19-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:12:9-54
 20        android:supportsRtl="true"
-20-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:13:9-35
+20-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:13:9-35
 21        android:testOnly="true"
 22        android:theme="@style/Theme.EventGo" >
-22-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:14:9-45
+22-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:14:9-45
 23        <activity
-23-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:16:9-18:40
+23-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:16:9-18:40
 24            android:name="com.example.eventgo.second_page"
-24-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:17:13-40
+24-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:17:13-40
 25            android:exported="false" />
-25-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:18:13-37
+25-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:18:13-37
 26        <activity
-26-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:19:9-27:20
+26-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:19:9-27:20
 27            android:name="com.example.eventgo.get_started"
-27-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:20:13-40
+27-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:20:13-40
 28            android:exported="true" >
-28-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:21:13-36
+28-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:21:13-36
 29            <intent-filter>
-29-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:22:13-26:29
+29-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:22:13-26:29
 30                <action android:name="android.intent.action.MAIN" />
-30-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:23:17-69
-30-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:23:25-66
+30-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:23:17-69
+30-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:23:25-66
 31
 32                <category android:name="android.intent.category.LAUNCHER" />
-32-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:25:17-77
-32-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:25:27-74
+32-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:25:17-77
+32-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:25:27-74
 33            </intent-filter>
 34        </activity>
 35        <activity
-35-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:28:9-30:40
+35-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:28:9-30:40
 36            android:name="com.example.eventgo.CurrentView"
-36-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:29:13-40
+36-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:29:13-40
 37            android:exported="false" />
-37-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:30:13-37
+37-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:30:13-37
 38        <activity
-38-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:31:9-39:20
+38-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:31:9-39:20
 39            android:name="com.example.eventgo.login_page"
-39-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:32:13-39
+39-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:32:13-39
 40            android:exported="true" >
-40-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:33:13-36
+40-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:33:13-36
 41            <intent-filter>
-41-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:22:13-26:29
+41-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:22:13-26:29
 42                <action android:name="android.intent.action.MAIN" />
-42-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:23:17-69
-42-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:23:25-66
+42-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:23:17-69
+42-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:23:25-66
 43
 44                <category android:name="android.intent.category.LAUNCHER" />
-44-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:25:17-77
-44-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:25:27-74
+44-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:25:17-77
+44-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:25:27-74
 45            </intent-filter>
 46        </activity>
 47        <activity
-47-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:40:9-48:20
+47-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:40:9-48:20
 48            android:name="com.example.eventgo.third_page"
-48-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:41:13-39
+48-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:41:13-39
 49            android:exported="true" >
-49-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:42:13-36
+49-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:42:13-36
 50            <intent-filter>
-50-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:22:13-26:29
+50-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:22:13-26:29
 51                <action android:name="android.intent.action.MAIN" />
-51-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:23:17-69
-51-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:23:25-66
+51-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:23:17-69
+51-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:23:25-66
 52
 53                <category android:name="android.intent.category.LAUNCHER" />
-53-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:25:17-77
-53-->C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:25:27-74
+53-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:25:17-77
+53-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:25:27-74
 54            </intent-filter>
 55        </activity>
 56
 57        <provider
-57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\RAZER\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 58            android:name="androidx.startup.InitializationProvider"
-58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\RAZER\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
 59            android:authorities="com.example.eventgo.androidx-startup"
-59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\RAZER\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
 60            android:exported="false" >
-60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\RAZER\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
 61            <meta-data
-61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\RAZER\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
 62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\RAZER\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
 63                android:value="androidx.startup" />
-63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\RAZER\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
 64            <meta-data
-64-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\User\.gradle\caches\transforms-3\429d62d1c4cfac9c73f86410faad713f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+64-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\RAZER\.gradle\caches\transforms-3\429d62d1c4cfac9c73f86410faad713f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
 65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-65-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\User\.gradle\caches\transforms-3\429d62d1c4cfac9c73f86410faad713f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+65-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\RAZER\.gradle\caches\transforms-3\429d62d1c4cfac9c73f86410faad713f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
 66                android:value="androidx.startup" />
-66-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\User\.gradle\caches\transforms-3\429d62d1c4cfac9c73f86410faad713f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+66-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\RAZER\.gradle\caches\transforms-3\429d62d1c4cfac9c73f86410faad713f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
 67        </provider>
 68
 69        <uses-library
-69-->[androidx.window:window:1.0.0] C:\Users\User\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+69-->[androidx.window:window:1.0.0] C:\Users\RAZER\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
 70            android:name="androidx.window.extensions"
-70-->[androidx.window:window:1.0.0] C:\Users\User\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+70-->[androidx.window:window:1.0.0] C:\Users\RAZER\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
 71            android:required="false" />
-71-->[androidx.window:window:1.0.0] C:\Users\User\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+71-->[androidx.window:window:1.0.0] C:\Users\RAZER\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
 72        <uses-library
-72-->[androidx.window:window:1.0.0] C:\Users\User\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+72-->[androidx.window:window:1.0.0] C:\Users\RAZER\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
 73            android:name="androidx.window.sidecar"
-73-->[androidx.window:window:1.0.0] C:\Users\User\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+73-->[androidx.window:window:1.0.0] C:\Users\RAZER\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
 74            android:required="false" />
-74-->[androidx.window:window:1.0.0] C:\Users\User\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+74-->[androidx.window:window:1.0.0] C:\Users\RAZER\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
 75    </application>
 76
 77</manifest>

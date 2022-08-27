@@ -29,10 +29,14 @@ drawable custom_lock_icon
 drawable email_icon
 drawable email_icon_focused
 drawable event
+drawable get1
+drawable get2
+drawable get3
 drawable guests
 drawable home
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable logo_eventgo
 drawable meeting
 drawable menu
 drawable money
@@ -41,6 +45,7 @@ drawable password_icon
 drawable password_icon_focused
 drawable place
 drawable profile
+drawable sadling1
 drawable taskicon
 drawable vendors
 font questrial
@@ -95,6 +100,7 @@ layout second_page
 layout third_page
 menu nav_view
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
 string forgotpass
