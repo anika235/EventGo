@@ -36,9 +36,6 @@
             android:name="com.example.eventgo.CurrentView"
             android:exported="false" />
         <activity
-            android:name="com.example.eventgo.CurrentEvent"
-            android:exported="false" />
-        <activity
             android:name="com.example.eventgo.login_page"
             android:exported="true" >
             <intent-filter>

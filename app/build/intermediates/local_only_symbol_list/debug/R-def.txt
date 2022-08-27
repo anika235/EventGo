@@ -5,21 +5,12 @@ color black
 color color1
 color color2
 color color3
-color colorfor31
-color colorfor32
-color colorfor33
-color end_color
-color mid_color
 color purple_200
 color purple_500
 color purple_700
-color start_color
 color teal_200
 color teal_700
-color trdpgcolor
 color white
-drawable bg2color
-drawable bg3color
 drawable bgcolor
 drawable birth
 drawable biyaa
@@ -54,8 +45,6 @@ drawable taskicon
 drawable vendors
 font questrial
 id bottomNavigationView
-id checkcurbutton
-id checkprevbutton
 id circleindicator
 id create
 id createbutton
@@ -82,6 +71,7 @@ id notification
 id password
 id profile
 id signup
+id switches
 id textView
 id textView2
 id textView3
@@ -92,7 +82,6 @@ id time
 id title
 id type
 id viewpager
-layout activity_current_event
 layout activity_current_view
 layout fragment_event
 layout fragment_home

@@ -3,6 +3,7 @@ package com.example.eventgo;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DatePickerDialog;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.DatePicker;
@@ -21,6 +22,9 @@ public class third_page extends AppCompatActivity {
         setContentView(R.layout.third_page);
 
         etdate = findViewById(R.id.time);
+        if(Build.VERSION.SDK_INT>= Build.VERSION_CODES.LOLLIPOP)
+        {etdate.setShowSoftInputOnFocus(false);}
+
         Calendar calendar = Calendar.getInstance();
         final int year = calendar.get(Calendar.YEAR);
         final int month = calendar.get(Calendar.MONTH);

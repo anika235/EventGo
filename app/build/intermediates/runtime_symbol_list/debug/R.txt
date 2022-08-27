@@ -1278,9 +1278,6 @@ int color checkbox_themeable_attribute_color 0x7f06002e
 int color color1 0x7f06002f
 int color color2 0x7f060030
 int color color3 0x7f060031
-int color colorfor31 0x7f060032
-int color colorfor32 0x7f060033
-int color colorfor33 0x7f060034
 int color design_bottom_navigation_shadow_color 0x7f060035
 int color design_box_stroke_color 0x7f060036
 int color design_dark_default_color_background 0x7f060037
@@ -1323,7 +1320,6 @@ int color dim_foreground_disabled_material_dark 0x7f06005b
 int color dim_foreground_disabled_material_light 0x7f06005c
 int color dim_foreground_material_dark 0x7f06005d
 int color dim_foreground_material_light 0x7f06005e
-int color end_color 0x7f06005f
 int color error_color_material_dark 0x7f060060
 int color error_color_material_light 0x7f060061
 int color foreground_material_dark 0x7f060062
@@ -1752,7 +1748,6 @@ int color material_timepicker_button_stroke 0x7f060208
 int color material_timepicker_clock_text_color 0x7f060209
 int color material_timepicker_clockface 0x7f06020a
 int color material_timepicker_modebutton_tint 0x7f06020b
-int color mid_color 0x7f06020c
 int color mtrl_btn_bg_color_selector 0x7f06020d
 int color mtrl_btn_ripple_color 0x7f06020e
 int color mtrl_btn_stroke_color_selector 0x7f06020f
@@ -1824,7 +1819,6 @@ int color secondary_text_default_material_dark 0x7f060250
 int color secondary_text_default_material_light 0x7f060251
 int color secondary_text_disabled_material_dark 0x7f060252
 int color secondary_text_disabled_material_light 0x7f060253
-int color start_color 0x7f060254
 int color switch_thumb_disabled_material_dark 0x7f060255
 int color switch_thumb_disabled_material_light 0x7f060256
 int color switch_thumb_material_dark 0x7f060257
@@ -1838,7 +1832,6 @@ int color test_mtrl_calendar_day 0x7f06025e
 int color test_mtrl_calendar_day_selected 0x7f06025f
 int color tooltip_background_dark 0x7f060260
 int color tooltip_background_light 0x7f060261
-int color trdpgcolor 0x7f060262
 int color white 0x7f060263
 int dimen abc_action_bar_content_inset_material 0x7f070000
 int dimen abc_action_bar_content_inset_with_nav 0x7f070001
@@ -2510,8 +2503,6 @@ int drawable abc_textfield_search_material 0x7f080054
 int drawable abc_vector_test 0x7f080055
 int drawable avd_hide_password 0x7f080056
 int drawable avd_show_password 0x7f080057
-int drawable bg2color 0x7f080058
-int drawable bg3color 0x7f080059
 int drawable bgcolor 0x7f08005a
 int drawable birth 0x7f08005b
 int drawable biyaa 0x7f08005d
@@ -2727,9 +2718,7 @@ int id chain 0x7f0a006c
 int id chain2 0x7f0a006d
 int id chains 0x7f0a006e
 int id checkbox 0x7f0a006f
-int id checkcurbutton 0x7f0a0070
 int id checked 0x7f0a0071
-int id checkprevbutton 0x7f0a0072
 int id chip 0x7f0a0073
 int id chip1 0x7f0a0074
 int id chip2 0x7f0a0075
@@ -3062,6 +3051,7 @@ int id stretch 0x7f0a01b3
 int id submenuarrow 0x7f0a01b4
 int id submit_area 0x7f0a01b5
 int id supportScrollUp 0x7f0a01b6
+int id switches 0x7f0a022d
 int id tabMode 0x7f0a01b7
 int id tag_accessibility_actions 0x7f0a01b8
 int id tag_accessibility_clickable_spans 0x7f0a01b9
@@ -3237,7 +3227,6 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0d0018
 int layout abc_search_view 0x7f0d0019
 int layout abc_select_dialog_material 0x7f0d001a
 int layout abc_tooltip 0x7f0d001b
-int layout activity_current_event 0x7f0d001c
 int layout activity_current_view 0x7f0d001d
 int layout custom_dialog 0x7f0d001e
 int layout design_bottom_navigation_item 0x7f0d001f

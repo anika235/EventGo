@@ -1,18 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".homeFragment"
-    android:background="#173A4A"
+    android:background="@color/color2"
     >
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginTop="50dp"
+        android:text="Your Events"
+        android:textAlignment="center"
+        android:textColor="@color/color3"
+        android:textSize="34sp"
+        android:textStyle="bold" />
 
-    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="150dp"
+        android:text="Science Conference 2022
+                       25/08/2022"
+        android:textColor="@color/color3"
+        android:textSize="24sp" />
+
+
     <com.google.android.material.button.MaterialButton
         android:id="@+id/createbutton"
         android:layout_width="74dp"
         android:layout_height="71dp"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="600dp"
         android:background="@drawable/custm_button"
         android:layout_marginStart="300dp"
@@ -21,5 +41,4 @@
         android:textSize="34sp" />
 
 
-
-</FrameLayout>
+</RelativeLayout>

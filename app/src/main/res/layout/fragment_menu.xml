@@ -4,8 +4,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".menuFragment"
-    android:background="#1A323C">
+    android:background="@color/color2">
 
-    <!-- TODO: Update blank fragment layout -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="@color/color3"
+        android:text="LogOut"
+        android:textColor="@color/white" />
+
+
+    <Switch
+        android:id="@+id/switches"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="550dp"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Appearances"
+        android:textColor="@color/color3"
+        android:layout_marginTop="550dp"
+        android:layout_marginStart="30dp"
+        android:textSize="24sp" />
+
 
 </FrameLayout>
