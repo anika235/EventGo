@@ -6,6 +6,9 @@
     <string name="sign">
         <u>Sign UP!!</u>
     </string>
+    <string name="alreadyaccount">
+        <u>Already Have an Account?</u>
+        </string>
     <string-array name="Type">
         <item>Wedding</item>
         <item>Party</item>
