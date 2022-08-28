@@ -2526,6 +2526,7 @@ drawable custm_button
 drawable custom_calendar
 drawable custom_email_icon
 drawable custom_input
+drawable custom_input2
 drawable custom_lock_icon
 drawable design_fab_background
 drawable design_ic_visibility
@@ -2686,6 +2687,7 @@ id alertTitle
 id aligned
 id all
 id allStates
+id alreadyaccount
 id always
 id androidx_window_activity_scope
 id animateToEnd
@@ -2742,6 +2744,7 @@ id closest
 id collapseActionView
 id compress
 id confirm_button
+id confirm_password
 id constraint
 id container
 id content
@@ -2866,6 +2869,7 @@ id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
 id labeled
+id lastname
 id layout
 id left
 id leftToRight
@@ -3024,6 +3028,7 @@ id showCustom
 id showHome
 id showTitle
 id signup
+id signupbutton
 id sin
 id skipCollapsed
 id skipped
@@ -3085,11 +3090,18 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView10
+id textView11
+id textView12
+id textView13
 id textView2
 id textView3
 id textView4
 id textView5
 id textView6
+id textView7
+id textView8
+id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3100,6 +3112,7 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id time
+id time_signup
 id title
 id titleDividerNoCustom
 id title_template
@@ -3140,6 +3153,7 @@ id wrap_content
 id wrap_content_constrained
 id x_left
 id x_right
+id youremail
 id zero_corner_chip
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
@@ -3235,6 +3249,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_current_view
+layout activity_signup_page
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
