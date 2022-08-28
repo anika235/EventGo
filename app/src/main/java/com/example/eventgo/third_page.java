@@ -72,13 +72,20 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
         Spinner spinner = findViewById(R.id.type);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.Type, android.R.layout.simple_spinner_item);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        //spinner.setAdapter(adapter);
         spinner.setOnItemSelectedListener(this);
+        spinner.setPrompt("Event name");
+
     }
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+        if(position==0) {
+            Toast.makeText(getApplicationContext(),"please select a type",Toast.LENGTH_SHORT).show();
+            return;
+        }
         String text = parent.getItemAtPosition(position).toString();
         Toast.makeText(parent.getContext(), text, Toast.LENGTH_SHORT).show();
     }

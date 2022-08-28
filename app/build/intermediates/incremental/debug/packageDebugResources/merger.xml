@@ -6,6 +6,7 @@
     </string><string name="alreadyaccount">
         <u>Already Have an Account?</u>
         </string><string-array name="Type">
+        <item>Select Type</item>
         <item>Wedding</item>
         <item>Party</item>
         <item>Conference</item>
