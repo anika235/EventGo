@@ -4,7 +4,11 @@
             "outputFile": "com.example.eventgo.app-mergeDebugResources-41:/values-v25/values-v25.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\RAZER\\.gradle\\caches\\transforms-3\\4d669feee3bbcaf630ded0ac4934be61\\transformed\\appcompat-1.4.2\\res\\values-v25\\values-v25.xml",
+=======
+                    "source": "/home/bithi/.gradle/caches/transforms-3/4d669feee3bbcaf630ded0ac4934be61/transformed/appcompat-1.4.2/res/values-v25/values-v25.xml",
+>>>>>>> 48e89016fd655226996eda4886e6081221a38b61
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",
