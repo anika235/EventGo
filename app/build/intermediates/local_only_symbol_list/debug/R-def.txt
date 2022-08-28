@@ -37,6 +37,7 @@ drawable home
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable logo_eventgo
+drawable logoblue
 drawable meeting
 drawable menu
 drawable money

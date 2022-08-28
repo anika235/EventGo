@@ -2551,6 +2551,7 @@ int drawable ic_mtrl_chip_checked_black 0x7f080084
 int drawable ic_mtrl_chip_checked_circle 0x7f080085
 int drawable ic_mtrl_chip_close_circle 0x7f080086
 int drawable logo_eventgo 0x7f080087
+int drawable logoblue 0x7f0800c1
 int drawable m3_appbar_background 0x7f080088
 int drawable m3_popupmenu_background_overlay 0x7f080089
 int drawable m3_radiobutton_ripple 0x7f08008a

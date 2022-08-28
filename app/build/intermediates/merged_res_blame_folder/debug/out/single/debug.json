@@ -24,12 +24,28 @@
         "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\drawable\\get1.jpg"
     },
     {
+        "merged": "com.example.eventgo.app-merged_res-43:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.eventgo.app-main-45:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.eventgo.app-merged_res-43:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.eventgo.app-main-45:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.eventgo.app-merged_res-43:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.eventgo.app-main-45:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.eventgo.app-merged_res-43:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.eventgo.app-main-45:/mipmap-xhdpi/ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\drawable_logo_eventgo.jpg.flat",
@@ -42,6 +58,14 @@
     {
         "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\drawable_menu.xml.flat",
         "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\drawable\\menu.xml"
+    },
+    {
+        "merged": "com.example.eventgo.app-merged_res-43:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.eventgo.app-main-45:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.eventgo.app-merged_res-43:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.eventgo.app-main-45:/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\drawable_custom_calendar.xml.flat",
@@ -68,12 +92,20 @@
         "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.example.eventgo.app-merged_res-43:/layout_third_page.xml.flat",
-        "source": "com.example.eventgo.app-main-45:/layout/third_page.xml"
+        "merged": "com.example.eventgo.app-merged_res-43:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.eventgo.app-main-45:/mipmap-mdpi/ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\drawable_place.jpg.flat",
         "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\drawable\\place.jpg"
+    },
+    {
+        "merged": "com.example.eventgo.app-merged_res-43:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.eventgo.app-main-45:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.eventgo.app-merged_res-43:/drawable_logoblue.jpg.flat",
+        "source": "com.example.eventgo.app-main-45:/drawable/logoblue.jpg"
     },
     {
         "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\drawable_get2.jpg.flat",
@@ -94,6 +126,10 @@
     {
         "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.eventgo.app-merged_res-43:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.eventgo.app-main-45:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\drawable_conference.jpeg.flat",
@@ -124,6 +160,18 @@
         "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\drawable\\taskicon.png"
     },
     {
+        "merged": "com.example.eventgo.app-merged_res-43:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.eventgo.app-main-45:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.eventgo.app-merged_res-43:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.eventgo.app-main-45:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.eventgo.app-merged_res-43:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.eventgo.app-main-45:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
@@ -152,6 +200,10 @@
         "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\drawable\\custom_lock_icon.xml"
     },
     {
+        "merged": "com.example.eventgo.app-merged_res-43:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.eventgo.app-main-45:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\drawable_calendar_focused.xml.flat",
         "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\drawable\\calendar_focused.xml"
     },
@@ -162,6 +214,10 @@
     {
         "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\drawable_get3.jpg.flat",
         "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\drawable\\get3.jpg"
+    },
+    {
+        "merged": "com.example.eventgo.app-merged_res-43:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.eventgo.app-main-45:/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\layout_get_started.xml.flat",
@@ -194,6 +250,10 @@
     {
         "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\menu_nav_view.xml.flat",
         "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\menu\\nav_view.xml"
+    },
+    {
+        "merged": "com.example.eventgo.app-merged_res-43:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.eventgo.app-main-45:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\drawable_email_icon_focused.xml.flat",
