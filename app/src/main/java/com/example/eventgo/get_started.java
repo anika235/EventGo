@@ -46,7 +46,7 @@ public class get_started extends AppCompatActivity {
         });
     }
     public void openloginpage(){
-        Intent intent = new Intent(this, login_page.class);
+        Intent intent = new Intent(this, signup_page.class);
         startActivity(intent);
     }
 
