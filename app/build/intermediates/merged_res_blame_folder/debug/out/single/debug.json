@@ -12,12 +12,12 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\drawable\\money.webp"
     },
     {
-        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\drawable_password_icon_focused.xml.flat",
-        "source": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\drawable\\password_icon_focused.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\drawable_confe.jpg.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\drawable\\confe.jpg"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\drawable_password_icon_focused.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\drawable\\password_icon_focused.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\drawable_guests.png.flat",
@@ -28,12 +28,12 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\drawable_birth.jpg.flat",
-        "source": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\drawable\\birth.jpg"
-    },
-    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\menu_bottom_nav_menu.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\drawable_birth.jpg.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\drawable\\birth.jpg"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\drawable_meeting.jpeg.flat",
@@ -54,10 +54,6 @@
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\layout_fragment_option.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\layout\\fragment_option.xml"
-    },
-    {
-        "merged": "com.example.eventgo.app-merged_res-43:/layout_fragment_menu.xml.flat",
-        "source": "com.example.eventgo.app-main-45:/layout/fragment_menu.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\drawable_password_icon.xml.flat",
@@ -148,6 +144,10 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\drawable\\place.jpg"
     },
     {
+        "merged": "com.example.eventgo.app-merged_res-43:/layout_get_started.xml.flat",
+        "source": "com.example.eventgo.app-main-45:/layout/get_started.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\layout_fragment_profile.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\layout\\fragment_profile.xml"
     },
@@ -186,6 +186,10 @@
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\navigation_navs.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\navigation\\navs.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\layout_activity_signup_page.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\layout\\activity_signup_page.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\layout_activity_current_event.xml.flat",
@@ -250,6 +254,10 @@
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\layout_fragment_notification.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\layout\\fragment_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\drawable_custom_input2.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-main-45:\\drawable\\custom_input2.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-merged_res-43:\\drawable_conference.jpeg.flat",
