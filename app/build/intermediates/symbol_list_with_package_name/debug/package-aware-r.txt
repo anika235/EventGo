@@ -2536,6 +2536,7 @@ drawable design_snackbar_background
 drawable email_icon
 drawable email_icon_focused
 drawable event
+drawable finallogo
 drawable get1
 drawable get2
 drawable get3
