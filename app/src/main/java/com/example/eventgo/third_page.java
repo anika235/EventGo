@@ -1,4 +1,4 @@
-package com.example.eventgo;
+/*package com.example.eventgo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -20,6 +20,7 @@ public class third_page extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.third_page);
+
 
         etdate = findViewById(R.id.time);
         if(Build.VERSION.SDK_INT>= Build.VERSION_CODES.LOLLIPOP)
@@ -47,6 +48,50 @@ public class third_page extends AppCompatActivity {
 
             }
         });
+
+    }
+}*/
+
+package com.example.eventgo;
+
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+import android.widget.Toast;
+
+public class third_page extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.third_page);
+
+        Spinner spinner = findViewById(R.id.type);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+                R.array.Type, android.R.layout.simple_spinner_item);
+        spinner.setAdapter(adapter);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        //spinner.setAdapter(adapter);
+        spinner.setOnItemSelectedListener(this);
+        spinner.setPrompt("Event name");
+
+    }
+
+    @Override
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+        if(position==0) {
+            Toast.makeText(getApplicationContext(),"please select a type",Toast.LENGTH_SHORT).show();
+            return;
+        }
+        String text = parent.getItemAtPosition(position).toString();
+        Toast.makeText(parent.getContext(), text, Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
 
     }
 }
