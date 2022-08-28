@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\User\\.gradle\\daemon\\7.3.3\\com.example.eventgo.app-mergeDebugResources-41:\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "com.example.eventgo.app-mergeDebugResources-41:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\RAZER\\AndroidStudioProjects\\EventGo\\app\\src\\main\\res\\values-night\\themes.xml",
@@ -54,74 +54,6 @@
                         "startOffsets": "100,170,254,338,434,536,638,3982",
                         "endColumns": "69,83,83,95,101,101,93,88",
                         "endOffsets": "165,249,333,429,531,633,727,4066"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "com.example.eventgo.app-mergeDebugResources-41:/values-night-v8/values-night-v8.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\b6f52d92dea29c0a7f49d4078033a89a\\transformed\\material-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
-                    "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
-                    },
-                    "to": {
-                        "startLines": "24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,49,50,51,52,53,54,55,56",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "1410,1485,1596,1685,1786,1893,2000,2099,2202,2290,2414,2516,2618,2734,2836,2950,3078,3194,3316,3452,3572,3706,3826,3938,4153,4270,4394,4524,4646,4784,4918,5034",
-                        "endColumns": "74,110,88,100,106,106,98,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
-                        "endOffsets": "1480,1591,1680,1781,1888,1995,2094,2197,2285,2409,2511,2613,2729,2831,2945,3073,3189,3311,3447,3567,3701,3821,3933,4059,4265,4389,4519,4641,4779,4913,5029,5149"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\4d669feee3bbcaf630ded0ac4934be61\\transformed\\appcompat-1.4.2\\res\\values-night-v8\\values-night-v8.xml",
-                    "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
-                    },
-                    "to": {
-                        "startLines": "4,5,6,7,8,9,10,48",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "182,252,336,420,516,618,720,4064",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "247,331,415,511,613,715,809,4148"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\User\\AndroidStudioProjects\\EventGo\\app\\src\\main\\res\\values-night\\colors.xml",
-                    "from": {
-                        "startLines": "4,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "101,59",
-                        "endColumns": "40,40",
-                        "endOffsets": "137,95"
-                    },
-                    "to": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "100,141",
-                        "endColumns": "40,40",
-                        "endOffsets": "136,177"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\User\\AndroidStudioProjects\\EventGo\\app\\src\\main\\res\\values-night\\themes.xml",
-                    "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
-                    },
-                    "to": {
-                        "startLines": "11",
-                        "startColumns": "4",
-                        "startOffsets": "814",
-                        "endLines": "23",
-                        "endColumns": "12",
-                        "endOffsets": "1405"
                     }
                 }
             ]

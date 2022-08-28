@@ -102,6 +102,7 @@ menu nav_view
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
+string alreadyaccount
 string app_name
 string forgotpass
 string hello_blank_fragment
