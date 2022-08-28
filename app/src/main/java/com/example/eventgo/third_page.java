@@ -1,4 +1,4 @@
-/*package com.example.eventgo;
+package com.example.eventgo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,22 +6,25 @@ import android.app.DatePickerDialog;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.DatePicker;
 import android.widget.EditText;
-import android.widget.TextView;
+import android.widget.Spinner;
+import android.widget.Toast;
 
 import java.util.Calendar;
 
-public class third_page extends AppCompatActivity {
+public class third_page extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     EditText etdate;
     DatePickerDialog.OnDateSetListener setListener;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.third_page);
-
-
         etdate = findViewById(R.id.time);
         if(Build.VERSION.SDK_INT>= Build.VERSION_CODES.LOLLIPOP)
         {etdate.setShowSoftInputOnFocus(false);}
@@ -49,27 +52,6 @@ public class third_page extends AppCompatActivity {
             }
         });
 
-    }
-}*/
-
-package com.example.eventgo;
-
-import androidx.appcompat.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.Spinner;
-import android.widget.Toast;
-
-public class third_page extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
-
-
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.third_page);
 
         Spinner spinner = findViewById(R.id.type);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
