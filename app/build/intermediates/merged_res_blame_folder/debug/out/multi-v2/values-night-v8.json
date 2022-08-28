@@ -4,6 +4,7 @@
             "outputFile": "com.example.eventgo.app-mergeDebugResources-41:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "/home/bithi/.gradle/caches/transforms-3/4d669feee3bbcaf630ded0ac4934be61/transformed/appcompat-1.4.2/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -41,6 +42,9 @@
                 },
                 {
                     "source": "/home/bithi/.gradle/caches/transforms-3/b6f52d92dea29c0a7f49d4078033a89a/transformed/material-1.6.1/res/values-night-v8/values-night-v8.xml",
+=======
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\b6f52d92dea29c0a7f49d4078033a89a\\transformed\\material-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
+>>>>>>> 7a93ac0b0d4d557a5aa3364d6f92055eaa463b6a
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -57,6 +61,7 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "/home/bithi/EventGo/app/src/main/res/values-night/colors.xml",
                     "from": {
                         "startLines": "4,3",
@@ -64,6 +69,32 @@
                         "startOffsets": "97,56",
                         "endColumns": "40,40",
                         "endOffsets": "133,92"
+=======
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\4d669feee3bbcaf630ded0ac4934be61\\transformed\\appcompat-1.4.2\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,48",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "182,252,336,420,516,618,720,4064",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "247,331,415,511,613,715,809,4148"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\AndroidStudioProjects\\EventGo\\app\\src\\main\\res\\values-night\\colors.xml",
+                    "from": {
+                        "startLines": "4,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "101,59",
+                        "endColumns": "40,40",
+                        "endOffsets": "137,95"
+>>>>>>> 7a93ac0b0d4d557a5aa3364d6f92055eaa463b6a
                     },
                     "to": {
                         "startLines": "2,3",
@@ -71,6 +102,28 @@
                         "startOffsets": "100,141",
                         "endColumns": "40,40",
                         "endOffsets": "136,177"
+<<<<<<< HEAD
+=======
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\AndroidStudioProjects\\EventGo\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "828"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "814",
+                        "endLines": "23",
+                        "endColumns": "12",
+                        "endOffsets": "1405"
+>>>>>>> 7a93ac0b0d4d557a5aa3364d6f92055eaa463b6a
                     }
                 }
             ]
