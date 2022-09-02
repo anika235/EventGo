@@ -1,12 +1,27 @@
+<<<<<<< HEAD
 #Mon Aug 29 00:49:36 BDT 2022
+=======
+<<<<<<< HEAD
+#Mon Aug 29 01:06:45 BDT 2022
+=======
+#Mon Aug 29 00:48:09 BDT 2022
+>>>>>>> 48e89016fd655226996eda4886e6081221a38b61
+>>>>>>> 5ea7c9d09bdc69a94b5c4fd5c987e2d0264c4753
 path.3=5/classes.dex
 path.2=12/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
+<<<<<<< HEAD
+base.3=C\:\\Users\\RAZER\\AndroidStudioProjects\\EventGo\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+base.2=C\:\\Users\\RAZER\\AndroidStudioProjects\\EventGo\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.1=C\:\\Users\\RAZER\\AndroidStudioProjects\\EventGo\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=C\:\\Users\\RAZER\\AndroidStudioProjects\\EventGo\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+=======
 base.3=/home/bithi/EventGo/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex
 base.2=/home/bithi/EventGo/app/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
 base.1=/home/bithi/EventGo/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.0=/home/bithi/EventGo/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+>>>>>>> 48e89016fd655226996eda4886e6081221a38b61
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
