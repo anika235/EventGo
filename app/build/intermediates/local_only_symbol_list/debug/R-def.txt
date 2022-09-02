@@ -54,6 +54,7 @@ id alreadyaccount
 id bottomNavigationView
 id circleindicator
 id confirm_password
+id continuebutton
 id continuefb
 id continuegoogle
 id continuephone
@@ -61,6 +62,7 @@ id create
 id createbutton
 id email
 id event
+id forgotpass
 id forgotpassword
 id framelayout
 id getstartedbutton
@@ -104,8 +106,9 @@ id time_signup
 id title
 id type
 id viewpager
-id yourphonenumber
+id youremail
 layout activity_current_view
+layout activity_forgotpass
 layout activity_signup_page
 layout activity_signupwith
 layout fragment_event
@@ -124,8 +127,15 @@ mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string alreadyaccount
 string app_name
+string default_web_client_id
 string forgotpass
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hello_blank_fragment
+string project_id
 string sign
 string title_activity_main
 string title_dashboard

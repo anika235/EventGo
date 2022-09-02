@@ -20,7 +20,6 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
     DatePickerDialog.OnDateSetListener setListener;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
