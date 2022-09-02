@@ -35,6 +35,10 @@ anim nav_default_enter_anim
 anim nav_default_exit_anim
 anim nav_default_pop_enter_anim
 anim nav_default_pop_exit_anim
+anim slide_in_left
+anim slide_in_right
+anim slide_out_left
+anim slide_out_right
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -2502,11 +2506,10 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable anikafb2
 drawable avd_hide_password
 drawable avd_show_password
 drawable bgcolor
-drawable birth
-drawable biyaa
 drawable blueguests
 drawable bluepeople
 drawable btn_checkbox_checked_mtrl
@@ -2519,8 +2522,6 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable calendar
 drawable calendar_focused
-drawable confe
-drawable conference
 drawable cons
 drawable custm_button
 drawable custom_calendar
@@ -2540,6 +2541,7 @@ drawable finallogo
 drawable get1
 drawable get2
 drawable get3
+drawable google
 drawable guests
 drawable home
 drawable ic_clock_black_24dp
@@ -2553,8 +2555,6 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
-drawable logo_eventgo
-drawable logoblue
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2573,7 +2573,6 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
-drawable meeting
 drawable menu
 drawable money
 drawable mtrl_dialog_background
@@ -2604,7 +2603,6 @@ drawable password_icon
 drawable password_icon_focused
 drawable place
 drawable profile
-drawable sadling1
 drawable taskicon
 drawable test_custom_background
 drawable test_level_drawable
@@ -2751,6 +2749,9 @@ id container
 id content
 id contentPanel
 id contiguous
+id continuefb
+id continuegoogle
+id continuephone
 id continuousVelocity
 id coordinator
 id cos
@@ -3095,6 +3096,7 @@ id textView10
 id textView11
 id textView12
 id textView13
+id textView14
 id textView2
 id textView3
 id textView4
@@ -3154,7 +3156,7 @@ id wrap_content
 id wrap_content_constrained
 id x_left
 id x_right
-id youremail
+id yourphonenumber
 id zero_corner_chip
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
@@ -3251,6 +3253,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_current_view
 layout activity_signup_page
+layout activity_signupwith
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

@@ -34,6 +34,10 @@ int anim nav_default_enter_anim 0x7f010020
 int anim nav_default_exit_anim 0x7f010021
 int anim nav_default_pop_enter_anim 0x7f010022
 int anim nav_default_pop_exit_anim 0x7f010023
+int anim slide_in_left 0x7f010024
+int anim slide_in_right 0x7f010025
+int anim slide_out_left 0x7f010026
+int anim slide_out_right 0x7f010027
 int animator design_appbar_state_list_animator 0x7f020000
 int animator design_fab_hide_motion_spec 0x7f020001
 int animator design_fab_show_motion_spec 0x7f020002
@@ -2501,11 +2505,10 @@ int drawable abc_textfield_search_activated_mtrl_alpha 0x7f080052
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f080053
 int drawable abc_textfield_search_material 0x7f080054
 int drawable abc_vector_test 0x7f080055
+int drawable anikafb2 0x7f0800c5
 int drawable avd_hide_password 0x7f080056
 int drawable avd_show_password 0x7f080057
 int drawable bgcolor 0x7f080058
-int drawable birth 0x7f080059
-int drawable biyaa 0x7f08005a
 int drawable blueguests 0x7f08005b
 int drawable bluepeople 0x7f08005c
 int drawable btn_checkbox_checked_mtrl 0x7f08005d
@@ -2518,8 +2521,6 @@ int drawable btn_radio_on_mtrl 0x7f080063
 int drawable btn_radio_on_to_off_mtrl_animation 0x7f080064
 int drawable calendar 0x7f080065
 int drawable calendar_focused 0x7f080066
-int drawable confe 0x7f080067
-int drawable conference 0x7f080068
 int drawable cons 0x7f080069
 int drawable custm_button 0x7f08006a
 int drawable custom_calendar 0x7f08006b
@@ -2539,6 +2540,7 @@ int drawable finallogo 0x7f080078
 int drawable get1 0x7f080079
 int drawable get2 0x7f08007a
 int drawable get3 0x7f08007b
+int drawable google 0x7f0800c8
 int drawable guests 0x7f08007c
 int drawable home 0x7f08007d
 int drawable ic_clock_black_24dp 0x7f08007e
@@ -2552,8 +2554,6 @@ int drawable ic_mtrl_checked_circle 0x7f080085
 int drawable ic_mtrl_chip_checked_black 0x7f080086
 int drawable ic_mtrl_chip_checked_circle 0x7f080087
 int drawable ic_mtrl_chip_close_circle 0x7f080088
-int drawable logo_eventgo 0x7f080089
-int drawable logoblue 0x7f08008a
 int drawable m3_appbar_background 0x7f08008b
 int drawable m3_popupmenu_background_overlay 0x7f08008c
 int drawable m3_radiobutton_ripple 0x7f08008d
@@ -2572,7 +2572,6 @@ int drawable material_ic_keyboard_arrow_previous_black_24dp 0x7f080099
 int drawable material_ic_keyboard_arrow_right_black_24dp 0x7f08009a
 int drawable material_ic_menu_arrow_down_black_24dp 0x7f08009b
 int drawable material_ic_menu_arrow_up_black_24dp 0x7f08009c
-int drawable meeting 0x7f08009d
 int drawable menu 0x7f08009e
 int drawable money 0x7f08009f
 int drawable mtrl_dialog_background 0x7f0800a0
@@ -2603,7 +2602,6 @@ int drawable password_icon 0x7f0800b8
 int drawable password_icon_focused 0x7f0800b9
 int drawable place 0x7f0800ba
 int drawable profile 0x7f0800bb
-int drawable sadling1 0x7f0800bc
 int drawable taskicon 0x7f0800bd
 int drawable test_custom_background 0x7f0800be
 int drawable test_level_drawable 0x7f0800bf
@@ -2750,6 +2748,9 @@ int id container 0x7f0a0086
 int id content 0x7f0a0087
 int id contentPanel 0x7f0a0088
 int id contiguous 0x7f0a0089
+int id continuefb 0x7f0a021f
+int id continuegoogle 0x7f0a0220
+int id continuephone 0x7f0a0221
 int id continuousVelocity 0x7f0a008a
 int id coordinator 0x7f0a008b
 int id cos 0x7f0a008c
@@ -3094,6 +3095,7 @@ int id textView10 0x7f0a01de
 int id textView11 0x7f0a01df
 int id textView12 0x7f0a01e0
 int id textView13 0x7f0a01e1
+int id textView14 0x7f0a0222
 int id textView2 0x7f0a01e2
 int id textView3 0x7f0a01e3
 int id textView4 0x7f0a01e4
@@ -3153,7 +3155,7 @@ int id wrap_content 0x7f0a0219
 int id wrap_content_constrained 0x7f0a021a
 int id x_left 0x7f0a021b
 int id x_right 0x7f0a021c
-int id youremail 0x7f0a021d
+int id yourphonenumber 0x7f0a0223
 int id zero_corner_chip 0x7f0a021e
 int integer abc_config_activityDefaultDur 0x7f0b0000
 int integer abc_config_activityShortDur 0x7f0b0001
@@ -3250,6 +3252,7 @@ int layout abc_select_dialog_material 0x7f0d001a
 int layout abc_tooltip 0x7f0d001b
 int layout activity_current_view 0x7f0d001c
 int layout activity_signup_page 0x7f0d001d
+int layout activity_signupwith 0x7f0d0082
 int layout custom_dialog 0x7f0d001e
 int layout design_bottom_navigation_item 0x7f0d001f
 int layout design_bottom_sheet_dialog 0x7f0d0020

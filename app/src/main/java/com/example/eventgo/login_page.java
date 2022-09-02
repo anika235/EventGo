@@ -29,7 +29,7 @@ public class login_page extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                opensignuppage();
+                opensignupwithpage();
             }
         });
     }
@@ -37,9 +37,9 @@ public class login_page extends AppCompatActivity {
         Intent intent = new Intent(this, second_page.class);
         startActivity(intent);
     }
-    public void opensignuppage()
+    public void opensignupwithpage()
     {
-        Intent intent1 = new Intent(this, signup_page.class);
+        Intent intent1 = new Intent(this, signupwith.class);
         startActivity(intent1);
     }
 

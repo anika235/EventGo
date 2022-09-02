@@ -21,6 +21,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.EventGo" >
         <activity
+            android:name="com.example.eventgo.signupwith"
+            android:exported="false" />
+        <activity
             android:name="com.example.eventgo.signup_page"
             android:exported="false" />
         <activity

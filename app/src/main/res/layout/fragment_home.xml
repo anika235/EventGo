@@ -33,9 +33,9 @@
         android:id="@+id/createbutton"
         android:layout_width="74dp"
         android:layout_height="71dp"
+        android:layout_marginStart="300dp"
         android:layout_marginTop="600dp"
         android:background="@drawable/custm_button"
-        android:layout_marginStart="300dp"
         android:text="+"
         android:textColor="@color/white"
         android:textSize="34sp" />

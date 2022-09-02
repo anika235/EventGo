@@ -50,6 +50,7 @@ public class homeFragment extends Fragment {
                              Bundle savedInstanceState) {
         context =getActivity();
         // Inflate the layout for this fragment
+
         return inflater.inflate(R.layout.fragment_home, container, false);
     }
 
@@ -63,6 +64,7 @@ public class homeFragment extends Fragment {
             public void onClick(View view) {
                 Intent intent = new Intent(context,third_page.class);
                 startActivity(intent);
+                context.overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right );
             }
         });
 

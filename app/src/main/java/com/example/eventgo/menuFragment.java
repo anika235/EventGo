@@ -45,7 +45,7 @@ public class menuFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
 
-        aSwitch = aSwitch.findViewById(R.id.switches);
+        /*aSwitch = aSwitch.findViewById(R.id.switches);
 
         aSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -57,7 +57,7 @@ public class menuFragment extends Fragment {
                     AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
                 }
             }
-        });
+        });*/
 
     }
 
