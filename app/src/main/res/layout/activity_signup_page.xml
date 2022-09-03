@@ -110,6 +110,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="205dp"
         android:text="First Name:"
+        android:textColor="@color/color3"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -120,6 +121,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="255dp"
         android:text="Last Name:"
+        android:textColor="@color/color3"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -129,6 +131,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="305dp"
+        android:textColor="@color/color3"
         android:text="Phone :"
         android:textSize="16sp"
         android:textStyle="bold" />
@@ -137,6 +140,7 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/color3"
         android:layout_marginStart="10dp"
         android:layout_marginTop="400dp"
         android:text="Password:"
@@ -148,6 +152,7 @@
         android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
+        android:textColor="@color/color3"
         android:layout_marginTop="450dp"
         android:text="Confirm Password:"
         android:textSize="16sp"
@@ -156,6 +161,7 @@
     <TextView
         android:id="@+id/textView13"
         android:layout_width="80dp"
+        android:textColor="@color/color3"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="355dp"
@@ -167,6 +173,7 @@
         android:id="@+id/alreadyaccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/color3"
         android:layout_marginStart="150dp"
         android:layout_marginTop="600dp"
         android:text="@string/alreadyaccount"

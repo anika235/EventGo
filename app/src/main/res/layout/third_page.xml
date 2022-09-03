@@ -35,6 +35,7 @@
         android:ems="10"
         android:hint="Title For Event"
         android:inputType="text"
+        android:textColor="@color/color3"
         android:padding="20dp"
         android:textColorHint="@android:color/background_dark" />
 
@@ -50,6 +51,7 @@
         android:background="@drawable/custom_input"
         android:drawableEnd="@drawable/custom_calendar"
         android:drawablePadding="20dp"
+        android:textColor="@color/color3"
         android:ems="10"
         android:hint="Select Date"
         android:inputType="date"
@@ -68,6 +70,7 @@
         android:layout_marginBottom="14dp"
         android:background="@drawable/custom_input"
         android:drawablePadding="20dp"
+        android:textColor="@color/color3"
         android:spinnerMode="dialog"
         android:drawSelectorOnTop="true"
         android:ems="10"

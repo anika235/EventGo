@@ -21,27 +21,27 @@
     <LinearLayout
         android:id="@+id/continuegoogle"
         android:layout_width="wrap_content"
-        android:layout_height="75dp"
+        android:layout_height="55dp"
         android:backgroundTint="@color/white"
         android:background="@drawable/custom_input2"
-        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="250dp">
 
         <ImageView
-         android:layout_height="75dp"
-         android:layout_width="75dp"
+         android:layout_height="55dp"
+         android:layout_width="55dp"
          android:layout_marginLeft="10dp"
          android:src="@drawable/google"/>
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="75dp"
+            android:layout_height="55dp"
             android:layout_marginLeft="5dp"
             android:gravity="center|center_horizontal"
             android:layout_marginRight="10dp"
             android:textStyle="bold"
             android:textColor="@color/color3"
-            android:text="Continue With Google"
+            android:text="Google"
             android:textSize="24dp" />
 
     </LinearLayout>
@@ -70,29 +70,62 @@
     <LinearLayout
         android:id="@+id/continuefb"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="55dp"
         android:backgroundTint="#3F5C9A"
         android:background="@drawable/custom_input2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="350dp">
+       android:layout_marginLeft="210dp"
+        android:layout_marginTop="250dp">
 
     <ImageView
-        android:layout_height="75dp"
-        android:layout_width="75dp"
+        android:layout_height="55dp"
+        android:layout_width="55dp"
         android:layout_marginLeft="10dp"
         android:src="@drawable/anikafb2"/>
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="75dp"
+        android:layout_height="55dp"
         android:layout_marginLeft="5dp"
         android:gravity="center|center_horizontal"
         android:layout_marginRight="10dp"
         android:textStyle="bold"
         android:textColor="@color/white"
-        android:text="Continue With Facebook"
+        android:text="Facebook"
         android:textSize="20dp" />
     </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center|center_horizontal"
+        android:layout_marginTop="350dp"
+        android:textStyle="bold"
+        android:textColor="@color/color3"
+        android:text="OR"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center|center_horizontal"
+        android:layout_marginTop="150dp"
+
+        android:textColor="@color/color3"
+        android:text="Sign up or log in and start organizing your event."
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/alreadyaccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/color3"
+        android:layout_marginTop="530dp"
+        android:text="@string/alreadyaccount"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
 
 
 

@@ -13,12 +13,20 @@ import android.widget.Toolbar;
 
 public class signupwith extends AppCompatActivity {
     private LinearLayout layout1;
+    private TextView button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signupwith);
         layout1 = (LinearLayout) findViewById(R.id.continuephone);
+        button = (TextView) findViewById(R.id.alreadyaccount);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openloginpage();
+            }
+        });
 
         layout1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,5 +40,9 @@ public class signupwith extends AppCompatActivity {
     {
         Intent intent1 = new Intent(this, signup_page.class);
         startActivity(intent1);
+    }
+    public void openloginpage(){
+        Intent intent = new Intent(this, login_page.class);
+        startActivity(intent);
     }
 }
