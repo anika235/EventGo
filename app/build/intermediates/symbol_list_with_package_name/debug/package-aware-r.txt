@@ -2935,6 +2935,7 @@ id light
 id line1
 id line3
 id linear
+id list
 id listMode
 id list_item
 id locale
@@ -3153,7 +3154,6 @@ id textView12
 id textView13
 id textView14
 id textView2
-id textView3
 id textView4
 id textView5
 id textView6

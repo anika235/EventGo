@@ -6,14 +6,24 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AbsListView;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 
-public class homeFragment extends Fragment {
+import java.util.ArrayList;
 
+public class homeFragment extends Fragment {
+    ListView listView;
     Activity context;
+    String[] events = {"Science Conference 2022   25/08/2022", "Birthday  20/09/2022", "wedding  4/10/2022", "wedding 20/10/2022", "concert 03/12/2022", "Nobinboron 14/09/2022",
+                      "biye 03/09/2022", "hello 2000", "amajjjmcfe","ureghrtg", "vuifjgrgurg"};
+
 
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
@@ -58,7 +68,13 @@ public class homeFragment extends Fragment {
     {
         super.onStart();
         Button button = (Button) context.findViewById(R.id.createbutton);
-        TextView button2 =(TextView) context.findViewById(R.id.textView3) ;
+        //TextView button2 =(TextView) context.findViewById(R.id.textView3) ;
+        listView = (ListView) context.findViewById(R.id.list);
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(context, android.R.layout.simple_dropdown_item_1line, events);
+        listView.setAdapter(adapter);
+
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -68,13 +84,18 @@ public class homeFragment extends Fragment {
             }
         });
 
-        button2.setOnClickListener(new View.OnClickListener() {
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onClick(View view) {
-                Intent intent1 = new Intent(context, CurrentView.class);
-                startActivity(intent1);
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Toast.makeText(context, events[i], Toast.LENGTH_SHORT).show();
+                 if(i==0)
+                 {
+                     startActivity(new Intent(context, CurrentView.class));
+                 }
             }
         });
+
 
     }
 }
