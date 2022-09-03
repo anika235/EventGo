@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:2:1-60:12
+ADDED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:2:1-50:12
 MERGED from [androidx.databinding:viewbinding:7.2.2] C:\Users\User\.gradle\caches\transforms-3\ed05d5babc57ab5ee1038a6c71a310ae\transformed\viewbinding-7.2.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.5.1] C:\Users\User\.gradle\caches\transforms-3\68e10e6c6850758089662d863f7752c6\transformed\navigation-ui-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\User\.gradle\caches\transforms-3\8a8178b2b5f1533979a525c156118da5\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
@@ -69,27 +69,27 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\User\.gradle\cac
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\User\.gradle\caches\transforms-3\9ef73b1283b63fd8534856b80d21fcae\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\User\.gradle\caches\transforms-3\a5eb6cd887cb271305ae89fa0615ff65\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\User\.gradle\caches\transforms-3\78c00a931992e83f7d259cc4b39dbe94\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:2:1-50:12
 	package
 		ADDED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:4:5-34
 		INJECTED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:2:1-60:12
+		ADDED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:2:1-50:12
 		INJECTED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:2:1-60:12
+		ADDED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:2:1-50:12
 		INJECTED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:6:5-58:19
+ADDED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:6:5-48:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\User\.gradle\caches\transforms-3\8a8178b2b5f1533979a525c156118da5\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\User\.gradle\caches\transforms-3\8a8178b2b5f1533979a525c156118da5\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\User\.gradle\caches\transforms-3\008bb01919eacaad75cee55b00cad0d4\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -187,17 +187,17 @@ ADDED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManif
 	android:name
 		ADDED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:38:13-40
 activity#com.example.eventgo.login_page
-ADDED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:40:9-48:20
+ADDED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:40:9-42:38
 	android:exported
 		ADDED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:42:13-36
 	android:name
 		ADDED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:41:13-39
 activity#com.example.eventgo.third_page
-ADDED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:49:9-57:20
+ADDED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:44:9-46:38
 	android:exported
-		ADDED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:51:13-36
+		ADDED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:46:13-36
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:50:13-39
+		ADDED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:45:13-39
 uses-sdk
 INJECTED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\User\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml

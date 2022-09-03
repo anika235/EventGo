@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcolor"
+    tools:context=".signupwith">
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color3"
+        android:text="Sign up to EventGo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:id="@+id/continuegoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/custom_input2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp">
+
+        <ImageView
+         android:layout_height="75dp"
+         android:layout_width="75dp"
+         android:layout_marginLeft="10dp"
+         android:src="@drawable/google"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center|center_horizontal"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/color3"
+            android:text="Continue With Google"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/continuephone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#764C8C"
+        android:background="@drawable/custom_input2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp">
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center|center_horizontal"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:text="Continue With Phone Number"
+            android:textSize="24dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/continuefb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F5C9A"
+        android:background="@drawable/custom_input2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp">
+
+    <ImageView
+        android:layout_height="75dp"
+        android:layout_width="75dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/anikafb2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center|center_horizontal"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Continue With Facebook"
+        android:textSize="20dp" />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

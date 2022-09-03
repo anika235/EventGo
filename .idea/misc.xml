@@ -51,7 +51,7 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/fragment_event.xml" value="0.33" />
         <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/fragment_home.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/fragment_home_page.xml" value="0.29438405797101447" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/fragment_menu.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/fragment_menu.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/fragment_notification.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/fragment_notifications.xml" value="0.20364583333333333" />
         <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/fragment_prev.xml" value="0.38697916666666665" />
@@ -64,6 +64,7 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/third_page.xml" value="0.2776268115942029" />
         <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/menu/nav_view.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/menu/upper_menu.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/old/EventGo/app/src/main/res/layout/get_started.xml" value="0.28396739130434784" />
       </map>
     </option>
   </component>

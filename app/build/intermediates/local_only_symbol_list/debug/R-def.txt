@@ -15,6 +15,9 @@ color purple_700
 color teal_200
 color teal_700
 color white
+drawable anika
+drawable anika2
+drawable anika3
 drawable anikafb2
 drawable bgcolor
 drawable blueguests
@@ -32,9 +35,6 @@ drawable email_icon
 drawable email_icon_focused
 drawable event
 drawable finallogo
-drawable get1
-drawable get2
-drawable get3
 drawable google
 drawable guests
 drawable home
@@ -86,7 +86,6 @@ id password
 id profile
 id signup
 id signupbutton
-id switches
 id textView
 id textView10
 id textView11

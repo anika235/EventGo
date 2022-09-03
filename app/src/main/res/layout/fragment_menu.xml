@@ -18,14 +18,6 @@
         android:textColor="@color/white" />
 
 
-    <Switch
-        android:id="@+id/switches"
-        android:layout_width="60dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="330dp"
-        android:layout_marginTop="550dp"
-        android:minHeight="48dp" />
-
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"

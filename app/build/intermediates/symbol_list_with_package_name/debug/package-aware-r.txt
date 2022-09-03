@@ -2529,6 +2529,9 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable anika
+drawable anika2
+drawable anika3
 drawable anikafb2
 drawable avd_hide_password
 drawable avd_show_password
@@ -2580,9 +2583,6 @@ drawable email_icon
 drawable email_icon_focused
 drawable event
 drawable finallogo
-drawable get1
-drawable get2
-drawable get3
 drawable google
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
@@ -3121,7 +3121,6 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
-id switches
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
