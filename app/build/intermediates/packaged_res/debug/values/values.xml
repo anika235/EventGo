@@ -20,10 +20,17 @@
         <u>Already Have an Account?</u>
         </string>
     <string name="app_name">EventGo</string>
+    <string name="default_web_client_id" translatable="false">813788904824-tj94ijpjrqrbf6eq1groibbfhuph4gsd.apps.googleusercontent.com</string>
     <string name="forgotpass">
         <u>Forgot Password?</u>
     </string>
+    <string name="gcm_defaultSenderId" translatable="false">813788904824</string>
+    <string name="google_api_key" translatable="false">AIzaSyC8twx4YWDKx17hDP-2ysX9uJvhq0emgmE</string>
+    <string name="google_app_id" translatable="false">1:813788904824:android:359e409f4fdcc0bf861c8d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC8twx4YWDKx17hDP-2ysX9uJvhq0emgmE</string>
+    <string name="google_storage_bucket" translatable="false">eventgo-2e26e.appspot.com</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="project_id" translatable="false">eventgo-2e26e</string>
     <string name="sign">
         <u>Sign UP!!</u>
     </string>

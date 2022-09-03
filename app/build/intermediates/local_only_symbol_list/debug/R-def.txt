@@ -1,5 +1,9 @@
 R_DEF: Internal format may change without notice
 local
+anim slide_in_left
+anim slide_in_right
+anim slide_out_left
+anim slide_out_right
 array Type
 color black
 color color1
@@ -11,19 +15,12 @@ color purple_700
 color teal_200
 color teal_700
 color white
-drawable anika
-drawable anika1
-drawable anika2
-drawable anika3
+drawable anikafb2
 drawable bgcolor
-drawable birth
-drawable biyaa
 drawable blueguests
 drawable bluepeople
 drawable calendar
 drawable calendar_focused
-drawable confe
-drawable conference
 drawable cons
 drawable custm_button
 drawable custom_calendar
@@ -38,13 +35,11 @@ drawable finallogo
 drawable get1
 drawable get2
 drawable get3
+drawable google
 drawable guests
 drawable home
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-drawable logo_eventgo
-drawable logoblue
-drawable meeting
 drawable menu
 drawable money
 drawable notifications
@@ -52,7 +47,6 @@ drawable password_icon
 drawable password_icon_focused
 drawable place
 drawable profile
-drawable sadling1
 drawable taskicon
 drawable vendors
 font questrial
@@ -60,10 +54,15 @@ id alreadyaccount
 id bottomNavigationView
 id circleindicator
 id confirm_password
+id continuebutton
+id continuefb
+id continuegoogle
+id continuephone
 id create
 id createbutton
 id email
 id event
+id forgotpass
 id forgotpassword
 id framelayout
 id getstartedbutton
@@ -93,6 +92,7 @@ id textView10
 id textView11
 id textView12
 id textView13
+id textView14
 id textView2
 id textView3
 id textView4
@@ -108,7 +108,9 @@ id type
 id viewpager
 id youremail
 layout activity_current_view
+layout activity_forgotpass
 layout activity_signup_page
+layout activity_signupwith
 layout fragment_event
 layout fragment_home
 layout fragment_menu
@@ -125,8 +127,15 @@ mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string alreadyaccount
 string app_name
+string default_web_client_id
 string forgotpass
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hello_blank_fragment
+string project_id
 string sign
 string title_activity_main
 string title_dashboard
