@@ -11,6 +11,10 @@ color purple_700
 color teal_200
 color teal_700
 color white
+drawable anika
+drawable anika1
+drawable anika2
+drawable anika3
 drawable bgcolor
 drawable birth
 drawable biyaa

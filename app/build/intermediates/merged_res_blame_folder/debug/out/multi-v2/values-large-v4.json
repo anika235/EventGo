@@ -4,21 +4,7 @@
             "outputFile": "com.example.eventgo.app-mergeDebugResources-41:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-<<<<<<< HEAD
                     "source": "C:\\Users\\RAZER\\.gradle\\caches\\transforms-3\\b6f52d92dea29c0a7f49d4078033a89a\\transformed\\material-1.6.1\\res\\values-large-v4\\values-large-v4.xml",
-=======
-                    "source": "/home/bithi/.gradle/caches/transforms-3/4d669feee3bbcaf630ded0ac4934be61/transformed/appcompat-1.4.2/res/values-large-v4/values-large-v4.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,114,185,256,326,396,464,532,636",
-                        "endColumns": "58,70,70,69,69,67,67,103,115",
-                        "endOffsets": "109,180,251,321,391,459,527,631,747"
-                    }
-                },
-                {
-                    "source": "/home/bithi/.gradle/caches/transforms-3/b6f52d92dea29c0a7f49d4078033a89a/transformed/material-1.6.1/res/values-large-v4/values-large-v4.xml",
->>>>>>> 48e89016fd655226996eda4886e6081221a38b61
                     "from": {
                         "startLines": "2,3,4,10",
                         "startColumns": "4,4,4,4",
@@ -35,7 +21,6 @@
                         "endColumns": "121,133,10,10",
                         "endOffsets": "869,1003,1444,1887"
                     }
-<<<<<<< HEAD
                 },
                 {
                     "source": "C:\\Users\\RAZER\\.gradle\\caches\\transforms-3\\4d669feee3bbcaf630ded0ac4934be61\\transformed\\appcompat-1.4.2\\res\\values-large-v4\\values-large-v4.xml",
@@ -46,8 +31,6 @@
                         "endColumns": "58,70,70,69,69,67,67,103,115",
                         "endOffsets": "109,180,251,321,391,459,527,631,747"
                     }
-=======
->>>>>>> 48e89016fd655226996eda4886e6081221a38b61
                 }
             ]
         }

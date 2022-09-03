@@ -4,11 +4,7 @@
             "outputFile": "com.example.eventgo.app-mergeDebugResources-41:/values-gl/values-gl.xml",
             "map": [
                 {
-<<<<<<< HEAD
                     "source": "C:\\Users\\RAZER\\.gradle\\caches\\transforms-3\\4d669feee3bbcaf630ded0ac4934be61\\transformed\\appcompat-1.4.2\\res\\values-gl\\values-gl.xml",
-=======
-                    "source": "/home/bithi/.gradle/caches/transforms-3/0638d9dacb5fd10604e28ec2b4d3c80b/transformed/core-1.8.0/res/values-gl/values-gl.xml",
->>>>>>> 48e89016fd655226996eda4886e6081221a38b61
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -25,7 +21,6 @@
                     }
                 },
                 {
-<<<<<<< HEAD
                     "source": "C:\\Users\\RAZER\\.gradle\\caches\\transforms-3\\172d699a3cea385b2d3041d306f4ec45\\transformed\\navigation-ui-2.5.1\\res\\values-gl\\values-gl.xml",
                     "from": {
                         "startLines": "2,3",
@@ -44,9 +39,6 @@
                 },
                 {
                     "source": "C:\\Users\\RAZER\\.gradle\\caches\\transforms-3\\b6f52d92dea29c0a7f49d4078033a89a\\transformed\\material-1.6.1\\res\\values-gl\\values-gl.xml",
-=======
-                    "source": "/home/bithi/.gradle/caches/transforms-3/b6f52d92dea29c0a7f49d4078033a89a/transformed/material-1.6.1/res/values-gl/values-gl.xml",
->>>>>>> 48e89016fd655226996eda4886e6081221a38b61
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

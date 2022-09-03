@@ -6,11 +6,7 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-<<<<<<< HEAD
 8-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml
-=======
-8-->/home/bithi/EventGo/app/src/main/AndroidManifest.xml
->>>>>>> 48e89016fd655226996eda4886e6081221a38b61
 9        android:targetSdkVersion="32" />
 9-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml
 10
@@ -101,18 +97,12 @@
 54-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:26:25-66
 55
 56                <category android:name="android.intent.category.LAUNCHER" />
-<<<<<<< HEAD
 56-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:28:17-77
 56-->C:\Users\RAZER\AndroidStudioProjects\EventGo\app\src\main\AndroidManifest.xml:28:27-74
-=======
-56-->/home/bithi/EventGo/app/src/main/AndroidManifest.xml:28:17-77
-56-->/home/bithi/EventGo/app/src/main/AndroidManifest.xml:28:27-74
->>>>>>> 48e89016fd655226996eda4886e6081221a38b61
 57            </intent-filter>
 58        </activity>
 59
 60        <provider
-<<<<<<< HEAD
 60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\RAZER\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 61            android:name="androidx.startup.InitializationProvider"
 61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\RAZER\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
@@ -146,41 +136,6 @@
 76-->[androidx.window:window:1.0.0] C:\Users\RAZER\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
 77            android:required="false" />
 77-->[androidx.window:window:1.0.0] C:\Users\RAZER\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-=======
-60-->[androidx.emoji2:emoji2:1.0.0] /home/bithi/.gradle/caches/transforms-3/0db2a54fe3e61853a6995181bdd477b5/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-61            android:name="androidx.startup.InitializationProvider"
-61-->[androidx.emoji2:emoji2:1.0.0] /home/bithi/.gradle/caches/transforms-3/0db2a54fe3e61853a6995181bdd477b5/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
-62            android:authorities="com.example.eventgo.androidx-startup"
-62-->[androidx.emoji2:emoji2:1.0.0] /home/bithi/.gradle/caches/transforms-3/0db2a54fe3e61853a6995181bdd477b5/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
-63            android:exported="false" >
-63-->[androidx.emoji2:emoji2:1.0.0] /home/bithi/.gradle/caches/transforms-3/0db2a54fe3e61853a6995181bdd477b5/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
-64            <meta-data
-64-->[androidx.emoji2:emoji2:1.0.0] /home/bithi/.gradle/caches/transforms-3/0db2a54fe3e61853a6995181bdd477b5/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-65                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-65-->[androidx.emoji2:emoji2:1.0.0] /home/bithi/.gradle/caches/transforms-3/0db2a54fe3e61853a6995181bdd477b5/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
-66                android:value="androidx.startup" />
-66-->[androidx.emoji2:emoji2:1.0.0] /home/bithi/.gradle/caches/transforms-3/0db2a54fe3e61853a6995181bdd477b5/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
-67            <meta-data
-67-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/bithi/.gradle/caches/transforms-3/429d62d1c4cfac9c73f86410faad713f/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-68                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-68-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/bithi/.gradle/caches/transforms-3/429d62d1c4cfac9c73f86410faad713f/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-69                android:value="androidx.startup" />
-69-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/bithi/.gradle/caches/transforms-3/429d62d1c4cfac9c73f86410faad713f/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-70        </provider>
-71
-72        <uses-library
-72-->[androidx.window:window:1.0.0] /home/bithi/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
-73            android:name="androidx.window.extensions"
-73-->[androidx.window:window:1.0.0] /home/bithi/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
-74            android:required="false" />
-74-->[androidx.window:window:1.0.0] /home/bithi/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
-75        <uses-library
-75-->[androidx.window:window:1.0.0] /home/bithi/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
-76            android:name="androidx.window.sidecar"
-76-->[androidx.window:window:1.0.0] /home/bithi/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
-77            android:required="false" />
-77-->[androidx.window:window:1.0.0] /home/bithi/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
->>>>>>> 48e89016fd655226996eda4886e6081221a38b61
 78    </application>
 79
 80</manifest>
