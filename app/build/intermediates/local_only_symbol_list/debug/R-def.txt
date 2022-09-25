@@ -50,8 +50,10 @@ drawable profile
 drawable taskicon
 drawable vendors
 font questrial
+id Email
 id alreadyaccount
 id bottomNavigationView
+id ccp
 id circleindicator
 id confirm_password
 id continuebutton
@@ -60,6 +62,7 @@ id continuegoogle
 id continuephone
 id create
 id createbutton
+id editTextTextEmailAddress
 id email
 id event
 id forgotpass
@@ -83,7 +86,9 @@ id logout
 id menu
 id noaccount
 id notification
+id otp
 id password
+id phone
 id profile
 id signup
 id signupbutton
@@ -93,6 +98,7 @@ id textView11
 id textView12
 id textView13
 id textView14
+id textView15
 id textView2
 id textView4
 id textView5
@@ -104,10 +110,11 @@ id time
 id time_signup
 id title
 id type
+id verify
 id viewpager
-id youremail
 layout activity_current_view
 layout activity_forgotpass
+layout activity_manage_otp
 layout activity_signup_page
 layout activity_signupwith
 layout fragment_event

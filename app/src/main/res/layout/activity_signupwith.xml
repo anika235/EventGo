@@ -59,12 +59,11 @@
             android:layout_width="320dp"
             android:layout_height="75dp"
             android:layout_marginLeft="5dp"
-            android:gravity="center|center_horizontal"
             android:layout_marginRight="10dp"
+            android:gravity="center|center_horizontal"
+            android:text="Continue With Email"
             android:textColor="@color/white"
-            android:text="Continue With Phone Number"
-            android:textSize="24dp"
-            />
+            android:textSize="24dp" />
     </LinearLayout>
 
     <LinearLayout

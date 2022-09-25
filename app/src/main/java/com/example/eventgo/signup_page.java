@@ -7,14 +7,20 @@ import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.hbb20.CountryCodePicker;
+
 import java.util.Calendar;
 
 public class signup_page extends AppCompatActivity {
+    CountryCodePicker ccp;
+    EditText phone;
     EditText etdate;
+    Button signupbutton;
     DatePickerDialog.OnDateSetListener setListener;
     private TextView button;
 
@@ -23,6 +29,22 @@ public class signup_page extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup_page);
+
+        phone=(EditText)findViewById(R.id.phone);
+        ccp=(CountryCodePicker)findViewById(R.id.ccp);
+        ccp.registerCarrierNumberEditText(phone);
+        signupbutton=(Button)findViewById(R.id.signupbutton);
+
+        signupbutton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view)
+            {
+                goToOtp();
+            }
+
+        });
+
+
         button = (TextView) findViewById(R.id.alreadyaccount);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,5 +83,12 @@ public class signup_page extends AppCompatActivity {
         Intent intent = new Intent(this, login_page.class);
         startActivity(intent);
     }
+    public void goToOtp()
+    {
+        Intent intent=new Intent(signup_page.this,manageOTP.class);
+        intent.putExtra("mobile",ccp.getFullNumberWithPlus().replace(" ",""));
+        startActivity(intent);
+    }
+
 
 }
