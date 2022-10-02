@@ -18,7 +18,7 @@ import java.util.Calendar;
 
 public class signup_page extends AppCompatActivity {
     CountryCodePicker ccp;
-    EditText phone;
+    EditText firstname,lastname,password,confirmpassword,phone;
     EditText etdate;
     Button signupbutton;
     DatePickerDialog.OnDateSetListener setListener;
@@ -30,29 +30,34 @@ public class signup_page extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup_page);
 
+        firstname=(EditText)findViewById(R.id.firstname);
+        lastname=(EditText)findViewById(R.id.lastname);
         phone=(EditText)findViewById(R.id.phone);
         ccp=(CountryCodePicker)findViewById(R.id.ccp);
         ccp.registerCarrierNumberEditText(phone);
+        etdate = findViewById(R.id.time_signup);
+        password=(EditText)findViewById(R.id.password);
+        confirmpassword=(EditText)findViewById(R.id.confirm_password);
         signupbutton=(Button)findViewById(R.id.signupbutton);
+        button = (TextView) findViewById(R.id.alreadyaccount);
+
 
         signupbutton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view)
             {
-                goToOtp();
+                sign_up();
             }
 
         });
 
-
-        button = (TextView) findViewById(R.id.alreadyaccount);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openloginpage();
             }
         });
-        etdate = findViewById(R.id.time_signup);
+
         if(Build.VERSION.SDK_INT>= Build.VERSION_CODES.LOLLIPOP)
         {etdate.setShowSoftInputOnFocus(false);}
 
@@ -83,9 +88,74 @@ public class signup_page extends AppCompatActivity {
         Intent intent = new Intent(this, login_page.class);
         startActivity(intent);
     }
-    public void goToOtp()
+
+    public void sign_up()
+    {
+        String fname=firstname.getText().toString();
+        String lname=lastname.getText().toString();
+        String pnumber=phone.getText().toString();
+        String bdate=etdate.getText().toString();
+        String pass=password.getText().toString();
+        String c_pass=confirmpassword.getText().toString();
+
+        if(fname.isEmpty())
+        {
+            firstname.setError("First Name is required");
+            firstname.requestFocus();
+        }
+        else if(lname.isEmpty())
+        {
+            lastname.setError("Last Name is required");
+            lastname.requestFocus();
+        }
+        else if(pnumber.isEmpty())
+        {
+            phone.setError("Phone Number is required");
+            phone.requestFocus();
+        }
+        else if(bdate.isEmpty())
+        {
+            etdate.setError("Birthdate is required");
+            etdate.requestFocus();
+        }
+        else if(pass.isEmpty())
+        {
+            password.setError("Password is required");
+            password.requestFocus();
+        }
+        else if(pass.length()<6)
+        {
+            password.setError("Password must be six characters long");
+            password.requestFocus();
+        }
+        else if(c_pass.isEmpty())
+        {
+            confirmpassword.setError("You need to confirm your password");
+            confirmpassword.requestFocus();
+        }
+        else if(!pass.equals(c_pass))
+        {
+            confirmpassword.setError("Password does not match");
+            confirmpassword.requestFocus();
+        }
+        else
+
+        {
+            goToOtp(fname,lname,bdate,pass);
+
+        }
+
+    }
+
+    public void goToOtp(String fname,String lname,String bdate,String pass)
     {
         Intent intent=new Intent(signup_page.this,manageOTP.class);
+        Bundle bundle=new Bundle();
+        bundle.putString("firstname",fname);
+        bundle.putString("lastname",lname);
+        bundle.putString("birthdate",bdate);
+        bundle.putString("password",pass);
+        intent.putExtras(bundle);
         intent.putExtra("mobile",ccp.getFullNumberWithPlus().replace(" ",""));
         startActivity(intent);
     }

@@ -65,6 +65,7 @@ id createbutton
 id editTextTextEmailAddress
 id email
 id event
+id firstname
 id forgotpass
 id forgotpassword
 id framelayout
