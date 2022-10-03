@@ -1,5 +1,6 @@
 package com.example.eventgo;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DatePickerDialog;
@@ -11,14 +12,20 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.FirebaseDatabase;
 import com.hbb20.CountryCodePicker;
 
 import java.util.Calendar;
 
 public class signup_page extends AppCompatActivity {
     CountryCodePicker ccp;
-    EditText firstname,lastname,password,confirmpassword,phone;
+    EditText firstname,lastname,password,confirmpassword,phone,email;
     EditText etdate;
     Button signupbutton;
     DatePickerDialog.OnDateSetListener setListener;
@@ -32,6 +39,7 @@ public class signup_page extends AppCompatActivity {
 
         firstname=(EditText)findViewById(R.id.firstname);
         lastname=(EditText)findViewById(R.id.lastname);
+        email=(EditText)findViewById(R.id.editTextTextEmailAddress);
         phone=(EditText)findViewById(R.id.phone);
         ccp=(CountryCodePicker)findViewById(R.id.ccp);
         ccp.registerCarrierNumberEditText(phone);
@@ -93,6 +101,7 @@ public class signup_page extends AppCompatActivity {
     {
         String fname=firstname.getText().toString();
         String lname=lastname.getText().toString();
+        String mail=email.getText().toString();
         String pnumber=phone.getText().toString();
         String bdate=etdate.getText().toString();
         String pass=password.getText().toString();
@@ -107,6 +116,11 @@ public class signup_page extends AppCompatActivity {
         {
             lastname.setError("Last Name is required");
             lastname.requestFocus();
+        }
+        else if(mail.isEmpty())
+        {
+            email.setError("Email is required");
+            email.requestFocus();
         }
         else if(pnumber.isEmpty())
         {
@@ -141,21 +155,63 @@ public class signup_page extends AppCompatActivity {
         else
 
         {
-            goToOtp(fname,lname,bdate,pass);
+            signupwithemail(fname,lname,mail,pnumber,bdate,pass);
+            //goToOtp(fname,lname,mail,bdate,pass);
 
         }
 
     }
 
-    public void goToOtp(String fname,String lname,String bdate,String pass)
+    public void signupwithemail(String fname,String lname,String mail,String pnumber,String bdate,String pass)
+    {
+        FirebaseAuth.getInstance().createUserWithEmailAndPassword(mail,pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+            @Override
+            public void onComplete(@NonNull Task<AuthResult> task) {
+                if(task.isSuccessful())
+                {
+                    User user =new User(fname,lname,pnumber,bdate);
+                    FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(user).addOnCompleteListener(new OnCompleteListener<Void>() {
+                        @Override
+                        public void onComplete(@NonNull Task<Void> task) {
+                            if (task.isSuccessful())
+                            {
+                                Toast.makeText(signup_page.this,"Registration Successful",Toast.LENGTH_LONG).show();
+
+                            }
+                            else
+                            {
+                                Toast.makeText(signup_page.this,"Registration Failed",Toast.LENGTH_LONG).show();
+
+                            }
+
+                        }
+                    });
+                }
+                else
+                {
+                    Toast.makeText(signup_page.this,"Verification Problem",Toast.LENGTH_LONG).show();
+
+                }
+            }
+        });
+    }
+
+
+    public void goToOtp(String fname,String lname,String mail,String bdate,String pass)
     {
         Intent intent=new Intent(signup_page.this,manageOTP.class);
-        Bundle bundle=new Bundle();
-        bundle.putString("firstname",fname);
+/*        bundle.putString("firstname",fname);
         bundle.putString("lastname",lname);
         bundle.putString("birthdate",bdate);
         bundle.putString("password",pass);
-        intent.putExtras(bundle);
+        intent.putExtras(bundle);*/
+        intent.putExtra("FirstName",fname);
+        intent.putExtra("Lastname",lname);
+        intent.putExtra("Birthdate",bdate);
+
+        //intent.putExtra("Email", mail);
+        intent.putExtra("Password",pass);
+
         intent.putExtra("mobile",ccp.getFullNumberWithPlus().replace(" ",""));
         startActivity(intent);
     }

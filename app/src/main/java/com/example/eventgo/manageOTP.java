@@ -40,8 +40,6 @@ public class manageOTP extends AppCompatActivity {
     String otpid;
     FirebaseAuth auth;
 
-    private FirebaseDatabase db=FirebaseDatabase.getInstance();
-    private DatabaseReference root=db.getReference().child("Users");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -119,31 +117,42 @@ public class manageOTP extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
+                            String firstname=getIntent().getStringExtra("Firstname");
+                            String lastname=getIntent().getStringExtra("Lastname");
+                            String number=getIntent().getStringExtra("mobile");
+                            String birthdate=getIntent().getStringExtra("Birthdate");
+                            User user=new User(firstname,lastname,number,birthdate);
+                            FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(user).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                @Override
+                                public void onComplete(@NonNull Task<Void> task) {
+                                    if(task.isSuccessful())
+                                    {
+                                        Toast.makeText(manageOTP.this,"User has been registered successfully",Toast.LENGTH_LONG).show();
+                                        startActivity(new Intent(manageOTP.this,login_page.class));
+                                    }
+                                    else
+                                    {
+                                        Toast.makeText(manageOTP.this,"Registration failed!",Toast.LENGTH_LONG).show();
 
-                            Bundle bundle=getIntent().getExtras();
-                            String fname = bundle.getString("firstname");
-                            String lname = bundle.getString("lastname");
-                            String bdate = bundle.getString("birthdate");
-                            String pass = bundle.getString("password");
+
+                                    }
+
+                                }
+                            });
 
 
-                            phonenumber=getIntent().getStringExtra("mobile");
 
-                            HashMap<String,String> usermap=new HashMap<>();
-                            usermap.put("First Name",fname);
-                            usermap.put("Last Name",lname);
-                            usermap.put("Phone",phonenumber);
-                            usermap.put("Birthdate",bdate);
-                            usermap.put("Password",pass);
-                            root.push().setValue(usermap);
+                        }
+                        else
+                        {
+                            Toast.makeText(manageOTP.this,"OTP verification failed!",Toast.LENGTH_LONG).show();
 
-                            startActivity(new Intent(manageOTP.this,login_page.class));
-                            finish();
-                        } else {
-                            Toast.makeText(getApplicationContext(),"Signin Code Error",Toast.LENGTH_LONG).show();
                         }
                     }
+
+
+
                 });
     }
 
-}
+    }
