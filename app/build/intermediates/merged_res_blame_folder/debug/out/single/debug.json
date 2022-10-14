@@ -1,320 +1,306 @@
 [
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/layout_activity_signupwith.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/layout/activity_signupwith.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_email_icon.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/email_icon.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_custom_input.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/custom_input.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_guests.png.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/guests.png"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_guests.png.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/guests.png"
+        "merged": "com.example.eventgo.app-merged_res-50:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.eventgo.app-main-52:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-50:\\layout_activity_infos.xml.flat",
-        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-52:\\layout\\activity_infos.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/layout_fragment_menu.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/layout/fragment_menu.xml"
     },
     {
         "merged": "com.example.eventgo.app-merged_res-50:/layout_activity_infos.xml.flat",
         "source": "com.example.eventgo.app-main-52:/layout/activity_infos.xml"
-=======
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_custom_email_icon.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/custom_email_icon.xml"
->>>>>>> 1e05db5 (Event add)
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "com.example.eventgo.app-merged_res-50:/layout_get_started.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/layout/get_started.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/anim_slide_in_left.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/anim/slide_in_left.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/anim_slide_out_right.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/anim/slide_out_right.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/layout_fragment_menu.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/layout/fragment_menu.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.eventgo.app-main-52:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_bluepeople.png.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/bluepeople.png"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_menu.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/menu.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_custm_button.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/custm_button.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_blueguests.png.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/blueguests.png"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/anim_slide_out_right.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/anim/slide_out_right.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/layout_activity_signup_page.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/layout/activity_signup_page.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_menu.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/menu.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_custom_lock_icon.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/custom_lock_icon.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/layout_get_started.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/layout/get_started.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.eventgo.app-main-52:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_custom_lock_icon.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/custom_lock_icon.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_password_icon.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/password_icon.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_time_focused.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/time_focused.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/layout_activity_current_view.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/layout/activity_current_view.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_email_icon.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/email_icon.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_time.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/time.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "com.example.eventgo.app-merged_res-50:/layout_activity_forgotpass.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/layout/activity_forgotpass.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_cons.jpg.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/cons.jpg"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_cons.jpg.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/cons.jpg"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_anika.jpg.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/anika.jpg"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_finallogo.jpg.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/finallogo.jpg"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/layout_fragment_profile.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/layout/fragment_profile.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_custm_button.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/custm_button.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_finallogo.jpg.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/finallogo.jpg"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_bgcolor.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/bgcolor.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "com.example.eventgo.app-merged_res-50:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.eventgo.app-main-52:/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_anika3.jpg.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/anika3.jpg"
+        "merged": "com.example.eventgo.app-merged_res-50:/xml_backup_rules.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/xml/backup_rules.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_profile.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/profile.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.eventgo.app-main-52:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/layout_activity_signup_page.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/layout/activity_signup_page.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_money.webp.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/money.webp"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_google.png.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/google.png"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_notifications.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/notifications.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_custom_calendar.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/custom_calendar.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/xml_backup_rules.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/xml/backup_rules.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.eventgo.app-main-52:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_place.jpg.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/place.jpg"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_email_icon_focused.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/email_icon_focused.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/layout_activity_manage_otp.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/layout/activity_manage_otp.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_custom_time.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/custom_time.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_calendar.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/calendar.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_calendar_focused.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/calendar_focused.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_event.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/event.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.eventgo.app-main-52:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/anim_slide_in_right.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/anim/slide_in_right.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_notifications.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/notifications.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_custom_time.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/custom_time.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.eventgo.app-main-52:/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_blueguests.png.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/blueguests.png"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_anika2.jpg.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/anika2.jpg"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_custom_calendar.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/custom_calendar.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_home.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/home.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/layout_image_layout.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/layout/image_layout.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_anikafb2.png.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/anikafb2.png"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/layout_third_page.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/layout/third_page.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_event.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/event.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_email_icon_focused.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/email_icon_focused.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/layout_second_page.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/layout/second_page.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/xml_data_extraction_rules.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/xml/data_extraction_rules.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_custom_input.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/custom_input.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_bgcolor.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/bgcolor.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/font_questrial.ttf.flat",
+        "source": "com.example.eventgo.app-main-52:/font/questrial.ttf"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/layout_activity_current_view.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/layout/activity_current_view.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_taskicon.png.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/taskicon.png"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_home.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/home.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_time_focused.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/time_focused.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_profile.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/profile.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "com.example.eventgo.app-merged_res-50:/layout_fragment_notification.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/layout/fragment_notification.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_vendors.jpg.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/vendors.jpg"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.eventgo.app-pngs-45:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_anika2.jpg.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/anika2.jpg"
+        "merged": "com.example.eventgo.app-merged_res-50:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.eventgo.app-main-52:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-50:\\layout_fragment_menu.xml.flat",
-        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-52:\\layout\\fragment_menu.xml"
-=======
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "com.example.eventgo.app-merged_res-50:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.eventgo.app-main-52:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/layout_activity_infos.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/layout/activity_infos.xml"
->>>>>>> 1e05db5 (Event add)
+        "merged": "com.example.eventgo.app-merged_res-50:/menu_nav_view.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/menu/nav_view.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/mipmap-xhdpi/ic_launcher_foreground.png"
+        "merged": "com.example.eventgo.app-merged_res-50:/layout_fragment_home.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/layout/fragment_home.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "com.example.eventgo.app-merged_res-50:/layout_activity_signupwith.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/layout/activity_signupwith.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/layout_fragment_home.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/layout/fragment_home.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/anim_slide_out_left.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/anim/slide_out_left.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/menu_nav_view.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/menu/nav_view.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.eventgo.app-main-52:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/layout_fragment_event.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/layout/fragment_event.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/layout_fragment_profile.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/layout/fragment_profile.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/mipmap-hdpi/ic_launcher.png"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_calendar.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/calendar.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/layout_login_page.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/layout/login_page.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_place.jpg.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/place.jpg"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_custom_input2.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/custom_input2.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/anim_slide_in_left.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/anim/slide_in_left.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/anim_slide_out_left.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/anim/slide_out_left.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/anim_slide_in_right.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/anim/slide_in_right.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_time.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/time.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_vendors.jpg.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/vendors.jpg"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/mipmap-mdpi/ic_launcher.png"
+        "merged": "com.example.eventgo.app-merged_res-50:/layout_fragment_event.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/layout/fragment_event.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_ic_launcher_background.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/ic_launcher_background.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.eventgo.app-main-52:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_anikafb2.png.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/anikafb2.png"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_anika.jpg.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/anika.jpg"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_taskicon.png.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/taskicon.png"
+        "merged": "com.example.eventgo.app-merged_res-50:/layout_activity_manage_otp.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/layout/activity_manage_otp.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "com.example.eventgo.app-merged_res-50:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.eventgo.app-main-52:/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_password_icon_focused.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/password_icon_focused.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/layout_image_layout.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/layout/image_layout.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_calendar_focused.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/calendar_focused.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/layout_third_page.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/layout/third_page.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_password_icon.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/password_icon.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_custom_input2.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/custom_input2.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_anika3.jpg.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/anika3.jpg"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_money.webp.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/money.webp"
+        "merged": "com.example.eventgo.app-merged_res-50:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.eventgo.app-main-52:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/layout_second_page.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/layout/second_page.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_password_icon_focused.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/password_icon_focused.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "com.example.eventgo.app-merged_res-50:/layout_login_page.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/layout/login_page.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-pngs-45:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_bluepeople.png.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/bluepeople.png"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/layout_fragment_notification.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/layout/fragment_notification.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/drawable_google.png.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/drawable/google.png"
+        "merged": "com.example.eventgo.app-merged_res-50:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.eventgo.app-main-52:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/font_questrial.ttf.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/font/questrial.ttf"
-    },
-    {
-        "merged": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-merged_res-50:/layout_activity_forgotpass.xml.flat",
-        "source": "/home/bithi/.gradle/daemon/7.4/com.example.eventgo.app-main-52:/layout/activity_forgotpass.xml"
+        "merged": "com.example.eventgo.app-merged_res-50:/drawable_custom_email_icon.xml.flat",
+        "source": "com.example.eventgo.app-main-52:/drawable/custom_email_icon.xml"
     }
 ]

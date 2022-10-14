@@ -32,11 +32,7 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
     EditText etdate;
     EditText ettime;
     EditText title, times, dates;
-<<<<<<< HEAD
-    private Button button;
-=======
     public String typ;
->>>>>>> 1e05db5 (Event add)
     Spinner type;
     int ethour, etmin;
     DatePickerDialog.OnDateSetListener setListener;
@@ -113,22 +109,6 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
         times = findViewById(R.id.times);
         dates = findViewById(R.id.dates);
         type = (Spinner)findViewById(R.id.type);
-
-<<<<<<< HEAD
-        button = findViewById(R.id.create);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openinfopage();
-            }
-        });
-
-    }
-    public void openinfopage()
-    {
-        Intent intent = new Intent(this, infosActivity.class);
-        startActivity(intent);
-=======
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -138,7 +118,6 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
 
 
 
->>>>>>> 1e05db5 (Event add)
     }
 
     @Override
@@ -191,6 +170,7 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
                  if(task.isSuccessful())
                  {
                      Toast.makeText(getApplicationContext(),"Event added Successfully",Toast.LENGTH_LONG).show();
+                     startActivity(new Intent(getApplicationContext(),infosActivity.class));
 
                  }
                  else
