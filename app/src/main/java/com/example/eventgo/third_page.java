@@ -1,5 +1,6 @@
 package com.example.eventgo;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
@@ -19,13 +20,23 @@ import android.widget.Spinner;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.FirebaseDatabase;
+
 import java.util.Calendar;
 
 public class third_page extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+    Button button;
     EditText etdate;
     EditText ettime;
     EditText title, times, dates;
+<<<<<<< HEAD
     private Button button;
+=======
+    public String typ;
+>>>>>>> 1e05db5 (Event add)
     Spinner type;
     int ethour, etmin;
     DatePickerDialog.OnDateSetListener setListener;
@@ -36,6 +47,8 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
         setContentView(R.layout.third_page);
         etdate = findViewById(R.id.dates);
         ettime = findViewById(R.id.times);
+
+        button=(Button) findViewById(R.id.create);
 
         if(Build.VERSION.SDK_INT>= Build.VERSION_CODES.LOLLIPOP)
         {etdate.setShowSoftInputOnFocus(false);
@@ -101,6 +114,7 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
         dates = findViewById(R.id.dates);
         type = (Spinner)findViewById(R.id.type);
 
+<<<<<<< HEAD
         button = findViewById(R.id.create);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -114,6 +128,17 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
     {
         Intent intent = new Intent(this, infosActivity.class);
         startActivity(intent);
+=======
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                nextpage();
+            }
+        });
+
+
+
+>>>>>>> 1e05db5 (Event add)
     }
 
     @Override
@@ -123,6 +148,7 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
             return;
         }
         String text = parent.getItemAtPosition(position).toString();
+        typ=text;
         Toast.makeText(parent.getContext(), text, Toast.LENGTH_SHORT).show();
     }
 
@@ -135,30 +161,47 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
      String tit = title.getText().toString();
      String tim = times.getText().toString();
      String dat = dates.getText().toString();
-     //String typ = type.getText().toString();
 
      if(tit.isEmpty())
      {
-     title.setError("Title is required");
-     title.requestFocus();
+        title.setError("Title is required");
+        title.requestFocus();
      }
      else if(tim.isEmpty())
      {
-     times.setError("Time is required");
-     times.requestFocus();
+        times.setError("Time is required");
+        times.requestFocus();
      }
      else if(dat.isEmpty())
      {
-     dates.setError("Date is required");
-     dates.requestFocus();
+        dates.setError("Date is required");
+        dates.requestFocus();
      }
-//     else if(typ.isEmpty())
-//     {
-//     type.setError("Type is required");
-//     type.requestFocus();
-//     }
+     else if(typ.isEmpty())
+     {
+        Toast.makeText(this,"Event Type is Required",Toast.LENGTH_LONG).show();
+        type.requestFocus();
+    }
      else
      {
+         Event event=new Event(tit,typ,dat,tim);
+         FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").push().setValue(event).addOnCompleteListener(new OnCompleteListener<Void>() {
+             @Override
+             public void onComplete(@NonNull Task<Void> task) {
+                 if(task.isSuccessful())
+                 {
+                     Toast.makeText(getApplicationContext(),"Event added Successfully",Toast.LENGTH_LONG).show();
+
+                 }
+                 else
+                 {
+                     Toast.makeText(getApplicationContext(),"Failed",Toast.LENGTH_LONG).show();
+
+
+                 }
+
+             }
+         });
 
      }
 
