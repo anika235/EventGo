@@ -69,10 +69,9 @@
         android:padding="20dp" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/create"
+        android:id="@+id/start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:layout_centerHorizontal="true"
         android:layout_marginStart="50dp"
         android:layout_marginTop="550dp"

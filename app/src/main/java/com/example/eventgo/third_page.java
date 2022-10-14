@@ -28,10 +28,10 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.Calendar;
 
 public class third_page extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
-    Button button;
-    EditText etdate;
-    EditText ettime;
-    EditText title, times, dates;
+    private Button button;
+    private EditText etdate;
+    private EditText ettime;
+    private EditText title, times, dates;
     public String typ;
     Spinner type;
     int ethour, etmin;
@@ -115,8 +115,6 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
                 nextpage();
             }
         });
-
-
 
     }
 

@@ -101,6 +101,7 @@ id phone
 id profile
 id signup
 id signupbutton
+id start
 id textView
 id textView10
 id textView11
@@ -126,6 +127,7 @@ layout activity_infos
 layout activity_manage_otp
 layout activity_signup_page
 layout activity_signupwith
+layout activity_wedding
 layout fragment_event
 layout fragment_home
 layout fragment_menu

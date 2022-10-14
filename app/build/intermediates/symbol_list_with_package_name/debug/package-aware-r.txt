@@ -3736,6 +3736,7 @@ layout activity_infos
 layout activity_manage_otp
 layout activity_signup_page
 layout activity_signupwith
+layout activity_wedding
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog

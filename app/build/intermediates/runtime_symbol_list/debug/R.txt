@@ -3735,6 +3735,7 @@ int layout activity_infos 0x7f0d001e
 int layout activity_manage_otp 0x7f0d001f
 int layout activity_signup_page 0x7f0d0020
 int layout activity_signupwith 0x7f0d0021
+int layout activity_wedding 0x7f0d008d
 int layout browser_actions_context_menu_page 0x7f0d0022
 int layout browser_actions_context_menu_row 0x7f0d0023
 int layout custom_dialog 0x7f0d0024
