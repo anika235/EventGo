@@ -24,35 +24,13 @@ public class homeFragment extends Fragment {
     String[] events = {"Science Conference 2022   25/08/2022", "Birthday  20/09/2022", "wedding  4/10/2022", "wedding 20/10/2022", "concert 03/12/2022", "Nobinboron 14/09/2022",
                       "biye 03/09/2022", "hello 2000", "amajjjmcfe","ureghrtg", "vuifjgrgurg"};
 
-
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    private String mParam1;
-    private String mParam2;
-
     public homeFragment() {
         // Required empty public constructor
     }
 
-
-    public static homeFragment newInstance(String param1, String param2) {
-        homeFragment fragment = new homeFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
     }
 
     @Override

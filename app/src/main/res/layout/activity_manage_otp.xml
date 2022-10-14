@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="100dp"
+    android:background="@color/color2"
     tools:context=".manageOTP">
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="match_parent"
-        android:layout_height="94dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
         android:text="Enter Your OTP"
         android:textSize="48sp" />
 
@@ -20,8 +21,9 @@
         android:id="@+id/otp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="250dp"
         android:layout_marginStart="20dp"
+        android:layout_centerHorizontal="true"
         android:ems="10"
         android:inputType="textPersonName" />
 
@@ -29,9 +31,9 @@
         android:id="@+id/verify"
         android:layout_width="166dp"
         android:layout_height="67dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginStart="100dp"
-        android:layout_marginTop="250dp"
-
-
+        android:layout_marginTop="350dp"
+        android:backgroundTint="@color/color3"
         android:text="Verify" />
 </RelativeLayout>

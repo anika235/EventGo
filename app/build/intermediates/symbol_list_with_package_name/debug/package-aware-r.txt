@@ -3154,6 +3154,7 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id budget
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3291,10 +3292,12 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
+id guest
 id guideline
 id header_title
 id heading
 id heading3
+id heading4
 id hideable
 id home
 id homeAsUp
@@ -3344,6 +3347,7 @@ id list
 id listMode
 id list_item
 id locale
+id location
 id loginbutton
 id logout
 id ltr
@@ -3728,6 +3732,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_current_view
 layout activity_forgotpass
+layout activity_infos
 layout activity_manage_otp
 layout activity_signup_page
 layout activity_signupwith

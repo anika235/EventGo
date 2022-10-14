@@ -3153,6 +3153,7 @@ int id browser_actions_menu_item_icon 0x7f0a00ac
 int id browser_actions_menu_item_text 0x7f0a00ad
 int id browser_actions_menu_items 0x7f0a00ae
 int id browser_actions_menu_view 0x7f0a00af
+int id budget 0x7f0a028f
 int id buttonPanel 0x7f0a00b0
 int id cache_measures 0x7f0a00b1
 int id callMeasure 0x7f0a00b2
@@ -3290,10 +3291,12 @@ int id graph_wrap 0x7f0a0135
 int id group_divider 0x7f0a0136
 int id grouping 0x7f0a0137
 int id groups 0x7f0a0138
+int id guest 0x7f0a0290
 int id guideline 0x7f0a0139
 int id header_title 0x7f0a013a
 int id heading 0x7f0a013b
 int id heading3 0x7f0a013c
+int id heading4 0x7f0a028e
 int id hideable 0x7f0a013d
 int id home 0x7f0a013e
 int id homeAsUp 0x7f0a013f
@@ -3343,6 +3346,7 @@ int id list 0x7f0a016a
 int id listMode 0x7f0a016b
 int id list_item 0x7f0a016c
 int id locale 0x7f0a016d
+int id location 0x7f0a0291
 int id loginbutton 0x7f0a016e
 int id logout 0x7f0a016f
 int id ltr 0x7f0a0170
@@ -3727,6 +3731,7 @@ int layout abc_select_dialog_material 0x7f0d001a
 int layout abc_tooltip 0x7f0d001b
 int layout activity_current_view 0x7f0d001c
 int layout activity_forgotpass 0x7f0d001d
+int layout activity_infos 0x7f0d008c
 int layout activity_manage_otp 0x7f0d001e
 int layout activity_signup_page 0x7f0d001f
 int layout activity_signupwith 0x7f0d0020

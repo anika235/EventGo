@@ -5,12 +5,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.format.DateFormat;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
@@ -23,6 +25,7 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
     EditText etdate;
     EditText ettime;
     EditText title, times, dates;
+    private Button button;
     Spinner type;
     int ethour, etmin;
     DatePickerDialog.OnDateSetListener setListener;
@@ -98,6 +101,19 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
         dates = findViewById(R.id.dates);
         type = (Spinner)findViewById(R.id.type);
 
+        button = findViewById(R.id.create);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openinfopage();
+            }
+        });
+
+    }
+    public void openinfopage()
+    {
+        Intent intent = new Intent(this, infosActivity.class);
+        startActivity(intent);
     }
 
     @Override
