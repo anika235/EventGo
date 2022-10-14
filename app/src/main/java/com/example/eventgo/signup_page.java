@@ -155,14 +155,14 @@ public class signup_page extends AppCompatActivity {
         else
 
         {
-            signupwithemail(fname,lname,mail,pnumber,bdate,pass);
-            //goToOtp(fname,lname,mail,bdate,pass);
+            //signupwithemail(fname,lname,mail,pnumber,bdate,pass);
+            goToOtp(fname,lname,mail,bdate,pass);
 
         }
 
     }
 
-    public void signupwithemail(String fname,String lname,String mail,String pnumber,String bdate,String pass)
+   /* public void signupwithemail(String fname,String lname,String mail,String pnumber,String bdate,String pass)
     {
         FirebaseAuth.getInstance().createUserWithEmailAndPassword(mail,pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
@@ -194,7 +194,7 @@ public class signup_page extends AppCompatActivity {
                 }
             }
         });
-    }
+    }*/
 
 
     public void goToOtp(String fname,String lname,String mail,String bdate,String pass)
@@ -209,7 +209,7 @@ public class signup_page extends AppCompatActivity {
         intent.putExtra("Lastname",lname);
         intent.putExtra("Birthdate",bdate);
 
-        //intent.putExtra("Email", mail);
+        intent.putExtra("Email", mail);
         intent.putExtra("Password",pass);
 
         intent.putExtra("mobile",ccp.getFullNumberWithPlus().replace(" ",""));

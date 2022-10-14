@@ -1,20 +1,21 @@
 {
   "project_info": {
-    "project_number": "813788904824",
-    "project_id": "eventgo-2e26e",
-    "storage_bucket": "eventgo-2e26e.appspot.com"
+    "project_number": "269958737901",
+    "firebase_url": "https://eventgo-ec09c-default-rtdb.firebaseio.com",
+    "project_id": "eventgo-ec09c",
+    "storage_bucket": "eventgo-ec09c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:813788904824:android:359e409f4fdcc0bf861c8d",
+        "mobilesdk_app_id": "1:269958737901:android:60a41091cced7a88c7c1e4",
         "android_client_info": {
           "package_name": "com.example.eventgo"
         }
       },
       "oauth_client": [
         {
-          "client_id": "813788904824-2jcsb78h0clgi8njakq5ig5apu2oevuf.apps.googleusercontent.com",
+          "client_id": "269958737901-s4bk4kech639lo11shjk5540farkd94j.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.eventgo",
@@ -22,20 +23,20 @@
           }
         },
         {
-          "client_id": "813788904824-tj94ijpjrqrbf6eq1groibbfhuph4gsd.apps.googleusercontent.com",
+          "client_id": "269958737901-u68msrk39eh66s5090rotnlg9u3ld4nu.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC8twx4YWDKx17hDP-2ysX9uJvhq0emgmE"
+          "current_key": "AIzaSyAzj9iPcLpI8VU6yBxbSkHqpXWTxVonazY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "813788904824-tj94ijpjrqrbf6eq1groibbfhuph4gsd.apps.googleusercontent.com",
+              "client_id": "269958737901-u68msrk39eh66s5090rotnlg9u3ld4nu.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -1,13 +1,13 @@
 package com.example.eventgo;
 
 public class User {
-    private String Fname,lname,number,bdate;
-    User(String firstname,String lastname,String phone,String birthdate)
-    {
-        Fname=firstname;
-        lname=lastname;
-        number=phone;
-        bdate=birthdate;
-    }
+    public String Fname,lname,mail,number,bdate;
 
+    public User(String fname, String lname, String mail,String number, String bdate) {
+        Fname = fname;
+        this.lname = lname;
+        this.mail=mail;
+        this.number = number;
+        this.bdate = bdate;
+    }
 }

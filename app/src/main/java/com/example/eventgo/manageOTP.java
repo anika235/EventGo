@@ -117,29 +117,46 @@ public class manageOTP extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            String firstname=getIntent().getStringExtra("Firstname");
-                            String lastname=getIntent().getStringExtra("Lastname");
-                            String number=getIntent().getStringExtra("mobile");
-                            String birthdate=getIntent().getStringExtra("Birthdate");
-                            User user=new User(firstname,lastname,number,birthdate);
-                            FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(user).addOnCompleteListener(new OnCompleteListener<Void>() {
+                            String mail=getIntent().getStringExtra("Email");
+                            String pass=getIntent().getStringExtra("Password");
+
+                            auth.createUserWithEmailAndPassword(mail,pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                                 @Override
-                                public void onComplete(@NonNull Task<Void> task) {
+                                public void onComplete(@NonNull Task<AuthResult> task) {
                                     if(task.isSuccessful())
                                     {
-                                        Toast.makeText(manageOTP.this,"User has been registered successfully",Toast.LENGTH_LONG).show();
-                                        startActivity(new Intent(manageOTP.this,login_page.class));
+                                        String firstname=getIntent().getStringExtra("Firstname");
+                                        String lastname=getIntent().getStringExtra("Lastname");
+                                        String number=getIntent().getStringExtra("mobile");
+                                        String birthdate=getIntent().getStringExtra("Birthdate");
+                                        User user=new User(firstname,lastname,mail,number,birthdate);
+                                        FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(user).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                            @Override
+                                            public void onComplete(@NonNull Task<Void> task) {
+                                                if(task.isSuccessful())
+                                                {
+                                                    Toast.makeText(manageOTP.this,"User has been registered successfully",Toast.LENGTH_LONG).show();
+                                                    startActivity(new Intent(manageOTP.this,login_page.class));
+                                                }
+                                                else
+                                                {
+                                                    Toast.makeText(manageOTP.this,"Registration failed!",Toast.LENGTH_LONG).show();
+
+
+                                                }
+
+                                            }
+                                        });
+
                                     }
                                     else
                                     {
-                                        Toast.makeText(manageOTP.this,"Registration failed!",Toast.LENGTH_LONG).show();
-
+                                        Toast.makeText(manageOTP.this,"Email already Taken!",Toast.LENGTH_LONG).show();
 
                                     }
 
                                 }
                             });
-
 
 
                         }
