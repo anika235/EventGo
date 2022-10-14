@@ -54,6 +54,9 @@
             android:exported="false" />
         <activity
             android:name="com.example.eventgo.get_started"
+            android:exported="false" />
+        <activity
+            android:name="com.example.eventgo.splashscreen"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

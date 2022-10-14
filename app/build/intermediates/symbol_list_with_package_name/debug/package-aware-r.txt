@@ -2966,6 +2966,7 @@ drawable notifications
 drawable notify_panel_notification_icon_bg
 drawable password_icon
 drawable password_icon_focused
+drawable person_add
 drawable place
 drawable profile
 drawable taskicon
@@ -2976,6 +2977,7 @@ drawable time_focused
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable vendors
+drawable welp
 drawable white_radius
 font questrial
 id AFRIKAANS
@@ -3117,6 +3119,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addpeople
 id adjust_height
 id adjust_width
 id alertTitle
@@ -3736,6 +3739,7 @@ layout activity_infos
 layout activity_manage_otp
 layout activity_signup_page
 layout activity_signupwith
+layout activity_splashscreen
 layout activity_wedding
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row

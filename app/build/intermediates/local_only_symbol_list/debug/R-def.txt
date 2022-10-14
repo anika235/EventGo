@@ -46,14 +46,17 @@ drawable money
 drawable notifications
 drawable password_icon
 drawable password_icon_focused
+drawable person_add
 drawable place
 drawable profile
 drawable taskicon
 drawable time
 drawable time_focused
 drawable vendors
+drawable welp
 font questrial
 id Email
+id addpeople
 id alreadyaccount
 id bottomNavigationView
 id budget
@@ -127,6 +130,7 @@ layout activity_infos
 layout activity_manage_otp
 layout activity_signup_page
 layout activity_signupwith
+layout activity_splashscreen
 layout activity_wedding
 layout fragment_event
 layout fragment_home

@@ -2965,6 +2965,7 @@ int drawable notifications 0x7f0801c3
 int drawable notify_panel_notification_icon_bg 0x7f0801c4
 int drawable password_icon 0x7f0801c5
 int drawable password_icon_focused 0x7f0801c6
+int drawable person_add 0x7f0801d2
 int drawable place 0x7f0801c7
 int drawable profile 0x7f0801c8
 int drawable taskicon 0x7f0801c9
@@ -2975,6 +2976,7 @@ int drawable time_focused 0x7f0801cd
 int drawable tooltip_frame_dark 0x7f0801ce
 int drawable tooltip_frame_light 0x7f0801cf
 int drawable vendors 0x7f0801d0
+int drawable welp 0x7f0801d3
 int drawable white_radius 0x7f0801d1
 int font questrial 0x7f090000
 int id AFRIKAANS 0x7f0a0000
@@ -3116,6 +3118,7 @@ int id action_text 0x7f0a0087
 int id actions 0x7f0a0088
 int id activity_chooser_view_content 0x7f0a0089
 int id add 0x7f0a008a
+int id addpeople 0x7f0a0292
 int id adjust_height 0x7f0a008b
 int id adjust_width 0x7f0a008c
 int id alertTitle 0x7f0a008d
@@ -3735,6 +3738,7 @@ int layout activity_infos 0x7f0d001e
 int layout activity_manage_otp 0x7f0d001f
 int layout activity_signup_page 0x7f0d0020
 int layout activity_signupwith 0x7f0d0021
+int layout activity_splashscreen 0x7f0d008e
 int layout activity_wedding 0x7f0d008d
 int layout browser_actions_context_menu_page 0x7f0d0022
 int layout browser_actions_context_menu_row 0x7f0d0023
