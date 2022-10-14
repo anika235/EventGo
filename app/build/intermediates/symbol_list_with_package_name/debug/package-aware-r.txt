@@ -2643,6 +2643,7 @@ drawable custom_email_icon
 drawable custom_input
 drawable custom_input2
 drawable custom_lock_icon
+drawable custom_time
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -2970,6 +2971,8 @@ drawable profile
 drawable taskicon
 drawable test_custom_background
 drawable test_level_drawable
+drawable time
+drawable time_focused
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable vendors
@@ -3207,6 +3210,7 @@ id customPanel
 id cut
 id dark
 id date_picker_actions
+id dates
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
@@ -3563,7 +3567,6 @@ id textView13
 id textView14
 id textView15
 id textView2
-id textView4
 id textView5
 id textView6
 id textView7
@@ -3585,6 +3588,7 @@ id textinput_prefix_text
 id textinput_suffix_text
 id time
 id time_signup
+id times
 id title
 id titleDividerNoCustom
 id title_template

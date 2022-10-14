@@ -17,16 +17,4 @@
         android:text="LogOut"
         android:textColor="@color/white" />
 
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Appearances"
-        android:textColor="@color/color3"
-        android:layout_marginTop="550dp"
-        android:layout_marginStart="30dp"
-        android:textSize="24sp" />
-
-
 </FrameLayout>

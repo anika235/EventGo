@@ -18,8 +18,8 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/getstartedbutton"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="658dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="600dp"
         android:backgroundTint="#206475"
         android:text="GET STARTED"
         android:textColor="@color/white"

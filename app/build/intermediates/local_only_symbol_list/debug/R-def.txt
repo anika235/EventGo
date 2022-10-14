@@ -31,6 +31,7 @@ drawable custom_email_icon
 drawable custom_input
 drawable custom_input2
 drawable custom_lock_icon
+drawable custom_time
 drawable email_icon
 drawable email_icon_focused
 drawable event
@@ -48,6 +49,8 @@ drawable password_icon_focused
 drawable place
 drawable profile
 drawable taskicon
+drawable time
+drawable time_focused
 drawable vendors
 font questrial
 id Email
@@ -62,6 +65,7 @@ id continuegoogle
 id continuephone
 id create
 id createbutton
+id dates
 id editTextTextEmailAddress
 id email
 id event
@@ -101,14 +105,13 @@ id textView13
 id textView14
 id textView15
 id textView2
-id textView4
 id textView5
 id textView6
 id textView7
 id textView8
 id textView9
-id time
 id time_signup
+id times
 id title
 id type
 id verify
