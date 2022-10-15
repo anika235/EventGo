@@ -2968,6 +2968,7 @@ int drawable password_icon_focused 0x7f0801c6
 int drawable person_add 0x7f0801d2
 int drawable place 0x7f0801c7
 int drawable profile 0x7f0801c8
+int drawable splashscreen 0x7f0801d4
 int drawable taskicon 0x7f0801c9
 int drawable test_custom_background 0x7f0801ca
 int drawable test_level_drawable 0x7f0801cb
@@ -2976,7 +2977,6 @@ int drawable time_focused 0x7f0801cd
 int drawable tooltip_frame_dark 0x7f0801ce
 int drawable tooltip_frame_light 0x7f0801cf
 int drawable vendors 0x7f0801d0
-int drawable welp 0x7f0801d3
 int drawable white_radius 0x7f0801d1
 int font questrial 0x7f090000
 int id AFRIKAANS 0x7f0a0000
@@ -3260,6 +3260,8 @@ int id endToStart 0x7f0a0114
 int id enterAlways 0x7f0a0115
 int id enterAlwaysCollapsed 0x7f0a0116
 int id event 0x7f0a0117
+int id eventdate 0x7f0a0293
+int id eventname 0x7f0a0294
 int id exitUntilCollapsed 0x7f0a0118
 int id expand_activities_button 0x7f0a0119
 int id expanded_menu 0x7f0a011a
@@ -3345,7 +3347,6 @@ int id line3 0x7f0a0169
 int id linear 0x7f0a016a
 int id linear_flag_border 0x7f0a016b
 int id linear_flag_holder 0x7f0a016c
-int id list 0x7f0a016d
 int id listMode 0x7f0a016e
 int id list_item 0x7f0a016f
 int id locale 0x7f0a0170
@@ -3464,6 +3465,7 @@ int id radio 0x7f0a01e0
 int id ratio 0x7f0a01e1
 int id rectangles 0x7f0a01e2
 int id recycler_countryDialog 0x7f0a01e3
+int id recylelist 0x7f0a0295
 int id reverseSawtooth 0x7f0a01e4
 int id right 0x7f0a01e5
 int id rightToLeft 0x7f0a01e6
@@ -3766,6 +3768,7 @@ int layout fragment_notification 0x7f0d0038
 int layout fragment_profile 0x7f0d0039
 int layout get_started 0x7f0d003a
 int layout image_layout 0x7f0d003b
+int layout item 0x7f0d008f
 int layout layout_code_picker 0x7f0d003c
 int layout layout_full_width_code_picker 0x7f0d003d
 int layout layout_picker_dialog 0x7f0d003e

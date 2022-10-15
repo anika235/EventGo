@@ -49,11 +49,11 @@ drawable password_icon_focused
 drawable person_add
 drawable place
 drawable profile
+drawable splashscreen
 drawable taskicon
 drawable time
 drawable time_focused
 drawable vendors
-drawable welp
 font questrial
 id Email
 id addpeople
@@ -73,6 +73,8 @@ id dates
 id editTextTextEmailAddress
 id email
 id event
+id eventdate
+id eventname
 id firstname
 id forgotpass
 id forgotpassword
@@ -91,7 +93,6 @@ id imageView4
 id imageView7
 id imageView8
 id lastname
-id list
 id location
 id loginbutton
 id logout
@@ -102,6 +103,7 @@ id otp
 id password
 id phone
 id profile
+id recylelist
 id signup
 id signupbutton
 id start
@@ -139,6 +141,7 @@ layout fragment_notification
 layout fragment_profile
 layout get_started
 layout image_layout
+layout item
 layout login_page
 layout second_page
 layout third_page

@@ -169,12 +169,12 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
                  {
                      Toast.makeText(getApplicationContext(),"Event added Successfully",Toast.LENGTH_LONG).show();
                      startActivity(new Intent(getApplicationContext(),infosActivity.class));
+                     finish();
 
                  }
                  else
                  {
                      Toast.makeText(getApplicationContext(),"Failed",Toast.LENGTH_LONG).show();
-
 
                  }
 

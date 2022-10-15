@@ -14,23 +14,38 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
 public class homeFragment extends Fragment {
-    ListView listView;
-    Activity context;
-    String[] events = {"Science Conference 2022   25/08/2022", "Birthday  20/09/2022", "wedding  4/10/2022", "wedding 20/10/2022", "concert 03/12/2022", "Nobinboron 14/09/2022",
-                      "biye 03/09/2022", "hello 2000", "amajjjmcfe","ureghrtg", "vuifjgrgurg"};
 
+    RecyclerView recyclerView;
+    DatabaseReference database;
+    adaptercardview a;
+    ArrayList<cardview> list;
+
+
+    Activity context;
     public homeFragment() {
         // Required empty public constructor
     }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
+
     }
 
     @Override
@@ -47,11 +62,6 @@ public class homeFragment extends Fragment {
         super.onStart();
         Button button = (Button) context.findViewById(R.id.createbutton);
         //TextView button2 =(TextView) context.findViewById(R.id.textView3) ;
-        listView = (ListView) context.findViewById(R.id.list);
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(context, android.R.layout.simple_dropdown_item_1line, events);
-        listView.setAdapter(adapter);
-
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,17 +72,36 @@ public class homeFragment extends Fragment {
             }
         });
 
+        recyclerView = (RecyclerView) context.findViewById(R.id.recylelist);
+        database = FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events");
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(new LinearLayoutManager(context));
+
+        list = new ArrayList<>();
+        a = new adaptercardview(context, list);
+        recyclerView.setAdapter(a);
+
+
+        database.addValueEventListener(new ValueEventListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(context, events[i], Toast.LENGTH_SHORT).show();
-                 if(i==0)
-                 {
-                     startActivity(new Intent(context, CurrentView.class));
-                 }
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                for(DataSnapshot dataSnapshot: snapshot.getChildren())
+                {
+                    cardview c = dataSnapshot.getValue(cardview.class);
+                    list.add(c);
+                }
+                a.notifyDataSetChanged();
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
             }
         });
+
+
+
 
 
     }

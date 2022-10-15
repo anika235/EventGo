@@ -63,13 +63,14 @@ public class infosActivity extends AppCompatActivity {
         else
         {
             start_event start = new start_event(loc, bud, gue);
-            FirebaseDatabase.getInstance().getReference("Events").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Set Ups").push().setValue(start).addOnCompleteListener(new OnCompleteListener<Void>() {
+            FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").push().setValue(start).addOnCompleteListener(new OnCompleteListener<Void>() {
                 @Override
                 public void onComplete(@NonNull Task<Void> task) {
                     if(task.isSuccessful())
                     {
                         Toast.makeText(getApplicationContext(), "Event setted up successfully", Toast.LENGTH_LONG).show();
                         startActivity(new Intent(getApplicationContext(), weddingActivity .class));
+                        finish();
                     }
                     else
                     {

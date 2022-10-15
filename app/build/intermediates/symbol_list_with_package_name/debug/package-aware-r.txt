@@ -2969,6 +2969,7 @@ drawable password_icon_focused
 drawable person_add
 drawable place
 drawable profile
+drawable splashscreen
 drawable taskicon
 drawable test_custom_background
 drawable test_level_drawable
@@ -2977,7 +2978,6 @@ drawable time_focused
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable vendors
-drawable welp
 drawable white_radius
 font questrial
 id AFRIKAANS
@@ -3261,6 +3261,8 @@ id endToStart
 id enterAlways
 id enterAlwaysCollapsed
 id event
+id eventdate
+id eventname
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3346,7 +3348,6 @@ id line3
 id linear
 id linear_flag_border
 id linear_flag_holder
-id list
 id listMode
 id list_item
 id locale
@@ -3465,6 +3466,7 @@ id radio
 id ratio
 id rectangles
 id recycler_countryDialog
+id recylelist
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3767,6 +3769,7 @@ layout fragment_notification
 layout fragment_profile
 layout get_started
 layout image_layout
+layout item
 layout layout_code_picker
 layout layout_full_width_code_picker
 layout layout_picker_dialog
