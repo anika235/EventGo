@@ -2636,13 +2636,13 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
-drawable cons
 drawable custm_button
 drawable custom_calendar
 drawable custom_email_icon
 drawable custom_input
 drawable custom_input2
 drawable custom_lock_icon
+drawable custom_search
 drawable custom_time
 drawable design_fab_background
 drawable design_ic_visibility
@@ -2652,6 +2652,7 @@ drawable design_snackbar_background
 drawable email_icon
 drawable email_icon_focused
 drawable event
+drawable eventimage
 drawable fastscroll__default_bubble
 drawable fastscroll__default_handle
 drawable finallogo
@@ -2969,7 +2970,8 @@ drawable password_icon_focused
 drawable person_add
 drawable place
 drawable profile
-drawable splashscreen
+drawable search
+drawable search_focused
 drawable taskicon
 drawable test_custom_background
 drawable test_level_drawable
@@ -2978,6 +2980,7 @@ drawable time_focused
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable vendors
+drawable welp
 drawable white_radius
 font questrial
 id AFRIKAANS
@@ -3175,6 +3178,7 @@ id chain2
 id chains
 id checkbox
 id checked
+id checklist
 id chip
 id chip1
 id chip2
@@ -3317,12 +3321,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
-id imageView10
-id imageView11
 id imageView3
-id imageView4
-id imageView7
-id imageView8
 id imageView_arrow
 id image_flag
 id img_clear_query
@@ -3334,6 +3333,7 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id itemspick
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -3382,6 +3382,7 @@ id menu
 id message
 id middle
 id mini
+id money
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3456,9 +3457,12 @@ id peekHeight
 id percent
 id phone
 id pin
+id place
 id position
 id postLayout
 id preferenceDivider
+id presentdate
+id presentname
 id profile
 id progress_circular
 id progress_horizontal
@@ -3576,8 +3580,6 @@ id textView13
 id textView14
 id textView15
 id textView2
-id textView5
-id textView6
 id textView7
 id textView8
 id textView9
@@ -3619,6 +3621,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id vendor
 id verify
 id vertical
 id vertical_only

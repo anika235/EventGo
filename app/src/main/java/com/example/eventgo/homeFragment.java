@@ -34,13 +34,10 @@ public class homeFragment extends Fragment {
     RecyclerView recyclerView;
     DatabaseReference database;
     adaptercardview a;
-    //ArrayList<cardview> list;
     ArrayList<Event> list;
-
 
     Activity context;
     public homeFragment() {
-        // Required empty public constructor
     }
 
     @Override
@@ -54,7 +51,6 @@ public class homeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         context =getActivity();
-        // Inflate the layout for this fragment
 
         return inflater.inflate(R.layout.fragment_home, container, false);
     }
@@ -63,7 +59,6 @@ public class homeFragment extends Fragment {
     {
         super.onStart();
         Button button = (Button) context.findViewById(R.id.createbutton);
-        //TextView button2 =(TextView) context.findViewById(R.id.textView3) ;
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -95,11 +90,6 @@ public class homeFragment extends Fragment {
                         {
                             list.add(event);
                         }
-                        //cardview c=new cardview();
-                       //// c.setEventname(Objects.requireNonNull(dataSnapshot.child("title").getValue()).toString());
-                    //c.setEventdate(Objects.requireNonNull(dataSnapshot.child("date").getValue()).toString());
-
-                    //list.add(c);
                 }
                 a.notifyDataSetChanged();
             }
@@ -109,6 +99,8 @@ public class homeFragment extends Fragment {
 
             }
         });
+
+
 
 
 

@@ -16,6 +16,8 @@ import com.google.firebase.FirebaseApiNotAvailableException;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.Objects;
+
 public class infosActivity extends AppCompatActivity {
     private Button button;
     private EditText locate, budget, guest;
@@ -62,14 +64,14 @@ public class infosActivity extends AppCompatActivity {
         }
         else
         {
-            start_event start = new start_event(loc, bud, gue);
-            FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").push().setValue(start).addOnCompleteListener(new OnCompleteListener<Void>() {
+            Event start = new Event(loc, bud, gue);
+            FirebaseDatabase.getInstance().getReference("Users").child(Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser()).getUid()).child("Events").push().setValue(start).addOnCompleteListener(new OnCompleteListener<Void>() {
                 @Override
                 public void onComplete(@NonNull Task<Void> task) {
                     if(task.isSuccessful())
                     {
                         Toast.makeText(getApplicationContext(), "Event setted up successfully", Toast.LENGTH_LONG).show();
-                        startActivity(new Intent(getApplicationContext(), weddingActivity .class));
+                        startActivity(new Intent(getApplicationContext(), weddingActivity.class));
                         finish();
                     }
                     else

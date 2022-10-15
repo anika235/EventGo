@@ -6,6 +6,8 @@ public class Event {
     public String date;
     public String time;
 
+    public String locate, budget, guest;
+
     public String getType() {
         return type;
     }
@@ -46,10 +48,19 @@ public class Event {
         this.title = title;
     }
 
+    public String getLocate() { return locate; }
+
+    public String getBudget() { return budget; }
+
+    public String getGuest() {return guest;}
+
+
+
     public Event() {
     }
 
     public String image;
+
     public Event(String Title,String type,String date,String time)
     {
         this.title=Title;
@@ -57,6 +68,14 @@ public class Event {
         this.date=date;
         this.time=time;
     }
+
+    public Event(String Locate, String Budget, String Guest)
+    {
+        this.locate = Locate;
+        this.budget = Budget;
+        this.guest = Guest;
+    }
+
 
 
 }

@@ -5,63 +5,63 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/color2"
-
     tools:context=".CurrentView">
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="272dp"
-        app:srcCompat="@drawable/cons" />
+        app:srcCompat="@drawable/eventimage" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/presentname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="115dp"
-        android:layout_marginTop="140dp"
-        android:text="Science Conference 2022"
-        android:textColor="@color/white"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="270dp"
+        android:text="demo name"
+        android:textColor="@color/color3"
         android:textSize="34sp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/presentdate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="115dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="320dp"
         android:text="25/08/2022"
-        android:textColor="@color/white"
+        android:textColor="@color/color3"
         android:textSize="34sp"
         android:textStyle="bold" />
+
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/checklist"
         android:layout_width="116dp"
         android:layout_height="98dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="400dp"
         app:srcCompat="@drawable/taskicon" />
 
     <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="195dp"
+        android:id="@+id/guest"
+        android:layout_width="150dp"
         android:layout_height="97dp"
         android:layout_marginStart="250dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="400dp"
         app:srcCompat="@drawable/bluepeople" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/place"
         android:layout_width="122dp"
         android:layout_height="100dp"
         android:layout_marginStart="145dp"
-        android:layout_marginTop="430dp"
+        android:layout_marginTop="400dp"
         app:srcCompat="@drawable/place" />
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/money"
         android:layout_width="171dp"
         android:layout_height="97dp"
         android:layout_marginStart="10dp"
@@ -69,11 +69,57 @@
         app:srcCompat="@drawable/money" />
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/vendor"
         android:layout_width="143dp"
         android:layout_height="93dp"
         android:layout_marginStart="250dp"
         android:layout_marginTop="560dp"
         app:srcCompat="@drawable/vendors" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="500dp"
+        android:text="Checklist"
+        android:textColor="@color/color3"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="500dp"
+        android:text="Venue"
+        android:textColor="@color/color3"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="500dp"
+        android:text="Guests"
+        android:textColor="@color/color3"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="650dp"
+        android:text="Budget"
+        android:textColor="@color/color3"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="650dp"
+        android:text="Vendors"
+        android:textColor="@color/color3"
+        android:textSize="25dp" />
+
 
 </RelativeLayout>
