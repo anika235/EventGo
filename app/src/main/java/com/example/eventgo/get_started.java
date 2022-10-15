@@ -21,15 +21,7 @@ public class get_started extends AppCompatActivity {
     ViewPager viewPager;
     private Button button;
     CircleIndicator circleIndicator;
-    @Override
-    public void onStart() {
-        super.onStart();
-        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-        if (user != null) {
-            startActivity(new Intent(this,second_page.class));
 
-        }
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

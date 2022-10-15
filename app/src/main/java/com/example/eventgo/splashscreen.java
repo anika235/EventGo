@@ -6,6 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 public class splashscreen extends AppCompatActivity {
 
     @Override
@@ -24,8 +27,15 @@ public class splashscreen extends AppCompatActivity {
 
                 }
                 finally {
-                    Intent intent = new Intent(splashscreen.this, get_started.class);
-                    startActivity(intent);
+                    FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                    if (user != null) {
+                        startActivity(new Intent(splashscreen.this,second_page.class));
+
+                    }
+                    else {
+                        Intent intent = new Intent(splashscreen.this, get_started.class);
+                        startActivity(intent);
+                    }
                     finish();
                 }
 

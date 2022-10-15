@@ -14,9 +14,9 @@ import java.util.ArrayList;
 public class adaptercardview extends RecyclerView.Adapter<adaptercardview.myviewholder> {
 
     Context context;
-    ArrayList<cardview> list;
+    ArrayList<Event> list;
 
-    public adaptercardview(Context context, ArrayList<cardview> list) {
+    public adaptercardview(Context context, ArrayList<Event> list) {
         this.context = context;
         this.list = list;
     }
@@ -31,9 +31,9 @@ public class adaptercardview extends RecyclerView.Adapter<adaptercardview.myview
 
     @Override
     public void onBindViewHolder(@NonNull myviewholder holder, int position) {
-        cardview c = list.get(position);
-        holder.eventname.setText(c.getEventname());
-        holder.eventdate.setText(c.getEventdate());
+        Event c = list.get(position);
+        holder.eventname.setText(c.getTitle());
+        holder.eventdate.setText(c.getDate());
 
     }
 

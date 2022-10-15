@@ -27,13 +27,15 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class homeFragment extends Fragment {
 
     RecyclerView recyclerView;
     DatabaseReference database;
     adaptercardview a;
-    ArrayList<cardview> list;
+    //ArrayList<cardview> list;
+    ArrayList<Event> list;
 
 
     Activity context;
@@ -88,8 +90,16 @@ public class homeFragment extends Fragment {
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 for(DataSnapshot dataSnapshot: snapshot.getChildren())
                 {
-                    cardview c = dataSnapshot.getValue(cardview.class);
-                    list.add(c);
+                        Event event=dataSnapshot.getValue(Event.class);
+                        if(event!=null)
+                        {
+                            list.add(event);
+                        }
+                        //cardview c=new cardview();
+                       //// c.setEventname(Objects.requireNonNull(dataSnapshot.child("title").getValue()).toString());
+                    //c.setEventdate(Objects.requireNonNull(dataSnapshot.child("date").getValue()).toString());
+
+                    //list.add(c);
                 }
                 a.notifyDataSetChanged();
             }

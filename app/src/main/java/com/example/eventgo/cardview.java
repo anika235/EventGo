@@ -10,4 +10,12 @@ public class cardview {
     public String getEventname() {
         return eventname;
     }
+
+    public void setEventname(String eventname) {
+        this.eventname = eventname;
+    }
+
+    public void setEventdate(String eventdate) {
+        this.eventdate = eventdate;
+    }
 }
