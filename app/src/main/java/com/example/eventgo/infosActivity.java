@@ -47,25 +47,9 @@ public class infosActivity extends AppCompatActivity {
         String bud = budget.getText().toString();
         String gue = guest.getText().toString();
 
-        if(loc.isEmpty())
-        {
-            locate.setError("Location is required");
-            locate.requestFocus();
-        }
-        else if(bud.isEmpty())
-        {
-            budget.setError("Budget is required");
-            budget.requestFocus();
-        }
-        else if(gue.isEmpty())
-        {
-            guest.setError("Guests is required");
-            guest.requestFocus();
-        }
-        else
-        {
+        String key=getIntent().getStringExtra("Key");
             Event start = new Event(loc, bud, gue);
-            FirebaseDatabase.getInstance().getReference("Users").child(Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser()).getUid()).child("Events").push().setValue(start).addOnCompleteListener(new OnCompleteListener<Void>() {
+            FirebaseDatabase.getInstance().getReference("Users").child(Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser()).getUid()).child("Events").child(key).setValue(start).addOnCompleteListener(new OnCompleteListener<Void>() {
                 @Override
                 public void onComplete(@NonNull Task<Void> task) {
                     if(task.isSuccessful())
@@ -81,7 +65,7 @@ public class infosActivity extends AppCompatActivity {
                 }
             });
 
-        }
     }
+
 
 }

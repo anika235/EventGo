@@ -4,8 +4,11 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.app.AlarmManager;
 import android.app.DatePickerDialog;
+import android.app.PendingIntent;
 import android.app.TimePickerDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -25,6 +28,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.time.Year;
 import java.util.Calendar;
 
 public class third_page extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
@@ -34,6 +38,7 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
     private EditText title, times, dates;
     public String typ;
     Spinner type;
+    private int notificationId=1;
     int ethour, etmin;
     DatePickerDialog.OnDateSetListener setListener;
 
@@ -102,8 +107,12 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
                 );
                 timePickerDialog.updateTime(ethour, etmin);
                 timePickerDialog.show();
+
+
             }
         });
+
+
 
         title = findViewById(R.id.title);
         times = findViewById(R.id.times);
@@ -115,6 +124,9 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
                 nextpage();
             }
         });
+
+
+
 
     }
 
@@ -138,6 +150,10 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
      String tit = title.getText().toString();
      String tim = times.getText().toString();
      String dat = dates.getText().toString();
+         String[] values = dat.split("/");
+         int day = Integer.parseInt(values[0]);
+         int month = Integer.parseInt(values[1]);
+         int year = Integer.parseInt(values[2]);
 
      if(tit.isEmpty())
      {
@@ -162,13 +178,19 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
      else
      {
          Event event=new Event(tit,typ,dat,tim);
-         FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").push().setValue(event).addOnCompleteListener(new OnCompleteListener<Void>() {
+         String key=FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").push().getKey();
+
+         FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").child(key).setValue(event).addOnCompleteListener(new OnCompleteListener<Void>() {
              @Override
              public void onComplete(@NonNull Task<Void> task) {
                  if(task.isSuccessful())
                  {
+
+
                      Toast.makeText(getApplicationContext(),"Event added Successfully",Toast.LENGTH_LONG).show();
-                     startActivity(new Intent(getApplicationContext(),infosActivity.class));
+                     Intent intent=new Intent(getApplicationContext(),infosActivity.class);
+                     intent.putExtra("Key",key);
+                     startActivity(intent);
                      finish();
 
                  }
@@ -184,4 +206,8 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
      }
 
      }
+
+
+
+
 }
