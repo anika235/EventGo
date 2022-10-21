@@ -16,6 +16,7 @@ import com.google.firebase.FirebaseApiNotAvailableException;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.HashMap;
 import java.util.Objects;
 
 public class infosActivity extends AppCompatActivity {
@@ -47,9 +48,13 @@ public class infosActivity extends AppCompatActivity {
         String bud = budget.getText().toString();
         String gue = guest.getText().toString();
 
-        String key=getIntent().getStringExtra("Key");
+      String key=getIntent().getStringExtra("Key");
+        HashMap<String,String> EventMap=new HashMap<String, String>();
+        EventMap.put("location",loc);
+        EventMap.put("budget",bud);
+        EventMap.put("guest",gue);
             Event start = new Event(loc, bud, gue);
-            FirebaseDatabase.getInstance().getReference("Users").child(Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser()).getUid()).child("Events").child(key).setValue(start).addOnCompleteListener(new OnCompleteListener<Void>() {
+            FirebaseDatabase.getInstance().getReference("Users").child(Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser()).getUid()).child("Events").child(key).child("Infos").setValue(EventMap).addOnCompleteListener(new OnCompleteListener<Void>() {
                 @Override
                 public void onComplete(@NonNull Task<Void> task) {
                     if(task.isSuccessful())
