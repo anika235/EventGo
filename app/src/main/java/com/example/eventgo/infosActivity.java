@@ -16,6 +16,7 @@ import com.google.firebase.FirebaseApiNotAvailableException;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.HashMap;
 import java.util.Objects;
 
 public class infosActivity extends AppCompatActivity {
@@ -47,25 +48,13 @@ public class infosActivity extends AppCompatActivity {
         String bud = budget.getText().toString();
         String gue = guest.getText().toString();
 
-        if(loc.isEmpty())
-        {
-            locate.setError("Location is required");
-            locate.requestFocus();
-        }
-        else if(bud.isEmpty())
-        {
-            budget.setError("Budget is required");
-            budget.requestFocus();
-        }
-        else if(gue.isEmpty())
-        {
-            guest.setError("Guests is required");
-            guest.requestFocus();
-        }
-        else
-        {
+      String key=getIntent().getStringExtra("Key");
+        HashMap<String,String> EventMap=new HashMap<String, String>();
+        EventMap.put("location",loc);
+        EventMap.put("budget",bud);
+        EventMap.put("guest",gue);
             Event start = new Event(loc, bud, gue);
-            FirebaseDatabase.getInstance().getReference("Users").child(Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser()).getUid()).child("Events").push().setValue(start).addOnCompleteListener(new OnCompleteListener<Void>() {
+            FirebaseDatabase.getInstance().getReference("Users").child(Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser()).getUid()).child("Events").child(key).child("Infos").setValue(EventMap).addOnCompleteListener(new OnCompleteListener<Void>() {
                 @Override
                 public void onComplete(@NonNull Task<Void> task) {
                     if(task.isSuccessful())
@@ -81,7 +70,7 @@ public class infosActivity extends AppCompatActivity {
                 }
             });
 
-        }
     }
+
 
 }
