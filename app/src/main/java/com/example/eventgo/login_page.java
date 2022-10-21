@@ -9,11 +9,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.Layout;
+import android.text.method.HideReturnsTransformationMethod;
+import android.text.method.PasswordTransformationMethod;
 import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -42,8 +45,7 @@ public class login_page extends AppCompatActivity {
    // private GoogleSignInClient mGoogleSigninClient;
     private FirebaseAuth mAuth;
 
-
-
+    ImageView imageViewshow;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -89,6 +91,24 @@ public class login_page extends AppCompatActivity {
                 //google_login();
             }
 
+        });
+
+        imageViewshow = findViewById(R.id.eye);
+        imageViewshow.setImageResource(R.drawable.hide_password);
+        imageViewshow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(password.getTransformationMethod().equals(HideReturnsTransformationMethod.getInstance())){
+                    password.setTransformationMethod(PasswordTransformationMethod.getInstance());
+                    imageViewshow.setImageResource(R.drawable.hide_password);
+                }
+                else
+                {
+                    password.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+                    imageViewshow.setImageResource(R.drawable.show_pass);
+
+                }
+            }
         });
 
     }

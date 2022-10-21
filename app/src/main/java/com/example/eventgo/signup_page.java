@@ -7,10 +7,13 @@ import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.text.method.HideReturnsTransformationMethod;
+import android.text.method.PasswordTransformationMethod;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -30,6 +33,9 @@ public class signup_page extends AppCompatActivity {
     Button signupbutton;
     DatePickerDialog.OnDateSetListener setListener;
     private TextView button;
+
+    ImageView imageViewpass;
+    ImageView imageViewconf;
 
 
     @Override
@@ -88,6 +94,43 @@ public class signup_page extends AppCompatActivity {
                     }
                 },year,month,day);
                 datePickerDialog.show();
+
+            }
+        });
+
+        imageViewpass = findViewById(R.id.passeye);
+        imageViewpass.setImageResource(R.drawable.hide_password);
+        imageViewpass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(password.getTransformationMethod().equals(HideReturnsTransformationMethod.getInstance())){
+                    password.setTransformationMethod(PasswordTransformationMethod.getInstance());
+                    imageViewpass.setImageResource(R.drawable.hide_password);
+                }
+                else
+                {
+                    password.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+                    imageViewpass.setImageResource(R.drawable.show_pass);
+                }
+
+            }
+        });
+
+        imageViewconf = findViewById(R.id.confirmeye);
+        imageViewconf.setImageResource(R.drawable.hide_password);
+        imageViewconf.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(confirmpassword.getTransformationMethod().equals(HideReturnsTransformationMethod.getInstance())){
+                    confirmpassword.setTransformationMethod(PasswordTransformationMethod.getInstance());
+                    imageViewconf.setImageResource(R.drawable.hide_password);
+                }
+                else
+                {
+                    confirmpassword.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+                    imageViewconf.setImageResource(R.drawable.show_pass);
+
+                }
 
             }
         });

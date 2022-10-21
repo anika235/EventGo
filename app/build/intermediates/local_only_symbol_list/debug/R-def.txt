@@ -39,6 +39,7 @@ drawable eventimage
 drawable finallogo
 drawable google
 drawable guests
+drawable hide_password
 drawable home
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -52,6 +53,7 @@ drawable place
 drawable profile
 drawable search
 drawable search_focused
+drawable show_pass
 drawable taskicon
 drawable time
 drawable time_focused
@@ -67,6 +69,7 @@ id ccp
 id checklist
 id circleindicator
 id confirm_password
+id confirmeye
 id continuebutton
 id continuefb
 id continuegoogle
@@ -79,6 +82,7 @@ id email
 id event
 id eventdate
 id eventname
+id eye
 id firstname
 id forgotpass
 id forgotpassword
@@ -101,6 +105,7 @@ id money
 id noaccount
 id notification
 id otp
+id passeye
 id password
 id phone
 id place

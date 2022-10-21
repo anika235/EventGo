@@ -16,7 +16,8 @@
         android:layout_marginTop="100dp"
         android:text="Sign UP Here!!"
         android:textColor="@color/color3"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        />
 
 
     <EditText
@@ -75,6 +76,14 @@
         android:inputType="textPassword"
         android:padding="5dp" />
 
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:id="@+id/confirmeye"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="345dp"/>
+
+
     <EditText
         android:id="@+id/password"
         android:layout_width="299dp"
@@ -88,6 +97,14 @@
         android:ems="5"
         android:inputType="textPassword"
         android:padding="5dp" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:id="@+id/passeye"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="345dp"/>
+
 
     <EditText
         android:id="@+id/time_signup"

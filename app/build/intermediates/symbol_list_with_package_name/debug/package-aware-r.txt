@@ -2907,6 +2907,7 @@ drawable google
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable guests
+drawable hide_password
 drawable home
 drawable ic_backspace_black_24dp
 drawable ic_clear_black_24dp
@@ -2972,6 +2973,7 @@ drawable place
 drawable profile
 drawable search
 drawable search_focused
+drawable show_pass
 drawable taskicon
 drawable test_custom_background
 drawable test_level_drawable
@@ -3196,6 +3198,7 @@ id collapseActionView
 id compress
 id confirm_button
 id confirm_password
+id confirmeye
 id constraint
 id container
 id content
@@ -3270,6 +3273,7 @@ id eventname
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id eye
 id fade
 id fastscroll
 id fill
@@ -3449,6 +3453,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id passeye
 id password
 id password_toggle
 id path
