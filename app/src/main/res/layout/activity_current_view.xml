@@ -35,6 +35,16 @@
         android:textSize="34sp"
         android:textStyle="bold" />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/addpeople"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/custm_button"
+        android:drawableLeft="@drawable/person_add"
+        android:textSize="34sp" />
+
 
     <ImageView
         android:id="@+id/checklist"

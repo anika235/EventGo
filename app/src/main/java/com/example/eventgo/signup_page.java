@@ -196,62 +196,18 @@ public class signup_page extends AppCompatActivity {
             confirmpassword.requestFocus();
         }
         else
-
         {
-            //signupwithemail(fname,lname,mail,pnumber,bdate,pass);
             goToOtp(fname,lname,mail,bdate,pass);
 
         }
 
     }
-
-   /* public void signupwithemail(String fname,String lname,String mail,String pnumber,String bdate,String pass)
-    {
-        FirebaseAuth.getInstance().createUserWithEmailAndPassword(mail,pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-            @Override
-            public void onComplete(@NonNull Task<AuthResult> task) {
-                if(task.isSuccessful())
-                {
-                    User user =new User(fname,lname,pnumber,bdate);
-                    FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(user).addOnCompleteListener(new OnCompleteListener<Void>() {
-                        @Override
-                        public void onComplete(@NonNull Task<Void> task) {
-                            if (task.isSuccessful())
-                            {
-                                Toast.makeText(signup_page.this,"Registration Successful",Toast.LENGTH_LONG).show();
-
-                            }
-                            else
-                            {
-                                Toast.makeText(signup_page.this,"Registration Failed",Toast.LENGTH_LONG).show();
-
-                            }
-
-                        }
-                    });
-                }
-                else
-                {
-                    Toast.makeText(signup_page.this,"Verification Problem",Toast.LENGTH_LONG).show();
-
-                }
-            }
-        });
-    }*/
-
-
     public void goToOtp(String fname,String lname,String mail,String bdate,String pass)
     {
         Intent intent=new Intent(signup_page.this,manageOTP.class);
-/*        bundle.putString("firstname",fname);
-        bundle.putString("lastname",lname);
-        bundle.putString("birthdate",bdate);
-        bundle.putString("password",pass);
-        intent.putExtras(bundle);*/
         intent.putExtra("FirstName",fname);
         intent.putExtra("Lastname",lname);
         intent.putExtra("Birthdate",bdate);
-
         intent.putExtra("Email", mail);
         intent.putExtra("Password",pass);
 

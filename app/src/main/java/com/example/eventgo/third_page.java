@@ -113,7 +113,6 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
         });
 
 
-
         title = findViewById(R.id.title);
         times = findViewById(R.id.times);
         dates = findViewById(R.id.dates);
@@ -177,19 +176,17 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
     }
      else
      {
-         Event event=new Event(tit,typ,dat,tim);
-         String key=FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").push().getKey();
 
+         String key=FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").push().getKey();
+         Event event=new Event(tit,typ,dat,tim,key);
          FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").child(key).setValue(event).addOnCompleteListener(new OnCompleteListener<Void>() {
              @Override
              public void onComplete(@NonNull Task<Void> task) {
                  if(task.isSuccessful())
                  {
-
-
                      Toast.makeText(getApplicationContext(),"Event added Successfully",Toast.LENGTH_LONG).show();
                      Intent intent=new Intent(getApplicationContext(),infosActivity.class);
-                  intent.putExtra("Key",key);
+                     intent.putExtra("Key",key);
                      startActivity(intent);
                      finish();
 

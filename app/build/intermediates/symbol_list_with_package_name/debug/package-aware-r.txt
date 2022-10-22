@@ -3194,6 +3194,7 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id closest
+id code
 id collapseActionView
 id compress
 id confirm_button
@@ -3210,6 +3211,7 @@ id continuegoogle
 id continuephone
 id continuousVelocity
 id coordinator
+id copybutton
 id cos
 id counterclockwise
 id countryCodeHolder
@@ -3746,11 +3748,11 @@ layout abc_tooltip
 layout activity_current_view
 layout activity_forgotpass
 layout activity_infos
+layout activity_invite
 layout activity_manage_otp
 layout activity_signup_page
 layout activity_signupwith
 layout activity_splashscreen
-layout activity_wedding
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog

@@ -24,7 +24,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.EventGo" >
         <activity
-            android:name="com.example.eventgo.weddingActivity"
+            android:name="com.example.eventgo.invite"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"

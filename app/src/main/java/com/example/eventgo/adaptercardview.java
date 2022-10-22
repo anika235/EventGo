@@ -43,6 +43,7 @@ public class adaptercardview extends RecyclerView.Adapter<adaptercardview.myview
                 Intent intent = new Intent(context, CurrentView.class);
                 intent.putExtra("Event name", c.getTitle());
                 intent.putExtra("Event date", c.getDate());
+                intent.putExtra("Event key" , c.getKey());
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
             }

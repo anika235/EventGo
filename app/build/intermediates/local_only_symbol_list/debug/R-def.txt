@@ -68,12 +68,14 @@ id budget
 id ccp
 id checklist
 id circleindicator
+id code
 id confirm_password
 id confirmeye
 id continuebutton
 id continuefb
 id continuegoogle
 id continuephone
+id copybutton
 id create
 id createbutton
 id dates
@@ -137,11 +139,11 @@ id viewpager
 layout activity_current_view
 layout activity_forgotpass
 layout activity_infos
+layout activity_invite
 layout activity_manage_otp
 layout activity_signup_page
 layout activity_signupwith
 layout activity_splashscreen
-layout activity_wedding
 layout fragment_event
 layout fragment_home
 layout fragment_menu

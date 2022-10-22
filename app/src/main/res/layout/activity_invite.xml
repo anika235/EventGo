@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color2"
+    tools:context=".invite">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Invite People"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/color3"
+        android:textSize="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share this code with friends to enjoy and prepare together"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/color3"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Eventing!!"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/color3"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="code"
+        android:layout_marginTop="270dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@color/color3"
+        android:textSize="28dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/copybutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:backgroundTint="@color/color3"
+        android:layout_centerHorizontal="true"
+        android:text="Copy"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+
+
+</RelativeLayout>
