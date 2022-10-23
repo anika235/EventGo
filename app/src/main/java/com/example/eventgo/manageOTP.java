@@ -47,8 +47,6 @@ public class manageOTP extends AppCompatActivity {
         setContentView(R.layout.activity_manage_otp);
 
 
-
-
         phonenumber=getIntent().getStringExtra("mobile");
         otp=(EditText) findViewById(R.id.otp);
         verify=(Button) findViewById(R.id.verify);

@@ -3147,6 +3147,7 @@ id autoCompleteToEnd
 id autoCompleteToStart
 id barrier
 id baseline
+id bdate_profile
 id beginOnFirstDraw
 id beginning
 id bestChoice
@@ -3291,6 +3292,7 @@ id fitXY
 id fixed
 id flip
 id floating
+id fname_profile
 id forever
 id forgotpass
 id forgotpassword
@@ -3356,11 +3358,13 @@ id linear_flag_border
 id linear_flag_holder
 id listMode
 id list_item
+id lname_profile
 id locale
 id location
 id loginbutton
 id logout
 id ltr
+id mail_profile
 id masked
 id match_constraint
 id match_parent
@@ -3442,6 +3446,7 @@ id notification
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id number_profile
 id off
 id on
 id onInterceptTouchReturnSwipe

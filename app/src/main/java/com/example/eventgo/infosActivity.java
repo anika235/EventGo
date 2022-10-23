@@ -60,7 +60,7 @@ public class infosActivity extends AppCompatActivity {
                     if(task.isSuccessful())
                     {
                         Toast.makeText(getApplicationContext(), "Event setted up successfully", Toast.LENGTH_LONG).show();
-                        startActivity(new Intent(getApplicationContext(), homeFragment.class));
+                        startActivity(new Intent(getApplicationContext(), second_page.class));
                         finish();
                     }
                     else

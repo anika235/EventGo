@@ -35,12 +35,8 @@ public class invite extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_invite);
 
-
-        //code = findViewById(R.id.code);
-
-        //code.setText(getIntent().getStringExtra("Event key"));
-
         code = findViewById(R.id.code);
+        code.setText(getIntent().getStringExtra("Event key"));
         copybutton = findViewById(R.id.copybutton);
 
         copybutton.setOnClickListener(new View.OnClickListener() {

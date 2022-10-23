@@ -63,6 +63,7 @@ font questrial
 id Email
 id addpeople
 id alreadyaccount
+id bdate_profile
 id bottomNavigationView
 id budget
 id ccp
@@ -86,6 +87,7 @@ id eventdate
 id eventname
 id eye
 id firstname
+id fname_profile
 id forgotpass
 id forgotpassword
 id framelayout
@@ -99,13 +101,16 @@ id imageView
 id imageView3
 id itemspick
 id lastname
+id lname_profile
 id location
 id loginbutton
 id logout
+id mail_profile
 id menu
 id money
 id noaccount
 id notification
+id number_profile
 id otp
 id passeye
 id password

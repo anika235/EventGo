@@ -1,12 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".profileFragment"
     android:background="@color/color2">
 
-    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/fname_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="First Name"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/color3"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/lname_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="70dp"
+        android:text="Last Name"
+        android:textColor="@color/color3"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="140dp"
+        android:text="your mail:"
+        android:textColor="@color/color3"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/mail_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="140dp"
+        android:text="mail"
+        android:textColor="@color/color3"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="180dp"
+        android:text="Birthday :"
+        android:textColor="@color/color3"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/bdate_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="180dp"
+        android:text="birthday"
+        android:textColor="@color/color3"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="220dp"
+        android:text="Number :"
+        android:textColor="@color/color3"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/number_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="220dp"
+        android:text="number"
+        android:textColor="@color/color3"
+        android:textSize="20dp"/>
 
 
-</FrameLayout>
+</RelativeLayout>

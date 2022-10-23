@@ -3,69 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/RAZER/AndroidStudioProjects/EventGo/app/src/main/res/drawable/bgcolor.xml" value="0.2265" />
-        <entry key="..\:/Users/RAZER/AndroidStudioProjects/EventGo/app/src/main/res/layout/activity_current_view.xml" value="0.10989583333333333" />
-        <entry key="..\:/Users/RAZER/AndroidStudioProjects/EventGo/app/src/main/res/layout/fragment_event.xml" value="0.10989583333333333" />
-        <entry key="..\:/Users/RAZER/AndroidStudioProjects/EventGo/app/src/main/res/layout/fragment_home.xml" value="0.10989583333333333" />
-        <entry key="..\:/Users/RAZER/AndroidStudioProjects/EventGo/app/src/main/res/layout/fragment_menu.xml" value="0.10989583333333333" />
-        <entry key="..\:/Users/RAZER/AndroidStudioProjects/EventGo/app/src/main/res/layout/fragment_notification.xml" value="0.10989583333333333" />
-        <entry key="..\:/Users/RAZER/AndroidStudioProjects/EventGo/app/src/main/res/layout/fragment_profile.xml" value="0.12158054711246201" />
-        <entry key="..\:/Users/RAZER/AndroidStudioProjects/EventGo/app/src/main/res/layout/get_started.xml" value="0.264" />
-        <entry key="..\:/Users/RAZER/AndroidStudioProjects/EventGo/app/src/main/res/layout/image_layout.xml" value="0.10989583333333333" />
-        <entry key="..\:/Users/RAZER/AndroidStudioProjects/EventGo/app/src/main/res/layout/second_page.xml" value="0.10989583333333333" />
-        <entry key="..\:/Users/RAZER/AndroidStudioProjects/EventGo/app/src/main/res/layout/third_page.xml" value="0.25" />
-        <entry key="..\:/Users/RAZER/AndroidStudioProjects/EventGo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/bg2color.xml" value="0.1055" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/bg3color.xml" value="0.3225" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/bgcolor.xml" value="0.1" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/calendar.xml" value="0.18" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/calendar_focused.xml" value="0.1" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/custm_button.xml" value="0.1" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/custom_calendar.xml" value="0.1" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/custom_email_icon.xml" value="0.1" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/custom_input.xml" value="0.1" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/custom_input2.xml" value="0.3295" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/custom_input3.xml" value="0.1" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/custom_input_focused.xml" value="0.162" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/custom_lock_icon.xml" value="0.1" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/email_icon.xml" value="0.1055" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/email_icon_focused.xml" value="0.162" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/event.xml" value="0.1" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/google_icon.xml" value="0.313" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/home.xml" value="0.2" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1055" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.195" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.195" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.195" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/menu.xml" value="0.1" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/password_icon.xml" value="0.1" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/drawable/password_icon_focused.xml" value="0.1" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/activity_current_event.xml" value="0.38697916666666665" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/activity_current_view.xml" value="0.38697916666666665" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/activity_forgotpass.xml" value="0.38697916666666665" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/activity_main.xml" value="0.3175213675213675" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/activity_signup_page.xml" value="0.33" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/activity_signupwith.xml" value="0.38697916666666665" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/dropdown_item.xml" value="0.1" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/fragment_event.xml" value="0.33" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/fragment_home.xml" value="0.38697916666666665" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/fragment_home_page.xml" value="0.29438405797101447" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/fragment_menu.xml" value="0.38697916666666665" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/fragment_notification.xml" value="0.38697916666666665" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/fragment_notifications.xml" value="0.20364583333333333" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/fragment_prev.xml" value="0.38697916666666665" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/fragment_prev_eve.xml" value="0.38697916666666665" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/fragment_profile.xml" value="0.38697916666666665" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/get_started.xml" value="0.33" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/image_layout.xml" value="0.18642350557244175" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/login_page.xml" value="0.3175213675213675" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/second_page.xml" value="0.33" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/layout/third_page.xml" value="0.2776268115942029" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/menu/nav_view.xml" value="0.2388888888888889" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/EventGo/app/src/main/res/menu/upper_menu.xml" value="0.1" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/old/EventGo/app/src/main/res/layout/get_started.xml" value="0.28396739130434784" />
-        <entry key="..\:/Users/User/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_dropdown_item_1line.xml" value="0.18642350557244175" />
+        <entry key="..\:/Users/User/Downloads/EventGo (2)/EventGo/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
       </map>
     </option>
   </component>

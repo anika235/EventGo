@@ -41,6 +41,5 @@ public class CurrentView extends AppCompatActivity {
         code = getIntent().getStringExtra("Event key");
         intent.putExtra("Event key",code);
         startActivity(intent);
-
     }
 }

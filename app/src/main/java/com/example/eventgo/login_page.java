@@ -35,6 +35,10 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class login_page extends AppCompatActivity {
     private EditText email,password;
@@ -113,8 +117,21 @@ public class login_page extends AppCompatActivity {
 
     }
     public void opensecondpage(){
-        Intent intent = new Intent(this, second_page.class);
-        startActivity(intent);
+        FirebaseDatabase.getInstance().getReference("Users")
+                .child((FirebaseAuth.getInstance().getCurrentUser().getUid()))
+                .addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot snapshot) {
+                        globalVar.currentUser = snapshot.getValue(User.class);
+                        Intent intent = new Intent(login_page.this, second_page.class);
+                        startActivity(intent);
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError error) {
+
+                    }
+                });
     }
     public void opensignupwithpage()
     {
