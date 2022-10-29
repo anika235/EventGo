@@ -6,6 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.ImageView;
+import com.bumptech.glide.Glide;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -50,6 +52,7 @@ public class adaptercardview extends RecyclerView.Adapter<adaptercardview.myview
         Event c = list.get(position);
         holder.eventname.setText(c.getTitle());
         holder.eventdate.setText(c.getDate());
+        Glide.with(context).load(c.getImage()).into(holder.eventImage);
 
         holder.eventname.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -73,11 +76,13 @@ public class adaptercardview extends RecyclerView.Adapter<adaptercardview.myview
 
     public static class myviewholder extends RecyclerView.ViewHolder {
         TextView eventname, eventdate;
+        ImageView eventImage;
 
         public myviewholder(@NonNull View itemView) {
             super(itemView);
-            eventname = itemView.findViewById(R.id.eventname);
-            eventdate = itemView.findViewById(R.id.eventdate);
+            eventname = itemView.findViewById(R.id.eventTitle);
+            eventdate = itemView.findViewById(R.id.eventDate);
+            eventImage=itemView.findViewById(R.id.eventImage);
 
         }
     }

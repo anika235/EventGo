@@ -2915,7 +2915,6 @@ drawable guests
 drawable hide_password
 drawable home
 drawable ic_backspace_black_24dp
-drawable ic_baseline_delete_24
 drawable ic_clear_black_24dp
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
