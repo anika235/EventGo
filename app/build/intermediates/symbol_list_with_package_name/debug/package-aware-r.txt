@@ -1883,6 +1883,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color notification_material_background_media_default_color
 color pressed_bg
 color primary_dark_material_dark
 color primary_dark_material_light
@@ -2497,6 +2498,10 @@ dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
 dimen sliding_pane_detail_pane_width
+dimen subtitle_corner_radius
+dimen subtitle_outline_width
+dimen subtitle_shadow_offset
+dimen subtitle_shadow_radius
 dimen test_dimen
 dimen test_mtrl_calendar_day_cornerSize
 dimen test_navigation_bar_active_item_max_width
@@ -2923,6 +2928,8 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable intercontinental
+drawable location
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2975,6 +2982,7 @@ drawable profile
 drawable search
 drawable search_focused
 drawable show_pass
+drawable sonargaon
 drawable taskicon
 drawable test_custom_background
 drawable test_level_drawable
@@ -2984,6 +2992,7 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable vendors
 drawable welp
+drawable westin
 drawable white_radius
 font questrial
 id AFRIKAANS
@@ -3022,6 +3031,8 @@ id LOCALE_NETWORK_SIM
 id LOCALE_ONLY
 id LOCALE_SIM
 id LOCALE_SIM_NETWORK
+id LocationBudgetAdd
+id LocationDesired
 id MARATHI
 id META
 id MOBILE
@@ -3102,6 +3113,7 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id action0
 id actionDown
 id actionDownUp
 id actionUp
@@ -3125,6 +3137,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addLocation
 id addpeople
 id adjust_height
 id adjust_width
@@ -3165,9 +3178,11 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id budget
+id budgetForVenue
 id buttonPanel
 id cache_measures
 id callMeasure
+id cancel_action
 id cancel_button
 id cardViewRoot
 id carryVelocity
@@ -3269,11 +3284,13 @@ id elastic
 id email
 id end
 id endToStart
+id end_padder
 id enterAlways
 id enterAlwaysCollapsed
 id event
-id eventdate
-id eventname
+id eventDate
+id eventImage
+id eventTitle
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3304,6 +3321,7 @@ id fullscreen_header
 id getstartedbutton
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -3342,7 +3360,6 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
-id itemspick
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -3361,7 +3378,7 @@ id listMode
 id list_item
 id lname_profile
 id locale
-id location
+id locationString
 id loginbutton
 id logout
 id ltr
@@ -3389,6 +3406,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id media_actions
 id menu
 id message
 id middle
@@ -3441,6 +3459,7 @@ id noScroll
 id noState
 id noaccount
 id none
+id noresult
 id normal
 id north
 id notification
@@ -3505,6 +3524,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id search
 id search_badge
 id search_bar
 id search_button
@@ -3556,6 +3576,7 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id status_bar_latest_event_content
 id stop
 id stretch
 id submenuarrow
@@ -3634,8 +3655,15 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id upload
+id upload_image
 id useLogo
 id vendor
+id venue
+id venueAdd
+id venueImage
+id venueList
+id venueName
 id verify
 id vertical
 id vertical_only
@@ -3752,6 +3780,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_location
 layout activity_current_view
 layout activity_forgotpass
 layout activity_infos
@@ -3760,6 +3789,7 @@ layout activity_manage_otp
 layout activity_signup_page
 layout activity_signupwith
 layout activity_splashscreen
+layout activity_venue_list
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -3791,6 +3821,7 @@ layout layout_code_picker
 layout layout_full_width_code_picker
 layout layout_picker_dialog
 layout layout_recycler_country_tile
+layout location_layout
 layout login_page
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
@@ -3842,8 +3873,17 @@ layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
 layout notification_action
 layout notification_action_tombstone
+layout notification_media_action
+layout notification_media_cancel_action
+layout notification_template_big_media
+layout notification_template_big_media_custom
+layout notification_template_big_media_narrow
+layout notification_template_big_media_narrow_custom
 layout notification_template_custom_big
 layout notification_template_icon_group
+layout notification_template_lines_media
+layout notification_template_media
+layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout second_page
@@ -4353,6 +4393,7 @@ style Base_Widget_MaterialComponents_TextView
 style CardView
 style CardView_Dark
 style CardView_Light
+style Dexter_Internal_Theme_Transparent
 style EmptyTheme
 style MaterialAlertDialog_Material3
 style MaterialAlertDialog_Material3_Body_Text
@@ -4515,9 +4556,14 @@ style TextAppearance_AppCompat_Widget_Switch
 style TextAppearance_AppCompat_Widget_TextView_SpinnerItem
 style TextAppearance_Compat_Notification
 style TextAppearance_Compat_Notification_Info
+style TextAppearance_Compat_Notification_Info_Media
 style TextAppearance_Compat_Notification_Line2
+style TextAppearance_Compat_Notification_Line2_Media
+style TextAppearance_Compat_Notification_Media
 style TextAppearance_Compat_Notification_Time
+style TextAppearance_Compat_Notification_Time_Media
 style TextAppearance_Compat_Notification_Title
+style TextAppearance_Compat_Notification_Title_Media
 style TextAppearance_Design_CollapsingToolbar_Expanded
 style TextAppearance_Design_Counter
 style TextAppearance_Design_Counter_Overflow

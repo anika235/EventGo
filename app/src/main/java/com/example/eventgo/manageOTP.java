@@ -123,7 +123,7 @@ public class manageOTP extends AppCompatActivity {
                                 public void onComplete(@NonNull Task<AuthResult> task) {
                                     if(task.isSuccessful())
                                     {
-                                        String firstname=getIntent().getStringExtra("Firstname");
+                                        String firstname=getIntent().getStringExtra("FirstName");
                                         String lastname=getIntent().getStringExtra("Lastname");
                                         String number=getIntent().getStringExtra("mobile");
                                         String birthdate=getIntent().getStringExtra("Birthdate");
