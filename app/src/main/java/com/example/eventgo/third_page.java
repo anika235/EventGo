@@ -169,7 +169,10 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
         upload.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                uploadToFirebase();
+                
+                    uploadToFirebase();
+
+
             }
         });
 
@@ -200,9 +203,13 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
         ProgressDialog dialog=new ProgressDialog(this);
         dialog.setTitle("File Uploader");
         dialog.show();
+        title=(EditText)findViewById(R.id.title);
+        dates=(EditText)findViewById(R.id.dates);
+        String gettitle=title.getText().toString();
+        String getdate=dates.getText().toString();
 
         FirebaseStorage storage=FirebaseStorage.getInstance();
-        StorageReference uploader= storage.getReference();
+        StorageReference uploader= storage.getReference().child("Event Images").child(System.currentTimeMillis()+".jpg");
         uploader.putFile(filepath).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                     @Override
                     public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
