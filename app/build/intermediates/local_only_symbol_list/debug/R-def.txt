@@ -41,6 +41,7 @@ drawable google
 drawable guests
 drawable hide_password
 drawable home
+drawable ic_baseline_delete_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable menu
@@ -120,6 +121,7 @@ id presentdate
 id presentname
 id profile
 id recylelist
+id sharebutton
 id signup
 id signupbutton
 id start

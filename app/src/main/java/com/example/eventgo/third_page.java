@@ -124,9 +124,6 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
             }
         });
 
-
-
-
     }
 
     @Override

@@ -48,7 +48,7 @@ public class infosActivity extends AppCompatActivity {
         String bud = budget.getText().toString();
         String gue = guest.getText().toString();
 
-      String key=getIntent().getStringExtra("Key");
+        String key=getIntent().getStringExtra("Key");
         HashMap<String,String> EventMap=new HashMap<String, String>();
         EventMap.put("location",loc);
         EventMap.put("budget",bud);

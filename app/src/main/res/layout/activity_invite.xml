@@ -52,8 +52,19 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="350dp"
         android:backgroundTint="@color/color3"
-        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
         android:text="Copy"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/sharebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:backgroundTint="@color/color3"
+        android:layout_marginLeft="230dp"
+        android:text="Share"
         android:textColor="@color/white"
         android:textStyle="bold"/>
 

@@ -29,6 +29,7 @@ public class invite extends AppCompatActivity {
 
     TextView code;
     Button copybutton;
+    Button sharebutton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +49,21 @@ public class invite extends AppCompatActivity {
 
                 clipData.getDescription();
                 Toast.makeText(getApplicationContext(),"Copied",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        sharebutton = findViewById(R.id.sharebutton);
+        sharebutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_SEND);
+                intent.setType("text/plain");
+                String shareBody = "I want to invite you to join my event using "+ code.getText().toString() +" and by downloading EventGo app and have a great time.";
+                String Sharesub = "Join My event";
+                intent.putExtra(Intent.EXTRA_SUBJECT, Sharesub);
+                intent.putExtra(Intent.EXTRA_TEXT, shareBody);
+                startActivity(Intent.createChooser(intent, "Share Using"));
+
             }
         });
 

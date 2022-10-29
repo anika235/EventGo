@@ -5,10 +5,15 @@ import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.core.operation.Overwrite;
 
 import java.util.ArrayList;
 
@@ -16,8 +21,6 @@ public class adaptercardview extends RecyclerView.Adapter<adaptercardview.myview
 
     Context context;
     ArrayList<Event> list;
-    TextView evettime;
-
 
     public adaptercardview(Context context, ArrayList<Event> list) {
         this.context = context;
@@ -29,6 +32,17 @@ public class adaptercardview extends RecyclerView.Adapter<adaptercardview.myview
     public myviewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(context).inflate(R.layout.item, parent, false);
         return new myviewholder(v);
+    }
+
+    public void deleteitem(int position) {
+        list.remove(position);
+        notifyItemRemoved(position);
+
+    }
+    public Event getmyitem(int position)
+    {
+        Event event = list.get(position);
+        return event;
     }
 
     @Override
@@ -43,7 +57,7 @@ public class adaptercardview extends RecyclerView.Adapter<adaptercardview.myview
                 Intent intent = new Intent(context, CurrentView.class);
                 intent.putExtra("Event name", c.getTitle());
                 intent.putExtra("Event date", c.getDate());
-                intent.putExtra("Event key" , c.getKey());
+                intent.putExtra("Event key", c.getKey());
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
             }
@@ -51,18 +65,20 @@ public class adaptercardview extends RecyclerView.Adapter<adaptercardview.myview
 
     }
 
+
     @Override
     public int getItemCount() {
         return list.size();
     }
 
-    public static class myviewholder extends RecyclerView.ViewHolder{
+    public static class myviewholder extends RecyclerView.ViewHolder {
         TextView eventname, eventdate;
 
         public myviewholder(@NonNull View itemView) {
             super(itemView);
             eventname = itemView.findViewById(R.id.eventname);
             eventdate = itemView.findViewById(R.id.eventdate);
+
         }
     }
 }
