@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -22,6 +23,7 @@ import java.util.Objects;
 public class infosActivity extends AppCompatActivity {
     private Button button;
     private EditText locate, budget, guest;
+    private ImageView ChooseLocation;
 
 
     @Override
@@ -30,7 +32,7 @@ public class infosActivity extends AppCompatActivity {
         setContentView(R.layout.activity_infos);
         button = (Button) findViewById(R.id.start);
 
-        locate = findViewById(R.id.location);
+        ChooseLocation = findViewById(R.id.addLocation);
         budget = findViewById(R.id.budget);
         guest = findViewById(R.id.guest);
 
@@ -40,20 +42,31 @@ public class infosActivity extends AppCompatActivity {
                 nextpage();
             }
         });
+
+        ChooseLocation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String key=getIntent().getStringExtra("Key");
+                Intent intent=new Intent(getApplicationContext(),AddLocation.class);
+                intent.putExtra("Key",key);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 
     public void nextpage()
     {
-        String loc = locate.getText().toString();
+        //String loc = locate.getText().toString();
         String bud = budget.getText().toString();
         String gue = guest.getText().toString();
 
       String key=getIntent().getStringExtra("Key");
         HashMap<String,String> EventMap=new HashMap<String, String>();
-        EventMap.put("location",loc);
+       // EventMap.put("location",loc);
         EventMap.put("budget",bud);
         EventMap.put("guest",gue);
-            Event start = new Event(loc, bud, gue);
+            Event start = new Event(bud, gue);
             FirebaseDatabase.getInstance().getReference("Users").child(Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser()).getUid()).child("Events").child(key).child("Infos").setValue(EventMap).addOnCompleteListener(new OnCompleteListener<Void>() {
                 @Override
                 public void onComplete(@NonNull Task<Void> task) {

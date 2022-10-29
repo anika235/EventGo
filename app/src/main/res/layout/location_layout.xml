@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/venueImage"
+        android:layout_width="match_parent"
+        android:layout_height="337dp"
+        app:srcCompat="@drawable/westin" />
+
+    <TextView
+        android:id="@+id/venueName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:background="@color/white"
+        android:text="The Westin Dhaka"
+
+        android:textColor="@color/color3"
+        android:textSize="34sp" />
+
+</RelativeLayout>

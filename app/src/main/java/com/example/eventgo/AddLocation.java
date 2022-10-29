@@ -1,0 +1,83 @@
+package com.example.eventgo;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.util.Objects;
+
+public class AddLocation extends AppCompatActivity {
+    EditText venue;
+    EditText desiredVenue;
+    EditText expectBudget;
+    Button addVenue;
+    Button searchVenue;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_add_location);
+        venue=(EditText) findViewById(R.id.venue);
+        addVenue=(Button) findViewById(R.id.add);
+        searchVenue=(Button)findViewById(R.id.search);
+
+        addVenue.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String key = getIntent().getStringExtra("Key");
+                String ven = venue.getText().toString();
+                if (ven.isEmpty()) {
+                    ven = "";
+                }
+                FirebaseDatabase.getInstance().getReference("Users").child(Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser()).getUid()).child("Events").child(key).child("Venue").setValue(ven).addOnCompleteListener(new OnCompleteListener<Void>() {
+                    @Override
+                    public void onComplete(@NonNull Task<Void> task) {
+                        if(task.isSuccessful())
+                        {
+                            Toast.makeText(getApplicationContext(),"Venue Added Successfully!",Toast.LENGTH_LONG).show();
+                            startActivity(new Intent(getApplicationContext(),infosActivity.class));
+                            finish();
+                        }
+                        else
+                        {
+                            Toast.makeText(getApplicationContext(),"Venue could not be added",Toast.LENGTH_LONG).show();
+
+                        }
+
+                    }
+
+
+                });
+
+            }
+        });
+
+        searchVenue.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                desiredVenue=(EditText)findViewById(R.id.LocationDesired);
+                expectBudget=(EditText)findViewById(R.id.budgetForVenue);
+
+
+                Intent intent=new Intent(getApplicationContext(),VenueList.class);
+                intent.putExtra("Location",desiredVenue.getText().toString());
+                intent.putExtra("Budget",expectBudget.getText().toString());
+                startActivity(intent);
+                finish();
+            }
+        });
+
+
+    }
+}
