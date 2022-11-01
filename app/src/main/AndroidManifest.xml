@@ -17,6 +17,13 @@
         android:theme="@style/Theme.EventGo"
         tools:targetApi="31">
         <activity
+            android:name=".checklistActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".VenueList"
             android:exported="false">
             <meta-data

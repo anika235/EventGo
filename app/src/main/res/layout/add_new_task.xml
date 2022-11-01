@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color2"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AddnewTask">
+
+    <EditText
+        android:id="@+id/task_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/color3"
+        android:hint="Write Your Task" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/set_due_tv"
+        android:text="Set Due Date"
+        android:textColor="@color/color3"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16dp"
+        android:drawableRight="@drawable/calendar_focused"
+        android:drawablePadding="8dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/savetask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="60dp"
+        android:padding="8dp"
+        android:text="Save"
+        android:background="@color/color3"
+        android:backgroundTint="@color/color3"
+        android:textSize="16dp" />
+
+
+</RelativeLayout>

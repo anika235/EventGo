@@ -47,7 +47,7 @@
 
 
     <ImageView
-        android:id="@+id/checklist"
+        android:id="@+id/checklistphoto"
         android:layout_width="116dp"
         android:layout_height="98dp"
         android:layout_marginStart="30dp"

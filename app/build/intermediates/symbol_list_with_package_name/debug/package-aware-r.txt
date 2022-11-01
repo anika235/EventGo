@@ -2602,6 +2602,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable add
 drawable anika
 drawable anika2
 drawable anika3
@@ -3197,6 +3198,7 @@ id chains
 id checkbox
 id checked
 id checklist
+id checklistphoto
 id chip
 id chip1
 id chip2
@@ -3270,6 +3272,7 @@ id dragUp
 id dropdown_editable
 id dropdown_menu
 id dropdown_noneditable
+id due_date
 id easeIn
 id easeInOut
 id easeOut
@@ -3309,6 +3312,7 @@ id fitXY
 id fixed
 id flip
 id floating
+id floatingActionButton
 id fname_profile
 id forever
 id forgotpass
@@ -3405,6 +3409,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id mcheckbox
 id media_actions
 id menu
 id message
@@ -3515,6 +3520,7 @@ id row_index_key
 id rtl
 id save_non_transition_alpha
 id save_overlay_view
+id savetask
 id sawtooth
 id scale
 id screen
@@ -3537,6 +3543,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id set_due_tv
 id sharebutton
 id sharedValueSet
 id sharedValueUnset
@@ -3595,6 +3602,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id task_edittext
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
@@ -3780,6 +3788,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_location
+layout activity_checklist
 layout activity_current_view
 layout activity_forgotpass
 layout activity_infos
@@ -3789,6 +3798,7 @@ layout activity_signup_page
 layout activity_signupwith
 layout activity_splashscreen
 layout activity_venue_list
+layout add_new_task
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -3820,6 +3830,7 @@ layout layout_code_picker
 layout layout_full_width_code_picker
 layout layout_picker_dialog
 layout layout_recycler_country_tile
+layout list_task
 layout location_layout
 layout login_page
 layout m3_alert_dialog

@@ -1,0 +1,768 @@
+Index: app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#Sat Oct 29 21:47:19 BDT 2022\r\ncom.example.eventgo.app-main-7\\:/drawable/calendar.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\calendar.xml\r\ncom.example.eventgo.app-main-7\\:/mipmap-hdpi/ic_launcher_round.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\mipmap-hdpi-v4\\\\ic_launcher_round.png\r\ncom.example.eventgo.app-main-7\\:/drawable/finallogo.jpg=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\finallogo.jpg\r\ncom.example.eventgo.app-main-7\\:/drawable/blueguests.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\blueguests.png\r\ncom.example.eventgo.app-packageDebugResources-4\\:/layout/activity_add_location.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\layout\\\\activity_add_location.xml\r\ncom.example.eventgo.app-packageDebugResources-4\\:/layout/activity_signupwith.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\layout\\\\activity_signupwith.xml\r\ncom.example.eventgo.app-main-7\\:/mipmap-mdpi/ic_launcher_foreground.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\mipmap-mdpi-v4\\\\ic_launcher_foreground.png\r\ncom.example.eventgo.app-packageDebugResources-4\\:/layout/login_page.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\layout\\\\login_page.xml\r\ncom.example.eventgo.app-packageDebugResources-4\\:/layout/activity_signup_page.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\layout\\\\activity_signup_page.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/bluepeople.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\bluepeople.png\r\ncom.example.eventgo.app-main-7\\:/drawable/intercontinental.jpg=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\intercontinental.jpg\r\ncom.example.eventgo.app-main-7\\:/mipmap-xhdpi/ic_launcher_round.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\mipmap-xhdpi-v4\\\\ic_launcher_round.png\r\ncom.example.eventgo.app-main-7\\:/drawable/calendar_focused.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\calendar_focused.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/vendors.jpg=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\vendors.jpg\r\ncom.example.eventgo.app-main-7\\:/menu/nav_view.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\menu\\\\nav_view.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/custom_calendar.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\custom_calendar.xml\r\ncom.example.eventgo.app-packageDebugResources-4\\:/layout/second_page.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\layout\\\\second_page.xml\r\ncom.example.eventgo.app-packageDebugResources-4\\:/layout/activity_invite.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\layout\\\\activity_invite.xml\r\ncom.example.eventgo.app-packageDebugResources-4\\:/layout/fragment_profile.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\layout\\\\fragment_profile.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/time.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\time.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/email_icon.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\email_icon.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/search.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\search.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/email_icon_focused.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\email_icon_focused.xml\r\ncom.example.eventgo.app-main-7\\:/anim/slide_in_left.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\anim\\\\slide_in_left.xml\r\ncom.example.eventgo.app-main-7\\:/mipmap-xhdpi/ic_launcher.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\mipmap-xhdpi-v4\\\\ic_launcher.png\r\ncom.example.eventgo.app-main-7\\:/drawable/anika3.jpg=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\anika3.jpg\r\ncom.example.eventgo.app-main-7\\:/drawable/custom_search.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\custom_search.xml\r\ncom.example.eventgo.app-packageDebugResources-4\\:/layout/fragment_notification.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\layout\\\\fragment_notification.xml\r\ncom.example.eventgo.app-main-7\\:/mipmap-xxxhdpi/ic_launcher.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\mipmap-xxxhdpi-v4\\\\ic_launcher.png\r\ncom.example.eventgo.app-main-7\\:/mipmap-xxxhdpi/ic_launcher_round.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\mipmap-xxxhdpi-v4\\\\ic_launcher_round.png\r\ncom.example.eventgo.app-main-7\\:/drawable/menu.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\menu.xml\r\ncom.example.eventgo.app-packageDebugResources-4\\:/layout/fragment_event.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\layout\\\\fragment_event.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/custom_input2.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\custom_input2.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/home.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\home.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/event.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\event.xml\r\ncom.example.eventgo.app-packageDebugResources-4\\:/layout/item.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\layout\\\\item.xml\r\ncom.example.eventgo.app-packageDebugResources-4\\:/layout/location_layout.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\layout\\\\location_layout.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/taskicon.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\taskicon.png\r\ncom.example.eventgo.app-main-7\\:/mipmap-xxhdpi/ic_launcher.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\mipmap-xxhdpi-v4\\\\ic_launcher.png\r\ncom.example.eventgo.app-main-7\\:/xml/data_extraction_rules.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\xml\\\\data_extraction_rules.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/show_pass.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\show_pass.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/bgcolor.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\bgcolor.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/person_add.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\person_add.xml\r\ncom.example.eventgo.app-packageDebugResources-4\\:/layout/activity_venue_list.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\layout\\\\activity_venue_list.xml\r\ncom.example.eventgo.app-main-7\\:/mipmap-mdpi/ic_launcher.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\mipmap-mdpi-v4\\\\ic_launcher.png\r\ncom.example.eventgo.app-main-7\\:/mipmap-hdpi/ic_launcher_foreground.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\mipmap-hdpi-v4\\\\ic_launcher_foreground.png\r\ncom.example.eventgo.app-packageDebugResources-4\\:/layout/activity_current_view.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\layout\\\\activity_current_view.xml\r\ncom.example.eventgo.app-main-7\\:/anim/slide_out_left.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\anim\\\\slide_out_left.xml\r\ncom.example.eventgo.app-packageDebugResources-4\\:/layout/activity_forgotpass.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\layout\\\\activity_forgotpass.xml\r\ncom.example.eventgo.app-packageDebugResources-4\\:/layout/activity_manage_otp.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\layout\\\\activity_manage_otp.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/password_icon.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\password_icon.xml\r\ncom.example.eventgo.app-packageDebugResources-4\\:/layout/activity_infos.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\layout\\\\activity_infos.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/custm_button.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\custm_button.xml\r\ncom.example.eventgo.app-packageDebugResources-4\\:/layout/activity_splashscreen.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\layout\\\\activity_splashscreen.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/custom_time.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\custom_time.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/time_focused.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\time_focused.xml\r\ncom.example.eventgo.app-packageDebugResources-4\\:/layout/image_layout.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\layout\\\\image_layout.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/custom_email_icon.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\custom_email_icon.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/google.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\google.png\r\ncom.example.eventgo.app-main-7\\:/drawable/hide_password.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\hide_password.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/profile.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\profile.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/password_icon_focused.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\password_icon_focused.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/anika2.jpg=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\anika2.jpg\r\ncom.example.eventgo.app-main-7\\:/drawable/eventimage.jpg=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\eventimage.jpg\r\ncom.example.eventgo.app-main-7\\:/mipmap-xxhdpi/ic_launcher_foreground.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\mipmap-xxhdpi-v4\\\\ic_launcher_foreground.png\r\ncom.example.eventgo.app-main-7\\:/drawable/welp.jpg=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\welp.jpg\r\ncom.example.eventgo.app-packageDebugResources-4\\:/layout/fragment_home.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\layout\\\\fragment_home.xml\r\ncom.example.eventgo.app-packageDebugResources-4\\:/layout/third_page.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\layout\\\\third_page.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/notifications.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\notifications.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/anika.jpg=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\anika.jpg\r\ncom.example.eventgo.app-main-7\\:/mipmap-xxhdpi/ic_launcher_round.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\mipmap-xxhdpi-v4\\\\ic_launcher_round.png\r\ncom.example.eventgo.app-main-7\\:/drawable/westin.webp=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\westin.webp\r\ncom.example.eventgo.app-main-7\\:/mipmap-xhdpi/ic_launcher_foreground.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\mipmap-xhdpi-v4\\\\ic_launcher_foreground.png\r\ncom.example.eventgo.app-packageDebugResources-4\\:/layout/fragment_menu.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\layout\\\\fragment_menu.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/sonargaon.webp=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\sonargaon.webp\r\ncom.example.eventgo.app-main-7\\:/drawable/custom_input.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\custom_input.xml\r\ncom.example.eventgo.app-main-7\\:/drawable-v24/ic_launcher_foreground.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable-v24\\\\ic_launcher_foreground.xml\r\ncom.example.eventgo.app-main-7\\:/mipmap-mdpi/ic_launcher_round.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\mipmap-mdpi-v4\\\\ic_launcher_round.png\r\ncom.example.eventgo.app-main-7\\:/drawable/custom_lock_icon.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\custom_lock_icon.xml\r\ncom.example.eventgo.app-main-7\\:/mipmap-hdpi/ic_launcher.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\mipmap-hdpi-v4\\\\ic_launcher.png\r\ncom.example.eventgo.app-main-7\\:/anim/slide_in_right.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\anim\\\\slide_in_right.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/anikafb2.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\anikafb2.png\r\ncom.example.eventgo.app-main-7\\:/font/questrial.ttf=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\font\\\\questrial.ttf\r\ncom.example.eventgo.app-main-7\\:/drawable/money.webp=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\money.webp\r\ncom.example.eventgo.app-main-7\\:/drawable/place.jpg=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\place.jpg\r\ncom.example.eventgo.app-main-7\\:/xml/backup_rules.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\xml\\\\backup_rules.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/location.jpg=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\location.jpg\r\ncom.example.eventgo.app-main-7\\:/drawable/search_focused.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\search_focused.xml\r\ncom.example.eventgo.app-main-7\\:/drawable/guests.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\guests.png\r\ncom.example.eventgo.app-main-7\\:/drawable/ic_launcher_background.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\drawable\\\\ic_launcher_background.xml\r\ncom.example.eventgo.app-main-7\\:/anim/slide_out_right.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\anim\\\\slide_out_right.xml\r\ncom.example.eventgo.app-main-7\\:/mipmap-xxxhdpi/ic_launcher_foreground.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\mipmap-xxxhdpi-v4\\\\ic_launcher_foreground.png\r\ncom.example.eventgo.app-packageDebugResources-4\\:/layout/get_started.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\packaged_res\\\\debug\\\\layout\\\\get_started.xml\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties b/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+--- a/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties	(revision 494471e53ce6ba49f4c3f3822a29717d6f3e94fd)
++++ b/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties	(date 1667068062077)
+@@ -1,10 +1,10 @@
+-#Sat Oct 29 21:47:19 BDT 2022
++#Sun Oct 30 00:27:42 BDT 2022
+ com.example.eventgo.app-main-7\:/drawable/calendar.xml=C\:\\Users\\User\\AndroidStudioProjects\\EventGo\\app\\build\\intermediates\\packaged_res\\debug\\drawable\\calendar.xml
+ com.example.eventgo.app-main-7\:/mipmap-hdpi/ic_launcher_round.png=C\:\\Users\\User\\AndroidStudioProjects\\EventGo\\app\\build\\intermediates\\packaged_res\\debug\\mipmap-hdpi-v4\\ic_launcher_round.png
+ com.example.eventgo.app-main-7\:/drawable/finallogo.jpg=C\:\\Users\\User\\AndroidStudioProjects\\EventGo\\app\\build\\intermediates\\packaged_res\\debug\\drawable\\finallogo.jpg
+ com.example.eventgo.app-main-7\:/drawable/blueguests.png=C\:\\Users\\User\\AndroidStudioProjects\\EventGo\\app\\build\\intermediates\\packaged_res\\debug\\drawable\\blueguests.png
+-com.example.eventgo.app-packageDebugResources-4\:/layout/activity_add_location.xml=C\:\\Users\\User\\AndroidStudioProjects\\EventGo\\app\\build\\intermediates\\packaged_res\\debug\\layout\\activity_add_location.xml
+ com.example.eventgo.app-packageDebugResources-4\:/layout/activity_signupwith.xml=C\:\\Users\\User\\AndroidStudioProjects\\EventGo\\app\\build\\intermediates\\packaged_res\\debug\\layout\\activity_signupwith.xml
++com.example.eventgo.app-packageDebugResources-4\:/layout/activity_add_location.xml=C\:\\Users\\User\\AndroidStudioProjects\\EventGo\\app\\build\\intermediates\\packaged_res\\debug\\layout\\activity_add_location.xml
+ com.example.eventgo.app-main-7\:/mipmap-mdpi/ic_launcher_foreground.png=C\:\\Users\\User\\AndroidStudioProjects\\EventGo\\app\\build\\intermediates\\packaged_res\\debug\\mipmap-mdpi-v4\\ic_launcher_foreground.png
+ com.example.eventgo.app-packageDebugResources-4\:/layout/login_page.xml=C\:\\Users\\User\\AndroidStudioProjects\\EventGo\\app\\build\\intermediates\\packaged_res\\debug\\layout\\login_page.xml
+ com.example.eventgo.app-packageDebugResources-4\:/layout/activity_signup_page.xml=C\:\\Users\\User\\AndroidStudioProjects\\EventGo\\app\\build\\intermediates\\packaged_res\\debug\\layout\\activity_signup_page.xml
+Index: app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#Sat Oct 29 21:47:18 BDT 2022\r\ncom.example.eventgo.app-main-56\\:/mipmap-xhdpi/ic_launcher.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\mipmap-xhdpi_ic_launcher.png.flat\r\ncom.example.eventgo.app-mergeDebugResources-53\\:/layout/third_page.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\layout_third_page.xml.flat\r\ncom.example.eventgo.app-mergeDebugResources-53\\:/layout/activity_current_view.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\layout_activity_current_view.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/anika2.jpg=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_anika2.jpg.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/intercontinental.jpg=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_intercontinental.jpg.flat\r\ncom.example.eventgo.app-main-56\\:/anim/slide_in_left.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\anim_slide_in_left.xml.flat\r\ncom.example.eventgo.app-mergeDebugResources-53\\:/layout/activity_signup_page.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\layout_activity_signup_page.xml.flat\r\ncom.example.eventgo.app-mergeDebugResources-53\\:/layout/activity_splashscreen.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\layout_activity_splashscreen.xml.flat\r\ncom.example.eventgo.app-main-56\\:/menu/nav_view.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\menu_nav_view.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/google.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_google.png.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/password_icon.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_password_icon.xml.flat\r\ncom.example.eventgo.app-main-56\\:/mipmap-xxxhdpi/ic_launcher.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\mipmap-xxxhdpi_ic_launcher.png.flat\r\ncom.example.eventgo.app-main-56\\:/mipmap-xxxhdpi/ic_launcher_foreground.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat\r\ncom.example.eventgo.app-main-56\\:/anim/slide_in_right.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\anim_slide_in_right.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/custom_input2.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_custom_input2.xml.flat\r\ncom.example.eventgo.app-mergeDebugResources-53\\:/layout/activity_signupwith.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\layout_activity_signupwith.xml.flat\r\ncom.example.eventgo.app-main-56\\:/mipmap-xxhdpi/ic_launcher_round.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\mipmap-xxhdpi_ic_launcher_round.png.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/taskicon.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_taskicon.png.flat\r\ncom.example.eventgo.app-main-56\\:/mipmap-mdpi/ic_launcher_round.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\mipmap-mdpi_ic_launcher_round.png.flat\r\ncom.example.eventgo.app-main-56\\:/mipmap-mdpi/ic_launcher.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\mipmap-mdpi_ic_launcher.png.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/anika3.jpg=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_anika3.jpg.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/finallogo.jpg=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_finallogo.jpg.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/calendar_focused.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_calendar_focused.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/blueguests.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_blueguests.png.flat\r\ncom.example.eventgo.app-mergeDebugResources-53\\:/layout/fragment_home.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\layout_fragment_home.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/time.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_time.xml.flat\r\ncom.example.eventgo.app-main-56\\:/mipmap-hdpi/ic_launcher_foreground.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\mipmap-hdpi_ic_launcher_foreground.png.flat\r\ncom.example.eventgo.app-mergeDebugResources-53\\:/layout/item.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\layout_item.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/custm_button.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_custm_button.xml.flat\r\ncom.example.eventgo.app-main-56\\:/mipmap-hdpi/ic_launcher_round.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\mipmap-hdpi_ic_launcher_round.png.flat\r\ncom.example.eventgo.app-mergeDebugResources-53\\:/layout/fragment_notification.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\layout_fragment_notification.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/location.jpg=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_location.jpg.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/email_icon_focused.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_email_icon_focused.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/custom_search.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_custom_search.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/profile.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_profile.xml.flat\r\ncom.example.eventgo.app-mergeDebugResources-53\\:/layout/image_layout.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\layout_image_layout.xml.flat\r\ncom.example.eventgo.app-mergeDebugResources-53\\:/layout/fragment_profile.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\layout_fragment_profile.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/custom_lock_icon.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_custom_lock_icon.xml.flat\r\ncom.example.eventgo.app-mergeDebugResources-53\\:/layout/activity_infos.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\layout_activity_infos.xml.flat\r\ncom.example.eventgo.app-mergeDebugResources-53\\:/layout/location_layout.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\layout_location_layout.xml.flat\r\ncom.example.eventgo.app-mergeDebugResources-53\\:/layout/activity_add_location.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\layout_activity_add_location.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/password_icon_focused.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_password_icon_focused.xml.flat\r\ncom.example.eventgo.app-mergeDebugResources-53\\:/layout/activity_manage_otp.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\layout_activity_manage_otp.xml.flat\r\ncom.example.eventgo.app-mergeDebugResources-53\\:/layout/login_page.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\layout_login_page.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/event.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_event.xml.flat\r\ncom.example.eventgo.app-mergeDebugResources-53\\:/layout/fragment_menu.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\layout_fragment_menu.xml.flat\r\ncom.example.eventgo.app-main-56\\:/font/questrial.ttf=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\font_questrial.ttf.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/welp.jpg=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_welp.jpg.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/anikafb2.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_anikafb2.png.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/money.webp=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_money.webp.flat\r\ncom.example.eventgo.app-main-56\\:/mipmap-hdpi/ic_launcher.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\mipmap-hdpi_ic_launcher.png.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/show_pass.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_show_pass.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/sonargaon.webp=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_sonargaon.webp.flat\r\ncom.example.eventgo.app-main-56\\:/mipmap-xhdpi/ic_launcher_foreground.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\mipmap-xhdpi_ic_launcher_foreground.png.flat\r\ncom.example.eventgo.app-pngs-49\\:/drawable-anydpi-v24/ic_launcher_foreground.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/custom_input.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_custom_input.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/ic_launcher_background.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_ic_launcher_background.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/bgcolor.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_bgcolor.xml.flat\r\ncom.example.eventgo.app-mergeDebugResources-53\\:/layout/activity_invite.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\layout_activity_invite.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/search.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_search.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/notifications.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_notifications.xml.flat\r\ncom.example.eventgo.app-main-56\\:/anim/slide_out_right.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\anim_slide_out_right.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/person_add.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_person_add.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/custom_email_icon.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_custom_email_icon.xml.flat\r\ncom.example.eventgo.app-main-56\\:/xml/backup_rules.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\xml_backup_rules.xml.flat\r\ncom.example.eventgo.app-main-56\\:/mipmap-xxxhdpi/ic_launcher_round.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\mipmap-xxxhdpi_ic_launcher_round.png.flat\r\ncom.example.eventgo.app-main-56\\:/mipmap-xxhdpi/ic_launcher_foreground.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\mipmap-xxhdpi_ic_launcher_foreground.png.flat\r\ncom.example.eventgo.app-mergeDebugResources-53\\:/layout/second_page.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\layout_second_page.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/custom_time.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_custom_time.xml.flat\r\ncom.example.eventgo.app-main-56\\:/anim/slide_out_left.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\anim_slide_out_left.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/menu.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_menu.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/home.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_home.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/hide_password.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_hide_password.xml.flat\r\ncom.example.eventgo.app-main-56\\:/mipmap-mdpi/ic_launcher_foreground.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\mipmap-mdpi_ic_launcher_foreground.png.flat\r\ncom.example.eventgo.app-mergeDebugResources-53\\:/layout/fragment_event.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\layout_fragment_event.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/place.jpg=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_place.jpg.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/search_focused.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_search_focused.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/custom_calendar.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_custom_calendar.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/time_focused.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_time_focused.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/bluepeople.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_bluepeople.png.flat\r\ncom.example.eventgo.app-main-56\\:/xml/data_extraction_rules.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\xml_data_extraction_rules.xml.flat\r\ncom.example.eventgo.app-mergeDebugResources-53\\:/layout/activity_venue_list.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\layout_activity_venue_list.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/anika.jpg=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_anika.jpg.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/guests.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_guests.png.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/eventimage.jpg=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_eventimage.jpg.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/westin.webp=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_westin.webp.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/vendors.jpg=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_vendors.jpg.flat\r\ncom.example.eventgo.app-mergeDebugResources-53\\:/layout/activity_forgotpass.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\layout_activity_forgotpass.xml.flat\r\ncom.example.eventgo.app-main-56\\:/mipmap-xhdpi/ic_launcher_round.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\mipmap-xhdpi_ic_launcher_round.png.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/email_icon.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_email_icon.xml.flat\r\ncom.example.eventgo.app-main-56\\:/drawable/calendar.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\drawable_calendar.xml.flat\r\ncom.example.eventgo.app-mergeDebugResources-53\\:/layout/get_started.xml=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\layout_get_started.xml.flat\r\ncom.example.eventgo.app-main-56\\:/mipmap-xxhdpi/ic_launcher.png=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\merged_res\\\\debug\\\\mipmap-xxhdpi_ic_launcher.png.flat\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties b/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties
+--- a/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties	(revision 494471e53ce6ba49f4c3f3822a29717d6f3e94fd)
++++ b/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties	(date 1667068061997)
+@@ -1,4 +1,4 @@
+-#Sat Oct 29 21:47:18 BDT 2022
++#Sun Oct 30 00:27:41 BDT 2022
+ com.example.eventgo.app-main-56\:/mipmap-xhdpi/ic_launcher.png=C\:\\Users\\User\\AndroidStudioProjects\\EventGo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat
+ com.example.eventgo.app-mergeDebugResources-53\:/layout/third_page.xml=C\:\\Users\\User\\AndroidStudioProjects\\EventGo\\app\\build\\intermediates\\merged_res\\debug\\layout_third_page.xml.flat
+ com.example.eventgo.app-mergeDebugResources-53\:/layout/activity_current_view.xml=C\:\\Users\\User\\AndroidStudioProjects\\EventGo\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_current_view.xml.flat
+Index: app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#Sat Oct 29 23:04:53 BDT 2022\r\npath.4=classes2.dex\r\npath.3=5/classes.dex\r\npath.2=12/classes.dex\r\npath.1=0/classes.dex\r\npath.0=classes.dex\r\nbase.4=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\dex\\\\debug\\\\mergeExtDexDebug\\\\classes2.dex\r\nbase.3=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\dex\\\\debug\\\\mergeProjectDexDebug\\\\5\\\\classes.dex\r\nbase.2=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\dex\\\\debug\\\\mergeProjectDexDebug\\\\12\\\\classes.dex\r\nbase.1=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\dex\\\\debug\\\\mergeProjectDexDebug\\\\0\\\\classes.dex\r\nbase.0=C\\:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\EventGo\\\\app\\\\build\\\\intermediates\\\\dex\\\\debug\\\\mergeExtDexDebug\\\\classes.dex\r\nrenamed.3=classes4.dex\r\nrenamed.2=classes3.dex\r\nrenamed.1=classes2.dex\r\nrenamed.0=classes.dex\r\nrenamed.4=classes5.dex\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt b/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt
+--- a/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt	(revision 494471e53ce6ba49f4c3f3822a29717d6f3e94fd)
++++ b/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt	(date 1667139385839)
+@@ -1,4 +1,4 @@
+-#Sat Oct 29 23:04:53 BDT 2022
++#Sun Oct 30 20:16:25 BDT 2022
+ path.4=classes2.dex
+ path.3=5/classes.dex
+ path.2=12/classes.dex
+Index: app/src/main/res/layout/item.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<androidx.cardview.widget.CardView xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"wrap_content\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:anddroid=\"http://schemas.android.com/tools\"\r\n    app:cardElevation=\"8dp\"\r\n    app:cardCornerRadius=\"8dp\"\r\n    android:layout_margin=\"16dp\">\r\n    <RelativeLayout\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\">\r\n\r\n\r\n        <ImageView\r\n            android:id=\"@+id/eventImage\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"275dp\"\r\n            app:srcCompat=\"@drawable/eventimage\" />\r\n\r\n        <TextView\r\n            android:id=\"@+id/eventDate\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_marginStart=\"3dp\"\r\n            android:layout_marginTop=\"10dp\"\r\n\r\n            android:background=\"@color/white\"\r\n            android:text=\"Date\"\r\n\r\n            android:textColor=\"@color/color3\"\r\n            android:textSize=\"34sp\" />\r\n\r\n        <TextView\r\n            android:id=\"@+id/eventTitle\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_marginStart=\"3dp\"\r\n            android:layout_marginTop=\"210dp\"\r\n\r\n            android:background=\"@color/white\"\r\n            android:text=\"Title\"\r\n\r\n            android:textColor=\"@color/color3\"\r\n            android:textSize=\"34sp\" />\r\n    </RelativeLayout>\r\n\r\n\r\n\r\n</androidx.cardview.widget.CardView>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/item.xml b/app/src/main/res/layout/item.xml
+--- a/app/src/main/res/layout/item.xml	(revision 494471e53ce6ba49f4c3f3822a29717d6f3e94fd)
++++ b/app/src/main/res/layout/item.xml	(date 1667068061609)
+@@ -5,29 +5,29 @@
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:anddroid="http://schemas.android.com/tools"
+     app:cardElevation="8dp"
++    android:background="@color/color2"
++    android:backgroundTint="@color/color2"
+     app:cardCornerRadius="8dp"
+     android:layout_margin="16dp">
+     <RelativeLayout
+         android:layout_width="match_parent"
+-        android:layout_height="wrap_content">
+-
++        android:layout_height="250dp">
+ 
+         <ImageView
+             android:id="@+id/eventImage"
+             android:layout_width="match_parent"
+-            android:layout_height="275dp"
+-            app:srcCompat="@drawable/eventimage" />
++            android:layout_height="250dp"
++            app:srcCompat="@drawable/eventimage"/>
+ 
+         <TextView
+             android:id="@+id/eventDate"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+-            android:layout_marginStart="3dp"
++            android:layout_marginStart="10dp"
+             android:layout_marginTop="10dp"
+-
+-            android:background="@color/white"
++            android:textStyle="bold"
+             android:text="Date"
+-
++            android:background="@color/color2"
+             android:textColor="@color/color3"
+             android:textSize="34sp" />
+ 
+@@ -35,12 +35,11 @@
+             android:id="@+id/eventTitle"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+-            android:layout_marginStart="3dp"
+-            android:layout_marginTop="210dp"
+-
+-            android:background="@color/white"
++            android:layout_marginStart="10dp"
++            android:layout_marginBottom="10dp"
++            android:layout_marginTop="200dp"
++            android:background="@color/color2"
+             android:text="Title"
+-
+             android:textColor="@color/color3"
+             android:textSize="34sp" />
+     </RelativeLayout>
+Index: app/src/main/java/com/example/eventgo/adaptercardview.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.eventgo;\r\n\r\nimport android.content.Context;\r\nimport android.content.Intent;\r\nimport android.view.LayoutInflater;\r\nimport android.view.View;\r\nimport android.view.ViewGroup;\r\nimport android.widget.AdapterView;\r\nimport android.widget.ImageView;\r\nimport com.bumptech.glide.Glide;\r\nimport android.widget.TextView;\r\n\r\nimport androidx.annotation.NonNull;\r\nimport androidx.recyclerview.widget.RecyclerView;\r\n\r\nimport com.google.firebase.database.DatabaseReference;\r\nimport com.google.firebase.database.FirebaseDatabase;\r\nimport com.google.firebase.database.core.operation.Overwrite;\r\n\r\nimport java.util.ArrayList;\r\n\r\npublic class adaptercardview extends RecyclerView.Adapter<adaptercardview.myviewholder> {\r\n\r\n    Context context;\r\n    ArrayList<Event> list;\r\n\r\n    public adaptercardview(Context context, ArrayList<Event> list) {\r\n        this.context = context;\r\n        this.list = list;\r\n    }\r\n\r\n    @NonNull\r\n    @Override\r\n    public myviewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {\r\n        View v = LayoutInflater.from(context).inflate(R.layout.item, parent, false);\r\n        return new myviewholder(v);\r\n    }\r\n\r\n    public void deleteitem(int position) {\r\n        list.remove(position);\r\n        notifyItemRemoved(position);\r\n\r\n    }\r\n    public Event getmyitem(int position)\r\n    {\r\n        Event event = list.get(position);\r\n        return event;\r\n    }\r\n\r\n    @Override\r\n    public void onBindViewHolder(@NonNull myviewholder holder, int position) {\r\n        Event c = list.get(position);\r\n        holder.eventname.setText(c.getTitle());\r\n        holder.eventdate.setText(c.getDate());\r\n        Glide.with(context).load(c.getImage()).into(holder.eventImage);\r\n\r\n        holder.eventname.setOnClickListener(new View.OnClickListener() {\r\n            @Override\r\n            public void onClick(View view) {\r\n                Intent intent = new Intent(context, CurrentView.class);\r\n                intent.putExtra(\"Event name\", c.getTitle());\r\n                intent.putExtra(\"Event date\", c.getDate());\r\n                intent.putExtra(\"Event key\", c.getKey());\r\n                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);\r\n                context.startActivity(intent);\r\n            }\r\n        });\r\n\r\n    }\r\n\r\n\r\n    @Override\r\n    public int getItemCount() {\r\n        return list.size();\r\n    }\r\n\r\n    public static class myviewholder extends RecyclerView.ViewHolder {\r\n        TextView eventname, eventdate;\r\n        ImageView eventImage;\r\n\r\n        public myviewholder(@NonNull View itemView) {\r\n            super(itemView);\r\n            eventname = itemView.findViewById(R.id.eventTitle);\r\n            eventdate = itemView.findViewById(R.id.eventDate);\r\n            eventImage=itemView.findViewById(R.id.eventImage);\r\n\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/eventgo/adaptercardview.java b/app/src/main/java/com/example/eventgo/adaptercardview.java
+--- a/app/src/main/java/com/example/eventgo/adaptercardview.java	(revision 494471e53ce6ba49f4c3f3822a29717d6f3e94fd)
++++ b/app/src/main/java/com/example/eventgo/adaptercardview.java	(date 1667063881074)
+@@ -54,7 +54,7 @@
+         holder.eventdate.setText(c.getDate());
+         Glide.with(context).load(c.getImage()).into(holder.eventImage);
+ 
+-        holder.eventname.setOnClickListener(new View.OnClickListener() {
++        holder.eventImage.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View view) {
+                 Intent intent = new Intent(context, CurrentView.class);
+Index: app/src/main/res/layout/activity_add_location.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    tools:context=\".AddLocation\"\r\n    android:background=\"@color/color2\">\r\n\r\n    <TextView\r\n        android:id=\"@+id/venueAdd\"\r\n        android:layout_width=\"233dp\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginStart=\"100dp\"\r\n        android:layout_marginTop=\"40dp\"\r\n        android:layout_marginEnd=\"100dp\"\r\n        android:layout_marginBottom=\"100dp\"\r\n        android:gravity=\"center\"\r\n        android:text=\"Add a Custom Venue to Your Event\"\r\n        android:textColor=\"@color/color3\"\r\n        android:textSize=\"24sp\" />\r\n    <EditText\r\n        android:id=\"@+id/venue\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginStart=\"14dp\"\r\n        android:layout_marginTop=\"160dp\"\r\n        android:layout_marginEnd=\"14dp\"\r\n        android:layout_marginBottom=\"14dp\"\r\n        android:background=\"@drawable/custom_input\"\r\n        android:drawablePadding=\"20dp\"\r\n        android:ems=\"10\"\r\n        android:hint=\"Enter Your Venue\"\r\n        android:inputType=\"text\"\r\n        android:textColor=\"@color/color3\"\r\n        android:padding=\"20dp\" />\r\n\r\n    <TextView\r\n        android:id=\"@+id/LocationBudgetAdd\"\r\n        android:layout_width=\"328dp\"\r\n        android:layout_height=\"71dp\"\r\n        android:layout_alignParentEnd=\"true\"\r\n        android:layout_marginStart=\"5dp\"\r\n        android:layout_marginTop=\"350dp\"\r\n        android:layout_marginEnd=\"45dp\"\r\n        android:layout_marginBottom=\"100dp\"\r\n        android:gravity=\"center\"\r\n        android:text=\"Or Enter Your Budget and Location and get Suggestions\"\r\n        android:textColor=\"@color/color3\"\r\n        android:textSize=\"24sp\" />\r\n\r\n    <Button\r\n        android:id=\"@+id/add\"\r\n        android:layout_width=\"118dp\"\r\n        android:layout_height=\"64dp\"\r\n        android:layout_centerHorizontal=\"true\"\r\n        android:layout_marginStart=\"60dp\"\r\n        android:layout_marginTop=\"270dp\"\r\n        android:layout_marginEnd=\"50dp\"\r\n        android:layout_marginBottom=\"50dp\"\r\n        android:backgroundTint=\"@color/color3\"\r\n\r\n        android:text=\"Add\"\r\n        android:textSize=\"24sp\" />\r\n    <EditText\r\n        android:id=\"@+id/budgetForVenue\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginStart=\"14dp\"\r\n        android:layout_marginTop=\"440dp\"\r\n        android:layout_marginEnd=\"14dp\"\r\n        android:layout_marginBottom=\"14dp\"\r\n        android:background=\"@drawable/custom_input\"\r\n        android:drawablePadding=\"20dp\"\r\n        android:ems=\"10\"\r\n        android:hint=\"Enter Your Budget For Venue\"\r\n        android:inputType=\"number\"\r\n        android:textColor=\"@color/color3\"\r\n        android:padding=\"20dp\" />\r\n    <EditText\r\n        android:id=\"@+id/LocationDesired\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginStart=\"14dp\"\r\n        android:layout_marginTop=\"540dp\"\r\n        android:layout_marginEnd=\"14dp\"\r\n        android:layout_marginBottom=\"14dp\"\r\n        android:background=\"@drawable/custom_input\"\r\n        android:drawablePadding=\"20dp\"\r\n        android:ems=\"10\"\r\n        android:hint=\"Enter Your Desired Location For Venue\"\r\n        android:inputType=\"text\"\r\n        android:textColor=\"@color/color3\"\r\n        android:padding=\"20dp\" />\r\n\r\n    <Button\r\n        android:id=\"@+id/search\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_centerHorizontal=\"true\"\r\n        android:layout_marginStart=\"60dp\"\r\n        android:layout_marginTop=\"630dp\"\r\n        android:layout_marginEnd=\"50dp\"\r\n        android:layout_marginBottom=\"50dp\"\r\n        android:backgroundTint=\"@color/color3\"\r\n\r\n        android:text=\"Search\"\r\n        android:textSize=\"24sp\" />\r\n\r\n</RelativeLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_add_location.xml b/app/src/main/res/layout/activity_add_location.xml
+--- a/app/src/main/res/layout/activity_add_location.xml	(revision 494471e53ce6ba49f4c3f3822a29717d6f3e94fd)
++++ b/app/src/main/res/layout/activity_add_location.xml	(date 1667064250106)
+@@ -11,14 +11,12 @@
+         android:id="@+id/venueAdd"
+         android:layout_width="233dp"
+         android:layout_height="wrap_content"
+-        android:layout_marginStart="100dp"
+-        android:layout_marginTop="40dp"
+-        android:layout_marginEnd="100dp"
+-        android:layout_marginBottom="100dp"
++        android:layout_centerHorizontal="true"
++        android:layout_marginTop="80dp"
+         android:gravity="center"
+         android:text="Add a Custom Venue to Your Event"
+         android:textColor="@color/color3"
+-        android:textSize="24sp" />
++        android:textSize="20sp" />
+     <EditText
+         android:id="@+id/venue"
+         android:layout_width="match_parent"
+@@ -51,17 +49,16 @@
+ 
+     <Button
+         android:id="@+id/add"
+-        android:layout_width="118dp"
+-        android:layout_height="64dp"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_marginStart="60dp"
+         android:layout_marginTop="270dp"
+         android:layout_marginEnd="50dp"
+         android:layout_marginBottom="50dp"
+         android:backgroundTint="@color/color3"
+-
+         android:text="Add"
+-        android:textSize="24sp" />
++        android:textSize="16dp" />
+     <EditText
+         android:id="@+id/budgetForVenue"
+         android:layout_width="match_parent"
+Index: app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>[\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/anim_slide_in_left.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/anim/slide_in_left.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-pngs-49:/drawable-anydpi-v24/ic_launcher_foreground.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_anika2.jpg.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/anika2.jpg\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/layout_login_page.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/layout/login_page.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/mipmap-hdpi_ic_launcher.png.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/mipmap-hdpi/ic_launcher.png\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_anikafb2.png.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/anikafb2.png\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/anim_slide_out_left.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/anim/slide_out_left.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_westin.webp.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/westin.webp\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_profile.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/profile.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/xml_data_extraction_rules.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/xml/data_extraction_rules.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/layout_activity_invite.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/layout/activity_invite.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_event.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/event.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/layout_activity_infos.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/layout/activity_infos.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_finallogo.jpg.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/finallogo.jpg\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/layout_activity_signup_page.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/layout/activity_signup_page.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_ic_launcher_background.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/ic_launcher_background.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_time.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/time.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/layout_activity_manage_otp.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/layout/activity_manage_otp.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/layout_activity_current_view.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/layout/activity_current_view.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/font_questrial.ttf.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/font/questrial.ttf\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/layout_activity_venue_list.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/layout/activity_venue_list.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/layout_activity_forgotpass.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/layout/activity_forgotpass.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_hide_password.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/hide_password.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_place.jpg.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/place.jpg\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/mipmap-xxxhdpi/ic_launcher_foreground.png\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/layout_activity_splashscreen.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/layout/activity_splashscreen.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/mipmap-xxhdpi_ic_launcher_foreground.png.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/mipmap-xxhdpi/ic_launcher_foreground.png\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_home.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/home.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_search_focused.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/search_focused.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/mipmap-xxxhdpi_ic_launcher_round.png.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/mipmap-xxxhdpi/ic_launcher_round.png\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_email_icon_focused.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/email_icon_focused.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/anim_slide_in_right.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/anim/slide_in_right.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_custm_button.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/custm_button.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/layout_image_layout.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/layout/image_layout.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_calendar.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/calendar.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_anika3.jpg.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/anika3.jpg\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_time_focused.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/time_focused.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_welp.jpg.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/welp.jpg\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/layout_third_page.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/layout/third_page.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/layout_fragment_home.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/layout/fragment_home.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/menu_nav_view.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/menu/nav_view.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_password_icon.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/password_icon.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/layout_item.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/layout/item.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_intercontinental.jpg.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/intercontinental.jpg\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_anika.jpg.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/anika.jpg\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/mipmap-hdpi_ic_launcher_foreground.png.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/mipmap-hdpi/ic_launcher_foreground.png\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_bluepeople.png.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/bluepeople.png\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/mipmap-mdpi_ic_launcher_round.png.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/mipmap-mdpi/ic_launcher_round.png\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/mipmap-mdpi_ic_launcher_foreground.png.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/mipmap-mdpi/ic_launcher_foreground.png\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_custom_input.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/custom_input.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_show_pass.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/show_pass.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/mipmap-hdpi_ic_launcher_round.png.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/mipmap-hdpi/ic_launcher_round.png\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_guests.png.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/guests.png\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_person_add.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/person_add.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/layout_activity_add_location.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/layout/activity_add_location.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_email_icon.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/email_icon.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_custom_time.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/custom_time.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_password_icon_focused.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/password_icon_focused.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_blueguests.png.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/blueguests.png\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_custom_lock_icon.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/custom_lock_icon.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_search.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/search.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/layout_fragment_profile.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/layout/fragment_profile.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/layout_fragment_notification.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/layout/fragment_notification.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/mipmap-xxhdpi_ic_launcher_round.png.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/mipmap-xxhdpi/ic_launcher_round.png\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_custom_search.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/custom_search.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/layout_activity_signupwith.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/layout/activity_signupwith.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_custom_calendar.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/custom_calendar.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/layout_location_layout.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/layout/location_layout.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_vendors.jpg.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/vendors.jpg\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/layout_fragment_menu.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/layout/fragment_menu.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/mipmap-xxhdpi_ic_launcher.png.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/mipmap-xxhdpi/ic_launcher.png\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_notifications.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/notifications.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_bgcolor.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/bgcolor.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/mipmap-mdpi_ic_launcher.png.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/mipmap-mdpi/ic_launcher.png\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/mipmap-xxxhdpi_ic_launcher.png.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/mipmap-xxxhdpi/ic_launcher.png\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/mipmap-xhdpi_ic_launcher_foreground.png.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/mipmap-xhdpi/ic_launcher_foreground.png\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_money.webp.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/money.webp\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_menu.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/menu.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/layout_fragment_event.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/layout/fragment_event.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/mipmap-xhdpi_ic_launcher_round.png.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/mipmap-xhdpi/ic_launcher_round.png\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/xml_backup_rules.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/xml/backup_rules.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/layout_get_started.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/layout/get_started.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_sonargaon.webp.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/sonargaon.webp\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/anim_slide_out_right.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/anim/slide_out_right.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_eventimage.jpg.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/eventimage.jpg\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_custom_input2.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/custom_input2.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_calendar_focused.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/calendar_focused.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/mipmap-xhdpi_ic_launcher.png.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/mipmap-xhdpi/ic_launcher.png\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_location.jpg.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/location.jpg\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/layout_second_page.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/layout/second_page.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_google.png.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/google.png\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_custom_email_icon.xml.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/custom_email_icon.xml\"\r\n    },\r\n    {\r\n        \"merged\": \"com.example.eventgo.app-merged_res-54:/drawable_taskicon.png.flat\",\r\n        \"source\": \"com.example.eventgo.app-main-56:/drawable/taskicon.png\"\r\n    }\r\n]
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json b/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json
+--- a/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json	(revision 494471e53ce6ba49f4c3f3822a29717d6f3e94fd)
++++ b/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json	(date 1667068061996)
+@@ -1,374 +1,378 @@
+ [
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/anim_slide_in_left.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/anim/slide_in_left.xml"
+-    },
+-    {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+-        "source": "com.example.eventgo.app-pngs-49:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+-    },
+-    {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_anika2.jpg.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/anika2.jpg"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_eventimage.jpg.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\eventimage.jpg"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/layout_login_page.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/layout/login_page.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_calendar.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\calendar.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/mipmap-hdpi_ic_launcher.png.flat",
+-        "source": "com.example.eventgo.app-main-56:/mipmap-hdpi/ic_launcher.png"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_money.webp.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\money.webp"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_anikafb2.png.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/anikafb2.png"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_custom_calendar.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\custom_calendar.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/anim_slide_out_left.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/anim/slide_out_left.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_email_icon_focused.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\email_icon_focused.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_westin.webp.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/westin.webp"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_show_pass.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\show_pass.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_profile.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/profile.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_time.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\time.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/xml_data_extraction_rules.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/xml/data_extraction_rules.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_notifications.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\notifications.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/layout_activity_invite.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/layout/activity_invite.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_custom_time.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\custom_time.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_event.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/event.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_search.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\search.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/layout_activity_infos.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/layout/activity_infos.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_welp.jpg.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\welp.jpg"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_finallogo.jpg.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/finallogo.jpg"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_hide_password.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\hide_password.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/layout_activity_signup_page.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/layout/activity_signup_page.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\anim_slide_out_right.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\anim\\slide_out_right.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_ic_launcher_background.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/ic_launcher_background.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\menu_nav_view.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\menu\\nav_view.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_time.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/time.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_anika.jpg.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\anika.jpg"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/layout_activity_manage_otp.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/layout/activity_manage_otp.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_bluepeople.png.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\bluepeople.png"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/layout_activity_current_view.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/layout/activity_current_view.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\layout_activity_infos.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\layout\\activity_infos.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/font_questrial.ttf.flat",
+-        "source": "com.example.eventgo.app-main-56:/font/questrial.ttf"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_calendar_focused.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\calendar_focused.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/layout_activity_venue_list.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/layout/activity_venue_list.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\xml_backup_rules.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\xml\\backup_rules.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/layout_activity_forgotpass.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/layout/activity_forgotpass.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_person_add.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\person_add.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_hide_password.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/hide_password.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\layout_activity_add_location.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\layout\\activity_add_location.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_place.jpg.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/place.jpg"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_anikafb2.png.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\anikafb2.png"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+-        "source": "com.example.eventgo.app-main-56:/mipmap-xxxhdpi/ic_launcher_foreground.png"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\layout_activity_current_view.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\layout\\activity_current_view.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/layout_activity_splashscreen.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/layout/activity_splashscreen.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_google.png.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\google.png"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+-        "source": "com.example.eventgo.app-main-56:/mipmap-xxhdpi/ic_launcher_foreground.png"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\mipmap-xxhdpi_ic_launcher.png.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\mipmap-xxhdpi\\ic_launcher.png"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_home.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/home.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\layout_fragment_event.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\layout\\fragment_event.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_search_focused.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/search_focused.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\layout_activity_manage_otp.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\layout\\activity_manage_otp.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+-        "source": "com.example.eventgo.app-main-56:/mipmap-xxxhdpi/ic_launcher_round.png"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_place.jpg.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\place.jpg"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_email_icon_focused.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/email_icon_focused.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\layout_activity_invite.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\layout\\activity_invite.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/anim_slide_in_right.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/anim/slide_in_right.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_guests.png.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\guests.png"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_custm_button.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/custm_button.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_location.jpg.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\location.jpg"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/layout_image_layout.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/layout/image_layout.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_vendors.jpg.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\vendors.jpg"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_calendar.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/calendar.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_sonargaon.webp.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\sonargaon.webp"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_anika3.jpg.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/anika3.jpg"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\anim_slide_out_left.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\anim\\slide_out_left.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_time_focused.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/time_focused.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_ic_launcher_background.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\ic_launcher_background.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_welp.jpg.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/welp.jpg"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\mipmap-hdpi_ic_launcher.png.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\mipmap-hdpi\\ic_launcher.png"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/layout_third_page.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/layout/third_page.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/layout_fragment_home.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/layout/fragment_home.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_password_icon.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\password_icon.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/menu_nav_view.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/menu/nav_view.xml"
+-    },
+-    {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_password_icon.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/password_icon.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\mipmap-mdpi_ic_launcher_round.png.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\mipmap-mdpi\\ic_launcher_round.png"
+     },
+     {
+         "merged": "com.example.eventgo.app-merged_res-54:/layout_item.xml.flat",
+         "source": "com.example.eventgo.app-main-56:/layout/item.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_intercontinental.jpg.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/intercontinental.jpg"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_taskicon.png.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\taskicon.png"
++    },
++    {
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\mipmap-mdpi\\ic_launcher_foreground.png"
++    },
++    {
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\layout_activity_signupwith.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\layout\\activity_signupwith.xml"
++    },
++    {
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_event.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\event.xml"
++    },
++    {
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_anika2.jpg.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\anika2.jpg"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_anika.jpg.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/anika.jpg"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\layout_fragment_profile.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\layout\\fragment_profile.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+-        "source": "com.example.eventgo.app-main-56:/mipmap-hdpi/ic_launcher_foreground.png"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\layout_fragment_menu.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\layout\\fragment_menu.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_bluepeople.png.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/bluepeople.png"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/mipmap-mdpi_ic_launcher_round.png.flat",
+-        "source": "com.example.eventgo.app-main-56:/mipmap-mdpi/ic_launcher_round.png"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_custom_input.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\custom_input.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+-        "source": "com.example.eventgo.app-main-56:/mipmap-mdpi/ic_launcher_foreground.png"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_westin.webp.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\westin.webp"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_custom_input.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/custom_input.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\font_questrial.ttf.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\font\\questrial.ttf"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_show_pass.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/show_pass.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\anim_slide_in_left.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\anim\\slide_in_left.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/mipmap-hdpi_ic_launcher_round.png.flat",
+-        "source": "com.example.eventgo.app-main-56:/mipmap-hdpi/ic_launcher_round.png"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_finallogo.jpg.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\finallogo.jpg"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_guests.png.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/guests.png"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\layout_third_page.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\layout\\third_page.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_person_add.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/person_add.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\layout_activity_splashscreen.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\layout\\activity_splashscreen.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/layout_activity_add_location.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/layout/activity_add_location.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\mipmap-xxxhdpi_ic_launcher.png.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\mipmap-xxxhdpi\\ic_launcher.png"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_email_icon.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/email_icon.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\mipmap-xxhdpi\\ic_launcher_round.png"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_custom_time.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/custom_time.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_custm_button.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\custm_button.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_password_icon_focused.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/password_icon_focused.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_blueguests.png.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/blueguests.png"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_profile.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\profile.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_custom_lock_icon.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/custom_lock_icon.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_time_focused.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\time_focused.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_search.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/search.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_custom_search.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\custom_search.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/layout_fragment_profile.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/layout/fragment_profile.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\mipmap-mdpi_ic_launcher.png.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\mipmap-mdpi\\ic_launcher.png"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/layout_fragment_notification.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/layout/fragment_notification.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\mipmap-xhdpi_ic_launcher_round.png.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\mipmap-xhdpi\\ic_launcher_round.png"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+-        "source": "com.example.eventgo.app-main-56:/mipmap-xxhdpi/ic_launcher_round.png"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_anika3.jpg.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\anika3.jpg"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_custom_search.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/custom_search.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\layout_fragment_notification.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\layout\\fragment_notification.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/layout_activity_signupwith.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/layout/activity_signupwith.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_email_icon.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\email_icon.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_custom_calendar.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/custom_calendar.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\layout_login_page.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\layout\\login_page.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/layout_location_layout.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/layout/location_layout.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_menu.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\menu.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_vendors.jpg.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/vendors.jpg"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_password_icon_focused.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\password_icon_focused.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/layout_fragment_menu.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/layout/fragment_menu.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\layout_get_started.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\layout\\get_started.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/mipmap-xxhdpi_ic_launcher.png.flat",
+-        "source": "com.example.eventgo.app-main-56:/mipmap-xxhdpi/ic_launcher.png"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\xml_data_extraction_rules.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\xml\\data_extraction_rules.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_notifications.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/notifications.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_custom_email_icon.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\custom_email_icon.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_bgcolor.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/bgcolor.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\layout_activity_signup_page.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\layout\\activity_signup_page.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/mipmap-mdpi_ic_launcher.png.flat",
+-        "source": "com.example.eventgo.app-main-56:/mipmap-mdpi/ic_launcher.png"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\layout_location_layout.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\layout\\location_layout.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/mipmap-xxxhdpi_ic_launcher.png.flat",
+-        "source": "com.example.eventgo.app-main-56:/mipmap-xxxhdpi/ic_launcher.png"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_home.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\home.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+-        "source": "com.example.eventgo.app-main-56:/mipmap-xhdpi/ic_launcher_foreground.png"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_blueguests.png.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\blueguests.png"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_money.webp.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/money.webp"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_intercontinental.jpg.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\intercontinental.jpg"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_menu.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/menu.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_bgcolor.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\bgcolor.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/layout_fragment_event.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/layout/fragment_event.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\layout_second_page.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\layout\\second_page.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/mipmap-xhdpi_ic_launcher_round.png.flat",
+-        "source": "com.example.eventgo.app-main-56:/mipmap-xhdpi/ic_launcher_round.png"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-pngs-49:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/xml_backup_rules.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/xml/backup_rules.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\layout_item.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\layout\\item.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/layout_get_started.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/layout/get_started.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_sonargaon.webp.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/sonargaon.webp"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_search_focused.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\search_focused.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/anim_slide_out_right.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/anim/slide_out_right.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_custom_lock_icon.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\custom_lock_icon.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_eventimage.jpg.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/eventimage.jpg"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\layout_fragment_home.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\layout\\fragment_home.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_custom_input2.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/custom_input2.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\mipmap-hdpi\\ic_launcher_foreground.png"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_calendar_focused.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/calendar_focused.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\layout_activity_forgotpass.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\layout\\activity_forgotpass.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/mipmap-xhdpi_ic_launcher.png.flat",
+-        "source": "com.example.eventgo.app-main-56:/mipmap-xhdpi/ic_launcher.png"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\layout_image_layout.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\layout\\image_layout.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_location.jpg.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/location.jpg"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\anim_slide_in_right.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\anim\\slide_in_right.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/layout_second_page.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/layout/second_page.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\mipmap-hdpi_ic_launcher_round.png.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\mipmap-hdpi\\ic_launcher_round.png"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_google.png.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/google.png"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\mipmap-xhdpi_ic_launcher.png.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\mipmap-xhdpi\\ic_launcher.png"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_custom_email_icon.xml.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/custom_email_icon.xml"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\drawable_custom_input2.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\drawable\\custom_input2.xml"
+     },
+     {
+-        "merged": "com.example.eventgo.app-merged_res-54:/drawable_taskicon.png.flat",
+-        "source": "com.example.eventgo.app-main-56:/drawable/taskicon.png"
++        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-54:\\layout_activity_venue_list.xml.flat",
++        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-56:\\layout\\activity_venue_list.xml"
+     }
+ ]
+\ No newline at end of file

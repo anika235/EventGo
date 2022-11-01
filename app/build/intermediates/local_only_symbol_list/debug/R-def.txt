@@ -15,6 +15,7 @@ color purple_700
 color teal_200
 color teal_700
 color white
+drawable add
 drawable anika
 drawable anika2
 drawable anika3
@@ -77,6 +78,7 @@ id budget
 id budgetForVenue
 id ccp
 id checklist
+id checklistphoto
 id circleindicator
 id code
 id confirm_password
@@ -89,6 +91,7 @@ id copybutton
 id create
 id createbutton
 id dates
+id due_date
 id editTextTextEmailAddress
 id email
 id event
@@ -97,6 +100,7 @@ id eventImage
 id eventTitle
 id eye
 id firstname
+id floatingActionButton
 id fname_profile
 id forgotpass
 id forgotpassword
@@ -115,6 +119,7 @@ id locationString
 id loginbutton
 id logout
 id mail_profile
+id mcheckbox
 id menu
 id money
 id noaccount
@@ -130,11 +135,14 @@ id presentdate
 id presentname
 id profile
 id recylelist
+id savetask
 id search
+id set_due_tv
 id sharebutton
 id signup
 id signupbutton
 id start
+id task_edittext
 id textView
 id textView10
 id textView11
@@ -161,6 +169,7 @@ id venueName
 id verify
 id viewpager
 layout activity_add_location
+layout activity_checklist
 layout activity_current_view
 layout activity_forgotpass
 layout activity_infos
@@ -170,6 +179,7 @@ layout activity_signup_page
 layout activity_signupwith
 layout activity_splashscreen
 layout activity_venue_list
+layout add_new_task
 layout fragment_event
 layout fragment_home
 layout fragment_menu
@@ -178,6 +188,7 @@ layout fragment_profile
 layout get_started
 layout image_layout
 layout item
+layout list_task
 layout location_layout
 layout login_page
 layout second_page
