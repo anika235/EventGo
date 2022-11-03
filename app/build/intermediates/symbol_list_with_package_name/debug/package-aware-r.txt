@@ -3138,6 +3138,7 @@ id actions
 id activity_chooser_view_content
 id add
 id addLocation
+id addVenue
 id addpeople
 id adjust_height
 id adjust_width
@@ -3184,6 +3185,7 @@ id cache_measures
 id callMeasure
 id cancel_action
 id cancel_button
+id capacity
 id cardViewRoot
 id carryVelocity
 id ccp
@@ -3507,6 +3509,7 @@ id ratio
 id rectangles
 id recycler_countryDialog
 id recylelist
+id rent
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3622,6 +3625,7 @@ id textView13
 id textView14
 id textView15
 id textView2
+id textView3
 id textView7
 id textView8
 id textView9
@@ -3668,9 +3672,16 @@ id useLogo
 id vendor
 id venue
 id venueAdd
+id venueEvent
+id venueGuest
 id venueImage
 id venueList
+id venueLocation
 id venueName
+id venuePhoto
+id venueRent
+id venueTitle
+id venueType
 id verify
 id vertical
 id vertical_only
@@ -3797,6 +3808,7 @@ layout activity_manage_otp
 layout activity_signup_page
 layout activity_signupwith
 layout activity_splashscreen
+layout activity_venue_details
 layout activity_venue_list
 layout add_new_task
 layout browser_actions_context_menu_page

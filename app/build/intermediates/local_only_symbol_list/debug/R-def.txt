@@ -70,12 +70,14 @@ id LocationBudgetAdd
 id LocationDesired
 id add
 id addLocation
+id addVenue
 id addpeople
 id alreadyaccount
 id bdate_profile
 id bottomNavigationView
 id budget
 id budgetForVenue
+id capacity
 id ccp
 id checklist
 id checklistphoto
@@ -135,6 +137,7 @@ id presentdate
 id presentname
 id profile
 id recylelist
+id rent
 id savetask
 id search
 id set_due_tv
@@ -151,6 +154,7 @@ id textView13
 id textView14
 id textView15
 id textView2
+id textView3
 id textView7
 id textView8
 id textView9
@@ -163,9 +167,16 @@ id upload_image
 id vendor
 id venue
 id venueAdd
+id venueEvent
+id venueGuest
 id venueImage
 id venueList
+id venueLocation
 id venueName
+id venuePhoto
+id venueRent
+id venueTitle
+id venueType
 id verify
 id viewpager
 layout activity_add_location
@@ -178,6 +189,7 @@ layout activity_manage_otp
 layout activity_signup_page
 layout activity_signupwith
 layout activity_splashscreen
+layout activity_venue_details
 layout activity_venue_list
 layout add_new_task
 layout fragment_event

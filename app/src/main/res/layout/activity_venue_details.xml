@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color2"
+    tools:context=".VenueDetails">
+
+    <ImageView
+        android:id="@+id/venuePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="226dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/intercontinental" />
+
+    <TextView
+        android:id="@+id/venueTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="50dp"
+        android:text="Hotel Intercontinental"
+        android:textColor="@color/color3"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/venueLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bangla Motor"
+        android:textSize="34sp"
+        android:textColor="@color/color3"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="90dp"
+        />
+
+    <TextView
+        android:id="@+id/venueRent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="350dp"
+        android:background="@color/color1"
+        android:text="Rent : "
+        android:textColor="@color/color3"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/venueGuest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="420dp"
+        android:background="@color/color1"
+        android:text="Capacity : "
+        android:textColor="@color/color3"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/venueType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="490dp"
+        android:background="@color/color1"
+        android:text="Types of Events that can be held :  "
+        android:textColor="@color/color3"
+        android:textSize="24sp"
+        android:layout_marginEnd="14dp"
+        />
+
+    <EditText
+        android:id="@+id/rent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="14dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+
+        android:drawablePadding="20dp"
+        android:inputType="text"
+        android:textColor="@color/color3"
+        android:textSize="24sp"/>
+    <EditText
+        android:id="@+id/capacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="14dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+
+        android:drawablePadding="20dp"
+        android:inputType="text"
+        android:textColor="@color/color3"
+        android:textSize="24sp"/>
+    <EditText
+        android:id="@+id/venueEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="14dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+
+        android:drawablePadding="20dp"
+        android:inputType="number"
+        android:textColor="@color/color3"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/addVenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/color3"
+
+        android:text="Add this Venue to your Event"
+        android:layout_marginTop="620dp"
+        android:layout_marginStart="50dp"/>
+
+
+</RelativeLayout>

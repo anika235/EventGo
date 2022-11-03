@@ -1,6 +1,7 @@
 package com.example.eventgo;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -36,12 +37,24 @@ public class adapterVenue extends RecyclerView.Adapter<adapterVenue.VenueViewHol
     @Override
     public void onBindViewHolder(@NonNull VenueViewHolder holder, int position) {
 
+
         Venue venue=venueList.get(position);
         holder.venueName.setText(venue.getName());
         Glide.with(context).load(venue.getImage()).into(holder.venueImage);
         holder.venueImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent intent=new Intent(context,VenueDetails.class);
+                intent.putExtra("VenueName",venue.getName());
+                intent.putExtra("VenueLocation",venue.getLocation());
+                intent.putExtra("VenueImage",venue.getImage());
+                intent.putExtra("VenueGuest",String.valueOf(venue.getGuest()));
+                intent.putExtra("VenueRent",String.valueOf(venue.getBudget()));
+                intent.putExtra("EventType",venue.getType());
+
+
+                context.startActivity(intent);
+
 
             }
         });

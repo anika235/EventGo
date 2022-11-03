@@ -60,7 +60,7 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
     private EditText title, times, dates;
     public String typ;
     ImageView  upload_image;
-    Uri filepath;
+    Uri filepath=null;
     String eventImage;
     Bitmap bitmap;
     private Button upload;
@@ -169,8 +169,10 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
         upload.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                
+                if(filepath!=null) {
+
                     uploadToFirebase();
+                }
 
 
             }
