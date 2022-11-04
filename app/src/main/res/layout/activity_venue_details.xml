@@ -41,7 +41,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="350dp"
-        android:background="@color/color1"
         android:text="Rent : "
         android:textColor="@color/color3"
         android:textSize="24sp" />
@@ -52,7 +51,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="420dp"
-        android:background="@color/color1"
         android:text="Capacity : "
         android:textColor="@color/color3"
         android:textSize="24sp" />
@@ -63,7 +61,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="490dp"
-        android:background="@color/color1"
         android:text="Types of Events that can be held :  "
         android:textColor="@color/color3"
         android:textSize="24sp"
@@ -79,8 +76,8 @@
         android:layout_marginEnd="14dp"
         android:background="@drawable/custom_input"
         android:ems="10"
-
         android:drawablePadding="20dp"
+        android:textAlignment="center"
         android:inputType="text"
         android:textColor="@color/color3"
         android:textSize="24sp"/>
@@ -90,6 +87,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="130dp"
         android:layout_marginTop="420dp"
+        android:textAlignment="center"
         android:layout_marginEnd="14dp"
         android:background="@drawable/custom_input"
         android:ems="10"
@@ -107,6 +105,7 @@
         android:layout_marginEnd="14dp"
         android:background="@drawable/custom_input"
         android:ems="10"
+        android:textAlignment="center"
 
         android:drawablePadding="20dp"
         android:inputType="number"

@@ -2610,8 +2610,6 @@ drawable anikafb2
 drawable avd_hide_password
 drawable avd_show_password
 drawable bgcolor
-drawable blueguests
-drawable bluepeople
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2620,10 +2618,12 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable budget
 drawable budget_event
 drawable calendar
 drawable calendar_focused
 drawable ccp_ic_arrow_drop_down
+drawable checklistpic
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -2914,6 +2914,7 @@ drawable flag_zimbabwe
 drawable google
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable guestpic
 drawable guests
 drawable hide_password
 drawable home
@@ -2980,13 +2981,11 @@ drawable notify_panel_notification_icon_bg
 drawable password_icon
 drawable password_icon_focused
 drawable person_add
-drawable place
 drawable profile
 drawable search
 drawable search_focused
 drawable show_pass
 drawable sonargaon
-drawable taskicon
 drawable test_custom_background
 drawable test_level_drawable
 drawable time
@@ -2995,6 +2994,7 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable transparent_close
 drawable vendors
+drawable venues
 drawable welp
 drawable westin
 drawable white_radius

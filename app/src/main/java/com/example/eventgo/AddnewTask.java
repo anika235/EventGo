@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Editable;
@@ -20,16 +22,17 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import com.example.eventgo.Model.checklist;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.Calendar;
 import java.util.HashMap;
-import java.util.Map;
 import java.util.Objects;
 
 public class AddnewTask extends BottomSheetDialogFragment {
@@ -41,7 +44,6 @@ public class AddnewTask extends BottomSheetDialogFragment {
     private FirebaseDatabase database;
     private Context context;
     private String dueDate = "";
-    private String code;
 
     public  static AddnewTask newInstance(){
         return new AddnewTask();
@@ -113,26 +115,31 @@ public class AddnewTask extends BottomSheetDialogFragment {
                 }
                 else
                 {
-                    Map<String, Object> taskMAp = new HashMap<>();
-                    taskMAp.put("task", task);
-                    taskMAp.put("due", dueDate);
-                    taskMAp.put("status", 0);
-                    database.getInstance().getReference("Users").child(Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser()).getUid()).child("Checklist").setValue(taskMAp).addOnCompleteListener(new OnCompleteListener<Void>() {
-                        @Override
-                        public void onComplete(@NonNull Task<Void> task) {
-                            if(task.isSuccessful()){
-                                Toast.makeText(context, "Task saved", Toast.LENGTH_SHORT).show();
-                            }else
-                            {
-                                Toast.makeText(context, task.getException().getMessage(), Toast.LENGTH_SHORT).show();
-                            }
-                        }
-                    }).addOnFailureListener(new OnFailureListener() {
-                        @Override
-                        public void onFailure(@NonNull Exception e) {
-                            Toast.makeText(context, e.getMessage(), Toast.LENGTH_SHORT).show();
-                        }
-                    });
+                    String key=FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").push().getKey();
+
+                    SharedPreferences preferences = context.getSharedPreferences("MySharedPref",context.MODE_PRIVATE);
+                    String code = preferences.getString("Event key", "");
+
+                    HashMap<String, String> Checkmap = new HashMap<>();
+                    Checkmap.put("task",task);
+                    Checkmap.put("dueDate",dueDate);
+                    Checkmap.put("status","0");
+
+                    FirebaseDatabase.getInstance().getReference().child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").child(code).child("Checklist")
+                            .child(key).setValue(Checkmap).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                @Override
+                                public void onComplete(@NonNull Task<Void> task) {
+                                    if(task.isSuccessful())
+                                    {
+                                        Toast.makeText(context, "Task saved", Toast.LENGTH_SHORT).show();
+                                    }
+                                    else
+                                    {
+                                        Toast.makeText(context, task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                                    }
+                                }
+                            });
+
                     dismiss();
                 }
             }

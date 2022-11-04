@@ -6,11 +6,29 @@
     android:layout_height="match_parent"
     android:background="@color/color2"
     tools:context=".checklistActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="Make your Own Checklist"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/color3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="14dp"
+        android:text="So Much things are pending!!"
+        android:textSize="14dp"
+        android:textColor="@color/color3"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/checklist"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
@@ -19,7 +37,6 @@
         android:layout_marginTop="600dp"
         android:layout_marginLeft="300dp"
         android:clickable="true"
-        app:backgroundTint="@color/color2"
-        android:backgroundTint="@color/color3"
+        app:backgroundTint="@color/color1"
         app:srcCompat="@drawable/add" />
 </RelativeLayout>

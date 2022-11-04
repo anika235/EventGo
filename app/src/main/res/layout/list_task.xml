@@ -7,36 +7,38 @@
     android:background="@color/color2">
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         app:cardElevation="8dp"
         app:cardCornerRadius="8dp"
-        android:background="@color/color2">
+        android:background="@color/color2"
+        android:layout_marginBottom="10dp">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:background="@color/color1">
 
             <com.google.android.material.checkbox.MaterialCheckBox
                 android:id="@+id/mcheckbox"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:buttonTint="@color/color3"
                 android:paddingStart="10dp"
-                android:text="this is your task"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="16dp"
-                tools:ignore="MissingConstraints" />
+                android:textColor="@color/color3"
+                android:text="this is your task"/>
 
             <TextView
                 android:id="@+id/due_date"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/mcheckbox"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/color1"
                 android:text="31-2-2020"
-                android:textSize="14dp"
-                tools:layout_editor_absoluteX="317dp"
-                tools:layout_editor_absoluteY="26dp"
-                tools:ignore="MissingConstraints" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
+                android:textSize="14dp" />
+        </RelativeLayout>
 
     </androidx.cardview.widget.CardView>
 

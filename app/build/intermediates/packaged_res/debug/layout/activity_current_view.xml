@@ -11,6 +11,7 @@
         android:id="@+id/header_image"
         android:layout_width="wrap_content"
         android:layout_height="272dp"
+        android:layout_centerHorizontal="true"
         app:srcCompat="@drawable/eventimage" />
 
     <TextView
@@ -52,7 +53,7 @@
         android:layout_height="98dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="400dp"
-        app:srcCompat="@drawable/taskicon" />
+        app:srcCompat="@drawable/checklistpic" />
 
     <ImageView
         android:id="@+id/guest"
@@ -60,7 +61,7 @@
         android:layout_height="97dp"
         android:layout_marginStart="250dp"
         android:layout_marginTop="400dp"
-        app:srcCompat="@drawable/bluepeople" />
+        app:srcCompat="@drawable/guestpic" />
 
     <ImageView
         android:id="@+id/place"
@@ -68,21 +69,21 @@
         android:layout_height="100dp"
         android:layout_marginStart="145dp"
         android:layout_marginTop="400dp"
-        app:srcCompat="@drawable/place" />
+        app:srcCompat="@drawable/venues" />
 
     <ImageView
         android:id="@+id/money"
         android:layout_width="171dp"
         android:layout_height="97dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="560dp"
-        app:srcCompat="@drawable/money" />
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="570dp"
+        app:srcCompat="@drawable/budget" />
 
     <ImageView
         android:id="@+id/vendor"
         android:layout_width="143dp"
-        android:layout_height="93dp"
-        android:layout_marginStart="250dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="225dp"
         android:layout_marginTop="560dp"
         app:srcCompat="@drawable/vendors" />
 
@@ -116,20 +117,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="650dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="660dp"
         android:text="Budget"
         android:textColor="@color/color3"
         android:textSize="25dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="280dp"
-        android:layout_marginTop="650dp"
-        android:text="Vendors"
-        android:textColor="@color/color3"
-        android:textSize="25dp" />
+
 
 
 </RelativeLayout>

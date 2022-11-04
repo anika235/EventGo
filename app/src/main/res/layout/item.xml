@@ -9,14 +9,15 @@
     android:layout_margin="16dp">
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/color2">
+        android:layout_height="250dp"
+        android:background="@color/color1">
 
 
         <ImageView
             android:id="@+id/eventImage"
             android:layout_width="match_parent"
-            android:layout_height="275dp"
+            android:layout_height="270dp"
+            android:layout_centerHorizontal="true"
             app:srcCompat="@drawable/eventimage" />
 
         <TextView
@@ -24,11 +25,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="3dp"
-            android:layout_marginTop="10dp"
-
-            android:background="@color/white"
+            android:layout_marginTop="190dp"
+            android:background="@color/color1"
             android:text="Date"
-
             android:textColor="@color/color3"
             android:textSize="34sp" />
 
@@ -37,11 +36,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="3dp"
-            android:layout_marginTop="210dp"
-
-            android:background="@color/white"
+            android:layout_marginTop="10dp"
+            android:background="@color/color1"
             android:text="Title"
-
             android:textColor="@color/color3"
             android:textSize="34sp" />
     </RelativeLayout>
