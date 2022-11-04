@@ -44,10 +44,16 @@ public class CurrentVenue extends AppCompatActivity {
                     if (snapshot.exists()) {
                         Venue venue = snapshot.getValue(Venue.class);
                         if (venue != null) {
+                            if(!venue.getName().isEmpty()) {
 
-                            venuetitle.setText(venue.getName());
-                            venueplace.setText(venue.getLocation());
-                            Glide.with(getApplicationContext()).load(venue.getImage()).into(venuephoto);
+                                venuetitle.setText(venue.getName());
+                            }
+                            if(!venue.getLocation().isEmpty()) {
+                                venueplace.setText(venue.getLocation());
+                            }
+                            if(!venue.getImage().isEmpty()) {
+                                Glide.with(getApplicationContext()).load(venue.getImage()).into(venuephoto);
+                            }
 
                         } else {
                             System.out.println("Failed");

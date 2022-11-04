@@ -37,11 +37,13 @@ public class AddLocation extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String key = getIntent().getStringExtra("Key");
+
                 String ven = venue.getText().toString();
                 if (ven.isEmpty()) {
                     ven = "";
                 }
-                FirebaseDatabase.getInstance().getReference("Users").child(Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser()).getUid()).child("Events").child(key).child("Venue").setValue(ven).addOnCompleteListener(new OnCompleteListener<Void>() {
+                Venue venu=new Venue(ven,"","","",0,0);
+                FirebaseDatabase.getInstance().getReference("Users").child(Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser()).getUid()).child("Events").child(key).child("Venue").setValue(venu).addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
                         if(task.isSuccessful())

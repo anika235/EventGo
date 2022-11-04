@@ -50,6 +50,7 @@ public class BudgetAdapter extends  RecyclerView.Adapter<budgetHolder>{
 
 }
 class budgetHolder extends RecyclerView.ViewHolder{
+    int counter=0;
     EditText section,money;
     private BudgetAdapter adapter;
     ImageView delete;
