@@ -41,6 +41,7 @@ drawable event_budget
 drawable eventimage
 drawable finallogo
 drawable google
+drawable guestadd
 drawable guestpic
 drawable guests
 drawable hide_password
@@ -69,6 +70,7 @@ drawable venues
 drawable welp
 drawable westin
 font questrial
+id Button2
 id Email
 id LocationBudgetAdd
 id LocationDesired
@@ -122,6 +124,7 @@ id forgotpassword
 id framelayout
 id getstartedbutton
 id guest
+id guestlist
 id header_image
 id heading
 id heading3
@@ -135,8 +138,10 @@ id locationString
 id loginbutton
 id logout
 id mail_profile
+id mails
 id mcheckbox
 id menu
+id mguestbox
 id money
 id noaccount
 id noresult
@@ -152,12 +157,15 @@ id presentname
 id profile
 id recylelist
 id rent
+id saveguest
 id savetask
 id search
 id set_due_tv
+id set_gmail
 id sharebutton
 id signup
 id signupbutton
+id task_editguest
 id task_edittext
 id textView
 id textView10
@@ -204,6 +212,7 @@ layout activity_current_budget
 layout activity_current_venue
 layout activity_current_view
 layout activity_forgotpass
+layout activity_guest
 layout activity_infos
 layout activity_invite
 layout activity_manage_otp
@@ -212,6 +221,7 @@ layout activity_signupwith
 layout activity_splashscreen
 layout activity_venue_details
 layout activity_venue_list
+layout add_new_guest
 layout add_new_task
 layout budget
 layout fragment_event
@@ -222,6 +232,7 @@ layout fragment_profile
 layout get_started
 layout image_layout
 layout item
+layout list_guest
 layout list_task
 layout location_layout
 layout login_page

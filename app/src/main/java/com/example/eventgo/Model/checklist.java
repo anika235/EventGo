@@ -33,7 +33,6 @@ public class checklist {
         this.dueDate = due;
         this.status = status;
     }
-
     @Override
     public String toString() {
         return "checklist{" +

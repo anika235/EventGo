@@ -53,7 +53,6 @@ public class adaptercardview extends RecyclerView.Adapter<adaptercardview.myview
         holder.eventname.setText(c.getTitle());
         holder.eventdate.setText(c.getDate());
         Glide.with(context).load(c.getImage()).into(holder.eventImage);
-
         holder.eventImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
