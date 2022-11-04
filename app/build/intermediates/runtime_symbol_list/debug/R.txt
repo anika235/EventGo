@@ -2619,6 +2619,7 @@ int drawable btn_radio_off_mtrl 0x7f080064
 int drawable btn_radio_off_to_on_mtrl_animation 0x7f080065
 int drawable btn_radio_on_mtrl 0x7f080066
 int drawable btn_radio_on_to_off_mtrl_animation 0x7f080067
+int drawable budget_event 0x7f0801de
 int drawable calendar 0x7f080068
 int drawable calendar_focused 0x7f080069
 int drawable ccp_ic_arrow_drop_down 0x7f08006a
@@ -2657,6 +2658,7 @@ int drawable design_snackbar_background 0x7f08008a
 int drawable email_icon 0x7f08008b
 int drawable email_icon_focused 0x7f08008c
 int drawable event 0x7f08008d
+int drawable event_budget 0x7f0801df
 int drawable eventimage 0x7f08008e
 int drawable fastscroll__default_bubble 0x7f08008f
 int drawable fastscroll__default_handle 0x7f080090
@@ -2917,6 +2919,7 @@ int drawable home 0x7f08018e
 int drawable ic_backspace_black_24dp 0x7f08018f
 int drawable ic_clear_black_24dp 0x7f080190
 int drawable ic_clock_black_24dp 0x7f080191
+int drawable ic_close 0x7f0801e0
 int drawable ic_keyboard_black_24dp 0x7f080192
 int drawable ic_launcher_background 0x7f080193
 int drawable ic_launcher_foreground 0x7f080194
@@ -2989,6 +2992,7 @@ int drawable time 0x7f0801d6
 int drawable time_focused 0x7f0801d7
 int drawable tooltip_frame_dark 0x7f0801d8
 int drawable tooltip_frame_light 0x7f0801d9
+int drawable transparent_close 0x7f0801e1
 int drawable vendors 0x7f0801da
 int drawable welp 0x7f0801db
 int drawable westin 0x7f0801dc
@@ -3136,6 +3140,7 @@ int id action_text 0x7f0a008a
 int id actions 0x7f0a008b
 int id activity_chooser_view_content 0x7f0a008c
 int id add 0x7f0a008d
+int id addBudget 0x7f0a02cc
 int id addLocation 0x7f0a008e
 int id addVenue 0x7f0a008f
 int id addpeople 0x7f0a0090
@@ -3177,8 +3182,13 @@ int id browser_actions_menu_item_icon 0x7f0a00b3
 int id browser_actions_menu_item_text 0x7f0a00b4
 int id browser_actions_menu_items 0x7f0a00b5
 int id browser_actions_menu_view 0x7f0a00b6
-int id budget 0x7f0a00b7
 int id budgetForVenue 0x7f0a00b8
+int id budgetString 0x7f0a02c5
+int id budget_add 0x7f0a02cd
+int id budget_list 0x7f0a02ce
+int id budget_money 0x7f0a02cf
+int id budget_save 0x7f0a02d2
+int id budget_section 0x7f0a02d0
 int id buttonPanel 0x7f0a00b9
 int id cache_measures 0x7f0a00ba
 int id callMeasure 0x7f0a00bb
@@ -3196,6 +3206,7 @@ int id center_vertical 0x7f0a00c6
 int id chain 0x7f0a00c7
 int id chain2 0x7f0a00c8
 int id chains 0x7f0a00c9
+int id changeVenue 0x7f0a02cb
 int id checkbox 0x7f0a00ca
 int id checked 0x7f0a00cb
 int id checklist 0x7f0a00cc
@@ -3334,6 +3345,7 @@ int id grouping 0x7f0a0150
 int id groups 0x7f0a0151
 int id guest 0x7f0a0152
 int id guideline 0x7f0a0153
+int id header_image 0x7f0a02c7
 int id header_title 0x7f0a0154
 int id heading 0x7f0a0155
 int id heading3 0x7f0a0156
@@ -3352,9 +3364,9 @@ int id ignore 0x7f0a0162
 int id ignoreRequest 0x7f0a0163
 int id image 0x7f0a0164
 int id imageView 0x7f0a0165
-int id imageView3 0x7f0a0166
 int id imageView_arrow 0x7f0a0167
 int id image_flag 0x7f0a0168
+int id image_remove 0x7f0a02d1
 int id img_clear_query 0x7f0a0169
 int id img_dismiss 0x7f0a016a
 int id immediateStop 0x7f0a016b
@@ -3681,6 +3693,9 @@ int id venuePhoto 0x7f0a02ab
 int id venueRent 0x7f0a02ac
 int id venueTitle 0x7f0a02ad
 int id venueType 0x7f0a02ae
+int id venuelocation 0x7f0a02c8
+int id venuephoto 0x7f0a02c9
+int id venuetitle 0x7f0a02ca
 int id verify 0x7f0a02af
 int id vertical 0x7f0a02b0
 int id vertical_only 0x7f0a02b1
@@ -3798,7 +3813,9 @@ int layout abc_search_view 0x7f0d0019
 int layout abc_select_dialog_material 0x7f0d001a
 int layout abc_tooltip 0x7f0d001b
 int layout activity_add_location 0x7f0d001c
+int layout activity_budget_list 0x7f0d00a2
 int layout activity_checklist 0x7f0d001d
+int layout activity_current_venue 0x7f0d00a1
 int layout activity_current_view 0x7f0d001e
 int layout activity_forgotpass 0x7f0d001f
 int layout activity_infos 0x7f0d0020
@@ -3907,6 +3924,7 @@ int layout notification_template_media 0x7f0d0086
 int layout notification_template_media_custom 0x7f0d0087
 int layout notification_template_part_chronometer 0x7f0d0088
 int layout notification_template_part_time 0x7f0d0089
+int layout row_add_budget 0x7f0d00a3
 int layout second_page 0x7f0d008a
 int layout select_dialog_item_material 0x7f0d008b
 int layout select_dialog_multichoice_material 0x7f0d008c

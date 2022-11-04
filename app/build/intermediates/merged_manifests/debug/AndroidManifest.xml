@@ -25,6 +25,27 @@
         android:testOnly="true"
         android:theme="@style/Theme.EventGo" >
         <activity
+            android:name="com.example.eventgo.Budget_list"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.eventgo.CurrentVenue"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.eventgo.CurrentVenueActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.example.eventgo.checklistActivity"
             android:exported="false" >
             <meta-data

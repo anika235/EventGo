@@ -2620,6 +2620,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable budget_event
 drawable calendar
 drawable calendar_focused
 drawable ccp_ic_arrow_drop_down
@@ -2658,6 +2659,7 @@ drawable design_snackbar_background
 drawable email_icon
 drawable email_icon_focused
 drawable event
+drawable event_budget
 drawable eventimage
 drawable fastscroll__default_bubble
 drawable fastscroll__default_handle
@@ -2918,6 +2920,7 @@ drawable home
 drawable ic_backspace_black_24dp
 drawable ic_clear_black_24dp
 drawable ic_clock_black_24dp
+drawable ic_close
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -2990,6 +2993,7 @@ drawable time
 drawable time_focused
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable transparent_close
 drawable vendors
 drawable welp
 drawable westin
@@ -3137,6 +3141,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addBudget
 id addLocation
 id addVenue
 id addpeople
@@ -3178,8 +3183,13 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id budget
 id budgetForVenue
+id budgetString
+id budget_add
+id budget_list
+id budget_money
+id budget_save
+id budget_section
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3197,6 +3207,7 @@ id center_vertical
 id chain
 id chain2
 id chains
+id changeVenue
 id checkbox
 id checked
 id checklist
@@ -3335,6 +3346,7 @@ id grouping
 id groups
 id guest
 id guideline
+id header_image
 id header_title
 id heading
 id heading3
@@ -3353,9 +3365,9 @@ id ignore
 id ignoreRequest
 id image
 id imageView
-id imageView3
 id imageView_arrow
 id image_flag
+id image_remove
 id img_clear_query
 id img_dismiss
 id immediateStop
@@ -3682,6 +3694,9 @@ id venuePhoto
 id venueRent
 id venueTitle
 id venueType
+id venuelocation
+id venuephoto
+id venuetitle
 id verify
 id vertical
 id vertical_only
@@ -3799,7 +3814,9 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_location
+layout activity_budget_list
 layout activity_checklist
+layout activity_current_venue
 layout activity_current_view
 layout activity_forgotpass
 layout activity_infos
@@ -3908,6 +3925,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout row_add_budget
 layout second_page
 layout select_dialog_item_material
 layout select_dialog_multichoice_material

@@ -48,7 +48,14 @@ public class VenueDetails extends AppCompatActivity {
         addVenue.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String venue=getIntent().getStringExtra("VenueName");
+
+                String venuename=getIntent().getStringExtra("VenueName");
+                String venuelocation=getIntent().getStringExtra("VenueLocation");
+                String venueimage=getIntent().getStringExtra("VenueImage");
+                String venuebudget=getIntent().getStringExtra("VenueRent");
+                String venueguest=getIntent().getStringExtra("VenueGuest");
+                String venuetype=getIntent().getStringExtra("EventType");
+                Venue venue=new Venue(venuename,venuelocation,venueimage);
                 String key=null;
                 SharedPreferences preferences=getSharedPreferences("PREFS", Context.MODE_PRIVATE);
                 if(preferences!=null)

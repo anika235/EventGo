@@ -26,25 +26,25 @@ import java.util.Objects;
 public class infosActivity extends AppCompatActivity {
     private Button button;
     private EditText locate, budget, guest;
-    private ImageView ChooseLocation;
+    private ImageView ChooseLocation,addbudget;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_infos);
-        button = (Button) findViewById(R.id.start);
+        //button = (Button) findViewById(R.id.start);
 
         ChooseLocation = findViewById(R.id.addLocation);
-        budget = findViewById(R.id.budget);
-        guest = findViewById(R.id.guest);
+        addbudget = findViewById(R.id.addBudget);
+        //guest = findViewById(R.id.guest);
 
-        button.setOnClickListener(new View.OnClickListener() {
+       /* button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 nextpage();
             }
-        });
+        });*/
 
         ChooseLocation.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,6 +55,15 @@ public class infosActivity extends AppCompatActivity {
 
                 startActivity(intent);
                 finish();
+            }
+        });
+        addbudget.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(getApplicationContext(),Budget_list.class);
+
+                intent.putExtra("Key",getIntent().getStringExtra("Key"));
+                startActivity(intent);
             }
         });
     }

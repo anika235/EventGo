@@ -2,6 +2,13 @@ package com.example.eventgo;
 
 public class Venue {
     public String name;
+
+    public Venue(String name, String location, String image) {
+        this.name = name;
+        this.location = location;
+        this.image = image;
+    }
+
     public String location;
     public String image;
 

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+    <EditText
+        android:id="@+id/budget_section"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+
+        android:paddingLeft="10dp"
+        android:textColor="@color/color3"
+
+        android:background="@drawable/custom_input"
+        android:hint="Enter Budget Section"
+
+
+
+
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/budget_money"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:textColor="@color/color3"
+            android:background="@drawable/custom_input"
+
+            android:hint="Enter Budget Money"
+            android:textSize="14sp"
+
+
+            android:layout_weight="1"
+            />
+    </FrameLayout>
+
+
+    <ImageView
+
+        android:id="@+id/image_remove"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/transparent_close"/>
+
+</LinearLayout>

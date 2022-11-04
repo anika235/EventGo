@@ -8,7 +8,7 @@
     tools:context=".CurrentView">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/header_image"
         android:layout_width="wrap_content"
         android:layout_height="272dp"
         app:srcCompat="@drawable/eventimage" />

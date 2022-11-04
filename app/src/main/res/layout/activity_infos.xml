@@ -20,49 +20,7 @@
         android:textColor="@color/color3"
         android:textSize="20sp" />
 
-    <EditText
-        android:id="@+id/budget"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="14dp"
-        android:layout_marginTop="380dp"
-        android:layout_marginEnd="14dp"
-        android:layout_marginBottom="14dp"
-        android:background="@drawable/custom_input"
-        android:drawablePadding="20dp"
-        android:ems="10"
-        android:hint="Budget"
-        android:inputType="number"
-        android:padding="20dp"
-        android:textColor="@color/color3" />
 
-    <EditText
-        android:id="@+id/guest"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="14dp"
-        android:layout_marginTop="480dp"
-        android:layout_marginEnd="14dp"
-        android:layout_marginBottom="14dp"
-        android:background="@drawable/custom_input"
-        android:drawablePadding="20dp"
-        android:ems="10"
-        android:hint="Enter your Guest number"
-        android:inputType="number"
-        android:textColor="@color/color3"
-        android:padding="20dp" />
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/start"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="580dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="50dp"
-        android:backgroundTint="@color/color3"
-        android:text="Start" />
 
     <ImageView
         android:id="@+id/addLocation"
@@ -82,6 +40,28 @@
         android:text="Choose A Venue For Your Event"
         android:textColor="@color/white"
         android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/addBudget"
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="14dp"
+
+
+        app:srcCompat="@drawable/budget_event" />
+
+    <TextView
+        android:id="@+id/budgetString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="430dp"
+        android:text="Plan Your Budget and Spend Money Wisely"
+        android:textColor="@color/white"
+        android:textSize="34sp" />
+
 
 
 </RelativeLayout>
