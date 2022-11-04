@@ -85,6 +85,7 @@ id budgetString
 id budget_add
 id budget_list
 id budget_money
+id budget_part
 id budget_save
 id budget_section
 id capacity
@@ -103,6 +104,7 @@ id continuephone
 id copybutton
 id create
 id createbutton
+id current_budget_list
 id dates
 id due_date
 id editTextTextEmailAddress
@@ -169,9 +171,11 @@ id textView3
 id textView7
 id textView8
 id textView9
+id textview
 id time_signup
 id times
 id title
+id total_budget
 id type
 id upload
 id upload_image
@@ -196,6 +200,7 @@ id viewpager
 layout activity_add_location
 layout activity_budget_list
 layout activity_checklist
+layout activity_current_budget
 layout activity_current_venue
 layout activity_current_view
 layout activity_forgotpass
@@ -208,6 +213,7 @@ layout activity_splashscreen
 layout activity_venue_details
 layout activity_venue_list
 layout add_new_task
+layout budget
 layout fragment_event
 layout fragment_home
 layout fragment_menu

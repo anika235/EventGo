@@ -272,11 +272,7 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
         String tit = title.getText().toString();
         String tim = times.getText().toString();
         String dat = dates.getText().toString();
-        String[] values = dat.split("/");
 
-            int day = Integer.parseInt(values[0]);
-            int month = Integer.parseInt(values[1]);
-            int year = Integer.parseInt(values[2]);
 
 
 

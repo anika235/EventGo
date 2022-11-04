@@ -7,11 +7,13 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -27,9 +29,12 @@ import java.util.ListIterator;
 
 public class Budget_list extends AppCompatActivity {
     RecyclerView layoutlist;
+    TextView expense;
     Button budgetadd;
     Button budget_save;
     int counter=0;
+    private static ArrayList<BudgetModel> budgetList;
+    BudgetModel budgetModel;
 
 
 
@@ -40,21 +45,31 @@ public class Budget_list extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_budget_list);
         budget_save=findViewById(R.id.budget_save);
+        expense=findViewById(R.id.total_budget);
+        expense.setText("0 Taka");
 
-        List<String> items=new ArrayList<>();
-        items.add("Code it");
+
+        budgetList=new ArrayList<>();
+
 
         RecyclerView recyclerView=findViewById(R.id.budget_list);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        BudgetAdapter adapter=new BudgetAdapter(items);
+        BudgetAdapter adapter=new BudgetAdapter(budgetList);
         recyclerView.setAdapter(adapter);
+        expense.setText(String.valueOf(adapter.getExpenseFinalTotal()));
+        Log.d("Expense",String.valueOf(adapter.getExpenseFinalTotal()));
 
         findViewById(R.id.budget_add).setOnClickListener(view -> {
-            items.add(" ");
 
 
-            adapter.notifyItemInserted(counter);
+            budgetModel=new BudgetModel(counter,"");
             counter++;
+            budgetList.add(budgetModel);
+
+
+            adapter.notifyItemInserted(budgetList.size());
+
+
         });
         budget_save.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -15,7 +15,7 @@ import com.bumptech.glide.Glide;
 public class CurrentView extends AppCompatActivity {
 
     TextView presentname, presentdate;
-    ImageView event_header;
+    ImageView event_header,budget;
     ImageView place;
     String code;
     private Button addpeeps;
@@ -31,6 +31,7 @@ public class CurrentView extends AppCompatActivity {
         presentdate = findViewById(R.id.presentdate);
         event_header=findViewById(R.id.header_image);
         place=findViewById(R.id.place);
+        budget=findViewById(R.id.money);
 
         presentname.setText(getIntent().getStringExtra("Event name"));
         presentdate.setText(getIntent().getStringExtra("Event date"));
@@ -57,6 +58,17 @@ public class CurrentView extends AppCompatActivity {
             public void onClick(View view) {
                 String key=getIntent().getStringExtra("Event key");
                 Intent intent=new Intent(getApplicationContext(),CurrentVenue.class);
+                intent.putExtra("Event Key",key);
+                startActivity(intent);
+
+
+            }
+        });
+        budget.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String key=getIntent().getStringExtra("Event key");
+                Intent intent=new Intent(getApplicationContext(),CurrentBudget.class);
                 intent.putExtra("Event Key",key);
                 startActivity(intent);
 

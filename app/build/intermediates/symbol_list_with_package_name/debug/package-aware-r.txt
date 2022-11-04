@@ -3188,6 +3188,7 @@ id budgetString
 id budget_add
 id budget_list
 id budget_money
+id budget_part
 id budget_save
 id budget_section
 id buttonPanel
@@ -3249,6 +3250,7 @@ id countryCodeHolder
 id create
 id createbutton
 id currentState
+id current_budget_list
 id custom
 id customPanel
 id cut
@@ -3655,6 +3657,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id textview
 id time
 id time_signup
 id times
@@ -3664,6 +3667,7 @@ id title_template
 id toggle
 id top
 id topPanel
+id total_budget
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -3816,6 +3820,7 @@ layout abc_tooltip
 layout activity_add_location
 layout activity_budget_list
 layout activity_checklist
+layout activity_current_budget
 layout activity_current_venue
 layout activity_current_view
 layout activity_forgotpass
@@ -3830,6 +3835,7 @@ layout activity_venue_list
 layout add_new_task
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
+layout budget
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

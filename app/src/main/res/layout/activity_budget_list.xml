@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -20,21 +20,44 @@
             android:id="@+id/budget_add"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
             android:backgroundTint="@color/color3"
             android:text="Add"
             android:layout_marginStart="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:id="@+id/textview"
+        android:layout_marginTop="170dp"
+        android:textColor="@color/color3"
+        android:textSize="24sp"
+        android:text="Total Budget :"
+/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="210dp"
+        android:id="@+id/total_budget"
+        android:layout_marginTop="170dp"
+        android:textColor="@color/color3"
+        android:textSize="24sp"
+        android:text=""
+        />
 
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/budget_list"
+        android:layout_marginTop="240dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/budget_save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="200dp"
         android:backgroundTint="@color/color3"
 
         android:text="Save"/>
@@ -42,4 +65,4 @@
 
 
 
-</LinearLayout>
+</RelativeLayout>
