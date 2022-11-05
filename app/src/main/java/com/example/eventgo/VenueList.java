@@ -63,8 +63,20 @@ public class VenueList extends AppCompatActivity {
                     //assert venueDemo != null;
                     String tempVenue=venueDemo.location;
                     String venueLocation=getIntent().getStringExtra("Location");
-                    int venueBudget=Integer.parseInt(getIntent().getStringExtra("Budget"));
-                    if(venueDemo!=null && tempVenue.equalsIgnoreCase(venueLocation) && venueDemo.budget>(venueBudget-10000) && venueDemo.budget<(venueBudget+10000))
+                    if(venueLocation.isEmpty())
+                    {
+                        venueLocation=null;
+                    }
+                    int venueBudget;
+                    if(getIntent().getStringExtra("Budget").isEmpty())
+                    {
+                         venueBudget=0;
+                    }
+                    else {
+                         venueBudget = Integer.parseInt(getIntent().getStringExtra("Budget"));
+                    }
+
+                    if(venueDemo!=null && tempVenue.equalsIgnoreCase(venueLocation) || venueDemo.budget>(venueBudget-10000) && venueDemo.budget<(venueBudget+10000))
                     {
                         venuesList.add(venueDemo);
                     }

@@ -40,7 +40,8 @@ public class AddLocation extends AppCompatActivity {
 
                 String ven = venue.getText().toString();
                 if (ven.isEmpty()) {
-                    ven = "";
+                    venue.setError("Venue Name is Required");
+                    return;
                 }
                 Venue venu=new Venue(ven,"","","",0,0);
                 FirebaseDatabase.getInstance().getReference("Users").child(Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser()).getUid()).child("Events").child(key).child("Venue").setValue(venu).addOnCompleteListener(new OnCompleteListener<Void>() {
