@@ -98,7 +98,7 @@ public class SpentbudgetFragment extends Fragment {
         budgetRecycle.setHasFixedSize(true);
         budgetRecycle.setLayoutManager(linearLayoutManager);
 
-         
+
 
 
         budgetReference.addValueEventListener(new ValueEventListener() {
