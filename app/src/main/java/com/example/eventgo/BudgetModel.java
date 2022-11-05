@@ -1,42 +1,67 @@
 package com.example.eventgo;
 
 public class BudgetModel {
-    int ExpenseId;
-    String ExpenseName;
-    String ExpenseMoney;
+    String item,date,id,note;
 
-    public BudgetModel(int expenseId, String expenseName, String expenseMoney) {
-        ExpenseId = expenseId;
-        ExpenseName = expenseName;
-        ExpenseMoney = expenseMoney;
+    public String getItem() {
+        return item;
     }
 
-    public int getExpenseId() {
-        return ExpenseId;
+    public void setItem(String item) {
+        this.item = item;
     }
 
-    public void setExpenseId(int expenseId) {
-        ExpenseId = expenseId;
+    public String getDate() {
+        return date;
     }
 
-    public String getExpenseName() {
-        return ExpenseName;
+    public void setDate(String date) {
+        this.date = date;
     }
 
-    public void setExpenseName(String expenseName) {
-        ExpenseName = expenseName;
+    public String getId() {
+        return id;
     }
 
-    public String getExpenseMoney() {
-        return ExpenseMoney;
+    public void setId(String id) {
+        this.id = id;
     }
 
-    public void setExpenseMoney(String expenseMoney) {
-        ExpenseMoney = expenseMoney;
+    public String getNote() {
+        return note;
     }
 
-    public BudgetModel(int expenseId, String expenseName) {
-        ExpenseId = expenseId;
-        ExpenseName = expenseName;
+    public void setNote(String note) {
+        this.note = note;
     }
+
+    public int getAmount() {
+        return amount;
+    }
+
+    public void setAmount(int amount) {
+        this.amount = amount;
+    }
+
+    public int getMonth() {
+        return month;
+    }
+
+    public void setMonth(int month) {
+        this.month = month;
+    }
+
+    public BudgetModel(String item, String date, String id, String note, int amount, int month) {
+        this.item = item;
+        this.date = date;
+        this.id = id;
+        this.note = note;
+        this.amount = amount;
+        this.month = month;
+    }
+
+    public BudgetModel() {
+    }
+
+    int amount,month;
 }

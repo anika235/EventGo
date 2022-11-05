@@ -78,18 +78,22 @@ id add
 id addBudget
 id addLocation
 id addVenue
+id add_new_item
 id addpeople
 id alreadyaccount
+id amount
 id bdate_profile
 id bottomNavigationView
+id btnDelete
+id btnUpdate
 id budgetForVenue
 id budgetString
-id budget_add
-id budget_list
+id budget_item
+id budget_linear
 id budget_money
-id budget_part
-id budget_save
+id budget_recyle
 id budget_section
+id cancel
 id capacity
 id ccp
 id changeVenue
@@ -107,6 +111,7 @@ id copybutton
 id create
 id createbutton
 id current_budget_list
+id date
 id dates
 id due_date
 id editTextTextEmailAddress
@@ -132,6 +137,8 @@ id heading4
 id home
 id imageView
 id image_remove
+id item
+id itemName
 id lastname
 id lname_profile
 id locationString
@@ -145,6 +152,7 @@ id mguestbox
 id money
 id noaccount
 id noresult
+id note
 id notification
 id number_profile
 id otp
@@ -157,6 +165,7 @@ id presentname
 id profile
 id recylelist
 id rent
+id save
 id saveguest
 id savetask
 id search
@@ -223,7 +232,8 @@ layout activity_venue_details
 layout activity_venue_list
 layout add_new_guest
 layout add_new_task
-layout budget
+layout budget_layout
+layout budget_retrieve
 layout fragment_event
 layout fragment_home
 layout fragment_menu
@@ -239,6 +249,7 @@ layout login_page
 layout row_add_budget
 layout second_page
 layout third_page
+layout update_budget
 menu nav_view
 mipmap ic_launcher
 mipmap ic_launcher_foreground

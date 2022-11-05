@@ -33,43 +33,5 @@ public class CurrentBudget extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_current_budget);
-
-        budgets = (RecyclerView) findViewById(R.id.current_budget_list);
-        String key=getIntent().getStringExtra("Event Key");
-        mReference = FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").child(key).child("EstimatedBudget");
-
-        budgets.setHasFixedSize(true);
-        budgets.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
-
-        BudgetList=new ArrayList<>();
-        budgetAdapter=new CurrentBudgetAdapter(this,BudgetList);
-        budgets.setAdapter(budgetAdapter);
-
-        mReference.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-
-
-                for(DataSnapshot dataSnapshot:snapshot.getChildren())
-                {
-                    String partbudget=dataSnapshot.getValue().toString();
-
-                    if(partbudget!=null)
-                    {
-                        BudgetList.add(partbudget);
-                    }
-
-                }
-
-                budgetAdapter.notifyDataSetChanged();
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-
-            }
-        });
-
-
     }
 }

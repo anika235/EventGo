@@ -3272,6 +3272,7 @@ id add
 id addBudget
 id addLocation
 id addVenue
+id add_new_item
 id addpeople
 id adjust_height
 id adjust_width
@@ -3281,6 +3282,7 @@ id all
 id allStates
 id alreadyaccount
 id always
+id amount
 id androidx_window_activity_scope
 id animateToEnd
 id animateToStart
@@ -3311,17 +3313,19 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnDelete
+id btnUpdate
 id budgetForVenue
 id budgetString
-id budget_add
-id budget_list
+id budget_item
+id budget_linear
 id budget_money
-id budget_part
-id budget_save
+id budget_recyle
 id budget_section
 id buttonPanel
 id cache_measures
 id callMeasure
+id cancel
 id cancel_action
 id cancel_button
 id capacity
@@ -3379,6 +3383,7 @@ id custom
 id customPanel
 id cut
 id dark
+id date
 id date_picker_actions
 id dates
 id decelerate
@@ -3501,6 +3506,8 @@ id info
 id invisible
 id inward
 id italic
+id item
+id itemName
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
@@ -3607,6 +3614,7 @@ id none
 id noresult
 id normal
 id north
+id note
 id notification
 id notification_background
 id notification_main_column
@@ -3661,6 +3669,7 @@ id rl_title
 id rounded
 id row_index_key
 id rtl
+id save
 id save_non_transition_alpha
 id save_overlay_view
 id saveguest
@@ -3992,7 +4001,8 @@ layout add_new_guest
 layout add_new_task
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
-layout budget
+layout budget_layout
+layout budget_retrieve
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -4096,6 +4106,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout third_page
+layout update_budget
 menu nav_view
 mipmap ic_launcher
 mipmap ic_launcher_foreground
