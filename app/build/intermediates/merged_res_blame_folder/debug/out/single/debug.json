@@ -40,6 +40,10 @@
         "source": "com.example.eventgo.app-main-57:/layout/activity_checklist.xml"
     },
     {
+        "merged": "com.example.eventgo.app-merged_res-55:/layout_activity_guest.xml.flat",
+        "source": "com.example.eventgo.app-main-57:/layout/activity_guest.xml"
+    },
+    {
         "merged": "com.example.eventgo.app-merged_res-55:/drawable_password_icon.xml.flat",
         "source": "com.example.eventgo.app-main-57:/drawable/password_icon.xml"
     },
@@ -86,6 +90,10 @@
     {
         "merged": "com.example.eventgo.app-merged_res-55:/layout_row_add_budget.xml.flat",
         "source": "com.example.eventgo.app-main-57:/layout/row_add_budget.xml"
+    },
+    {
+        "merged": "com.example.eventgo.app-merged_res-55:/drawable_guestadd.xml.flat",
+        "source": "com.example.eventgo.app-main-57:/drawable/guestadd.xml"
     },
     {
         "merged": "com.example.eventgo.app-merged_res-55:/drawable_welp.jpg.flat",
@@ -240,6 +248,10 @@
         "source": "com.example.eventgo.app-main-57:/layout/activity_current_venue.xml"
     },
     {
+        "merged": "com.example.eventgo.app-merged_res-55:/layout_add_new_guest.xml.flat",
+        "source": "com.example.eventgo.app-main-57:/layout/add_new_guest.xml"
+    },
+    {
         "merged": "com.example.eventgo.app-merged_res-55:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "com.example.eventgo.app-pngs-50:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
@@ -284,12 +296,12 @@
         "source": "com.example.eventgo.app-main-57:/drawable/email_icon_focused.xml"
     },
     {
-        "merged": "com.example.eventgo.app-merged_res-55:/drawable_ic_close.jpeg.flat",
-        "source": "com.example.eventgo.app-main-57:/drawable/ic_close.jpeg"
-    },
-    {
         "merged": "com.example.eventgo.app-merged_res-55:/drawable_bgcolor.xml.flat",
         "source": "com.example.eventgo.app-main-57:/drawable/bgcolor.xml"
+    },
+    {
+        "merged": "com.example.eventgo.app-merged_res-55:/drawable_ic_close.jpeg.flat",
+        "source": "com.example.eventgo.app-main-57:/drawable/ic_close.jpeg"
     },
     {
         "merged": "com.example.eventgo.app-merged_res-55:/drawable_show_pass.xml.flat",
@@ -358,6 +370,10 @@
     {
         "merged": "com.example.eventgo.app-merged_res-55:/drawable_time.xml.flat",
         "source": "com.example.eventgo.app-main-57:/drawable/time.xml"
+    },
+    {
+        "merged": "com.example.eventgo.app-merged_res-55:/layout_list_guest.xml.flat",
+        "source": "com.example.eventgo.app-main-57:/layout/list_guest.xml"
     },
     {
         "merged": "com.example.eventgo.app-merged_res-55:/anim_slide_out_left.xml.flat",

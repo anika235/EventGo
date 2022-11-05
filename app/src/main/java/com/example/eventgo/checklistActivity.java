@@ -27,7 +27,7 @@ import java.util.List;
 public class checklistActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
-    String code;
+    private String code;
     private FloatingActionButton mFab;
     private DatabaseReference database;
     private ToDoadapter adapter;
@@ -39,6 +39,7 @@ public class checklistActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_checklist);
         code = getIntent().getStringExtra("Event key");
+
 
         recyclerView = findViewById(R.id.checklist);
         mFab = findViewById(R.id.floatingActionButton);
@@ -61,7 +62,6 @@ public class checklistActivity extends AppCompatActivity {
             }
         });
 
-        System.out.println(code);
         database = FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").child(code).child("Checklist");
         mllist = new ArrayList<>();
         adapter =new ToDoadapter(checklistActivity.this, mllist);

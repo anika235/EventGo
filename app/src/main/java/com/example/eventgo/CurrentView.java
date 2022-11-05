@@ -17,6 +17,7 @@ public class CurrentView extends AppCompatActivity {
     TextView presentname, presentdate;
     ImageView event_header,budget;
     ImageView place;
+    ImageView guest;
     String code;
     private Button addpeeps;
     private ImageView checklist;
@@ -36,7 +37,6 @@ public class CurrentView extends AppCompatActivity {
         presentname.setText(getIntent().getStringExtra("Event name"));
         presentdate.setText(getIntent().getStringExtra("Event date"));
         Glide.with(this).load(getIntent().getStringExtra("Event Image")).into(event_header);
-
 
         addpeeps = findViewById(R.id.addpeople);
         addpeeps.setOnClickListener(new View.OnClickListener() {
@@ -72,7 +72,13 @@ public class CurrentView extends AppCompatActivity {
                 intent.putExtra("Event Key",key);
                 startActivity(intent);
 
-
+            }
+        });
+        guest = findViewById(R.id.guest);
+        guest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openguestlst();
             }
         });
 
@@ -90,5 +96,12 @@ public class CurrentView extends AppCompatActivity {
         intent1.putExtra("Event key",code);
         startActivity(intent1);
 
+    }
+    public void openguestlst()
+    {
+        Intent intent2 = new Intent(this, GuestActivity.class);
+        code = getIntent().getStringExtra("Event key");
+        intent2.putExtra("Event key", code);
+        startActivity(intent2);
     }
 }

@@ -3014,6 +3014,7 @@ drawable flag_zimbabwe
 drawable google
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable guestadd
 drawable guestpic
 drawable guests
 drawable hide_password
@@ -3131,6 +3132,7 @@ id ARABIC
 id BENGALI
 id BOTTOM_END
 id BOTTOM_START
+id Button2
 id CENTER
 id CHINESE_SIMPLIFIED
 id CHINESE_TRADITIONAL
@@ -3466,6 +3468,7 @@ id group_divider
 id grouping
 id groups
 id guest
+id guestlist
 id guideline
 id header_image
 id header_title
@@ -3522,6 +3525,7 @@ id loginbutton
 id logout
 id ltr
 id mail_profile
+id mails
 id marquee
 id masked
 id match_constraint
@@ -3549,6 +3553,7 @@ id mcheckbox
 id media_actions
 id menu
 id message
+id mguestbox
 id middle
 id mini
 id money
@@ -3658,6 +3663,7 @@ id row_index_key
 id rtl
 id save_non_transition_alpha
 id save_overlay_view
+id saveguest
 id savetask
 id sawtooth
 id scale
@@ -3682,6 +3688,7 @@ id select_dialog_listview
 id selected
 id selection_type
 id set_due_tv
+id set_gmail
 id sharebutton
 id sharedValueSet
 id sharedValueUnset
@@ -3740,6 +3747,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id task_editguest
 id task_edittext
 id text
 id text2
@@ -3971,6 +3979,7 @@ layout activity_current_budget
 layout activity_current_venue
 layout activity_current_view
 layout activity_forgotpass
+layout activity_guest
 layout activity_infos
 layout activity_invite
 layout activity_manage_otp
@@ -3979,6 +3988,7 @@ layout activity_signupwith
 layout activity_splashscreen
 layout activity_venue_details
 layout activity_venue_list
+layout add_new_guest
 layout add_new_task
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
@@ -4012,6 +4022,7 @@ layout layout_code_picker
 layout layout_full_width_code_picker
 layout layout_picker_dialog
 layout layout_recycler_country_tile
+layout list_guest
 layout list_task
 layout location_layout
 layout login_page

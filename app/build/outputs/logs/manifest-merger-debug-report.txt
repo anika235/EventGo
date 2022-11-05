@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:2:1-127:12
-INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:2:1-127:12
-INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:2:1-127:12
-INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:2:1-127:12
+ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:2:1-134:12
+INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:2:1-134:12
+INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:2:1-134:12
+INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:2:1-134:12
 MERGED from [androidx.databinding:viewbinding:7.3.0] /home/bithi/.gradle/caches/transforms-3/79837fe9a7f5bdd0cdb7653fd52a6e86/transformed/viewbinding-7.3.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-ui:2.5.3] /home/bithi/.gradle/caches/transforms-3/0d8a427ec25659673ef42dcc530c3d55/transformed/navigation-ui-2.5.3/AndroidManifest.xml:17:1-24:12
 MERGED from [com.karumi:dexter:6.0.2] /home/bithi/.gradle/caches/transforms-3/d00df48181641de60fd1d71189cc2833/transformed/dexter-6.0.2/AndroidManifest.xml:17:1-32:12
@@ -26,11 +26,11 @@ MERGED from [com.google.firebase:firebase-storage:20.1.0] /home/bithi/.gradle/ca
 MERGED from [com.google.android.gms:play-services-auth:20.3.0] /home/bithi/.gradle/caches/transforms-3/70cc6f4b609125cb092e50bd5531313d/transformed/play-services-auth-20.3.0/AndroidManifest.xml:17:1-40:12
 MERGED from [me.relex:circleindicator:2.1.6] /home/bithi/.gradle/caches/transforms-3/0262f70ca008c5bcd54c4646f3f55564/transformed/circleindicator-2.1.6/AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/bithi/.gradle/caches/transforms-3/d99a420854163740ea0e6b953b3252fe/transformed/glide-4.14.2/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/bithi/.gradle/caches/transforms-3/ac1b4e39c257433abc6b31d182637583/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/bithi/.gradle/caches/transforms-3/911a9e358e7400f3edb3c67d9fdd1633/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/bithi/.gradle/caches/transforms-3/3cd33750a2fb07d55de37c248c8d8893/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /home/bithi/.gradle/caches/transforms-3/9a2a26e4a6796183dccfef9d7fb49e49/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml:15:1-25:12
 MERGED from [com.google.firebase:firebase-common:20.2.0] /home/bithi/.gradle/caches/transforms-3/b9f541fd40a0a7b93724c39d28fa6e88/transformed/firebase-common-20.2.0/AndroidManifest.xml:15:1-39:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/bithi/.gradle/caches/transforms-3/ac1b4e39c257433abc6b31d182637583/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/bithi/.gradle/caches/transforms-3/911a9e358e7400f3edb3c67d9fdd1633/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/bithi/.gradle/caches/transforms-3/3257f82b80687be19512c6d978e87da7/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /home/bithi/.gradle/caches/transforms-3/c45fc7e6c7ceeb8748dafadce87c1748/transformed/play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /home/bithi/.gradle/caches/transforms-3/1bfe1977b3feb93c86ef4faefbc37a17/transformed/play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
@@ -89,22 +89,22 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /home/bithi/.gradle/cache
 MERGED from [androidx.print:print:1.0.0] /home/bithi/.gradle/caches/transforms-3/0bec845f6b293929bb6bcf403f1ceaec/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/bithi/.gradle/caches/transforms-3/294ce4756884f83db0ec41d640c8fc3e/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [io.michaelrocks:libphonenumber-android:8.12.19-2] /home/bithi/.gradle/caches/transforms-3/8013d14b3602ef3dde7b95f6d9e83611/transformed/libphonenumber-android-8.12.19-2/AndroidManifest.xml:2:1-9:12
-INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:2:1-127:12
-INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:2:1-127:12
-INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:2:1-127:12
+INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:2:1-134:12
+INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:2:1-134:12
+INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:2:1-134:12
 	package
 		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:4:5-34
 		INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml
 		INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:2:1-127:12
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:2:1-134:12
 		INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:2:1-127:12
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:2:1-134:12
 		INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:2:11-69
@@ -125,7 +125,7 @@ ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:7:5-80
 	android:name
 		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:7:22-77
 application
-ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:9:5-125:19
+ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:9:5-132:19
 MERGED from [com.karumi:dexter:6.0.2] /home/bithi/.gradle/caches/transforms-3/d00df48181641de60fd1d71189cc2833/transformed/dexter-6.0.2/AndroidManifest.xml:26:5-30:19
 MERGED from [com.karumi:dexter:6.0.2] /home/bithi/.gradle/caches/transforms-3/d00df48181641de60fd1d71189cc2833/transformed/dexter-6.0.2/AndroidManifest.xml:26:5-30:19
 MERGED from [com.google.android.material:material:1.7.0] /home/bithi/.gradle/caches/transforms-3/a43913465a7046b6ede2cc444d0a5f3d/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
@@ -142,14 +142,14 @@ MERGED from [com.google.android.gms:play-services-auth:20.3.0] /home/bithi/.grad
 MERGED from [com.google.android.gms:play-services-auth:20.3.0] /home/bithi/.gradle/caches/transforms-3/70cc6f4b609125cb092e50bd5531313d/transformed/play-services-auth-20.3.0/AndroidManifest.xml:22:5-38:19
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/bithi/.gradle/caches/transforms-3/d99a420854163740ea0e6b953b3252fe/transformed/glide-4.14.2/AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/bithi/.gradle/caches/transforms-3/d99a420854163740ea0e6b953b3252fe/transformed/glide-4.14.2/AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/bithi/.gradle/caches/transforms-3/911a9e358e7400f3edb3c67d9fdd1633/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/bithi/.gradle/caches/transforms-3/911a9e358e7400f3edb3c67d9fdd1633/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/bithi/.gradle/caches/transforms-3/3cd33750a2fb07d55de37c248c8d8893/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/bithi/.gradle/caches/transforms-3/3cd33750a2fb07d55de37c248c8d8893/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /home/bithi/.gradle/caches/transforms-3/9a2a26e4a6796183dccfef9d7fb49e49/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /home/bithi/.gradle/caches/transforms-3/9a2a26e4a6796183dccfef9d7fb49e49/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
 MERGED from [com.google.firebase:firebase-common:20.2.0] /home/bithi/.gradle/caches/transforms-3/b9f541fd40a0a7b93724c39d28fa6e88/transformed/firebase-common-20.2.0/AndroidManifest.xml:24:5-37:19
 MERGED from [com.google.firebase:firebase-common:20.2.0] /home/bithi/.gradle/caches/transforms-3/b9f541fd40a0a7b93724c39d28fa6e88/transformed/firebase-common-20.2.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/bithi/.gradle/caches/transforms-3/911a9e358e7400f3edb3c67d9fdd1633/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/bithi/.gradle/caches/transforms-3/911a9e358e7400f3edb3c67d9fdd1633/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/bithi/.gradle/caches/transforms-3/4f36281d46ee8373ea89445f988a58a6/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/bithi/.gradle/caches/transforms-3/4f36281d46ee8373ea89445f988a58a6/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/bithi/.gradle/caches/transforms-3/22fb88b1e1e45c776ca984fe1ec53713/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
@@ -202,130 +202,136 @@ ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:22:13-24:36
 		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:24:17-33
 	android:name
 		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:23:17-52
-activity#com.example.eventgo.Budget_list
+activity#com.example.eventgo.GuestActivity
 ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:26:9-32:20
 	android:exported
 		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:27:13-40
-activity#com.example.eventgo.CurrentVenue
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:27:13-42
+activity#com.example.eventgo.Budget_list
 ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:33:9-39:20
 	android:exported
 		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:34:13-41
-activity#com.example.eventgo.CurrentVenueActivity
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:34:13-40
+activity#com.example.eventgo.CurrentVenue
 ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:40:9-46:20
 	android:exported
 		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:42:13-37
 	android:name
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:41:13-49
-activity#com.example.eventgo.checklistActivity
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:41:13-41
+activity#com.example.eventgo.CurrentVenueActivity
 ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:47:9-53:20
 	android:exported
 		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:48:13-46
-activity#com.example.eventgo.VenueDetails
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:48:13-49
+activity#com.example.eventgo.checklistActivity
 ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:54:9-60:20
 	android:exported
 		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:56:13-37
 	android:name
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:55:13-41
-activity#com.example.eventgo.VenueList
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:55:13-46
+activity#com.example.eventgo.VenueDetails
 ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:61:9-67:20
 	android:exported
 		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:63:13-37
 	android:name
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:62:13-38
-activity#com.example.eventgo.AddLocation
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:62:13-41
+activity#com.example.eventgo.VenueList
 ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:68:9-74:20
 	android:exported
 		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:70:13-37
 	android:name
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:69:13-40
-activity#com.example.eventgo.invite
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:69:13-38
+activity#com.example.eventgo.AddLocation
 ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:75:9-81:20
 	android:exported
 		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:77:13-37
 	android:name
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:76:13-35
-activity#com.example.eventgo.infosActivity
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:76:13-40
+activity#com.example.eventgo.invite
 ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:82:9-88:20
 	android:exported
 		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:84:13-37
 	android:name
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:83:13-42
-activity#com.example.eventgo.manageOTP
-ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:89:9-91:40
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:83:13-35
+activity#com.example.eventgo.infosActivity
+ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:89:9-95:20
 	android:exported
 		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:91:13-37
 	android:name
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:90:13-38
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:90:13-42
+activity#com.example.eventgo.manageOTP
+ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:96:9-98:40
+	android:exported
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:98:13-37
+	android:name
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:97:13-38
 activity#com.example.eventgo.forgotpass
-ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:92:9-94:40
+ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:99:9-101:40
 	android:exported
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:94:13-37
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:101:13-37
 	android:name
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:93:13-39
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:100:13-39
 activity#com.example.eventgo.signupwith
-ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:95:9-97:40
+ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:102:9-104:40
 	android:exported
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:97:13-37
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:104:13-37
 	android:name
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:96:13-39
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:103:13-39
 activity#com.example.eventgo.signup_page
-ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:98:9-100:40
+ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:105:9-107:40
 	android:exported
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:100:13-37
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:107:13-37
 	android:name
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:99:13-40
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:106:13-40
 activity#com.example.eventgo.second_page
-ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:101:9-103:40
+ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:108:9-110:40
 	android:exported
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:103:13-37
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:110:13-37
 	android:name
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:102:13-40
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:109:13-40
 activity#com.example.eventgo.get_started
-ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:104:9-106:40
+ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:111:9-113:40
 	android:exported
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:106:13-37
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:113:13-37
 	android:name
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:105:13-40
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:112:13-40
 activity#com.example.eventgo.splashscreen
-ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:107:9-115:20
+ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:114:9-122:20
 	android:exported
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:109:13-36
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:116:13-36
 	android:name
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:108:13-41
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:115:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:110:13-114:29
+ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:117:13-121:29
 action#android.intent.action.MAIN
-ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:111:17-69
+ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:118:17-69
 	android:name
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:111:25-66
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:118:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:113:17-77
+ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:120:17-77
 	android:name
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:113:27-74
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:120:27-74
 activity#com.example.eventgo.CurrentView
-ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:116:9-118:40
+ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:123:9-125:40
 	android:exported
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:118:13-37
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:125:13-37
 	android:name
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:117:13-40
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:124:13-40
 activity#com.example.eventgo.login_page
-ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:119:9-121:39
+ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:126:9-128:39
 	android:exported
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:121:13-36
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:128:13-36
 	android:name
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:120:13-39
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:127:13-39
 activity#com.example.eventgo.third_page
-ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:122:9-124:39
+ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:129:9-131:39
 	android:exported
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:124:13-36
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:131:13-36
 	android:name
-		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:123:13-39
+		ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:130:13-39
 uses-sdk
 INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml
@@ -374,16 +380,16 @@ MERGED from [me.relex:circleindicator:2.1.6] /home/bithi/.gradle/caches/transfor
 MERGED from [me.relex:circleindicator:2.1.6] /home/bithi/.gradle/caches/transforms-3/0262f70ca008c5bcd54c4646f3f55564/transformed/circleindicator-2.1.6/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/bithi/.gradle/caches/transforms-3/d99a420854163740ea0e6b953b3252fe/transformed/glide-4.14.2/AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/bithi/.gradle/caches/transforms-3/d99a420854163740ea0e6b953b3252fe/transformed/glide-4.14.2/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/bithi/.gradle/caches/transforms-3/ac1b4e39c257433abc6b31d182637583/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/bithi/.gradle/caches/transforms-3/ac1b4e39c257433abc6b31d182637583/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/bithi/.gradle/caches/transforms-3/911a9e358e7400f3edb3c67d9fdd1633/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/bithi/.gradle/caches/transforms-3/911a9e358e7400f3edb3c67d9fdd1633/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/bithi/.gradle/caches/transforms-3/3cd33750a2fb07d55de37c248c8d8893/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/bithi/.gradle/caches/transforms-3/3cd33750a2fb07d55de37c248c8d8893/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /home/bithi/.gradle/caches/transforms-3/9a2a26e4a6796183dccfef9d7fb49e49/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /home/bithi/.gradle/caches/transforms-3/9a2a26e4a6796183dccfef9d7fb49e49/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-common:20.2.0] /home/bithi/.gradle/caches/transforms-3/b9f541fd40a0a7b93724c39d28fa6e88/transformed/firebase-common-20.2.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-common:20.2.0] /home/bithi/.gradle/caches/transforms-3/b9f541fd40a0a7b93724c39d28fa6e88/transformed/firebase-common-20.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/bithi/.gradle/caches/transforms-3/ac1b4e39c257433abc6b31d182637583/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/bithi/.gradle/caches/transforms-3/ac1b4e39c257433abc6b31d182637583/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/bithi/.gradle/caches/transforms-3/911a9e358e7400f3edb3c67d9fdd1633/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/bithi/.gradle/caches/transforms-3/911a9e358e7400f3edb3c67d9fdd1633/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/bithi/.gradle/caches/transforms-3/3257f82b80687be19512c6d978e87da7/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/bithi/.gradle/caches/transforms-3/3257f82b80687be19512c6d978e87da7/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /home/bithi/.gradle/caches/transforms-3/c45fc7e6c7ceeb8748dafadce87c1748/transformed/play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44

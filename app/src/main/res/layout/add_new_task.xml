@@ -6,6 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".AddnewTask">
 
+
     <EditText
         android:id="@+id/task_edittext"
         android:layout_width="match_parent"

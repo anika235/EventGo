@@ -24,6 +24,8 @@ public class ToDoadapter extends RecyclerView.Adapter<ToDoadapter.MyviewHolder> 
     private List<checklist> todolist;
     private checklistActivity checkactivity;
     private FirebaseDatabase database;
+    private String code;
+    private Context context;
 
     public ToDoadapter(checklistActivity activity, List<checklist>todolist){
         this.todolist = todolist;
@@ -42,25 +44,30 @@ public class ToDoadapter extends RecyclerView.Adapter<ToDoadapter.MyviewHolder> 
         checklist check = todolist.get(position);
         holder.checkbox.setText(check.getTask());
         holder.duedate.setText(check.getDueDate());
-
-       //holder.checkbox.setChecked(toBoolean(check.getStatus()));
+//        holder.checkbox.setChecked(toBoolean(check.getStatus()));
 //        holder.checkbox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 //            @Override
 //            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
 //                if(compoundButton.isChecked()){
-//                    String key=FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").push().getKey();
-//                    SharedPreferences preferences = Context.getSharedPreferences("MySharedPref",Context.MODE_PRIVATE);
+//                    SharedPreferences preferences = context.getSharedPreferences("MySharedPref",context.MODE_PRIVATE);
 //                    String code = preferences.getString("Event key", "");
 //                    FirebaseDatabase.getInstance().getReference().child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").child(code).child("Checklist")
-//                            .child(key).setValue()
+//                            .child(code).setValue("1");
+//                }
+//                else {
+//                    SharedPreferences preferences = context.getSharedPreferences("MySharedPref",context.MODE_PRIVATE);
+//                    String code = preferences.getString("Event key", "");
+//                    FirebaseDatabase.getInstance().getReference().child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").child(code).child("Checklist")
+//                            .child(code).setValue("0");
+//
 //                }
 //            }
 //        });
 
     }
-//    private boolean toBoolean(int status)
+//     private boolean toBoolean(String status)
 //    {
-//        return status !=0;
+//        return status != "0";
 //    }
 
     @Override
