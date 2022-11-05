@@ -70,6 +70,7 @@ public class profileFragment extends Fragment {
                             {
                                 System.out.println(user);
                                 System.out.println(user.getLname());
+                                fname.setText(user.getFname());
                                 lname.setText(user.getLname());
                                 bdate.setText(user.getBdate());
                                 mail.setText(user.getMail());

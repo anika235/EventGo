@@ -5,38 +5,40 @@ INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:2:1-127:12
 INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:2:1-127:12
 INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:2:1-127:12
 MERGED from [androidx.databinding:viewbinding:7.3.0] /home/bithi/.gradle/caches/transforms-3/79837fe9a7f5bdd0cdb7653fd52a6e86/transformed/viewbinding-7.3.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.navigation:navigation-ui:2.5.2] /home/bithi/.gradle/caches/transforms-3/819cd2f5117655b0d506d5b0cd1b7f72/transformed/navigation-ui-2.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.5.3] /home/bithi/.gradle/caches/transforms-3/0d8a427ec25659673ef42dcc530c3d55/transformed/navigation-ui-2.5.3/AndroidManifest.xml:17:1-24:12
 MERGED from [com.karumi:dexter:6.0.2] /home/bithi/.gradle/caches/transforms-3/d00df48181641de60fd1d71189cc2833/transformed/dexter-6.0.2/AndroidManifest.xml:17:1-32:12
-MERGED from [com.google.android.material:material:1.6.1] /home/bithi/.gradle/caches/transforms-3/4fda506388bd184a2aa92296377853e5/transformed/material-1.6.1/AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.material:material:1.7.0] /home/bithi/.gradle/caches/transforms-3/a43913465a7046b6ede2cc444d0a5f3d/transformed/material-1.7.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/bithi/.gradle/caches/transforms-3/316225dc7362f218cf7ef7d82990e173/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [com.hbb20:ccp:2.5.1] /home/bithi/.gradle/caches/transforms-3/0388d6a3a0b134969e1f9987db2e5b85/transformed/ccp-2.5.1/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /home/bithi/.gradle/caches/transforms-3/f3d98ef11c142fc1ab7aa6ab289a1339/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.5.1] /home/bithi/.gradle/caches/transforms-3/ea4fb2c479fb388b06192e19e8a38269/transformed/appcompat-1.5.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-fragment:2.5.2] /home/bithi/.gradle/caches/transforms-3/0b175c46e34ddffc799d4cd1e3080bf5/transformed/navigation-fragment-2.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.5.3] /home/bithi/.gradle/caches/transforms-3/97e79757d93a5f6d7bf9ed5d543269d4/transformed/navigation-fragment-2.5.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.5.1] /home/bithi/.gradle/caches/transforms-3/6a4f2cca2632c573b14320b771615f82/transformed/lifecycle-livedata-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment-ktx:1.5.2] /home/bithi/.gradle/caches/transforms-3/633a2f865ef48822d55a3c4005169ae7/transformed/fragment-ktx-1.5.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-runtime:2.5.2] /home/bithi/.gradle/caches/transforms-3/367cde02e713d3a7367312005778dbf5/transformed/navigation-runtime-2.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.5.4] /home/bithi/.gradle/caches/transforms-3/ddccb7e2cdda73301b62631339b30a1a/transformed/fragment-ktx-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] /home/bithi/.gradle/caches/transforms-3/2ca4fa3f1df98f04a3ea5846ff5a35f3/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity-ktx:1.5.1] /home/bithi/.gradle/caches/transforms-3/124f412ae657046528232c3a7adc1d57/transformed/activity-ktx-1.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common:2.5.2] /home/bithi/.gradle/caches/transforms-3/e20b3ab2b9395f3a2e23b82427406f62/transformed/navigation-common-2.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.5.3] /home/bithi/.gradle/caches/transforms-3/5103c37f599cf2e76eb6c7c0de981da9/transformed/navigation-common-2.5.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /home/bithi/.gradle/caches/transforms-3/74095c5485045fffb3d5cf2145e67947/transformed/lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.firebaseui:firebase-ui-database:8.0.2] /home/bithi/.gradle/caches/transforms-3/db65431f71c7e7c5419b875f9ab8d7e0/transformed/firebase-ui-database-8.0.2/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /home/bithi/.gradle/caches/transforms-3/b0f0b8cb850456cb44a157638474ec2b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:17:1-73:12
 MERGED from [com.google.firebase:firebase-database:20.1.0] /home/bithi/.gradle/caches/transforms-3/50e3871daf5b806b964e71fe40d25b2e/transformed/firebase-database-20.1.0/AndroidManifest.xml:15:1-37:12
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /home/bithi/.gradle/caches/transforms-3/f7e295d7ea341a83a0842b474ba4e785/transformed/firebase-storage-20.1.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.gms:play-services-auth:20.3.0] /home/bithi/.gradle/caches/transforms-3/70cc6f4b609125cb092e50bd5531313d/transformed/play-services-auth-20.3.0/AndroidManifest.xml:17:1-40:12
 MERGED from [me.relex:circleindicator:2.1.6] /home/bithi/.gradle/caches/transforms-3/0262f70ca008c5bcd54c4646f3f55564/transformed/circleindicator-2.1.6/AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/bithi/.gradle/caches/transforms-3/d99a420854163740ea0e6b953b3252fe/transformed/glide-4.14.2/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/bithi/.gradle/caches/transforms-3/ac1b4e39c257433abc6b31d182637583/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/bithi/.gradle/caches/transforms-3/46d35d1e237c0f0709c882a0baa9a32b/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/bithi/.gradle/caches/transforms-3/911a9e358e7400f3edb3c67d9fdd1633/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/bithi/.gradle/caches/transforms-3/3cd33750a2fb07d55de37c248c8d8893/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /home/bithi/.gradle/caches/transforms-3/9a2a26e4a6796183dccfef9d7fb49e49/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml:15:1-25:12
 MERGED from [com.google.firebase:firebase-common:20.2.0] /home/bithi/.gradle/caches/transforms-3/b9f541fd40a0a7b93724c39d28fa6e88/transformed/firebase-common-20.2.0/AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/bithi/.gradle/caches/transforms-3/3257f82b80687be19512c6d978e87da7/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /home/bithi/.gradle/caches/transforms-3/c45fc7e6c7ceeb8748dafadce87c1748/transformed/play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /home/bithi/.gradle/caches/transforms-3/1bfe1977b3feb93c86ef4faefbc37a17/transformed/play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/bithi/.gradle/caches/transforms-3/4f36281d46ee8373ea89445f988a58a6/transformed/play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/bithi/.gradle/caches/transforms-3/22fb88b1e1e45c776ca984fe1ec53713/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/bithi/.gradle/caches/transforms-3/6386fcf57f58045ac147a5ebc907797a/transformed/play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/bithi/.gradle/caches/transforms-3/42048b1e6722ca972f1c924305313f61/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.5.2] /home/bithi/.gradle/caches/transforms-3/74a6cefc42c7f1771b10c576d5c164ef/transformed/fragment-1.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.4] /home/bithi/.gradle/caches/transforms-3/2ff4943448fb19182c47f11801646259/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.5.1] /home/bithi/.gradle/caches/transforms-3/d90270338e13ea41ccfcdd5fb20a1050/transformed/activity-1.5.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.firebaseui:firebase-ui-common:8.0.2] /home/bithi/.gradle/caches/transforms-3/15a8d809d1aabcafca75b6c2cb9fbdde/transformed/firebase-ui-common-8.0.2/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/bithi/.gradle/caches/transforms-3/da999e7d3aaff3189096f67bea613dd2/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -126,8 +128,8 @@ application
 ADDED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml:9:5-125:19
 MERGED from [com.karumi:dexter:6.0.2] /home/bithi/.gradle/caches/transforms-3/d00df48181641de60fd1d71189cc2833/transformed/dexter-6.0.2/AndroidManifest.xml:26:5-30:19
 MERGED from [com.karumi:dexter:6.0.2] /home/bithi/.gradle/caches/transforms-3/d00df48181641de60fd1d71189cc2833/transformed/dexter-6.0.2/AndroidManifest.xml:26:5-30:19
-MERGED from [com.google.android.material:material:1.6.1] /home/bithi/.gradle/caches/transforms-3/4fda506388bd184a2aa92296377853e5/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.material:material:1.6.1] /home/bithi/.gradle/caches/transforms-3/4fda506388bd184a2aa92296377853e5/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.7.0] /home/bithi/.gradle/caches/transforms-3/a43913465a7046b6ede2cc444d0a5f3d/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.7.0] /home/bithi/.gradle/caches/transforms-3/a43913465a7046b6ede2cc444d0a5f3d/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/bithi/.gradle/caches/transforms-3/316225dc7362f218cf7ef7d82990e173/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/bithi/.gradle/caches/transforms-3/316225dc7362f218cf7ef7d82990e173/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /home/bithi/.gradle/caches/transforms-3/b0f0b8cb850456cb44a157638474ec2b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:26:5-71:19
@@ -136,6 +138,8 @@ MERGED from [com.google.firebase:firebase-database:20.1.0] /home/bithi/.gradle/c
 MERGED from [com.google.firebase:firebase-database:20.1.0] /home/bithi/.gradle/caches/transforms-3/50e3871daf5b806b964e71fe40d25b2e/transformed/firebase-database-20.1.0/AndroidManifest.xml:27:5-35:19
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /home/bithi/.gradle/caches/transforms-3/f7e295d7ea341a83a0842b474ba4e785/transformed/firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /home/bithi/.gradle/caches/transforms-3/f7e295d7ea341a83a0842b474ba4e785/transformed/firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.gms:play-services-auth:20.3.0] /home/bithi/.gradle/caches/transforms-3/70cc6f4b609125cb092e50bd5531313d/transformed/play-services-auth-20.3.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.3.0] /home/bithi/.gradle/caches/transforms-3/70cc6f4b609125cb092e50bd5531313d/transformed/play-services-auth-20.3.0/AndroidManifest.xml:22:5-38:19
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/bithi/.gradle/caches/transforms-3/d99a420854163740ea0e6b953b3252fe/transformed/glide-4.14.2/AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/bithi/.gradle/caches/transforms-3/d99a420854163740ea0e6b953b3252fe/transformed/glide-4.14.2/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/bithi/.gradle/caches/transforms-3/911a9e358e7400f3edb3c67d9fdd1633/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
@@ -328,12 +332,12 @@ INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml
 INJECTED from /home/bithi/EventGo/app/src/main/AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:7.3.0] /home/bithi/.gradle/caches/transforms-3/79837fe9a7f5bdd0cdb7653fd52a6e86/transformed/viewbinding-7.3.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.databinding:viewbinding:7.3.0] /home/bithi/.gradle/caches/transforms-3/79837fe9a7f5bdd0cdb7653fd52a6e86/transformed/viewbinding-7.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.navigation:navigation-ui:2.5.2] /home/bithi/.gradle/caches/transforms-3/819cd2f5117655b0d506d5b0cd1b7f72/transformed/navigation-ui-2.5.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.5.2] /home/bithi/.gradle/caches/transforms-3/819cd2f5117655b0d506d5b0cd1b7f72/transformed/navigation-ui-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.5.3] /home/bithi/.gradle/caches/transforms-3/0d8a427ec25659673ef42dcc530c3d55/transformed/navigation-ui-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.5.3] /home/bithi/.gradle/caches/transforms-3/0d8a427ec25659673ef42dcc530c3d55/transformed/navigation-ui-2.5.3/AndroidManifest.xml:20:5-22:41
 MERGED from [com.karumi:dexter:6.0.2] /home/bithi/.gradle/caches/transforms-3/d00df48181641de60fd1d71189cc2833/transformed/dexter-6.0.2/AndroidManifest.xml:22:5-24:41
 MERGED from [com.karumi:dexter:6.0.2] /home/bithi/.gradle/caches/transforms-3/d00df48181641de60fd1d71189cc2833/transformed/dexter-6.0.2/AndroidManifest.xml:22:5-24:41
-MERGED from [com.google.android.material:material:1.6.1] /home/bithi/.gradle/caches/transforms-3/4fda506388bd184a2aa92296377853e5/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.6.1] /home/bithi/.gradle/caches/transforms-3/4fda506388bd184a2aa92296377853e5/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.7.0] /home/bithi/.gradle/caches/transforms-3/a43913465a7046b6ede2cc444d0a5f3d/transformed/material-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.7.0] /home/bithi/.gradle/caches/transforms-3/a43913465a7046b6ede2cc444d0a5f3d/transformed/material-1.7.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/bithi/.gradle/caches/transforms-3/316225dc7362f218cf7ef7d82990e173/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/bithi/.gradle/caches/transforms-3/316225dc7362f218cf7ef7d82990e173/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
 MERGED from [com.hbb20:ccp:2.5.1] /home/bithi/.gradle/caches/transforms-3/0388d6a3a0b134969e1f9987db2e5b85/transformed/ccp-2.5.1/AndroidManifest.xml:5:5-7:41
@@ -342,18 +346,18 @@ MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /home/bithi/.gradle/c
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /home/bithi/.gradle/caches/transforms-3/f3d98ef11c142fc1ab7aa6ab289a1339/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.5.1] /home/bithi/.gradle/caches/transforms-3/ea4fb2c479fb388b06192e19e8a38269/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.5.1] /home/bithi/.gradle/caches/transforms-3/ea4fb2c479fb388b06192e19e8a38269/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-fragment:2.5.2] /home/bithi/.gradle/caches/transforms-3/0b175c46e34ddffc799d4cd1e3080bf5/transformed/navigation-fragment-2.5.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.5.2] /home/bithi/.gradle/caches/transforms-3/0b175c46e34ddffc799d4cd1e3080bf5/transformed/navigation-fragment-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.5.3] /home/bithi/.gradle/caches/transforms-3/97e79757d93a5f6d7bf9ed5d543269d4/transformed/navigation-fragment-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.5.3] /home/bithi/.gradle/caches/transforms-3/97e79757d93a5f6d7bf9ed5d543269d4/transformed/navigation-fragment-2.5.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.5.1] /home/bithi/.gradle/caches/transforms-3/6a4f2cca2632c573b14320b771615f82/transformed/lifecycle-livedata-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.5.1] /home/bithi/.gradle/caches/transforms-3/6a4f2cca2632c573b14320b771615f82/transformed/lifecycle-livedata-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.5.2] /home/bithi/.gradle/caches/transforms-3/633a2f865ef48822d55a3c4005169ae7/transformed/fragment-ktx-1.5.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.5.2] /home/bithi/.gradle/caches/transforms-3/633a2f865ef48822d55a3c4005169ae7/transformed/fragment-ktx-1.5.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.5.2] /home/bithi/.gradle/caches/transforms-3/367cde02e713d3a7367312005778dbf5/transformed/navigation-runtime-2.5.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.5.2] /home/bithi/.gradle/caches/transforms-3/367cde02e713d3a7367312005778dbf5/transformed/navigation-runtime-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.4] /home/bithi/.gradle/caches/transforms-3/ddccb7e2cdda73301b62631339b30a1a/transformed/fragment-ktx-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.4] /home/bithi/.gradle/caches/transforms-3/ddccb7e2cdda73301b62631339b30a1a/transformed/fragment-ktx-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] /home/bithi/.gradle/caches/transforms-3/2ca4fa3f1df98f04a3ea5846ff5a35f3/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] /home/bithi/.gradle/caches/transforms-3/2ca4fa3f1df98f04a3ea5846ff5a35f3/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity-ktx:1.5.1] /home/bithi/.gradle/caches/transforms-3/124f412ae657046528232c3a7adc1d57/transformed/activity-ktx-1.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity-ktx:1.5.1] /home/bithi/.gradle/caches/transforms-3/124f412ae657046528232c3a7adc1d57/transformed/activity-ktx-1.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.5.2] /home/bithi/.gradle/caches/transforms-3/e20b3ab2b9395f3a2e23b82427406f62/transformed/navigation-common-2.5.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.5.2] /home/bithi/.gradle/caches/transforms-3/e20b3ab2b9395f3a2e23b82427406f62/transformed/navigation-common-2.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] /home/bithi/.gradle/caches/transforms-3/5103c37f599cf2e76eb6c7c0de981da9/transformed/navigation-common-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] /home/bithi/.gradle/caches/transforms-3/5103c37f599cf2e76eb6c7c0de981da9/transformed/navigation-common-2.5.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /home/bithi/.gradle/caches/transforms-3/74095c5485045fffb3d5cf2145e67947/transformed/lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /home/bithi/.gradle/caches/transforms-3/74095c5485045fffb3d5cf2145e67947/transformed/lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.firebaseui:firebase-ui-database:8.0.2] /home/bithi/.gradle/caches/transforms-3/db65431f71c7e7c5419b875f9ab8d7e0/transformed/firebase-ui-database-8.0.2/AndroidManifest.xml:5:5-7:41
@@ -364,14 +368,14 @@ MERGED from [com.google.firebase:firebase-database:20.1.0] /home/bithi/.gradle/c
 MERGED from [com.google.firebase:firebase-database:20.1.0] /home/bithi/.gradle/caches/transforms-3/50e3871daf5b806b964e71fe40d25b2e/transformed/firebase-database-20.1.0/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /home/bithi/.gradle/caches/transforms-3/f7e295d7ea341a83a0842b474ba4e785/transformed/firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /home/bithi/.gradle/caches/transforms-3/f7e295d7ea341a83a0842b474ba4e785/transformed/firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-auth:20.3.0] /home/bithi/.gradle/caches/transforms-3/70cc6f4b609125cb092e50bd5531313d/transformed/play-services-auth-20.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.3.0] /home/bithi/.gradle/caches/transforms-3/70cc6f4b609125cb092e50bd5531313d/transformed/play-services-auth-20.3.0/AndroidManifest.xml:20:5-44
 MERGED from [me.relex:circleindicator:2.1.6] /home/bithi/.gradle/caches/transforms-3/0262f70ca008c5bcd54c4646f3f55564/transformed/circleindicator-2.1.6/AndroidManifest.xml:7:5-9:41
 MERGED from [me.relex:circleindicator:2.1.6] /home/bithi/.gradle/caches/transforms-3/0262f70ca008c5bcd54c4646f3f55564/transformed/circleindicator-2.1.6/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/bithi/.gradle/caches/transforms-3/d99a420854163740ea0e6b953b3252fe/transformed/glide-4.14.2/AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/bithi/.gradle/caches/transforms-3/d99a420854163740ea0e6b953b3252fe/transformed/glide-4.14.2/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/bithi/.gradle/caches/transforms-3/ac1b4e39c257433abc6b31d182637583/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/bithi/.gradle/caches/transforms-3/ac1b4e39c257433abc6b31d182637583/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/bithi/.gradle/caches/transforms-3/46d35d1e237c0f0709c882a0baa9a32b/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/bithi/.gradle/caches/transforms-3/46d35d1e237c0f0709c882a0baa9a32b/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/bithi/.gradle/caches/transforms-3/911a9e358e7400f3edb3c67d9fdd1633/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/bithi/.gradle/caches/transforms-3/911a9e358e7400f3edb3c67d9fdd1633/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/bithi/.gradle/caches/transforms-3/3cd33750a2fb07d55de37c248c8d8893/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
@@ -382,6 +386,10 @@ MERGED from [com.google.firebase:firebase-common:20.2.0] /home/bithi/.gradle/cac
 MERGED from [com.google.firebase:firebase-common:20.2.0] /home/bithi/.gradle/caches/transforms-3/b9f541fd40a0a7b93724c39d28fa6e88/transformed/firebase-common-20.2.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/bithi/.gradle/caches/transforms-3/3257f82b80687be19512c6d978e87da7/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/bithi/.gradle/caches/transforms-3/3257f82b80687be19512c6d978e87da7/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /home/bithi/.gradle/caches/transforms-3/c45fc7e6c7ceeb8748dafadce87c1748/transformed/play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /home/bithi/.gradle/caches/transforms-3/c45fc7e6c7ceeb8748dafadce87c1748/transformed/play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /home/bithi/.gradle/caches/transforms-3/1bfe1977b3feb93c86ef4faefbc37a17/transformed/play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /home/bithi/.gradle/caches/transforms-3/1bfe1977b3feb93c86ef4faefbc37a17/transformed/play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/bithi/.gradle/caches/transforms-3/4f36281d46ee8373ea89445f988a58a6/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/bithi/.gradle/caches/transforms-3/4f36281d46ee8373ea89445f988a58a6/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/bithi/.gradle/caches/transforms-3/22fb88b1e1e45c776ca984fe1ec53713/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
@@ -390,8 +398,8 @@ MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/bithi/.
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/bithi/.gradle/caches/transforms-3/6386fcf57f58045ac147a5ebc907797a/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/bithi/.gradle/caches/transforms-3/42048b1e6722ca972f1c924305313f61/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/bithi/.gradle/caches/transforms-3/42048b1e6722ca972f1c924305313f61/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.5.2] /home/bithi/.gradle/caches/transforms-3/74a6cefc42c7f1771b10c576d5c164ef/transformed/fragment-1.5.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.5.2] /home/bithi/.gradle/caches/transforms-3/74a6cefc42c7f1771b10c576d5c164ef/transformed/fragment-1.5.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /home/bithi/.gradle/caches/transforms-3/2ff4943448fb19182c47f11801646259/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /home/bithi/.gradle/caches/transforms-3/2ff4943448fb19182c47f11801646259/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.5.1] /home/bithi/.gradle/caches/transforms-3/d90270338e13ea41ccfcdd5fb20a1050/transformed/activity-1.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.5.1] /home/bithi/.gradle/caches/transforms-3/d90270338e13ea41ccfcdd5fb20a1050/transformed/activity-1.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.firebaseui:firebase-ui-common:8.0.2] /home/bithi/.gradle/caches/transforms-3/15a8d809d1aabcafca75b6c2cb9fbdde/transformed/firebase-ui-common-8.0.2/AndroidManifest.xml:5:5-7:41
@@ -598,6 +606,26 @@ ADDED from [com.google.firebase:firebase-storage:20.1.0] /home/bithi/.gradle/cac
 		ADDED from [com.google.firebase:firebase-storage:20.1.0] /home/bithi/.gradle/caches/transforms-3/f7e295d7ea341a83a0842b474ba4e785/transformed/firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-storage:20.1.0] /home/bithi/.gradle/caches/transforms-3/f7e295d7ea341a83a0842b474ba4e785/transformed/firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.3.0] /home/bithi/.gradle/caches/transforms-3/70cc6f4b609125cb092e50bd5531313d/transformed/play-services-auth-20.3.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /home/bithi/.gradle/caches/transforms-3/70cc6f4b609125cb092e50bd5531313d/transformed/play-services-auth-20.3.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /home/bithi/.gradle/caches/transforms-3/70cc6f4b609125cb092e50bd5531313d/transformed/play-services-auth-20.3.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /home/bithi/.gradle/caches/transforms-3/70cc6f4b609125cb092e50bd5531313d/transformed/play-services-auth-20.3.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /home/bithi/.gradle/caches/transforms-3/70cc6f4b609125cb092e50bd5531313d/transformed/play-services-auth-20.3.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.3.0] /home/bithi/.gradle/caches/transforms-3/70cc6f4b609125cb092e50bd5531313d/transformed/play-services-auth-20.3.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /home/bithi/.gradle/caches/transforms-3/70cc6f4b609125cb092e50bd5531313d/transformed/play-services-auth-20.3.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /home/bithi/.gradle/caches/transforms-3/70cc6f4b609125cb092e50bd5531313d/transformed/play-services-auth-20.3.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /home/bithi/.gradle/caches/transforms-3/70cc6f4b609125cb092e50bd5531313d/transformed/play-services-auth-20.3.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /home/bithi/.gradle/caches/transforms-3/70cc6f4b609125cb092e50bd5531313d/transformed/play-services-auth-20.3.0/AndroidManifest.xml:34:13-89
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:20.2.0] /home/bithi/.gradle/caches/transforms-3/b9f541fd40a0a7b93724c39d28fa6e88/transformed/firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
 	android:authorities

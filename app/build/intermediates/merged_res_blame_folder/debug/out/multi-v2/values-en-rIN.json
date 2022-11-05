@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.eventgo.app-mergeDebugResources-52:/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "com.example.eventgo.app-mergeDebugResources-53:/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
                     "source": "/home/bithi/.gradle/caches/transforms-3/ea4fb2c479fb388b06192e19e8a38269/transformed/appcompat-1.5.1/res/values-en-rIN/values-en-rIN.xml",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/bithi/.gradle/caches/transforms-3/819cd2f5117655b0d506d5b0cd1b7f72/transformed/navigation-ui-2.5.2/res/values-en-rIN/values-en-rIN.xml",
+                    "source": "/home/bithi/.gradle/caches/transforms-3/0d8a427ec25659673ef42dcc530c3d55/transformed/navigation-ui-2.5.3/res/values-en-rIN/values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

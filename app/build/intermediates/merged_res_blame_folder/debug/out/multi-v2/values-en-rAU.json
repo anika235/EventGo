@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.eventgo.app-mergeDebugResources-52:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.example.eventgo.app-mergeDebugResources-53:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "/home/bithi/.gradle/caches/transforms-3/ea4fb2c479fb388b06192e19e8a38269/transformed/appcompat-1.5.1/res/values-en-rAU/values-en-rAU.xml",
@@ -21,6 +21,23 @@
                     }
                 },
                 {
+                    "source": "/home/bithi/.gradle/caches/transforms-3/0d8a427ec25659673ef42dcc530c3d55/transformed/navigation-ui-2.5.3/res/values-en-rAU/values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,161",
+                        "endColumns": "105,116",
+                        "endOffsets": "156,273"
+                    },
+                    "to": {
+                        "startLines": "33,34",
+                        "startColumns": "4,4",
+                        "startOffsets": "3165,3271",
+                        "endColumns": "105,116",
+                        "endOffsets": "3266,3383"
+                    }
+                },
+                {
                     "source": "/home/bithi/.gradle/caches/transforms-3/d33a41edb58f2fa3d03fe34ee34433c7/transformed/browser-1.4.0/res/values-en-rAU/values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5",
@@ -35,23 +52,6 @@
                         "startOffsets": "2762,2860,2957,3066",
                         "endColumns": "97,96,108,98",
                         "endOffsets": "2855,2952,3061,3160"
-                    }
-                },
-                {
-                    "source": "/home/bithi/.gradle/caches/transforms-3/819cd2f5117655b0d506d5b0cd1b7f72/transformed/navigation-ui-2.5.2/res/values-en-rAU/values-en-rAU.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,161",
-                        "endColumns": "105,116",
-                        "endOffsets": "156,273"
-                    },
-                    "to": {
-                        "startLines": "33,34",
-                        "startColumns": "4,4",
-                        "startOffsets": "3165,3271",
-                        "endColumns": "105,116",
-                        "endOffsets": "3266,3383"
                     }
                 },
                 {
