@@ -3199,6 +3199,7 @@ id SLOVENIAN
 id SPANISH
 id SWEDISH
 id SYM
+id Spent_budget_recycle
 id TAGALOG
 id THAI
 id TOLL_FREE
@@ -3274,6 +3275,7 @@ id add
 id addBudget
 id addLocation
 id addVenue
+id add_new_expense
 id add_new_item
 id addpeople
 id adjust_height
@@ -3433,6 +3435,8 @@ id end_padder
 id enterAlways
 id enterAlwaysCollapsed
 id estimate_budget
+id estimated_budget
+id estimated_budget_recycle
 id event
 id eventDate
 id eventImage

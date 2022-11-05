@@ -101,7 +101,11 @@ public class Budget_list extends AppCompatActivity {
                     totalAmount+=budgetModel.getAmount();
                     String sTotal=String.valueOf(totalAmount+" Taka");
                     total_amount.setText(sTotal);
+
+
                 }
+                FirebaseDatabase.getInstance().getReference("Users").child(mAuth.getCurrentUser().getUid()).child("Events").child(key).child("Total Budget").setValue(totalAmount);
+
 
             }
 
@@ -258,7 +262,7 @@ public class Budget_list extends AppCompatActivity {
 
 
 
-    public class budgetViewHolder extends RecyclerView.ViewHolder{
+    public static class budgetViewHolder extends RecyclerView.ViewHolder{
 
         View mview;
         public TextView notes;

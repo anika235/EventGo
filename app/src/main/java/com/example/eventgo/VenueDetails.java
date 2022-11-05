@@ -22,7 +22,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class VenueDetails extends AppCompatActivity {
     TextView venueTitle,venueLocation;
-    EditText venueGuest,venueRent,eventType;
+    TextView venueGuest,venueRent,eventType;
     ImageView venueImage;
     Button addVenue;
 
@@ -33,9 +33,9 @@ public class VenueDetails extends AppCompatActivity {
         venueTitle=(TextView) findViewById(R.id.venueTitle);
         venueLocation=(TextView) findViewById(R.id.venueLocation);
         venueImage=(ImageView)findViewById(R.id.venuePhoto);
-        venueGuest=(EditText) findViewById(R.id.capacity);
-        venueRent=(EditText) findViewById(R.id.rent);
-        eventType=(EditText) findViewById(R.id.venueEvent);
+        venueGuest=(TextView) findViewById(R.id.capacity);
+        venueRent=(TextView) findViewById(R.id.rent);
+        eventType=(TextView) findViewById(R.id.venueEvent);
         addVenue=(Button)findViewById(R.id.addVenue);
 
         venueTitle.setText(getIntent().getStringExtra("VenueName"));

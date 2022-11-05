@@ -39,7 +39,10 @@ public class CurrentBudget extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityCurrentBudgetBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        replaceFragment(new EstimateBudgetFragment());
+        if(savedInstanceState==null) {
+
+            replaceFragment(new EstimateBudgetFragment());
+        }
 
         binding.bottomBudgetView.setOnItemSelectedListener(item -> {
             switch (item.getItemId()){
@@ -55,6 +58,7 @@ public class CurrentBudget extends AppCompatActivity {
 
 
     }
+
 
     private void replaceFragment(Fragment fragment) {
         FragmentManager fragmentManager = getSupportFragmentManager();

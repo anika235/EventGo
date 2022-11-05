@@ -76,10 +76,12 @@ id Button2
 id Email
 id LocationBudgetAdd
 id LocationDesired
+id Spent_budget_recycle
 id add
 id addBudget
 id addLocation
 id addVenue
+id add_new_expense
 id add_new_item
 id addpeople
 id alreadyaccount
@@ -119,6 +121,8 @@ id due_date
 id editTextTextEmailAddress
 id email
 id estimate_budget
+id estimated_budget
+id estimated_budget_recycle
 id event
 id eventDate
 id eventImage
