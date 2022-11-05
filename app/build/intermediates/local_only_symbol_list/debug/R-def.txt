@@ -127,7 +127,7 @@ id eye
 id firstname
 id floatingActionButton
 id fname_profile
-id forgotpass
+id forgotmail
 id forgotpassword
 id frame
 id framelayout

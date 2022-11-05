@@ -96,6 +96,10 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-57:\\drawable\\welp.jpg"
     },
     {
+        "merged": "com.example.eventgo.app-merged_res-55:/layout_fragment_menu.xml.flat",
+        "source": "com.example.eventgo.app-main-57:/layout/fragment_menu.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-55:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-57:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
@@ -190,10 +194,6 @@
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-55:\\drawable_checklistpic.png.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-57:\\drawable\\checklistpic.png"
-    },
-    {
-        "merged": "com.example.eventgo.app-merged_res-55:/layout_activity_current_budget.xml.flat",
-        "source": "com.example.eventgo.app-main-57:/layout/activity_current_budget.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-55:\\layout_activity_signupwith.xml.flat",

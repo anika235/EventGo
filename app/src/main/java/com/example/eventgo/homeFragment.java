@@ -62,10 +62,8 @@ public class homeFragment extends Fragment {
 
         recyclerView = context.findViewById(R.id.recylelist);
         database = FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events");
-
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(context));
-
         list = new ArrayList<>();
         a = new adaptercardview(context,list);
         recyclerView.setAdapter(a);
@@ -80,7 +78,6 @@ public class homeFragment extends Fragment {
             public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
                 Event event = a.getmyitem(viewHolder.getAdapterPosition());
                 a.deleteitem(viewHolder.getAdapterPosition());
-                //list.remove(viewHolder.getAdapterPosition());
                 FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser()
                         .getUid()).child("Events").child(event.getKey()).removeValue();
                 //a.notifyDataSetChanged();

@@ -3459,7 +3459,7 @@ id floating
 id floatingActionButton
 id fname_profile
 id forever
-id forgotpass
+id forgotmail
 id forgotpassword
 id fragment_container_view_tag
 id frame
