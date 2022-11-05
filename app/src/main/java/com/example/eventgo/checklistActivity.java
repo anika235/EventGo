@@ -71,6 +71,7 @@ public class checklistActivity extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 if(snapshot.exists())
                 {
+                    mllist.clear();
                     for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
                         checklist check = dataSnapshot.getValue(checklist.class);
                         System.out.println(dataSnapshot.getValue());

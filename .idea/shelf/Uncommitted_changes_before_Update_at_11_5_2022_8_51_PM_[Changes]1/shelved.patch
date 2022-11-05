@@ -1,0 +1,449 @@
+Index: app/src/main/java/com/example/eventgo/AddnewGuest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.eventgo;\r\n\r\nimport android.app.Activity;\r\nimport android.content.Context;\r\nimport android.content.DialogInterface;\r\nimport android.content.SharedPreferences;\r\nimport android.graphics.Color;\r\nimport android.os.Bundle;\r\nimport android.text.Editable;\r\nimport android.text.TextWatcher;\r\nimport android.view.LayoutInflater;\r\nimport android.view.View;\r\nimport android.view.ViewGroup;\r\nimport android.widget.Button;\r\nimport android.widget.EditText;\r\nimport android.widget.TextView;\r\nimport android.widget.Toast;\r\n\r\nimport androidx.annotation.NonNull;\r\nimport androidx.annotation.Nullable;\r\n\r\nimport com.google.android.gms.tasks.OnCompleteListener;\r\nimport com.google.android.gms.tasks.Task;\r\nimport com.google.android.material.bottomsheet.BottomSheetDialogFragment;\r\nimport com.google.firebase.auth.FirebaseAuth;\r\nimport com.google.firebase.database.FirebaseDatabase;\r\n\r\nimport java.util.HashMap;\r\n\r\npublic class AddnewGuest extends BottomSheetDialogFragment {\r\n\r\n    public static final String TAG = \"AddnewGuest\";\r\n    private EditText saveGmails;\r\n    private EditText guest_edit;\r\n    private Button Savebtn;\r\n    private FirebaseDatabase database;\r\n    private Context context;\r\n\r\n    public static AddnewGuest newInstance(){\r\n        return new AddnewGuest();\r\n    }\r\n\r\n    @Nullable\r\n    @Override\r\n    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {\r\n        return inflater.inflate(R.layout.add_new_guest,container, false );\r\n    }\r\n\r\n    @Override\r\n    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {\r\n        super.onViewCreated(view, savedInstanceState);\r\n        saveGmails = view.findViewById(R.id.set_gmail);\r\n        guest_edit = view.findViewById(R.id.task_editguest);\r\n        Savebtn = view.findViewById(R.id.saveguest);\r\n\r\n        database= FirebaseDatabase.getInstance();\r\n\r\n        guest_edit.addTextChangedListener(new TextWatcher() {\r\n            @Override\r\n            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {\r\n\r\n            }\r\n\r\n            @Override\r\n            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {\r\n                if(charSequence.toString().equals(\"\")){\r\n                    Savebtn.setEnabled(false);\r\n                    Savebtn.setBackgroundColor(Color.GRAY);\r\n                }else\r\n                {\r\n                    Savebtn.setEnabled(true);\r\n                    Savebtn.setBackgroundColor(getResources().getColor(R.color.color3));\r\n                }\r\n            }\r\n\r\n            @Override\r\n            public void afterTextChanged(Editable editable) {\r\n\r\n            }\r\n        });\r\n        Savebtn.setOnClickListener(new View.OnClickListener() {\r\n            @Override\r\n            public void onClick(View view) {\r\n                String name = guest_edit.getText().toString();\r\n                String mails = saveGmails.getText().toString();\r\n                if(name.isEmpty()){\r\n                    Toast.makeText(context, \"Empty credential not allowed!!\", Toast.LENGTH_SHORT).show();\r\n                }\r\n                else\r\n                {\r\n                    String key=FirebaseDatabase.getInstance().getReference(\"Users\").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(\"Events\").push().getKey();\r\n\r\n                    SharedPreferences preferences = context.getSharedPreferences(\"MySharedPref\",context.MODE_PRIVATE);\r\n                    String code = preferences.getString(\"Event key\", \"\");\r\n\r\n                    HashMap<String, String> Guestmap = new HashMap<>();\r\n                    Guestmap.put(\"name\",name);\r\n                    Guestmap.put(\"mail\",mails);\r\n                    Guestmap.put(\"status\",\"0\");\r\n                    FirebaseDatabase.getInstance().getReference().child(\"Users\").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(\"Events\").child(code).child(\"Guestlist\")\r\n                            .child(key).setValue(Guestmap).addOnCompleteListener(new OnCompleteListener<Void>() {\r\n                                @Override\r\n                                public void onComplete(@NonNull Task<Void> task) {\r\n                                    if (task.isSuccessful())\r\n                                    {\r\n                                        Toast.makeText(context, \"Guest List Updates\", Toast.LENGTH_SHORT).show();\r\n                                    }\r\n                                    else\r\n                                    {\r\n                                        Toast.makeText(context, task.getException().getMessage(), Toast.LENGTH_SHORT).show();\r\n                                    }\r\n                                }\r\n                            });\r\n                    dismiss();\r\n\r\n                }\r\n            }\r\n        });\r\n    }\r\n\r\n    @Override\r\n    public void onAttach(@NonNull Context context) {\r\n        super.onAttach(context);\r\n        this.context = context;\r\n    }\r\n\r\n    @Override\r\n    public void onDismiss(@NonNull DialogInterface dialog) {\r\n        super.onDismiss(dialog);\r\n        Activity activity = getActivity();\r\n        if(activity instanceof OnDialogCloseListener)\r\n        {\r\n            ((OnDialogCloseListener)activity).OnDialogClose(dialog);\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/eventgo/AddnewGuest.java b/app/src/main/java/com/example/eventgo/AddnewGuest.java
+--- a/app/src/main/java/com/example/eventgo/AddnewGuest.java	
++++ b/app/src/main/java/com/example/eventgo/AddnewGuest.java	
+@@ -97,6 +97,7 @@
+                     Guestmap.put("name",name);
+                     Guestmap.put("mail",mails);
+                     Guestmap.put("status","0");
++                    Guestmap.put("key", key);
+                     FirebaseDatabase.getInstance().getReference().child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").child(code).child("Guestlist")
+                             .child(key).setValue(Guestmap).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                 @Override
+Index: app/src/main/java/com/example/eventgo/AddnewTask.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.eventgo;\r\n\r\nimport android.app.Activity;\r\nimport android.app.DatePickerDialog;\r\nimport android.content.Context;\r\nimport android.content.DialogInterface;\r\nimport android.content.Intent;\r\nimport android.content.SharedPreferences;\r\nimport android.graphics.Color;\r\nimport android.os.Bundle;\r\nimport android.text.Editable;\r\nimport android.text.TextWatcher;\r\nimport android.view.LayoutInflater;\r\nimport android.view.View;\r\nimport android.view.ViewGroup;\r\nimport android.widget.Button;\r\nimport android.widget.DatePicker;\r\nimport android.widget.EditText;\r\nimport android.widget.TextView;\r\nimport android.widget.Toast;\r\n\r\nimport androidx.annotation.NonNull;\r\nimport androidx.annotation.Nullable;\r\n\r\nimport com.example.eventgo.Model.checklist;\r\nimport com.google.android.gms.tasks.OnCompleteListener;\r\nimport com.google.android.gms.tasks.OnFailureListener;\r\nimport com.google.android.gms.tasks.Task;\r\nimport com.google.android.material.bottomsheet.BottomSheetDialogFragment;\r\nimport com.google.firebase.auth.FirebaseAuth;\r\nimport com.google.firebase.database.DatabaseReference;\r\nimport com.google.firebase.database.FirebaseDatabase;\r\n\r\nimport java.util.Calendar;\r\nimport java.util.HashMap;\r\nimport java.util.Objects;\r\n\r\npublic class AddnewTask extends BottomSheetDialogFragment {\r\n\r\n    public static final String TAG = \"AddnewTask\";\r\n    private TextView setDueDate;\r\n    private EditText taskEdit;\r\n    private Button Savebtn;\r\n    private FirebaseDatabase database;\r\n    private Context context;\r\n    private String dueDate = \"\";\r\n\r\n    public  static AddnewTask newInstance(){\r\n        return new AddnewTask();\r\n    }\r\n\r\n    @Nullable\r\n    @Override\r\n    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {\r\n        return inflater.inflate(R.layout.add_new_task,container, false );\r\n    }\r\n\r\n    @Override\r\n    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {\r\n        super.onViewCreated(view, savedInstanceState);\r\n        setDueDate = view.findViewById(R.id.set_due_tv);\r\n        taskEdit = view.findViewById(R.id.task_edittext);\r\n        Savebtn = view.findViewById(R.id.savetask);\r\n\r\n        database = FirebaseDatabase.getInstance();\r\n\r\n        taskEdit.addTextChangedListener(new TextWatcher() {\r\n            @Override\r\n            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {\r\n\r\n            }\r\n\r\n            @Override\r\n            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {\r\n                if(charSequence.toString().equals(\"\")){\r\n                    Savebtn.setEnabled(false);\r\n                    Savebtn.setBackgroundColor(Color.GRAY);\r\n                }else{\r\n                    Savebtn.setEnabled(true);\r\n                    Savebtn.setBackgroundColor(getResources().getColor(R.color.color3));\r\n                }\r\n\r\n            }\r\n            @Override\r\n            public void afterTextChanged(Editable editable) {\r\n\r\n            }\r\n        });\r\n\r\n        setDueDate.setOnClickListener(new View.OnClickListener() {\r\n            @Override\r\n            public void onClick(View view) {\r\n                Calendar calendar = Calendar.getInstance();\r\n                int MONTH = calendar.get(Calendar.MONTH);\r\n                int YEAR = calendar.get(Calendar.YEAR);\r\n                int DAY = calendar.get(Calendar.DATE);\r\n\r\n                DatePickerDialog datePickerDialog = new DatePickerDialog(context, new DatePickerDialog.OnDateSetListener() {\r\n                    @Override\r\n                    public void onDateSet(DatePicker datePicker, int year, int month, int dayofmonth) {\r\n                        month = month +1;\r\n                        setDueDate.setText(dayofmonth + \"/\" + month +  \"/\" + year);\r\n                        dueDate = dayofmonth + \"/\" + month +  \"/\" + year;\r\n                    }\r\n                },YEAR, MONTH, DAY);\r\n                datePickerDialog.show();\r\n            }\r\n        });\r\n        Savebtn.setOnClickListener(new View.OnClickListener() {\r\n            @Override\r\n            public void onClick(View view) {\r\n                String task = taskEdit.getText().toString();\r\n                if(task.isEmpty()){\r\n                    Toast.makeText(context, \"Empty task not allowed!!\", Toast.LENGTH_SHORT).show();\r\n                }\r\n                else\r\n                {\r\n                    String key=FirebaseDatabase.getInstance().getReference(\"Users\").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(\"Events\").push().getKey();\r\n\r\n                    SharedPreferences preferences = context.getSharedPreferences(\"MySharedPref\",context.MODE_PRIVATE);\r\n                    String code = preferences.getString(\"Event key\", \"\");\r\n\r\n                    HashMap<String, String> Checkmap = new HashMap<>();\r\n                    Checkmap.put(\"task\",task);\r\n                    Checkmap.put(\"dueDate\",dueDate);\r\n                    Checkmap.put(\"status\",\"0\");\r\n                    FirebaseDatabase.getInstance().getReference().child(\"Users\").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(\"Events\").child(code).child(\"Checklist\")\r\n                            .child(key).setValue(Checkmap).addOnCompleteListener(new OnCompleteListener<Void>() {\r\n                                @Override\r\n                                public void onComplete(@NonNull Task<Void> task) {\r\n                                    if(task.isSuccessful())\r\n                                    {\r\n                                        Toast.makeText(context, \"Task saved\", Toast.LENGTH_SHORT).show();\r\n                                    }\r\n                                    else\r\n                                    {\r\n                                        Toast.makeText(context, task.getException().getMessage(), Toast.LENGTH_SHORT).show();\r\n                                    }\r\n                                }\r\n                            });\r\n                    dismiss();\r\n                }\r\n            }\r\n        });\r\n    }\r\n\r\n    @Override\r\n    public void onAttach(@NonNull Context context) {\r\n        super.onAttach(context);\r\n        this.context = context;\r\n    }\r\n\r\n    @Override\r\n    public void onDismiss(@NonNull DialogInterface dialog) {\r\n        super.onDismiss(dialog);\r\n        Activity activity = getActivity();\r\n        if(activity instanceof OnDialogCloseListener){\r\n            ((OnDialogCloseListener)activity).OnDialogClose(dialog);\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/eventgo/AddnewTask.java b/app/src/main/java/com/example/eventgo/AddnewTask.java
+--- a/app/src/main/java/com/example/eventgo/AddnewTask.java	
++++ b/app/src/main/java/com/example/eventgo/AddnewTask.java	
+@@ -124,6 +124,7 @@
+                     Checkmap.put("task",task);
+                     Checkmap.put("dueDate",dueDate);
+                     Checkmap.put("status","0");
++                    Checkmap.put("key", key);
+                     FirebaseDatabase.getInstance().getReference().child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").child(code).child("Checklist")
+                             .child(key).setValue(Checkmap).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                 @Override
+Index: app/src/main/java/com/example/eventgo/homeFragment.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.eventgo;\r\n\r\nimport android.app.Activity;\r\nimport android.content.Context;\r\nimport android.content.Intent;\r\nimport android.os.Bundle;\r\nimport android.view.LayoutInflater;\r\nimport android.view.View;\r\nimport android.view.ViewGroup;\r\nimport android.widget.AbsListView;\r\nimport android.widget.AdapterView;\r\nimport android.widget.ArrayAdapter;\r\nimport android.widget.Button;\r\nimport android.widget.ListView;\r\nimport android.widget.TextView;\r\nimport android.widget.Toast;\r\n\r\nimport androidx.annotation.NonNull;\r\nimport androidx.fragment.app.Fragment;\r\nimport androidx.fragment.app.FragmentManager;\r\nimport androidx.fragment.app.FragmentTransaction;\r\nimport androidx.recyclerview.widget.ItemTouchHelper;\r\nimport androidx.recyclerview.widget.LinearLayoutManager;\r\nimport androidx.recyclerview.widget.RecyclerView;\r\n\r\nimport com.google.firebase.auth.FirebaseAuth;\r\nimport com.google.firebase.database.DataSnapshot;\r\nimport com.google.firebase.database.DatabaseError;\r\nimport com.google.firebase.database.DatabaseReference;\r\nimport com.google.firebase.database.FirebaseDatabase;\r\nimport com.google.firebase.database.ValueEventListener;\r\n\r\nimport java.util.ArrayList;\r\nimport java.util.Objects;\r\n\r\npublic class homeFragment extends Fragment {\r\n\r\n    RecyclerView recyclerView;\r\n    DatabaseReference database;\r\n    adaptercardview a;\r\n    ArrayList<Event> list;\r\n    Activity context;\r\n\r\n    public homeFragment() {\r\n    }\r\n\r\n    @Override\r\n    public void onCreate(Bundle savedInstanceState) {\r\n\r\n        super.onCreate(savedInstanceState);\r\n\r\n    }\r\n\r\n    @Override\r\n    public View onCreateView(LayoutInflater inflater, ViewGroup container,\r\n                             Bundle savedInstanceState) {\r\n        context = getActivity();\r\n\r\n        return inflater.inflate(R.layout.fragment_home, container, false);\r\n    }\r\n\r\n    public void onStart() {\r\n        super.onStart();\r\n        Button button = context.findViewById(R.id.createbutton);\r\n\r\n        button.setOnClickListener(view -> {\r\n            Intent intent = new Intent(context, third_page.class);\r\n            startActivity(intent);\r\n            context.overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);\r\n        });\r\n\r\n        recyclerView = context.findViewById(R.id.recylelist);\r\n        database = FirebaseDatabase.getInstance().getReference(\"Users\").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(\"Events\");\r\n\r\n        recyclerView.setHasFixedSize(true);\r\n        recyclerView.setLayoutManager(new LinearLayoutManager(context));\r\n\r\n        list = new ArrayList<>();\r\n        a = new adaptercardview(context,list);\r\n        recyclerView.setAdapter(a);\r\n\r\n        new ItemTouchHelper(new ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT) {\r\n            @Override\r\n            public boolean onMove(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder, @NonNull RecyclerView.ViewHolder target) {\r\n                return false;\r\n            }\r\n\r\n            @Override\r\n            public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {\r\n                Event event = a.getmyitem(viewHolder.getAdapterPosition());\r\n                a.deleteitem(viewHolder.getAdapterPosition());\r\n                a.notifyDataSetChanged();\r\n                FirebaseDatabase.getInstance().getReference(\"Users\").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(\"Events\").child(event.getKey()).removeValue();\r\n            }\r\n        }).attachToRecyclerView(recyclerView);\r\n\r\n        new ItemTouchHelper(new ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.RIGHT) {\r\n            @Override\r\n            public boolean onMove(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder, @NonNull RecyclerView.ViewHolder target) {\r\n                return false;\r\n            }\r\n\r\n            @Override\r\n            public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {\r\n                replaceFragment(new eventFragment());\r\n            }\r\n        }).attachToRecyclerView(recyclerView);\r\n\r\n\r\n        database.addValueEventListener(new ValueEventListener() {\r\n            @Override\r\n            public void onDataChange(@NonNull DataSnapshot snapshot) {\r\n                for (DataSnapshot dataSnapshot : snapshot.getChildren()) {\r\n                    Event event = dataSnapshot.getValue(Event.class);\r\n                    if (event != null) {\r\n                        list.add(event);\r\n                    }\r\n                }\r\n                a.notifyDataSetChanged();\r\n            }\r\n\r\n            @Override\r\n            public void onCancelled(@NonNull DatabaseError error) {\r\n\r\n            }\r\n        });\r\n    }\r\n    private void replaceFragment(Fragment fragment){\r\n        FragmentManager fragmentManager = getActivity().getSupportFragmentManager();\r\n        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();\r\n        fragmentTransaction.replace(R.id.framelayout,fragment);\r\n        fragmentTransaction.commit();\r\n    }\r\n\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/eventgo/homeFragment.java b/app/src/main/java/com/example/eventgo/homeFragment.java
+--- a/app/src/main/java/com/example/eventgo/homeFragment.java	
++++ b/app/src/main/java/com/example/eventgo/homeFragment.java	
+@@ -1,28 +1,20 @@
+ package com.example.eventgo;
+ 
+ import android.app.Activity;
+-import android.content.Context;
+ import android.content.Intent;
+ import android.os.Bundle;
+ import android.view.LayoutInflater;
+ import android.view.View;
+ import android.view.ViewGroup;
+-import android.widget.AbsListView;
+-import android.widget.AdapterView;
+-import android.widget.ArrayAdapter;
+ import android.widget.Button;
+-import android.widget.ListView;
+-import android.widget.TextView;
+-import android.widget.Toast;
+ 
+ import androidx.annotation.NonNull;
+ import androidx.fragment.app.Fragment;
+-import androidx.fragment.app.FragmentManager;
+-import androidx.fragment.app.FragmentTransaction;
+ import androidx.recyclerview.widget.ItemTouchHelper;
+ import androidx.recyclerview.widget.LinearLayoutManager;
+ import androidx.recyclerview.widget.RecyclerView;
+ 
++import com.example.eventgo.Adapter.adaptercardview;
+ import com.google.firebase.auth.FirebaseAuth;
+ import com.google.firebase.database.DataSnapshot;
+ import com.google.firebase.database.DatabaseError;
+@@ -31,15 +23,14 @@
+ import com.google.firebase.database.ValueEventListener;
+ 
+ import java.util.ArrayList;
+-import java.util.Objects;
+ 
+ public class homeFragment extends Fragment {
+ 
+-    RecyclerView recyclerView;
+-    DatabaseReference database;
+-    adaptercardview a;
+-    ArrayList<Event> list;
+-    Activity context;
++    private RecyclerView recyclerView;
++    private DatabaseReference database;
++    private adaptercardview a;
++    private ArrayList<Event> list;
++    private Activity context;
+ 
+     public homeFragment() {
+     }
+@@ -89,8 +80,10 @@
+             public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
+                 Event event = a.getmyitem(viewHolder.getAdapterPosition());
+                 a.deleteitem(viewHolder.getAdapterPosition());
+-                a.notifyDataSetChanged();
+-                FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").child(event.getKey()).removeValue();
++                //list.remove(viewHolder.getAdapterPosition());
++                FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser()
++                        .getUid()).child("Events").child(event.getKey()).removeValue();
++                //a.notifyDataSetChanged();
+             }
+         }).attachToRecyclerView(recyclerView);
+ 
+@@ -102,7 +95,28 @@
+ 
+             @Override
+             public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
+-                replaceFragment(new eventFragment());
++                Event event = a.getmyitem(viewHolder.getLayoutPosition());
++                a.deleteitem(viewHolder.getAdapterPosition());
++                a.notifyDataSetChanged();
++//                val abcd = FirebaseDatabase.getInstance().getReference().child("Users").child(FirebaseAuth.getInstance().currentUser.uid)
++//                        .child("Events").child(code).child("Checklist").child(check.getKey())
++//
++//                abcd.addListenerForSingleValueEvent(object: ValueEventListener{
++//                    override fun onDataChange(snapshot: DataSnapshot) {
++//                        if(snapshot.exists())
++//                        {
++//                            Check temp_check = snapshot.getValue()
++//                        }
++//                    }
++//
++//                    override fun onCancelled(error: DatabaseError) {
++//                        TODO("Not yet implemented")
++//                    }
++//
++//                })
++                FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser()
++                        .getUid()).child("Events").push().child("Previous Events");
++                //replaceFragment(new eventFragment());
+             }
+         }).attachToRecyclerView(recyclerView);
+ 
+@@ -110,6 +124,7 @@
+         database.addValueEventListener(new ValueEventListener() {
+             @Override
+             public void onDataChange(@NonNull DataSnapshot snapshot) {
++                list.clear();
+                 for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
+                     Event event = dataSnapshot.getValue(Event.class);
+                     if (event != null) {
+@@ -125,11 +140,11 @@
+             }
+         });
+     }
+-    private void replaceFragment(Fragment fragment){
+-        FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+-        fragmentTransaction.replace(R.id.framelayout,fragment);
+-        fragmentTransaction.commit();
+-    }
++//    private void replaceFragment(Fragment fragment){
++//        FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
++//        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
++//        fragmentTransaction.replace(R.id.framelayout,fragment);
++//        fragmentTransaction.commit();
++//    }
+ 
+ }
+\ No newline at end of file
+Index: app/src/main/java/com/example/eventgo/GuestActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.eventgo;\r\n\r\nimport androidx.annotation.NonNull;\r\nimport androidx.appcompat.app.AppCompatActivity;\r\nimport androidx.recyclerview.widget.LinearLayoutManager;\r\nimport androidx.recyclerview.widget.RecyclerView;\r\n\r\nimport android.content.SharedPreferences;\r\nimport android.os.Bundle;\r\nimport android.view.LayoutInflater;\r\nimport android.view.View;\r\n\r\nimport com.example.eventgo.Adapter.guestlistadapter;\r\nimport com.example.eventgo.Model.checklist;\r\nimport com.example.eventgo.Model.guestlist;\r\nimport com.google.android.material.floatingactionbutton.FloatingActionButton;\r\nimport com.google.firebase.auth.FirebaseAuth;\r\nimport com.google.firebase.database.DataSnapshot;\r\nimport com.google.firebase.database.DatabaseError;\r\nimport com.google.firebase.database.DatabaseReference;\r\nimport com.google.firebase.database.FirebaseDatabase;\r\nimport com.google.firebase.database.ValueEventListener;\r\n\r\nimport java.util.ArrayList;\r\nimport java.util.List;\r\n\r\npublic class GuestActivity extends AppCompatActivity {\r\n\r\n    private RecyclerView recyclerView;\r\n    private String code;\r\n    private FloatingActionButton mFab;\r\n    private DatabaseReference database;\r\n    private guestlistadapter adapter;\r\n    private List<guestlist> glist;\r\n\r\n\r\n    @Override\r\n    protected void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n        setContentView(R.layout.activity_guest);\r\n        code = getIntent().getStringExtra(\"Event key\");\r\n\r\n        recyclerView = findViewById(R.id.guestlist);\r\n        mFab = findViewById(R.id.Button2);\r\n        recyclerView.setHasFixedSize(true);\r\n        recyclerView.setLayoutManager(new LinearLayoutManager(GuestActivity.this));\r\n        mFab.setOnClickListener(new View.OnClickListener() {\r\n            @Override\r\n            public void onClick(View view) {\r\n                SharedPreferences sharedPreferences = getSharedPreferences(\"MySharedPref\",MODE_PRIVATE);\r\n\r\n                SharedPreferences.Editor myEdit = sharedPreferences.edit();\r\n\r\n                myEdit.putString(\"Event key\", code);\r\n\r\n                myEdit.commit();\r\n                AddnewGuest.newInstance().show(getSupportFragmentManager(), AddnewGuest.TAG);\r\n\r\n            }\r\n        });\r\n\r\n        database = FirebaseDatabase.getInstance().getReference(\"Users\").child(FirebaseAuth.getInstance().getCurrentUser().getUid())\r\n                .child(\"Events\").child(code).child(\"Guestlist\");\r\n        glist = new ArrayList<>();\r\n        adapter = new guestlistadapter(GuestActivity.this, glist);\r\n        recyclerView.setAdapter(adapter);\r\n        database.addValueEventListener(new ValueEventListener() {\r\n            @Override\r\n            public void onDataChange(@NonNull DataSnapshot snapshot) {\r\n                if(snapshot.exists())\r\n                {\r\n                    for (DataSnapshot dataSnapshot : snapshot.getChildren()) {\r\n                        guestlist guestl = dataSnapshot.getValue(guestlist.class);\r\n                        System.out.println(dataSnapshot.getValue());\r\n                        glist.add(guestl);\r\n                    }\r\n                    adapter.notifyDataSetChanged();\r\n                }\r\n            }\r\n\r\n            @Override\r\n            public void onCancelled(@NonNull DatabaseError error) {\r\n\r\n            }\r\n        });\r\n\r\n\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/eventgo/GuestActivity.java b/app/src/main/java/com/example/eventgo/GuestActivity.java
+--- a/app/src/main/java/com/example/eventgo/GuestActivity.java	
++++ b/app/src/main/java/com/example/eventgo/GuestActivity.java	
+@@ -67,6 +67,7 @@
+         database.addValueEventListener(new ValueEventListener() {
+             @Override
+             public void onDataChange(@NonNull DataSnapshot snapshot) {
++                glist.clear();
+                 if(snapshot.exists())
+                 {
+                     for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
+Index: app/src/main/java/com/example/eventgo/Model/guestlist.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.eventgo.Model;\r\n\r\npublic class guestlist {\r\n    private String name, mails;\r\n    private String status;\r\n\r\n    public String getName() {\r\n        return name;\r\n    }\r\n\r\n    public void setName(String name) {\r\n        this.name = name;\r\n    }\r\n\r\n    public String getMails() {\r\n        return mails;\r\n    }\r\n\r\n\r\n    public void setMails(String mails) {\r\n        this.mails = mails;\r\n    }\r\n\r\n    public String getStatus() {\r\n        return status;\r\n    }\r\n\r\n    public void setStatus(String status) {\r\n        this.status = status;\r\n    }\r\n    public guestlist()\r\n    {\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/eventgo/Model/guestlist.java b/app/src/main/java/com/example/eventgo/Model/guestlist.java
+--- a/app/src/main/java/com/example/eventgo/Model/guestlist.java	
++++ b/app/src/main/java/com/example/eventgo/Model/guestlist.java	
+@@ -1,8 +1,17 @@
+ package com.example.eventgo.Model;
+ 
+ public class guestlist {
+-    private String name, mails;
++    private String name, mail;
+     private String status;
++    private String key;
++
++    public String getKey() {
++        return key;
++    }
++
++    public void setKey(String key) {
++        this.key = key;
++    }
+ 
+     public String getName() {
+         return name;
+@@ -12,13 +21,13 @@
+         this.name = name;
+     }
+ 
+-    public String getMails() {
+-        return mails;
++    public String getMail() {
++        return mail;
+     }
+ 
+ 
+-    public void setMails(String mails) {
+-        this.mails = mails;
++    public void setMail(String mails) {
++        this.mail = mails;
+     }
+ 
+     public String getStatus() {
+Index: app/src/main/java/com/example/eventgo/Model/checklist.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.eventgo.Model;\r\n\r\npublic class checklist {\r\n    private String task, dueDate;\r\n    private String status;\r\n\r\n    public String getTask() {\r\n        return task;\r\n    }\r\n\r\n    public void setTask(String task) {\r\n        this.task = task;\r\n    }\r\n\r\n    public String getDueDate() {\r\n        return dueDate;\r\n    }\r\n\r\n    public void setDueDate(String due) {\r\n        this.dueDate = due;\r\n    }\r\n\r\n    public String getStatus() {\r\n        return status;\r\n    }\r\n\r\n    public void setStatus(String status) {\r\n        this.status = status;\r\n    }\r\n\r\n    public checklist(String task, String due, String status) {\r\n        this.task = task;\r\n        this.dueDate = due;\r\n        this.status = status;\r\n    }\r\n    @Override\r\n    public String toString() {\r\n        return \"checklist{\" +\r\n                \"task='\" + task + '\\'' +\r\n                \", due='\" + dueDate + '\\'' +\r\n                \", status=\" + status +\r\n                '}';\r\n    }\r\n\r\n    public checklist() {\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/eventgo/Model/checklist.java b/app/src/main/java/com/example/eventgo/Model/checklist.java
+--- a/app/src/main/java/com/example/eventgo/Model/checklist.java	
++++ b/app/src/main/java/com/example/eventgo/Model/checklist.java	
+@@ -3,6 +3,15 @@
+ public class checklist {
+     private String task, dueDate;
+     private String status;
++    private String key;
++
++    public String getKey() {
++        return key;
++    }
++
++    public void setKey(String key) {
++        this.key = key;
++    }
+ 
+     public String getTask() {
+         return task;
+@@ -33,6 +42,7 @@
+         this.dueDate = due;
+         this.status = status;
+     }
++
+     @Override
+     public String toString() {
+         return "checklist{" +
+Index: app/src/main/java/com/example/eventgo/Adapter/ToDoadapter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.eventgo.Adapter;\r\n\r\nimport android.content.Context;\r\nimport android.content.SharedPreferences;\r\nimport android.view.LayoutInflater;\r\nimport android.view.View;\r\nimport android.view.ViewGroup;\r\nimport android.widget.CheckBox;\r\nimport android.widget.CompoundButton;\r\nimport android.widget.TextView;\r\n\r\nimport androidx.annotation.NonNull;\r\nimport androidx.recyclerview.widget.RecyclerView;\r\n\r\nimport com.example.eventgo.Model.checklist;\r\nimport com.example.eventgo.R;\r\nimport com.example.eventgo.checklistActivity;\r\nimport com.google.firebase.auth.FirebaseAuth;\r\nimport com.google.firebase.database.FirebaseDatabase;\r\n\r\nimport java.util.List;\r\n\r\npublic class ToDoadapter extends RecyclerView.Adapter<ToDoadapter.MyviewHolder> {\r\n    private List<checklist> todolist;\r\n    private checklistActivity checkactivity;\r\n    private FirebaseDatabase database;\r\n    private String code;\r\n    private Context context;\r\n\r\n    public ToDoadapter(checklistActivity activity, List<checklist>todolist){\r\n        this.todolist = todolist;\r\n        checkactivity =activity;\r\n    }\r\n\r\n    @NonNull\r\n    @Override\r\n    public MyviewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {\r\n       View view = LayoutInflater.from(checkactivity).inflate(R.layout.list_task, parent, false);\r\n       return new MyviewHolder(view);\r\n    }\r\n\r\n    @Override\r\n    public void onBindViewHolder(@NonNull MyviewHolder holder, int position) {\r\n        checklist check = todolist.get(position);\r\n        holder.checkbox.setText(check.getTask());\r\n        holder.duedate.setText(check.getDueDate());\r\n//        holder.checkbox.setChecked(toBoolean(check.getStatus()));\r\n//        holder.checkbox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {\r\n//            @Override\r\n//            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {\r\n//                if(compoundButton.isChecked()){\r\n//                    SharedPreferences preferences = context.getSharedPreferences(\"MySharedPref\",context.MODE_PRIVATE);\r\n//                    String code = preferences.getString(\"Event key\", \"\");\r\n//                    FirebaseDatabase.getInstance().getReference().child(\"Users\").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(\"Events\").child(code).child(\"Checklist\")\r\n//                            .child(code).setValue(\"1\");\r\n//                }\r\n//                else {\r\n//                    SharedPreferences preferences = context.getSharedPreferences(\"MySharedPref\",context.MODE_PRIVATE);\r\n//                    String code = preferences.getString(\"Event key\", \"\");\r\n//                    FirebaseDatabase.getInstance().getReference().child(\"Users\").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(\"Events\").child(code).child(\"Checklist\")\r\n//                            .child(code).setValue(\"0\");\r\n//\r\n//                }\r\n//            }\r\n//        });\r\n\r\n    }\r\n//     private boolean toBoolean(String status)\r\n//    {\r\n//        return status != \"0\";\r\n//    }\r\n\r\n    @Override\r\n    public int getItemCount() {\r\n        return todolist.size();\r\n    }\r\n\r\n    public static class MyviewHolder extends RecyclerView.ViewHolder{\r\n        TextView duedate;\r\n        CheckBox checkbox;\r\n\r\n        public MyviewHolder(@NonNull View itemView) {\r\n            super(itemView);\r\n            duedate = itemView.findViewById(R.id.due_date);\r\n            checkbox = itemView.findViewById(R.id.mcheckbox);\r\n\r\n\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/eventgo/Adapter/ToDoadapter.java b/app/src/main/java/com/example/eventgo/Adapter/ToDoadapter.java
+--- a/app/src/main/java/com/example/eventgo/Adapter/ToDoadapter.java	
++++ b/app/src/main/java/com/example/eventgo/Adapter/ToDoadapter.java	
+@@ -30,6 +30,7 @@
+     public ToDoadapter(checklistActivity activity, List<checklist>todolist){
+         this.todolist = todolist;
+         checkactivity =activity;
++        context = activity;
+     }
+ 
+     @NonNull
+@@ -44,31 +45,31 @@
+         checklist check = todolist.get(position);
+         holder.checkbox.setText(check.getTask());
+         holder.duedate.setText(check.getDueDate());
+-//        holder.checkbox.setChecked(toBoolean(check.getStatus()));
+-//        holder.checkbox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+-//            @Override
+-//            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+-//                if(compoundButton.isChecked()){
+-//                    SharedPreferences preferences = context.getSharedPreferences("MySharedPref",context.MODE_PRIVATE);
+-//                    String code = preferences.getString("Event key", "");
+-//                    FirebaseDatabase.getInstance().getReference().child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").child(code).child("Checklist")
+-//                            .child(code).setValue("1");
+-//                }
+-//                else {
+-//                    SharedPreferences preferences = context.getSharedPreferences("MySharedPref",context.MODE_PRIVATE);
+-//                    String code = preferences.getString("Event key", "");
+-//                    FirebaseDatabase.getInstance().getReference().child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").child(code).child("Checklist")
+-//                            .child(code).setValue("0");
+-//
+-//                }
+-//            }
+-//        });
++        holder.checkbox.setChecked(toBoolean(check.getStatus()));
++        holder.checkbox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
++            @Override
++            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
++                if(compoundButton.isChecked()){
++                    SharedPreferences preferences = context.getSharedPreferences("MySharedPref",context.MODE_PRIVATE);
++                    String code = preferences.getString("Event key", "");
++                    FirebaseDatabase.getInstance().getReference().child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").child(code).child("Checklist")
++                            .child(check.getKey()).child("status").setValue("1");
++                }
++                else {
++                    SharedPreferences preferences = context.getSharedPreferences("MySharedPref",context.MODE_PRIVATE);
++                    String code = preferences.getString("Event key", "");
++                    FirebaseDatabase.getInstance().getReference().child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").child(code).child("Checklist")
++                            .child(check.getKey()).child("status").setValue("0");
+ 
++                }
++            }
++        });
++
+     }
+-//     private boolean toBoolean(String status)
+-//    {
+-//        return status != "0";
+-//    }
++     private boolean toBoolean(String status)
++    {
++        return !status.equals("0");
++    }
+ 
+     @Override
+     public int getItemCount() {
+Index: app/src/main/java/com/example/eventgo/Adapter/guestlistadapter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.eventgo.Adapter;\r\n\r\nimport android.content.Context;\r\nimport android.graphics.Color;\r\nimport android.view.LayoutInflater;\r\nimport android.view.View;\r\nimport android.view.ViewGroup;\r\nimport android.widget.CheckBox;\r\nimport android.widget.TextView;\r\n\r\nimport androidx.annotation.NonNull;\r\nimport androidx.recyclerview.widget.RecyclerView;\r\n\r\nimport com.example.eventgo.GuestActivity;\r\nimport com.example.eventgo.Model.checklist;\r\nimport com.example.eventgo.Model.guestlist;\r\nimport com.example.eventgo.R;\r\nimport com.example.eventgo.checklistActivity;\r\nimport com.google.firebase.database.FirebaseDatabase;\r\n\r\nimport java.util.List;\r\n\r\npublic class guestlistadapter extends RecyclerView.Adapter<guestlistadapter.MyviewHolder> {\r\n\r\n    private List<guestlist> glist;\r\n    private GuestActivity guestActivity;\r\n    private FirebaseDatabase database;\r\n    private String code;\r\n    private Context context;\r\n\r\n    public guestlistadapter(GuestActivity activity, List<guestlist> guestlist){\r\n        this.glist = guestlist;\r\n        guestActivity =activity;\r\n    }\r\n\r\n    @NonNull\r\n    @Override\r\n    public MyviewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {\r\n       View view = LayoutInflater.from(guestActivity).inflate(R.layout.list_guest, parent, false);\r\n       return new MyviewHolder(view);\r\n    }\r\n\r\n    @Override\r\n    public void onBindViewHolder(@NonNull MyviewHolder holder, int position) {\r\n        guestlist guestl = glist.get(position);\r\n        holder.guestbox.setText(guestl.getName());\r\n        holder.mails.setText(guestl.getMails());\r\n    }\r\n\r\n    @Override\r\n    public int getItemCount() {\r\n        return glist.size();\r\n    }\r\n\r\n    public static class MyviewHolder extends RecyclerView.ViewHolder{\r\n        TextView mails;\r\n        CheckBox guestbox;\r\n\r\n        public MyviewHolder(@NonNull View itemView) {\r\n            super(itemView);\r\n            mails = itemView.findViewById(R.id.mails);\r\n            guestbox = itemView.findViewById(R.id.mguestbox);\r\n\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/eventgo/Adapter/guestlistadapter.java b/app/src/main/java/com/example/eventgo/Adapter/guestlistadapter.java
+--- a/app/src/main/java/com/example/eventgo/Adapter/guestlistadapter.java	
++++ b/app/src/main/java/com/example/eventgo/Adapter/guestlistadapter.java	
+@@ -1,11 +1,13 @@
+ package com.example.eventgo.Adapter;
+ 
+ import android.content.Context;
++import android.content.SharedPreferences;
+ import android.graphics.Color;
+ import android.view.LayoutInflater;
+ import android.view.View;
+ import android.view.ViewGroup;
+ import android.widget.CheckBox;
++import android.widget.CompoundButton;
+ import android.widget.TextView;
+ 
+ import androidx.annotation.NonNull;
+@@ -16,6 +18,7 @@
+ import com.example.eventgo.Model.guestlist;
+ import com.example.eventgo.R;
+ import com.example.eventgo.checklistActivity;
++import com.google.firebase.auth.FirebaseAuth;
+ import com.google.firebase.database.FirebaseDatabase;
+ 
+ import java.util.List;
+@@ -31,6 +34,7 @@
+     public guestlistadapter(GuestActivity activity, List<guestlist> guestlist){
+         this.glist = guestlist;
+         guestActivity =activity;
++        context = activity;
+     }
+ 
+     @NonNull
+@@ -44,7 +48,30 @@
+     public void onBindViewHolder(@NonNull MyviewHolder holder, int position) {
+         guestlist guestl = glist.get(position);
+         holder.guestbox.setText(guestl.getName());
+-        holder.mails.setText(guestl.getMails());
++        holder.mails.setText(guestl.getMail());
++        holder.guestbox.setChecked(toBoolean(guestl.getStatus()));
++        holder.guestbox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
++            @Override
++            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
++                if(compoundButton.isChecked()){
++                    SharedPreferences preferences = context.getSharedPreferences("MySharedPref",context.MODE_PRIVATE);
++                    String code = preferences.getString("Event key", "");
++                    FirebaseDatabase.getInstance().getReference().child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").child(code).child("Checklist")
++                            .child(guestl.getKey()).child("status").setValue("1");
++                }
++                else {
++                    SharedPreferences preferences = context.getSharedPreferences("MySharedPref",context.MODE_PRIVATE);
++                    String code = preferences.getString("Event key", "");
++                    FirebaseDatabase.getInstance().getReference().child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").child(code).child("Checklist")
++                            .child(guestl.getKey()).child("status").setValue("0");
++
++                }
++            }
++        });
++    }
++    private boolean toBoolean(String status)
++    {
++        return !status.equals("0");
+     }
+ 
+     @Override
+Index: app/src/main/java/com/example/eventgo/checklistActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.eventgo;\r\n\r\nimport androidx.annotation.NonNull;\r\nimport androidx.appcompat.app.AppCompatActivity;\r\nimport androidx.recyclerview.widget.LinearLayoutManager;\r\nimport androidx.recyclerview.widget.RecyclerView;\r\n\r\nimport android.content.Context;\r\nimport android.content.SharedPreferences;\r\nimport android.os.Bundle;\r\nimport android.provider.ContactsContract;\r\nimport android.view.View;\r\n\r\nimport com.example.eventgo.Adapter.ToDoadapter;\r\nimport com.example.eventgo.Model.checklist;\r\nimport com.google.android.material.floatingactionbutton.FloatingActionButton;\r\nimport com.google.firebase.auth.FirebaseAuth;\r\nimport com.google.firebase.database.DataSnapshot;\r\nimport com.google.firebase.database.DatabaseError;\r\nimport com.google.firebase.database.DatabaseReference;\r\nimport com.google.firebase.database.FirebaseDatabase;\r\nimport com.google.firebase.database.ValueEventListener;\r\n\r\nimport java.util.ArrayList;\r\nimport java.util.List;\r\n\r\npublic class checklistActivity extends AppCompatActivity {\r\n\r\n    private RecyclerView recyclerView;\r\n    private String code;\r\n    private FloatingActionButton mFab;\r\n    private DatabaseReference database;\r\n    private ToDoadapter adapter;\r\n    private List<checklist> mllist;\r\n\r\n\r\n    @Override\r\n    protected void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n        setContentView(R.layout.activity_checklist);\r\n        code = getIntent().getStringExtra(\"Event key\");\r\n\r\n\r\n        recyclerView = findViewById(R.id.checklist);\r\n        mFab = findViewById(R.id.floatingActionButton);\r\n\r\n        recyclerView.setHasFixedSize(true);\r\n        recyclerView.setLayoutManager(new LinearLayoutManager(checklistActivity.this));\r\n\r\n        mFab.setOnClickListener(new View.OnClickListener() {\r\n            @Override\r\n            public void onClick(View view) {\r\n                SharedPreferences sharedPreferences = getSharedPreferences(\"MySharedPref\",MODE_PRIVATE);\r\n\r\n                SharedPreferences.Editor myEdit = sharedPreferences.edit();\r\n\r\n                myEdit.putString(\"Event key\", code);\r\n\r\n                myEdit.commit();\r\n\r\n                AddnewTask.newInstance().show(getSupportFragmentManager(), AddnewTask.TAG);\r\n            }\r\n        });\r\n\r\n        database = FirebaseDatabase.getInstance().getReference(\"Users\").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(\"Events\").child(code).child(\"Checklist\");\r\n        mllist = new ArrayList<>();\r\n        adapter =new ToDoadapter(checklistActivity.this, mllist);\r\n        recyclerView.setAdapter(adapter);\r\n        database.addValueEventListener(new ValueEventListener() {\r\n            @Override\r\n            public void onDataChange(@NonNull DataSnapshot snapshot) {\r\n                if(snapshot.exists())\r\n                {\r\n                    for (DataSnapshot dataSnapshot : snapshot.getChildren()) {\r\n                        checklist check = dataSnapshot.getValue(checklist.class);\r\n                        System.out.println(dataSnapshot.getValue());\r\n                        mllist.add(check);\r\n                    }\r\n                   adapter.notifyDataSetChanged();\r\n                }\r\n\r\n            }\r\n\r\n            @Override\r\n            public void onCancelled(@NonNull DatabaseError error) {\r\n\r\n            }\r\n        });\r\n\r\n    }\r\n\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/eventgo/checklistActivity.java b/app/src/main/java/com/example/eventgo/checklistActivity.java
+--- a/app/src/main/java/com/example/eventgo/checklistActivity.java	
++++ b/app/src/main/java/com/example/eventgo/checklistActivity.java	
+@@ -71,6 +71,7 @@
+             public void onDataChange(@NonNull DataSnapshot snapshot) {
+                 if(snapshot.exists())
+                 {
++                    mllist.clear();
+                     for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
+                         checklist check = dataSnapshot.getValue(checklist.class);
+                         System.out.println(dataSnapshot.getValue());
+Index: app/src/main/java/com/example/eventgo/third_page.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.eventgo;\r\n\r\nimport androidx.annotation.NonNull;\r\nimport androidx.annotation.Nullable;\r\nimport androidx.appcompat.app.AppCompatActivity;\r\n\r\nimport android.Manifest;\r\nimport android.annotation.SuppressLint;\r\nimport android.app.AlarmManager;\r\nimport android.app.DatePickerDialog;\r\nimport android.app.PendingIntent;\r\nimport android.app.ProgressDialog;\r\nimport android.app.TimePickerDialog;\r\nimport android.content.Context;\r\nimport android.content.Intent;\r\nimport android.graphics.Bitmap;\r\nimport android.graphics.BitmapFactory;\r\nimport android.net.Uri;\r\nimport android.os.Build;\r\nimport android.os.Bundle;\r\nimport android.provider.MediaStore;\r\nimport android.text.format.DateFormat;\r\nimport android.view.View;\r\nimport android.widget.AdapterView;\r\nimport android.widget.ArrayAdapter;\r\nimport android.widget.Button;\r\nimport android.widget.DatePicker;\r\nimport android.widget.EditText;\r\nimport android.widget.ImageView;\r\nimport android.widget.Spinner;\r\nimport android.widget.TimePicker;\r\nimport android.widget.Toast;\r\n\r\nimport com.google.android.gms.auth.api.signin.internal.Storage;\r\nimport com.google.android.gms.tasks.OnCompleteListener;\r\nimport com.google.android.gms.tasks.OnFailureListener;\r\nimport com.google.android.gms.tasks.OnSuccessListener;\r\nimport com.google.android.gms.tasks.Task;\r\nimport com.google.firebase.auth.FirebaseAuth;\r\nimport com.google.firebase.database.FirebaseDatabase;\r\nimport com.google.firebase.storage.FirebaseStorage;\r\nimport com.google.firebase.storage.OnProgressListener;\r\nimport com.google.firebase.storage.StorageReference;\r\nimport com.google.firebase.storage.UploadTask;\r\nimport com.karumi.dexter.Dexter;\r\nimport com.karumi.dexter.PermissionToken;\r\nimport com.karumi.dexter.listener.PermissionDeniedResponse;\r\nimport com.karumi.dexter.listener.PermissionGrantedResponse;\r\nimport com.karumi.dexter.listener.PermissionRequest;\r\nimport com.karumi.dexter.listener.single.PermissionListener;\r\n\r\nimport java.io.InputStream;\r\nimport java.time.Year;\r\nimport java.util.Calendar;\r\n\r\npublic class third_page extends AppCompatActivity implements AdapterView.OnItemSelectedListener {\r\n    private Button button;\r\n    private EditText etdate;\r\n    private EditText ettime;\r\n    private EditText title, times, dates;\r\n    public String typ;\r\n    ImageView  upload_image;\r\n    Uri filepath=null;\r\n    String eventImage;\r\n    Bitmap bitmap;\r\n    private Button upload;\r\n    Spinner type;\r\n    int ethour, etmin;\r\n    DatePickerDialog.OnDateSetListener setListener;\r\n\r\n    @Override\r\n    protected void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n        setContentView(R.layout.third_page);\r\n        etdate = findViewById(R.id.dates);\r\n        ettime = findViewById(R.id.times);\r\n        button=(Button) findViewById(R.id.create);\r\n        if(Build.VERSION.SDK_INT>= Build.VERSION_CODES.LOLLIPOP)\r\n        {etdate.setShowSoftInputOnFocus(false);\r\n            ettime.setShowSoftInputOnFocus(false);}\r\n        Calendar calendar = Calendar.getInstance();\r\n        final int year = calendar.get(Calendar.YEAR);\r\n        final int month = calendar.get(Calendar.MONTH);\r\n        final int day = calendar.get(Calendar.DAY_OF_MONTH);\r\n        etdate.setOnClickListener(new View.OnClickListener() {\r\n            @Override\r\n            public void onClick(View view) {\r\n                DatePickerDialog datePickerDialog = new DatePickerDialog(\r\n                        third_page.this, new DatePickerDialog.OnDateSetListener() {\r\n                    @Override\r\n                    public void onDateSet(DatePicker datePicker, int year, int month, int day) {\r\n                        month = month+1;\r\n                        String date= day+\"/\"+month+\"/\"+year;\r\n                        etdate.setText(date);\r\n                    }\r\n                },year,month,day);\r\n                datePickerDialog.show();\r\n            }\r\n        });\r\n        Spinner spinner = findViewById(R.id.type);\r\n        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,\r\n                R.array.Type, android.R.layout.simple_spinner_item);\r\n        spinner.setAdapter(adapter);\r\n        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);\r\n        //spinner.setAdapter(adapter);\r\n        spinner.setOnItemSelectedListener(this);\r\n        spinner.setPrompt(\"Event name\");\r\n        ettime.setOnClickListener(new View.OnClickListener() {\r\n            @Override\r\n            public void onClick(View view) {\r\n                TimePickerDialog timePickerDialog = new TimePickerDialog(\r\n                        third_page.this,\r\n                        new TimePickerDialog.OnTimeSetListener() {\r\n                            @Override\r\n                            public void onTimeSet(TimePicker timePicker, int hour, int minute) {\r\n                                ethour = hour;\r\n                                etmin = minute;\r\n                                Calendar calendar1 = Calendar.getInstance();\r\n                                calendar1.set(0, 0, 0, ethour, etmin);\r\n                                ettime.setText(DateFormat.format(\"hh:mm aa\", calendar1));\r\n                            }\r\n                        },12,0, false\r\n                );\r\n                timePickerDialog.updateTime(ethour, etmin);\r\n                timePickerDialog.show();\r\n            }\r\n        });\r\n        title = findViewById(R.id.title);\r\n        times = findViewById(R.id.times);\r\n        dates = findViewById(R.id.dates);\r\n        type = (Spinner)findViewById(R.id.type);\r\n\r\n        button.setOnClickListener(new View.OnClickListener() {\r\n            @Override\r\n            public void onClick(View view) {\r\n                nextpage();\r\n            }\r\n        });\r\n\r\n        upload_image=(ImageView) findViewById(R.id.upload_image);\r\n        upload=(Button)findViewById(R.id.upload);\r\n\r\n        upload_image.setOnClickListener(new View.OnClickListener() {\r\n            @Override\r\n            public void onClick(View view) {\r\n                Dexter.withActivity(third_page.this).withPermission(Manifest.permission.READ_EXTERNAL_STORAGE).withListener(new PermissionListener() {\r\n                    @Override\r\n                    public void onPermissionGranted(PermissionGrantedResponse response) {\r\n                        Intent intent=new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.INTERNAL_CONTENT_URI);\r\n                        intent.setType(\"image/*\");\r\n                        startActivityForResult(intent,1);\r\n                        // Intent.createChooser(intent,\"Please Select an Image\")\r\n\r\n                    }\r\n\r\n                    @Override\r\n                    public void onPermissionDenied(PermissionDeniedResponse response) {\r\n\r\n                    }\r\n\r\n                    @Override\r\n                    public void onPermissionRationaleShouldBeShown(PermissionRequest permission, PermissionToken token) {\r\n                        token.continuePermissionRequest();\r\n\r\n                    }\r\n                }).check();\r\n            }\r\n        });\r\n        upload.setOnClickListener(new View.OnClickListener() {\r\n            @Override\r\n            public void onClick(View view) {\r\n                if(filepath!=null) {\r\n\r\n                    uploadToFirebase();\r\n                }\r\n\r\n\r\n            }\r\n        });\r\n\r\n\r\n\r\n\r\n    }\r\n    @Override\r\n    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {\r\n        if(requestCode==1 && resultCode==RESULT_OK) {\r\n            super.onActivityResult(requestCode, resultCode, data);\r\n\r\n            filepath = data.getData();\r\n           /* try {\r\n                InputStream inputStream=getContentResolver().openInputStream(filepath);\r\n                bitmap= BitmapFactory.decodeStream(inputStream);\r\n            }\r\n            catch (Exception ex)\r\n            {\r\n                Toast.makeText(this,ex.toString(),Toast.LENGTH_LONG).show();\r\n            }*/\r\n            upload_image.setImageURI(filepath);\r\n        }\r\n    }\r\n\r\n\r\n    private void uploadToFirebase() {\r\n        ProgressDialog dialog=new ProgressDialog(this);\r\n        dialog.setTitle(\"File Uploader\");\r\n        dialog.show();\r\n        title=(EditText)findViewById(R.id.title);\r\n        dates=(EditText)findViewById(R.id.dates);\r\n        String gettitle=title.getText().toString();\r\n        String getdate=dates.getText().toString();\r\n\r\n        FirebaseStorage storage=FirebaseStorage.getInstance();\r\n        StorageReference uploader= storage.getReference().child(\"Event Images\").child(System.currentTimeMillis()+\".jpg\");\r\n        uploader.putFile(filepath).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {\r\n                    @Override\r\n                    public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {\r\n                        dialog.dismiss();\r\n\r\n                        taskSnapshot.getStorage().getDownloadUrl().addOnCompleteListener(new OnCompleteListener<Uri>() {\r\n\r\n                            @Override\r\n                            public void onComplete(@NonNull Task<Uri> task) {\r\n                                if(task.isSuccessful())\r\n                                {\r\n                                    eventImage = task.getResult().toString();\r\n                                    Toast.makeText(getApplicationContext(),\"Image Uploaded\",Toast.LENGTH_LONG).show();\r\n\r\n\r\n                                }\r\n\r\n                            }\r\n                        }).addOnFailureListener(new OnFailureListener() {\r\n                            @Override\r\n                            public void onFailure(@NonNull Exception e) {\r\n                                Toast.makeText(getApplicationContext(),\"Could not upload the Image\",Toast.LENGTH_LONG).show();\r\n\r\n\r\n                            }\r\n                        });\r\n                    }\r\n\r\n\r\n\r\n                })\r\n                .addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {\r\n                    @Override\r\n                    public void onProgress(@NonNull UploadTask.TaskSnapshot snapshot) {\r\n                        float percent=(100*snapshot.getBytesTransferred())/snapshot.getTotalByteCount();\r\n                        dialog.setMessage(\"Uploaded:\"+(int)percent+\"%\");\r\n\r\n                    }\r\n                });\r\n    }\r\n\r\n\r\n    @Override\r\n    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {\r\n        if(position==0) {\r\n            Toast.makeText(getApplicationContext(),\"please select a type\",Toast.LENGTH_SHORT).show();\r\n            return;\r\n        }\r\n        String text = parent.getItemAtPosition(position).toString();\r\n        typ=text;\r\n        Toast.makeText(parent.getContext(), text, Toast.LENGTH_SHORT).show();\r\n    }\r\n    @Override\r\n    public void onNothingSelected(AdapterView<?> parent) {\r\n    }\r\n    public void nextpage()\r\n    {\r\n        String tit = title.getText().toString();\r\n        String tim = times.getText().toString();\r\n        String dat = dates.getText().toString();\r\n\r\n\r\n\r\n\r\n        if(eventImage==null)\r\n        {\r\n            eventImage=\"https://firebasestorage.googleapis.com/v0/b/eventgo-ec09c.appspot.com/o/Event%20Images%2Feventimage.jpg?alt=media&token=dc0aa266-7ef5-43f6-95d9-647de0416814\";\r\n        }\r\n\r\n        if(tit.isEmpty())\r\n        {\r\n            title.setError(\"Title is required\");\r\n            title.requestFocus();\r\n        }\r\n        else if(tim.isEmpty())\r\n        {\r\n            times.setError(\"Time is required\");\r\n            times.requestFocus();\r\n        }\r\n        else if(dat.isEmpty())\r\n        {\r\n            dates.setError(\"Date is required\");\r\n            dates.requestFocus();\r\n        }\r\n        else if(typ.isEmpty())\r\n        {\r\n            Toast.makeText(this,\"Event Type is Required\",Toast.LENGTH_LONG).show();\r\n            type.requestFocus();\r\n        }\r\n        else\r\n        {\r\n\r\n            String key=FirebaseDatabase.getInstance().getReference(\"Users\").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(\"Events\").push().getKey();\r\n            Event event=new Event(tit,typ,dat,tim,key,eventImage);\r\n            FirebaseDatabase.getInstance().getReference(\"Users\").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(\"Events\").child(key).setValue(event).addOnCompleteListener(new OnCompleteListener<Void>() {\r\n                @Override\r\n                public void onComplete(@NonNull Task<Void> task) {\r\n                    if(task.isSuccessful())\r\n                    {\r\n                        Toast.makeText(getApplicationContext(),\"Event added Successfully\",Toast.LENGTH_LONG).show();\r\n                        Intent intent=new Intent(getApplicationContext(),infosActivity.class);\r\n                        intent.putExtra(\"Key\",key);\r\n                        startActivity(intent);\r\n                        finish();\r\n                    }\r\n                    else\r\n                    {\r\n                        Toast.makeText(getApplicationContext(),\"Failed\",Toast.LENGTH_LONG).show();\r\n                    }\r\n                }\r\n            });\r\n        }\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/eventgo/third_page.java b/app/src/main/java/com/example/eventgo/third_page.java
+--- a/app/src/main/java/com/example/eventgo/third_page.java	
++++ b/app/src/main/java/com/example/eventgo/third_page.java	
+@@ -273,9 +273,6 @@
+         String tim = times.getText().toString();
+         String dat = dates.getText().toString();
+ 
+-
+-
+-
+         if(eventImage==null)
+         {
+             eventImage="https://firebasestorage.googleapis.com/v0/b/eventgo-ec09c.appspot.com/o/Event%20Images%2Feventimage.jpg?alt=media&token=dc0aa266-7ef5-43f6-95d9-647de0416814";

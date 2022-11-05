@@ -30,6 +30,7 @@ public class ToDoadapter extends RecyclerView.Adapter<ToDoadapter.MyviewHolder> 
     public ToDoadapter(checklistActivity activity, List<checklist>todolist){
         this.todolist = todolist;
         checkactivity =activity;
+        context = activity;
     }
 
     @NonNull
@@ -44,31 +45,31 @@ public class ToDoadapter extends RecyclerView.Adapter<ToDoadapter.MyviewHolder> 
         checklist check = todolist.get(position);
         holder.checkbox.setText(check.getTask());
         holder.duedate.setText(check.getDueDate());
-//        holder.checkbox.setChecked(toBoolean(check.getStatus()));
-//        holder.checkbox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-//            @Override
-//            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-//                if(compoundButton.isChecked()){
-//                    SharedPreferences preferences = context.getSharedPreferences("MySharedPref",context.MODE_PRIVATE);
-//                    String code = preferences.getString("Event key", "");
-//                    FirebaseDatabase.getInstance().getReference().child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").child(code).child("Checklist")
-//                            .child(code).setValue("1");
-//                }
-//                else {
-//                    SharedPreferences preferences = context.getSharedPreferences("MySharedPref",context.MODE_PRIVATE);
-//                    String code = preferences.getString("Event key", "");
-//                    FirebaseDatabase.getInstance().getReference().child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").child(code).child("Checklist")
-//                            .child(code).setValue("0");
-//
-//                }
-//            }
-//        });
+        holder.checkbox.setChecked(toBoolean(check.getStatus()));
+        holder.checkbox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(compoundButton.isChecked()){
+                    SharedPreferences preferences = context.getSharedPreferences("MySharedPref",context.MODE_PRIVATE);
+                    String code = preferences.getString("Event key", "");
+                    FirebaseDatabase.getInstance().getReference().child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").child(code).child("Checklist")
+                            .child(check.getKey()).child("status").setValue("1");
+                }
+                else {
+                    SharedPreferences preferences = context.getSharedPreferences("MySharedPref",context.MODE_PRIVATE);
+                    String code = preferences.getString("Event key", "");
+                    FirebaseDatabase.getInstance().getReference().child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").child(code).child("Checklist")
+                            .child(check.getKey()).child("status").setValue("0");
+
+                }
+            }
+        });
 
     }
-//     private boolean toBoolean(String status)
-//    {
-//        return status != "0";
-//    }
+     private boolean toBoolean(String status)
+    {
+        return !status.equals("0");
+    }
 
     @Override
     public int getItemCount() {

@@ -124,6 +124,7 @@ public class AddnewTask extends BottomSheetDialogFragment {
                     Checkmap.put("task",task);
                     Checkmap.put("dueDate",dueDate);
                     Checkmap.put("status","0");
+                    Checkmap.put("key", key);
                     FirebaseDatabase.getInstance().getReference().child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").child(code).child("Checklist")
                             .child(key).setValue(Checkmap).addOnCompleteListener(new OnCompleteListener<Void>() {
                                 @Override

@@ -3,6 +3,15 @@ package com.example.eventgo.Model;
 public class checklist {
     private String task, dueDate;
     private String status;
+    private String key;
+
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
+    }
 
     public String getTask() {
         return task;
@@ -33,6 +42,7 @@ public class checklist {
         this.dueDate = due;
         this.status = status;
     }
+
     @Override
     public String toString() {
         return "checklist{" +

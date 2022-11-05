@@ -67,6 +67,7 @@ public class GuestActivity extends AppCompatActivity {
         database.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
+                glist.clear();
                 if(snapshot.exists())
                 {
                     for (DataSnapshot dataSnapshot : snapshot.getChildren()) {

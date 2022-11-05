@@ -53,6 +53,8 @@ drawable intercontinental
 drawable location
 drawable menu
 drawable money
+drawable money_need
+drawable money_spend
 drawable notifications
 drawable password_icon
 drawable password_icon_focused
@@ -83,6 +85,7 @@ id addpeople
 id alreadyaccount
 id amount
 id bdate_profile
+id bottomBudgetView
 id bottomNavigationView
 id btnDelete
 id btnUpdate
@@ -110,12 +113,12 @@ id continuephone
 id copybutton
 id create
 id createbutton
-id current_budget_list
 id date
 id dates
 id due_date
 id editTextTextEmailAddress
 id email
+id estimate_budget
 id event
 id eventDate
 id eventImage
@@ -126,6 +129,7 @@ id floatingActionButton
 id fname_profile
 id forgotpass
 id forgotpassword
+id frame
 id framelayout
 id getstartedbutton
 id guest
@@ -174,6 +178,7 @@ id set_gmail
 id sharebutton
 id signup
 id signupbutton
+id spent_budget
 id task_editguest
 id task_edittext
 id textView
@@ -188,7 +193,6 @@ id textView3
 id textView7
 id textView8
 id textView9
-id textview
 id time_signup
 id times
 id title
@@ -234,11 +238,13 @@ layout add_new_guest
 layout add_new_task
 layout budget_layout
 layout budget_retrieve
+layout fragment_estimate_budget
 layout fragment_event
 layout fragment_home
 layout fragment_menu
 layout fragment_notification
 layout fragment_profile
+layout fragment_spentbudget
 layout get_started
 layout image_layout
 layout item
@@ -250,6 +256,7 @@ layout row_add_budget
 layout second_page
 layout third_page
 layout update_budget
+menu budget_view
 menu nav_view
 mipmap ic_launcher
 mipmap ic_launcher_foreground

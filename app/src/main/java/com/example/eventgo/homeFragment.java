@@ -1,28 +1,20 @@
 package com.example.eventgo;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AbsListView;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.eventgo.adaptercardview;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -31,15 +23,14 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
-import java.util.Objects;
 
 public class homeFragment extends Fragment {
 
-    RecyclerView recyclerView;
-    DatabaseReference database;
-    adaptercardview a;
-    ArrayList<Event> list;
-    Activity context;
+    private RecyclerView recyclerView;
+    private DatabaseReference database;
+    private adaptercardview a;
+    private ArrayList<Event> list;
+    private Activity context;
 
     public homeFragment() {
     }
@@ -89,8 +80,10 @@ public class homeFragment extends Fragment {
             public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
                 Event event = a.getmyitem(viewHolder.getAdapterPosition());
                 a.deleteitem(viewHolder.getAdapterPosition());
-                a.notifyDataSetChanged();
-                FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").child(event.getKey()).removeValue();
+                //list.remove(viewHolder.getAdapterPosition());
+                FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser()
+                        .getUid()).child("Events").child(event.getKey()).removeValue();
+                //a.notifyDataSetChanged();
             }
         }).attachToRecyclerView(recyclerView);
 
@@ -102,7 +95,28 @@ public class homeFragment extends Fragment {
 
             @Override
             public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
-                replaceFragment(new eventFragment());
+                Event event = a.getmyitem(viewHolder.getLayoutPosition());
+                a.deleteitem(viewHolder.getAdapterPosition());
+                a.notifyDataSetChanged();
+//                val abcd = FirebaseDatabase.getInstance().getReference().child("Users").child(FirebaseAuth.getInstance().currentUser.uid)
+//                        .child("Events").child(code).child("Checklist").child(check.getKey())
+//
+//                abcd.addListenerForSingleValueEvent(object: ValueEventListener{
+//                    override fun onDataChange(snapshot: DataSnapshot) {
+//                        if(snapshot.exists())
+//                        {
+//                            Check temp_check = snapshot.getValue()
+//                        }
+//                    }
+//
+//                    override fun onCancelled(error: DatabaseError) {
+//                        TODO("Not yet implemented")
+//                    }
+//
+//                })
+                FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser()
+                        .getUid()).child("Events").push().child("Previous Events");
+                //replaceFragment(new eventFragment());
             }
         }).attachToRecyclerView(recyclerView);
 
@@ -110,6 +124,7 @@ public class homeFragment extends Fragment {
         database.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
+                list.clear();
                 for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
                     Event event = dataSnapshot.getValue(Event.class);
                     if (event != null) {
@@ -125,11 +140,11 @@ public class homeFragment extends Fragment {
             }
         });
     }
-    private void replaceFragment(Fragment fragment){
-        FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.framelayout,fragment);
-        fragmentTransaction.commit();
-    }
+//    private void replaceFragment(Fragment fragment){
+//        FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+//        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+//        fragmentTransaction.replace(R.id.framelayout,fragment);
+//        fragmentTransaction.commit();
+//    }
 
 }

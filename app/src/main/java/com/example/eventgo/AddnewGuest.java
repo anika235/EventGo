@@ -97,6 +97,7 @@ public class AddnewGuest extends BottomSheetDialogFragment {
                     Guestmap.put("name",name);
                     Guestmap.put("mail",mails);
                     Guestmap.put("status","0");
+                    Guestmap.put("key", key);
                     FirebaseDatabase.getInstance().getReference().child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").child(code).child("Guestlist")
                             .child(key).setValue(Guestmap).addOnCompleteListener(new OnCompleteListener<Void>() {
                                 @Override

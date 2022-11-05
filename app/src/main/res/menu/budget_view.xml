@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Estimated Budget"
+       android:icon="@drawable/money_need"
+        android:id="@+id/estimate_budget"/>
+    <item android:title="Spent Budget"
+        android:icon="@drawable/money_spend"
+        android:id="@+id/spent_budget"/>
+</menu>

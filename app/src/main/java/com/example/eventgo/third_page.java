@@ -273,9 +273,6 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
         String tim = times.getText().toString();
         String dat = dates.getText().toString();
 
-
-
-
         if(eventImage==null)
         {
             eventImage="https://firebasestorage.googleapis.com/v0/b/eventgo-ec09c.appspot.com/o/Event%20Images%2Feventimage.jpg?alt=media&token=dc0aa266-7ef5-43f6-95d9-647de0416814";

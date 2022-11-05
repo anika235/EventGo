@@ -1,8 +1,17 @@
 package com.example.eventgo.Model;
 
 public class guestlist {
-    private String name, mails;
+    private String name, mail;
     private String status;
+    private String key;
+
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
+    }
 
     public String getName() {
         return name;
@@ -12,13 +21,13 @@ public class guestlist {
         this.name = name;
     }
 
-    public String getMails() {
-        return mails;
+    public String getMail() {
+        return mail;
     }
 
 
-    public void setMails(String mails) {
-        this.mails = mails;
+    public void setMail(String mails) {
+        this.mail = mails;
     }
 
     public String getStatus() {

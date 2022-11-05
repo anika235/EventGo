@@ -3055,6 +3055,8 @@ drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
 drawable menu
 drawable money
+drawable money_need
+drawable money_spend
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -3303,6 +3305,7 @@ id beginning
 id bestChoice
 id blocking
 id bottom
+id bottomBudgetView
 id bottomNavigationView
 id bounce
 id bounceBoth
@@ -3378,7 +3381,6 @@ id cradle
 id create
 id createbutton
 id currentState
-id current_budget_list
 id custom
 id customPanel
 id cut
@@ -3430,6 +3432,7 @@ id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id estimate_budget
 id event
 id eventDate
 id eventImage
@@ -3459,6 +3462,7 @@ id forever
 id forgotpass
 id forgotpassword
 id fragment_container_view_tag
+id frame
 id framelayout
 id frost
 id fullscreen_header
@@ -3720,6 +3724,7 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
+id spent_budget
 id spline
 id split_action_bar
 id spread
@@ -3791,7 +3796,6 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
-id textview
 id time
 id time_signup
 id times
@@ -4020,11 +4024,13 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fastscroll__default_bubble
+layout fragment_estimate_budget
 layout fragment_event
 layout fragment_home
 layout fragment_menu
 layout fragment_notification
 layout fragment_profile
+layout fragment_spentbudget
 layout get_started
 layout image_layout
 layout item
@@ -4107,6 +4113,7 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout third_page
 layout update_budget
+menu budget_view
 menu nav_view
 mipmap ic_launcher
 mipmap ic_launcher_foreground
