@@ -11,22 +11,29 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="50dp"
         android:layout_marginStart="50dp"
-        android:textSize="34sp"
+        android:textSize="24sp"
+        android:textStyle="bold"
         android:textColor="@color/color3"
-        android:text="Write Down Your Estimated Budget"/>
+        android:text="Write Down Your
+              Estimated Budget"/>
 
    <androidx.cardview.widget.CardView
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        app:cardElevation="5dp"
+       android:paddingStart="20dp"
+       android:layout_marginTop="40dp"
+       android:layout_marginRight="10dp"
+       android:layout_marginLeft="10dp"
        android:elevation="10dp">
        <LinearLayout
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:background="@color/color1"
-
+           android:paddingRight="10dp"
+           android:paddingLeft="10dp"
            android:orientation="vertical">
 
            <LinearLayout
@@ -47,10 +54,8 @@
                        android:layout_height="wrap_content"
                        android:textAppearance="?android:textAppearanceLarge"
                        android:textColor="@color/color3"
-
-
                        android:text="Total Budget"
-                       android:textSize="34sp">
+                       android:textSize="24sp">
 
                    </TextView>
                </RelativeLayout>
@@ -68,9 +73,8 @@
                        android:textAppearance="?android:textAppearanceLarge"
                        android:textColor="@color/color3"
                        android:id="@+id/total_budget"
-
                        android:text="000.000"
-                       android:textSize="34sp">
+                       android:textSize="24sp">
 
                    </TextView>
                </RelativeLayout>
@@ -81,8 +85,8 @@
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="match_parent"

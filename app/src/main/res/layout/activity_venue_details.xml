@@ -12,15 +12,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
         android:text="Hotel Intercontinental"
         android:textColor="@color/color3"
-        android:textSize="34sp" />
+        android:textStyle="bold"
+        android:textSize="24sp" />
     <TextView
         android:id="@+id/venueLocation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
         android:text="Bangla Motor"
-        android:textSize="34sp"
+        android:textSize="20sp"
+        android:textStyle="bold"
         android:textColor="@color/color3"
         android:layout_marginStart="90dp"
         />
@@ -29,6 +40,10 @@
     <ImageView
         android:id="@+id/venuePhoto"
         android:layout_width="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
         android:layout_height="226dp"
         app:srcCompat="@drawable/intercontinental" />
 
@@ -43,9 +58,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="15dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
         android:text="Rent : "
         android:textColor="@color/color3"
-        android:textSize="24sp" />
+        android:textSize="18sp" />
     <TextView
         android:id="@+id/rent"
         android:layout_width="wrap_content"
@@ -70,10 +89,13 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="15dp"
-
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
             android:text="Capacity : "
             android:textColor="@color/color3"
-            android:textSize="24sp" />
+            android:textSize="20sp" />
         <TextView
             android:id="@+id/capacity"
             android:layout_width="wrap_content"
@@ -103,9 +125,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="15dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
         android:text="Types of Events that can be held :  "
         android:textColor="@color/color3"
-        android:textSize="24sp"
+        android:textSize="18sp"
         android:layout_marginEnd="14dp"
         />
 

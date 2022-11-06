@@ -11,15 +11,22 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="50dp"
         android:layout_marginStart="50dp"
-        android:textSize="34sp"
+        android:textSize="24sp"
+        android:textStyle="bold"
         android:textColor="@color/color3"
         android:text="Your Spent Budget"/>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
         app:cardElevation="5dp"
         android:elevation="10dp">
         <LinearLayout
@@ -38,6 +45,10 @@
                 <RelativeLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
                     android:layout_weight="1"
                     android:background="@color/color1"
                     android:gravity="center">
@@ -47,10 +58,8 @@
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:textAppearanceLarge"
                         android:textColor="@color/color3"
-
-
                         android:text="Total Expense"
-                        android:textSize="34sp">
+                        android:textSize="20sp">
 
                     </TextView>
                 </RelativeLayout>
@@ -60,6 +69,10 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@color/color1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
                     android:gravity="center">
 
                     <TextView
@@ -68,9 +81,8 @@
                         android:textAppearance="?android:textAppearanceLarge"
                         android:textColor="@color/color3"
                         android:id="@+id/total_budget"
-
                         android:text="000.000"
-                        android:textSize="34sp">
+                        android:textSize="20sp">
 
                     </TextView>
                 </RelativeLayout>
@@ -86,7 +98,11 @@
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/Spent_budget_recycle">
+            android:id="@+id/Spent_budget_recycle"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
 
         </androidx.recyclerview.widget.RecyclerView>
 

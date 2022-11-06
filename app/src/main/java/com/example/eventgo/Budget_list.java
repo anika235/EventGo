@@ -74,8 +74,6 @@ public class Budget_list extends AppCompatActivity {
         setContentView(R.layout.activity_budget_list);
         String key=getIntent().getStringExtra("Key");
 
-
-
         fab= findViewById(R.id.add_new_item);
         mAuth=FirebaseAuth.getInstance();
         budgetReference=FirebaseDatabase.getInstance().getReference("Users").child(mAuth.getCurrentUser().getUid()).child("Events").child(key).child("EstimatedBudget");

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:elevation="10dp"
     app:cardElevation="10dp"
-    android:layout_marginTop="10dp"
+    android:layout_marginTop="20dp"
 
     android:paddingTop="5dp"
     android:paddingBottom="5dp">

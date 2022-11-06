@@ -11,15 +11,26 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginStart="50dp"
-        android:textSize="34sp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="30dp"
+        android:textSize="24sp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textStyle="bold"
         android:textColor="@color/color3"
         android:text="Your Estimated Budget"/>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
         app:cardElevation="5dp"
         android:elevation="10dp">
         <LinearLayout
@@ -50,7 +61,7 @@
 
 
                         android:text="Total Budget"
-                        android:textSize="34sp">
+                        android:textSize="20sp">
 
                     </TextView>
                 </RelativeLayout>
@@ -70,7 +81,7 @@
                         android:id="@+id/estimated_budget"
 
                         android:text="000.000"
-                        android:textSize="34sp">
+                        android:textSize="20sp">
 
                     </TextView>
                 </RelativeLayout>
@@ -86,6 +97,10 @@
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
             android:id="@+id/estimated_budget_recycle">
 
         </androidx.recyclerview.widget.RecyclerView>
@@ -99,6 +114,7 @@
             android:layout_marginRight="20dp"
             android:backgroundTint="@color/color3"
             app:fabSize="normal"
+
             app:srcCompat="@drawable/add"
 
             android:textColor="@color/white"/>

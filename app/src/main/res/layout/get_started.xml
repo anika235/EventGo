@@ -20,7 +20,8 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_marginTop="600dp"
-        android:backgroundTint="#206475"
+        android:backgroundTint="#B6A1E4"
+        android:padding="@dimen/cardview_compat_inset_shadow"
         android:text="GET STARTED"
         android:textColor="@color/white"
         android:textSize="24sp" />
