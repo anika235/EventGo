@@ -35,6 +35,7 @@
         android:drawablePadding="20dp"
         android:ems="10"
         android:hint="Email"
+
         android:inputType="textEmailAddress"
         android:padding="20dp" />
     <EditText

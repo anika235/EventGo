@@ -10,6 +10,7 @@ int anim abc_slide_out_bottom 0x7f010008
 int anim abc_slide_out_top 0x7f010009
 int anim abc_tooltip_enter 0x7f01000a
 int anim abc_tooltip_exit 0x7f01000b
+int anim bottom 0x7f01002c
 int anim btn_checkbox_to_checked_box_inner_merged_animation 0x7f01000c
 int anim btn_checkbox_to_checked_box_outer_merged_animation 0x7f01000d
 int anim btn_checkbox_to_checked_icon_null_animation 0x7f01000e
@@ -42,6 +43,7 @@ int anim slide_in_left 0x7f010028
 int anim slide_in_right 0x7f010029
 int anim slide_out_left 0x7f01002a
 int anim slide_out_right 0x7f01002b
+int anim top 0x7f01002d
 int animator design_appbar_state_list_animator 0x7f020000
 int animator design_fab_hide_motion_spec 0x7f020001
 int animator design_fab_show_motion_spec 0x7f020002
@@ -81,6 +83,10 @@ int animator nav_default_pop_enter_anim 0x7f020023
 int animator nav_default_pop_exit_anim 0x7f020024
 int animator scale_with_alpha 0x7f020025
 int array Type 0x7f030000
+int array com_google_android_gms_fonts_certs 0x7f030001
+int array com_google_android_gms_fonts_certs_dev 0x7f030002
+int array com_google_android_gms_fonts_certs_prod 0x7f030003
+int array preloaded_fonts 0x7f030004
 int attr SharedValue 0x7f040000
 int attr SharedValueId 0x7f040001
 int attr action 0x7f040002
@@ -2747,6 +2753,7 @@ int drawable custom_calendar 0x7f08009c
 int drawable custom_email_icon 0x7f08009d
 int drawable custom_input 0x7f08009e
 int drawable custom_input2 0x7f08009f
+int drawable custom_input3 0x7f08021b
 int drawable custom_lock_icon 0x7f0800a0
 int drawable custom_search 0x7f0800a1
 int drawable custom_time 0x7f0800a2
@@ -3034,6 +3041,7 @@ int drawable ic_mtrl_chip_checked_circle 0x7f0801bb
 int drawable ic_mtrl_chip_close_circle 0x7f0801bc
 int drawable intercontinental 0x7f0801bd
 int drawable location 0x7f0801be
+int drawable logo1 0x7f08021c
 int drawable m3_appbar_background 0x7f0801bf
 int drawable m3_popupmenu_background_overlay 0x7f0801c0
 int drawable m3_radiobutton_ripple 0x7f0801c1
@@ -3126,6 +3134,7 @@ int drawable venues 0x7f080217
 int drawable welp 0x7f080218
 int drawable westin 0x7f080219
 int drawable white_radius 0x7f08021a
+int font anton 0x7f090001
 int font questrial 0x7f090000
 int id AFRIKAANS 0x7f0a0000
 int id ALT 0x7f0a0001

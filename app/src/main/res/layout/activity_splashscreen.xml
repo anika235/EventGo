@@ -1,10 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/welp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/bgcolor"
+    android:gravity="center"
     tools:context=".splashscreen">
 
-</RelativeLayout>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:src="@drawable/logo1"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+
+        android:fontFamily="@font/anton"
+        android:text="EventGo"
+        android:textAlignment="center"
+        android:textColor="#5B63E4"
+        android:textSize="50dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="making the memories memorable"
+        android:textAlignment="center"
+        android:textColor="#5B63E4"
+        android:layout_marginTop="10dp"
+        />
+
+
+</LinearLayout>
+
+
+

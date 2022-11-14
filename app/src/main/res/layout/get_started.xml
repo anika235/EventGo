@@ -17,10 +17,11 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/getstartedbutton"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
         android:layout_marginTop="600dp"
         android:backgroundTint="#B6A1E4"
+        android:layout_centerHorizontal="true"
         android:padding="@dimen/cardview_compat_inset_shadow"
         android:text="GET STARTED"
         android:textColor="@color/white"
