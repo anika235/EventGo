@@ -32,9 +32,9 @@ public class get_started extends AppCompatActivity {
         circleIndicator = findViewById(R.id.circleindicator);
 
         List<Integer> imageList = new ArrayList<>();
-        imageList.add(R.drawable.anika);
-        imageList.add(R.drawable.anika2);
-        imageList.add(R.drawable.anika3);
+        imageList.add(R.drawable.anikaa);
+        imageList.add(R.drawable.anikaa2);
+        imageList.add(R.drawable.anikaa3);
         adapterclass myadapter = new adapterclass(imageList);
 
         viewPager.setAdapter(myadapter);
