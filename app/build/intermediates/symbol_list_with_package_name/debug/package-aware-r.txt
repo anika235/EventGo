@@ -2712,6 +2712,9 @@ drawable add
 drawable anika
 drawable anika2
 drawable anika3
+drawable anikaa
+drawable anikaa2
+drawable anikaa3
 drawable anikafb2
 drawable avd_hide_password
 drawable avd_show_password
