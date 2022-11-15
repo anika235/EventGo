@@ -32,12 +32,12 @@
         "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-59:\\layout\\image_layout.xml"
     },
     {
-        "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-57:\\drawable_google.png.flat",
-        "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-59:\\drawable\\google.png"
-    },
-    {
         "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-57:\\drawable_custom_lock_icon.xml.flat",
         "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-59:\\drawable\\custom_lock_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-57:\\drawable_google.png.flat",
+        "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-59:\\drawable\\google.png"
     },
     {
         "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-57:\\drawable_search_focused.xml.flat",
@@ -52,8 +52,8 @@
         "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-59:\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.example.eventgo.app-merged_res-57:/drawable_anikaa3.jpg.flat",
-        "source": "com.example.eventgo.app-main-59:/drawable/anikaa3.jpg"
+        "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-57:\\drawable_anikaa3.jpg.flat",
+        "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-59:\\drawable\\anikaa3.jpg"
     },
     {
         "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-57:\\drawable_show_pass.xml.flat",
@@ -76,16 +76,20 @@
         "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-59:\\drawable\\custom_time.xml"
     },
     {
+        "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-57:\\drawable_anikaa.jpg.flat",
+        "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-59:\\drawable\\anikaa.jpg"
+    },
+    {
         "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-57:\\drawable_budget_event.jpg.flat",
         "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-59:\\drawable\\budget_event.jpg"
     },
     {
-        "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-57:\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-59:\\mipmap-xhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-57:\\drawable_password_icon_focused.xml.flat",
         "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-59:\\drawable\\password_icon_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-57:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-59:\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-57:\\drawable_ic_close.jpeg.flat",
@@ -102,6 +106,10 @@
     {
         "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-57:\\drawable_hide_password.xml.flat",
         "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-59:\\drawable\\hide_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-57:\\drawable_anikaa2.jpg.flat",
+        "source": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-main-59:\\drawable\\anikaa2.jpg"
     },
     {
         "merged": "C:\\Users\\RAZER\\.gradle\\daemon\\7.4\\com.example.eventgo.app-merged_res-57:\\layout_activity_invite.xml.flat",
