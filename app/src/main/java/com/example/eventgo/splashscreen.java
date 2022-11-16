@@ -12,6 +12,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.eventgo.R;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class splashscreen extends AppCompatActivity {
 
@@ -38,15 +40,41 @@ public class splashscreen extends AppCompatActivity {
         textView1.setAnimation(bottom);
         textView2.setAnimation(bottom);
 
-        new Handler().postDelayed(new Runnable()
-        {
-            @Override
-            public void run() {
-                Intent intent = new Intent(splashscreen.this, get_started.class);
-                startActivity(intent);
-                finish();
+//        new Handler().postDelayed(new Runnable()
+//        {
+//            @Override
+//            public void run() {
+//                Intent intent = new Intent(splashscreen.this, get_started.class);
+//                startActivity(intent);
+//                finish();
+//            }
+//        },SPLASH_SCREEN);
+
+        Thread thread = new Thread(){
+            public void run()
+            {
+                try{
+                    sleep(4500);
+                }
+                catch (Exception e){
+                    e.printStackTrace();
+
+                }
+                finally {
+                    FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                    if (user != null) {
+                        startActivity(new Intent(splashscreen.this,second_page.class));
+
+                    }
+                    else {
+                        Intent intent = new Intent(splashscreen.this, get_started.class);
+                        startActivity(intent);
+                    }
+                    finish();
+                }
+
             }
-        },SPLASH_SCREEN);
+        };thread.start();
 
     }
 }
