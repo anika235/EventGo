@@ -75,6 +75,7 @@ public class CurrentVenue extends AppCompatActivity {
                     Intent intent=new Intent(getApplicationContext(),AddLocation.class);
                     intent.putExtra("Key",getIntent().getStringExtra("Event Key"));
                     startActivity(intent);
+
                 }
             });
 
