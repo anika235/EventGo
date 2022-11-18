@@ -76,6 +76,7 @@ dependencies {
 
     implementation 'joda-time:joda-time:2.10.6'
     implementation 'androidx.wear.tiles:tiles-material:1.1.0-alpha04'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
 
 
     testImplementation 'junit:junit:4.13.2'

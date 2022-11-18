@@ -1,6 +1,8 @@
 package com.example.eventgo;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -76,11 +78,36 @@ public class homeFragment extends Fragment {
 
             @Override
             public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
-                Event event = a.getmyitem(viewHolder.getAdapterPosition());
-                a.deleteitem(viewHolder.getAdapterPosition());
-                FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser()
-                        .getUid()).child("Events").child(event.getKey()).removeValue();
-                //a.notifyDataSetChanged();
+                {
+                    AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+                    builder.setMessage("Do you want to Delete this item ?");
+                    builder.setCancelable(false);
+                    builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            Event event = a.getmyitem(viewHolder.getAdapterPosition());
+                            a.deleteitem(viewHolder.getAdapterPosition());
+                            a.notifyDataSetChanged();
+
+                            FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser()
+                                    .getUid()).child("Events").child(event.getKey()).removeValue();
+
+
+
+
+                        }
+                    });
+
+
+
+                    builder.setNegativeButton("No", (DialogInterface.OnClickListener) (dialog, which) -> {
+
+                        dialog.cancel();
+                    });
+
+                    AlertDialog alertDialog = builder.create();
+                    alertDialog.show();
+                }
             }
         }).attachToRecyclerView(recyclerView);
 
@@ -92,28 +119,35 @@ public class homeFragment extends Fragment {
 
             @Override
             public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
-                Event event = a.getmyitem(viewHolder.getLayoutPosition());
-                a.deleteitem(viewHolder.getAdapterPosition());
-                a.notifyDataSetChanged();
-//                val abcd = FirebaseDatabase.getInstance().getReference().child("Users").child(FirebaseAuth.getInstance().currentUser.uid)
-//                        .child("Events").child(code).child("Checklist").child(check.getKey())
-//
-//                abcd.addListenerForSingleValueEvent(object: ValueEventListener{
-//                    override fun onDataChange(snapshot: DataSnapshot) {
-//                        if(snapshot.exists())
-//                        {
-//                            Check temp_check = snapshot.getValue()
-//                        }
-//                    }
-//
-//                    override fun onCancelled(error: DatabaseError) {
-//                        TODO("Not yet implemented")
-//                    }
-//
-//                })
-                FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser()
-                        .getUid()).child("Events").push().child("Previous Events");
-                //replaceFragment(new eventFragment());
+                AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+                builder.setMessage("Do you want to Delete this item ?");
+                builder.setTitle("Alert !");
+                builder.setCancelable(false);
+                builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                Event event = a.getmyitem(viewHolder.getAdapterPosition());
+                                a.deleteitem(viewHolder.getAdapterPosition());
+                                a.notifyDataSetChanged();
+
+                                FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser()
+                                        .getUid()).child("Events").child(event.getKey()).removeValue();
+
+
+
+
+                            }
+                        });
+
+
+
+                builder.setNegativeButton("No", (DialogInterface.OnClickListener) (dialog, which) -> {
+
+                    dialog.cancel();
+                });
+
+                AlertDialog alertDialog = builder.create();
+                alertDialog.show();
             }
         }).attachToRecyclerView(recyclerView);
 

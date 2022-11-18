@@ -25,23 +25,27 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="3dp"
-            android:layout_marginTop="190dp"
+            android:layout_marginTop="210dp"
             android:background="@color/color1"
             android:text="Date"
+            android:textStyle="bold"
+
             android:textColor="@color/color3"
-            android:textSize="34sp" />
+            android:textSize="28sp" />
 
         <TextView
             android:id="@+id/eventTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="3dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="0dp"
             android:background="@color/color1"
             android:text="Title"
             android:textColor="@color/color3"
-            android:textSize="34sp" />
+            android:textStyle="bold"
+            android:textSize="28sp" />
     </RelativeLayout>
+
 
 
 

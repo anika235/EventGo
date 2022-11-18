@@ -275,7 +275,7 @@ public class third_page extends AppCompatActivity implements AdapterView.OnItemS
 
         if(eventImage==null)
         {
-            eventImage="https://firebasestorage.googleapis.com/v0/b/eventgo-ec09c.appspot.com/o/Event%20Images%2Feventimage.jpg?alt=media&token=dc0aa266-7ef5-43f6-95d9-647de0416814";
+            eventImage="https://firebasestorage.googleapis.com/v0/b/eventgo-ec09c.appspot.com/o/Event%20Images%2Fbithii.jpg?alt=media&token=548bda2a-78ca-45ab-b344-fb78ceaba205";
         }
 
         if(tit.isEmpty())
