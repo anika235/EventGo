@@ -38,6 +38,7 @@ public class get_started extends AppCompatActivity {
         adapterclass myadapter = new adapterclass(imageList);
 
         viewPager.setAdapter(myadapter);
+
         circleIndicator.setViewPager(viewPager);
 
         button =(Button) findViewById(R.id.getstartedbutton);
