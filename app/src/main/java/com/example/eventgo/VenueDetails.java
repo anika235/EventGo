@@ -62,13 +62,18 @@ public class VenueDetails extends AppCompatActivity {
                 {
                     key=preferences.getString("Key","none").toString();
                 }
+                String finalKey = key;
                 FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("Events").child(key).child("Venue").setValue(venue).addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
                         if(task.isSuccessful())
                         {
                             Toast.makeText(getApplicationContext(),"Venue Added Successfully!",Toast.LENGTH_LONG).show();
-                            startActivity(new Intent(getApplicationContext(),infosActivity.class));
+                           // String Key=preferences.getString("Key","none").toString();
+                            Intent intent=new Intent(getApplicationContext(),infosActivity.class);
+                            intent.putExtra("Key", finalKey);
+                            startActivity(intent);
+
                             finish();
                         }
                         else

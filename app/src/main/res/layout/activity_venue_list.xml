@@ -7,7 +7,18 @@
     android:background="@color/color2"
     android:visibility="visible"
     tools:context=".VenueList">
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Results"
+        android:textSize="34sp"
+        android:layout_marginStart="70dp"
+        android:textColor="@color/color3"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textStyle="bold"/>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/venueList"
         android:layout_width="match_parent"
@@ -15,7 +26,7 @@
         android:layout_marginStart="10dp"
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
-        android:paddingTop="5dp"
+        android:paddingTop="20dp"
         android:paddingBottom="5dp"
         android:layout_marginEnd="10dp"
         android:layout_marginTop="40dp" />
@@ -32,6 +43,7 @@
         android:paddingBottom="5dp"
 
         android:text="No Result Found"
+        android:textColor="@color/color3"
         android:textSize="34sp"
         tools:visibility="invisible" />
 
