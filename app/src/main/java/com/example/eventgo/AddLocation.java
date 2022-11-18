@@ -49,8 +49,17 @@ public class AddLocation extends AppCompatActivity {
                     public void onComplete(@NonNull Task<Void> task) {
                         if(task.isSuccessful())
                         {
+                            String back=getIntent().getStringExtra("back");
                             Toast.makeText(getApplicationContext(),"Venue Added Successfully!",Toast.LENGTH_LONG).show();
-                            Intent intent=new Intent(getApplicationContext(),infosActivity.class);
+                            Intent intent;
+                            if(back.equals("EventDetails"))
+                            {
+                                intent=new Intent(getApplicationContext(),CurrentVenue.class);
+                            }
+                            else
+                            {
+                                intent = new Intent(getApplicationContext(), infosActivity.class);
+                            }
                             intent.putExtra("Key",key);
                             startActivity(intent);
 

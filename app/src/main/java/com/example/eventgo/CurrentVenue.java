@@ -31,7 +31,7 @@ public class CurrentVenue extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_current_venue);
         venuetitle=(TextView) findViewById(R.id.venuetitle);
-        venueplace=(TextView)findViewById(R.id.venuelocation);
+        venueplace=(TextView)findViewById(R.id.venueLocation);
         venuephoto=(ImageView)findViewById(R.id.venuephoto);
         changeVenue=(Button)findViewById(R.id.changeVenue);
 
@@ -74,6 +74,7 @@ public class CurrentVenue extends AppCompatActivity {
                 public void onClick(View view) {
                     Intent intent=new Intent(getApplicationContext(),AddLocation.class);
                     intent.putExtra("Key",getIntent().getStringExtra("Event Key"));
+                    intent.putExtra("back","EventDetails");
                     startActivity(intent);
 
                 }

@@ -229,7 +229,6 @@ id venuePhoto
 id venueRent
 id venueTitle
 id venueType
-id venuelocation
 id venuephoto
 id venuetitle
 id verify
