@@ -53,7 +53,7 @@ public class AddLocation extends AppCompatActivity {
                             Intent intent=new Intent(getApplicationContext(),infosActivity.class);
                             intent.putExtra("Key",key);
                             startActivity(intent);
-                            finish();
+
                         }
                         else
                         {
@@ -85,7 +85,7 @@ public class AddLocation extends AppCompatActivity {
                 intent.putExtra("Budget",expectBudget.getText().toString());
                 intent.putExtra("Key",getIntent().getStringExtra("Key"));
                 startActivity(intent);
-                finish();
+
             }
         });
 

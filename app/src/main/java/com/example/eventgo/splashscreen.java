@@ -17,8 +17,6 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class splashscreen extends AppCompatActivity {
 
-    private  static  int SPLASH_SCREEN =4500;
-
     ImageView imageView;
     TextView textView1, textView2;
     Animation top, bottom;
