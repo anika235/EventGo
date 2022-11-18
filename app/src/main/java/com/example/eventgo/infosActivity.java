@@ -52,7 +52,10 @@ public class infosActivity extends AppCompatActivity {
                 String key=getIntent().getStringExtra("Key");
                 Intent intent=new Intent(getApplicationContext(),AddLocation.class);
                 intent.putExtra("Key",key);
+                intent.putExtra("back","infos");
+
                 startActivity(intent);
+                finish();
             }
         });
         addbudget.setOnClickListener(new View.OnClickListener() {

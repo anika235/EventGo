@@ -3851,7 +3851,6 @@ int id venuePhoto 0x7f0a02c4
 int id venueRent 0x7f0a02c5
 int id venueTitle 0x7f0a02c6
 int id venueType 0x7f0a02c7
-int id venuelocation 0x7f0a02c8
 int id venuephoto 0x7f0a02c9
 int id venuetitle 0x7f0a02ca
 int id verify 0x7f0a02cb
