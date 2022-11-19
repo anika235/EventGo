@@ -46,7 +46,7 @@
         android:layout_width="wrap_content"
         android:layout_height="240dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="380dp"
         android:layout_marginEnd="14dp"
 
 
@@ -61,6 +61,19 @@
         android:text="Plan Your Budget and Spend Money Wisely"
         android:textColor="@color/white"
         android:textSize="34sp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="630dp"
+        android:backgroundTint="@color/color3"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/cardview_compat_inset_shadow"
+        android:text="Done!!"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
 
 
 

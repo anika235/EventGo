@@ -73,7 +73,6 @@ public class VenueDetails extends AppCompatActivity {
                             Intent intent=new Intent(getApplicationContext(),infosActivity.class);
                             intent.putExtra("Key", finalKey);
                             startActivity(intent);
-
                             finish();
                         }
                         else

@@ -33,18 +33,20 @@ public class infosActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_infos);
-        //button = (Button) findViewById(R.id.start);
+        button = (Button) findViewById(R.id.done);
 
         ChooseLocation = findViewById(R.id.addLocation);
         addbudget = findViewById(R.id.addBudget);
         //guest = findViewById(R.id.guest);
 
-       /* button.setOnClickListener(new View.OnClickListener() {
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                nextpage();
+                Intent intent1 = new Intent(getApplicationContext(), second_page.class);
+                startActivity(intent1);
+                finish();
             }
-        });*/
+        });
 
         ChooseLocation.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,7 +55,6 @@ public class infosActivity extends AppCompatActivity {
                 Intent intent=new Intent(getApplicationContext(),AddLocation.class);
                 intent.putExtra("Key",key);
                 intent.putExtra("back","infos");
-
                 startActivity(intent);
                 finish();
             }
@@ -62,7 +63,6 @@ public class infosActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(getApplicationContext(),Budget_list.class);
-
                 intent.putExtra("Key",getIntent().getStringExtra("Key"));
                 startActivity(intent);
             }
@@ -99,6 +99,7 @@ public class infosActivity extends AppCompatActivity {
             });
 
     }
+
 
 
 }
