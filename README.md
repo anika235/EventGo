@@ -7,6 +7,7 @@
 
 EventGo - All events at one place. One stop destination for all the events and parties organized by you or
 any of your friends. When arranging “Freshers’ Reception” for juniors, we realized we need some app which will make managing and planning events easier and faster.
+You can have a tour to our [app](https://youtu.be/Zxodn2E6zy0)
 
 ## Download [EventGo](https://github.com/anika235/EventGo/releases/download/v1.0.0/EventGo.apk) 
 And run the app in your mobile..
