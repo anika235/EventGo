@@ -24,24 +24,24 @@ Happy Eventing!!
 ## Features
 | Get Start | Login Page | Sign Up |
 |--- | ---| ----|
-|<img src= "https://user-images.githubusercontent.com/84635367/200114899-25672513-b8d6-488a-862e-3adddbc150ee.jpg" width= "200" height="450"> | <img src ="https://user-images.githubusercontent.com/84635367/200114981-eec68ec9-6a71-46b5-abbe-6a2da25443a9.jpg" width = "200" height="450"> | <img src ="https://user-images.githubusercontent.com/84635367/200115138-e0e42c5c-5fb9-4f83-8dbf-2982313385d8.jpg" width = "200" height="450"> |
+|<img src= "https://user-images.githubusercontent.com/84635367/203355228-d88c9efb-7f68-4b5e-85fd-9874a34e85d0.png" width= "200" height="450"> | <img src ="https://user-images.githubusercontent.com/84635367/203355414-4ce42488-b9d7-425e-8dff-e43edb7b7fc1.png" width = "200" height="450"> | <img src ="https://user-images.githubusercontent.com/84635367/203355512-aef5c890-9bb3-42a8-865a-dbe92f959f17.png" width = "200" height="450"> |
 
 | Sign UP | Authentication | Forgot Password |
 |---|---|---|
-| <img src= "https://user-images.githubusercontent.com/84635367/200115268-b4736fa9-5804-4c5c-9a2a-29583e4f4c24.jpg" width= "200" height="450"> |  <img src= "https://user-images.githubusercontent.com/84635367/200115292-18e0b7bb-3b5c-433b-8fb7-78da4977f589.jpg" width= "200" height="450"> |  <img src= "https://user-images.githubusercontent.com/84635367/200115308-42c80293-4b24-4b1b-9f36-0b5ae300e4f2.jpg" width= "200" height="450"> |
+| <img src= "https://user-images.githubusercontent.com/84635367/203356130-5d12d197-1d71-49f8-9dd1-50849482f62e.png" width= "200" height="450"> |  <img src= "https://user-images.githubusercontent.com/84635367/203356917-e949e589-4d60-4ce5-92b6-bbce418663ca.png" width= "200" height="450"> |  <img src= "https://user-images.githubusercontent.com/84635367/203356522-9b23995b-5653-421c-a777-f5122ca63428.png" width= "200" height="450"> |
 
 | Home Page | Profile | Logout |
 |---|---|---|
-| <img src= "https://user-images.githubusercontent.com/84635367/200115405-208aed70-53ce-475a-84ae-5ef122376ae3.jpg" width= "200" height="450"> |  <img src= "https://user-images.githubusercontent.com/84635367/200115436-a090125b-bb70-42d1-9035-8be32ac5a585.jpg" width= "200" height="450"> |  <img src= "https://user-images.githubusercontent.com/84635367/200115448-e6ce6daa-396f-4c3a-9da3-c5f0bdf7524a.jpg" width= "200" height="450"> |
+| <img src= "https://user-images.githubusercontent.com/84635367/203357125-305c6ce0-94e8-4d8c-98f5-4d7a42fa7039.png" width= "200" height="450"> |  <img src= "https://user-images.githubusercontent.com/84635367/203357270-4653e351-d781-426f-8ed0-a8a4c3e6e25c.png" width= "200" height="450"> |  <img src= "https://user-images.githubusercontent.com/84635367/203357396-273c599f-ac7d-4059-a5a4-c6f322ca2a70.png" width= "200" height="450"> |
 
 | Set Up Event | 
 | ---- |
-|  <img src= "https://user-images.githubusercontent.com/84635367/200115506-f0c2bc16-caa4-4533-bdab-6632425c462d.jpg" width= "200" height="450">   <img src= "https://user-images.githubusercontent.com/84635367/200115583-2dc713aa-bced-4958-bde6-80d64327472b.jpg" width= "200" height="450">   <img src= "https://user-images.githubusercontent.com/84635367/200115611-a163f5fb-2ee5-4424-b1fd-8775f4e78b00.jpg" width= "200" height="450">  |
+|  <img src= "https://user-images.githubusercontent.com/84635367/203357583-98db00aa-4877-4125-a67c-457033d0be73.png" width= "200" height="450">   <img src= "https://user-images.githubusercontent.com/84635367/203357748-186fd4a3-5647-4b4d-9fc4-97f48dc59a61.png" width= "200" height="450">   <img src= "https://user-images.githubusercontent.com/84635367/203357859-cab4cb5b-c4da-49a7-ab04-f4378abec2b7.png" width= "200" height="450">  |
 
 | Happy Eventing!! | 
 | ---- |
-|  <img src= "https://user-images.githubusercontent.com/84635367/200115855-f06143a6-6748-437c-b6ac-113ca3c6cb1b.jpg" width= "200" height="450">   <img src= "https://user-images.githubusercontent.com/84635367/200115872-3402e3f2-158c-4a8b-866c-74215ac609df.jpg" width= "200" height="450">   <img src= "https://user-images.githubusercontent.com/84635367/200115875-05fbb2b4-37b5-4519-b806-7ca2ff3ba488.jpg" width= "200" height="450">  |
-|  <img src= "https://user-images.githubusercontent.com/84635367/200115886-65167964-5704-4aac-8008-84168fe3b94e.jpg" width= "200" height="450">   <img src= "https://user-images.githubusercontent.com/84635367/200115894-6c1f3720-e7c8-4a69-8a29-ae9e67c5aab0.jpg" width= "200" height="450">   <img src= "https://user-images.githubusercontent.com/84635367/200115902-58406c64-824d-4782-87d0-962f4dd80dd1.jpg" width= "200" height="450">  |
+|  <img src= "https://user-images.githubusercontent.com/84635367/203358031-36f990cc-1f91-48c7-beae-2356d222841c.png" width= "200" height="450">   <img src= "https://user-images.githubusercontent.com/84635367/203358185-959e1aca-cfb4-4bc4-9fa1-b60aec5c57bf.png" width= "200" height="450">   <img src= "https://user-images.githubusercontent.com/84635367/203358332-b1aa3eb6-f00f-4a97-b6ee-b96fac42337d.png" width= "200" height="450">  |
+|  <img src= "https://user-images.githubusercontent.com/84635367/203358445-0ad6e206-8bbd-4f10-8694-cbf720208e92.png" width= "200" height="450">   <img src= "https://user-images.githubusercontent.com/84635367/203358615-6bdf5bee-d659-4ca4-888f-b5f0c51658e7.png" width= "200" height="450">   <img src= "https://user-images.githubusercontent.com/84635367/203358622-5022cafc-7956-4930-9f5d-b94af4a058df.png" width= "200" height="450">  |
 
 ## Documentation
 - **Language:** Java
